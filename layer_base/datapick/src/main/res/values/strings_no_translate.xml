@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false" >
+
+    <string name="mdtp_sans_serif">sans-serif</string>
+    <string name="mdtp_day_of_week_label_typeface">sans-serif</string>
+
+</resources>

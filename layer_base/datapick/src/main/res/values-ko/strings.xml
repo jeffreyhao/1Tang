@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    韩语
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">%s 선택됨</string>
+    <string name="mdtp_ok">확인</string>
+    <string name="mdtp_cancel">취소</string>
+    <string name="mdtp_day_picker_description">일자 월간 그리드</string>
+    <string name="mdtp_year_picker_description">년도 목록</string>
+    <string name="mdtp_select_day">월과 일 선택</string>
+    <string name="mdtp_select_year">년도 선택</string>
+    <string name="mdtp_next_month_arrow_description">다음 달</string>
+    <string name="mdtp_previous_month_arrow_description">이전 달</string>
+
+</resources>

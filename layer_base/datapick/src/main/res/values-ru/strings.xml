@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    俄语
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">%s выбрано</string>
+    <string name="mdtp_ok">Подтвердить</string>
+    <string name="mdtp_cancel">Отменить</string>
+    <string name="mdtp_day_picker_description">Сетка дней месяца</string>
+    <string name="mdtp_year_picker_description">Список лет</string>
+    <string name="mdtp_select_day">Выбрать месяц и день</string>
+    <string name="mdtp_select_year">Выбрать год</string>
+    <string name="mdtp_next_month_arrow_description">Следующий месяц</string>
+    <string name="mdtp_previous_month_arrow_description">Предыдущий месяц</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+         颜色层次，透明度，用于表现内容之间的主次关系或者表现交互状态
+    -->
+
+    <item format="float" name="disable_alpha" type="dimen">0.35</item>		<!-- 禁止态 -->
+    <item format="float" name="hint_alpha" type="dimen">0.35</item>			<!-- hint -->
+
+    <!-- menu 上内容透明度 -->
+    <!-- Tab默认色 -->
+    <item format="float" name="secondary_alpha" type="dimen">0.65</item>	<!-- 次级文字 -->
+
+
+    <!-- 次次级文字 -->
+    <item format="float" name="pressed_text_primary_alpha" type="dimen">0.80</item>	    <!-- 文字按压态 -->
+    <item format="float" name="pressed_text_secondary_alpha" type="dimen">0.45</item>	<!-- 次要文字按压态 -->
+    <item format="float" name="pressed_text_tertiary_alpha" type="dimen">0.15</item>	<!-- 次次要文字按压态 -->
+
+    <item format="float" name="menu_text_bg_disable_alpha" type="dimen">0.15</item>	    <!-- 阅读页背景线框不可用alpha -->
+    <item format="float" name="divider_line_alpha" type="dimen">0.15</item>	            <!-- 线分割 -->
+
+    <!-- 竖线分割 -->
+    <item format="float" name="divider_line_horiz_alpha" type="dimen">0.1</item>	    <!-- 横线分割 -->
+    <item format="float" name="divider_sect_alpha" type="dimen">0.05</item>	            <!-- 块分割 -->
+
+
+    <!--
+               百分比的16进制
+
+               0.03 == 03
+               0.05 == 0D
+               0.06 == 0F
+               0.10 == 1A
+               0.15 == 26
+               0.20 == 33
+               0.25 == 40
+               0.30 == 4D
+               0.35 == 59
+               0.40 == 66
+               0.45 == 73
+               0.50 == 80
+               0.60 == 99
+               0.65 == A6
+               0.70 == B3
+               0.80 == CC
+               0.85 == D9
+               0.90 == E5
+   -->
+    <item format="float" name="alpha_003" type="dimen">0.03</item>
+    <item format="float" name="alpha_005" type="dimen">0.05</item>
+    <item format="float" name="alpha_010" type="dimen">0.10</item>
+    <item format="float" name="alpha_015" type="dimen">0.15</item>
+    <item format="float" name="alpha_020" type="dimen">0.20</item>
+    <item format="float" name="alpha_025" type="dimen">0.25</item>
+    <item format="float" name="alpha_030" type="dimen">0.30</item>
+    <item format="float" name="alpha_035" type="dimen">0.35</item>
+    <item format="float" name="alpha_040" type="dimen">0.40</item>
+    <item format="float" name="alpha_045" type="dimen">0.45</item>
+    <item format="float" name="alpha_050" type="dimen">0.50</item>
+    <item format="float" name="alpha_055" type="dimen">0.55</item>
+    <item format="float" name="alpha_060" type="dimen">0.60</item>
+    <item format="float" name="alpha_065" type="dimen">0.65</item>
+    <item format="float" name="alpha_070" type="dimen">0.70</item>
+    <item format="float" name="alpha_075" type="dimen">0.75</item>
+    <item format="float" name="alpha_080" type="dimen">0.80</item>
+    <item format="float" name="alpha_085" type="dimen">0.85</item>
+    <item format="float" name="alpha_090" type="dimen">0.90</item>
+    <item format="float" name="alpha_095" type="dimen">0.95</item>
+    <item format="float" name="alpha_100" type="dimen">1.00</item>
+
+
+
+</resources>

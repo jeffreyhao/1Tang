@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <LinearLayout
+        android:id="@+id/read_pay_button"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:background="@drawable/radius_accent_10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <TextView
+            android:id="@+id/read_pay_button_text0"
+            android:textColor="@color/pp_color_FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2000Coins"/>
+        <TextView
+            android:id="@+id/read_pay_button_text1"
+            android:textColor="@color/pp_color_FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            tools:visibility="visible"
+            tools:text="Top up US$19.9 and Purchase"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/read_pay_button_tag"
+        android:layout_gravity="end"
+        android:layout_marginTop="3dp"
+        android:paddingVertical="3dp"
+        android:paddingHorizontal="6dp"
+        android:background="@drawable/pay_button_top_right_background"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:text="FIRST+100%"/>
+</FrameLayout>

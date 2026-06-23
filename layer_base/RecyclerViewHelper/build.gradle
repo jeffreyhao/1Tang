@@ -1,0 +1,15 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.chad.library"
+}
+
+dependencies {
+    compileOnly Dep.recyclerview
+    implementation project(path: ':layer_base:base_res')
+    implementation project(path: ':layer_base:base_api')
+
+}
+

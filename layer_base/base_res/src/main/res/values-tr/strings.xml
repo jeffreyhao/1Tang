@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    土耳其语
+-->
+<resources>
+    <string name="loading">Yükleniyor…</string>
+    <string name="close_and_go_back">Geri</string>
+    <string name="error_data_tip">Bir şeyler ters gitti, tekrar denemek için dokunun</string>
+    <string name="error_empty_data_tip">Henüz veri yok</string>
+    <string name="error_net_tip">Ağ hatası, tekrar denemek için dokunun</string>
+    <string name="permisions_essential_tip">Kullanmadan önce izin alın</string>
+    <string name="permisions_read_phone_tip">İşlem için önce izin alın</string>
+    <string name="permission_setting">Ayarlar</string>
+    <string name="permission_cancel">İptal</string>
+    <string name="collapse">Daralt</string>
+    <string name="expand">Genişlet</string>
+    <string name="nb_mode_night">Gece Modu</string>
+    <string name="nb_mode_morning">Gündüz Modu</string>
+    <string name="nav_bookshelf">Kütüphane</string>
+    <string name="nav_bookshelf2">Kitaplık</string>
+    <string name="nav_discover">Keşfet</string>
+    <string name="nav_featured">Öne Çıkanlar</string>
+    <string name="nav_reward">Ödüller</string>
+    <string name="nav_profile">Ben</string>
+    <string name="nav_mine">Benim</string>
+    <string name="select_all">Tümünü Seç</string>
+    <string name="done">Bitti</string>
+    <string name="delete">Sil</string>
+    <string name="clear_cache">Önbelleği Temizle</string>
+    <string name="check_update">Güncellemeleri Kontrol Et</string>
+    <string name="contact_us">Bize Ulaşın</string>
+    <string name="privacy">Gizlilik Politikası</string>
+    <string name="agreement">Hizmet Şartları</string>
+    <string name="joinedBookShelf">Kütüphaneye Eklendi</string>
+    <string name="add_to_shelf_dlg_title">Kütüphaneye eklensin mi?</string>
+    <string name="add_to_shelf_dlg_content">Bu kitabı kütüphanene ekle ve dilediğin zaman oku.</string>
+    <string name="add_to_shelf_dlg_cancel">İptal</string>
+    <string name="add_to_shelf_dlg_confirm">Ekle</string>
+    <string name="hint_search_bookstore">Ara</string>
+    <string name="become_author">Yazar Ol</string>
+    <string name="buy_sale">İndirimli Satın Al</string>
+    <string name="free_start_read">Okumaya Başla</string>
+    <string name="pp_sex_boy_brief">Erkek</string>
+    <string name="pp_sex_girl_brief">Kadın</string>
+    <string name="pp_tip_none_photo">Albüm resmi alınamadı</string>
+    <string name="pp_history_search">Geçmiş</string>
+    <string name="pp_tip_input_search_key">Anahtar Kelime Girin</string>
+    <string name="pp_clear_success">Temizlendi</string>
+    <string name="pp_me">Ben</string>
+    <string name="pp_build_fail">Oluşturma başarısız</string>
+    <string name="pp_author">Yazar</string>
+    <string name="pp_note_id_null">Not kimliği boş</string>
+    <string name="pp_login_fail">Giriş başarısız</string>
+    <string name="pp_collection_success">Kütüphaneye eklendi</string>
+    <string name="pp_please_check_network">Ağ bağlantısını kontrol edin</string>
+    <string name="pp_add_success">Kitap kütüphanene eklendi</string>
+    <string name="pp_remove_success">Kitap kütüphaneden kaldırıldı</string>
+    <string name="pp_please_chose_one_book">Lütfen önce bir kitap seçin</string>
+    <string name="pp_login_first">Önce giriş yapın</string>
+    <string name="pp_pay_success">Ödeme başarılı</string>
+    <string name="pp_pay_cancel">Ödeme iptal edildi</string>
+    <string name="pp_pay_error">Ödeme hatası</string>
+    <string name="pp_check_pay_fail">Satın alma kontrolü başarısız</string>
+    <string name="pp_tip">Önce uygulama galerisi veya tarayıcıyı yükleyin</string>
+    <string name="pp_copy_success">Kopyalandı</string>
+    <string name="pp_save_fail">Kaydedilemedi</string>
+    <string name="pp_saved">Kaydedildi</string>
+    <string name="pp_exit_app">Çıkmak istediğinizden emin misiniz?</string>
+    <string name="pp_exit">Çıkış</string>
+    <string name="pp_sure">Onayla</string>
+    <string name="pp_today_read">Bugün Okundu</string>
+    <string name="pp_second_red_packet"> dakika içinde kırmızı paket al</string>
+    <string name="pp_after_ad_bye">Reklamdan sonra daha fazlası seni bekliyor.</string>
+    <string name="pp_time_error">Sistem saati ile sunucu arasındaki fark çok büyük. Lütfen sistem saatini ayarlayın</string>
+    <string name="pp_about">Hakkında</string>
+    <string name="pp_notiy">İpuçları</string>
+    <string name="pp_get_photo">Fotoğraf Seç</string>
+    <string name="pp_affirm">Onayla</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">Anlar</string>
+    <string name="pp_xml_qq_space">QQ Alanı</string>
+    <string name="pp_xml_text_11">Çıkış Yap</string>
+    <string name="pp_xml_text_22">Bildirimler</string>
+    <string name="pp_xml_text_24">Yardım &amp; Geri Bildirim</string>
+    <string name="pp_xml_text_35">Popüler Aramalar</string>
+    <string name="pp_xml_text_350">Trend</string>
+    <string name="pp_xml_text_39">Aç</string>
+    <string name="pp_xml_text_40">Kapat</string>
+    <string name="pp_xml_text_45">Daha Fazla</string>
+    <string name="pp_xml_text_48">Görüntüle</string>
+    <string name="pp_xml_text_49">Kopyala</string>
+    <string name="pp_xml_text_50">Paylaş</string>
+    <string name="pp_xml_remove">Kaldır</string>
+    <string name="pp_xml_find_novel">Kitap Bul</string>
+    <string name="pp_xml_no_book">Henüz kütüphanene hiç kitap eklemedin</string>
+    <string name="pp_remove_book_title">Kaldırılsın mı?</string>
+    <string name="pp_remove_book_content">Bu kitabı kütüphaneden kaldırmak istediğinize emin misiniz?</string>
+    <string name="pp_search_default_text">Kitap Ara</string>
+    <string name="pp_search_no_data">Sonuç bulunamadı</string>
+    <string name="book_detail_start_reading">Okumaya Başla</string>
+
+    <string name="book_detail_adds">Reklamlar</string>
+    <string name="book_detail_views">Görünümler</string>
+    <string name="book_detail_rating">Değerlendirme</string>
+    <string name="book_detail_report_msg">İçerik ve görseller, yazarların kişisel görüşlerini yansıtmaktadır ve %s ile ilgili değildir. Herhangi bir sorunuz varsa, lütfen #Bize Bildirin#.</string>
+    <string name="login_view_tip">Devam ederek, #Hizmet Şartları# ve #Gizlilik Politikası#\'nı kabul etmiş olursunuz.</string>
+    <string name="pp_string_profile">Profil</string>
+    <string name="pp_string_gender">CİNSİYET</string>
+    <string name="pp_string_birthday">DOĞUM GÜNÜ</string>
+    <string name="pp_string_nickname">KÜNYE</string>
+    <string name="pp_string_email_address">E-POSTA ADRESİ</string>
+    <string name="pp_new_chapter">Yeni Bölüm</string>
+    <string name="pp_coming_soon">Yakında</string>
+    <string name="pp_this_is_the">Bu</string>
+    <string name="pp_last_chapter">Son Bölüm</string>
+    <string name="pp_book_completed">Tamamlandı</string>
+    <string name="pp_book_ongoing">Devam Ediyor</string>
+    <string name="pp_you_may_also_like">Ayrıca beğenebilirsiniz</string>
+    <string name="pp_view_all">Hepsini Görüntüle</string>
+    <string name="pp_to_explore_more">Daha fazlasını keşfetmek için</string>
+    <string name="pp_rather_not_say">Söylemek İstemiyorum</string>
+    <string name="pp_read">Oku</string>
+    <string name="pp_you_might_like">Beğenebilirsiniz</string>
+    <string name="pp_writer_about_des">%s, yazarlara hayallerini takip etmeleri için bir sahne ve dünyadaki izleyicilerle hikayelerini paylaşacakları bir yer sunmayı hedefliyor. Amacımız, sesinizi duyurmaktır. Eğer anlatacak bir hikayeniz varsa, %s tam size göre!</string>
+    <string name="pp_writer_benefits">%s ile hikayelerini imzalayan yazarlara çeşitli ödüller sunuyoruz, bunlar arasında imza ücreti, hikaye tamamlanma bonusu, günlük güncelleme ödülleri ve referans bonusu bulunmaktadır. Daha fazla fayda için #buraya# tıklayın.</string>
+    <string name="pp_writer_tip0">Yazınızı e-posta adresimize gönderin:</string>
+    <string name="pp_writer_email">E-posta: #leo@i%s.com#</string>
+    <string name="pp_writer_author">Yazar Merkezi: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">Bir sonraki en çok satan yazar siz olabilirsiniz.</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">Kopyalandı</string>
+    <string name="pp_problem_null_tip">Problem açıklaması boş olamaz</string>
+    <string name="pp_update_title">Güncelleme Mevcut</string>
+    <string name="pp_update_content">Daha yeni bir sürüm mevcut: bilinen hatalar düzeltildi &amp; okuma deneyimi optimize edildi</string>
+    <string name="pp_update_button">Şimdi Güncelle</string>
+    <string name="pp_download">İndir</string>
+    <string name="pp_purchase">Satın Al</string>
+    <string name="pp_purchase_tip">Mevcut bölümden itibaren</string>
+    <string name="pp_download_auto_pay_tip">Aynı anda yerel olarak indir</string>
+    <string name="pp_price">Fiyat:</string>
+    <string name="pp_purchase_now">Şimdi Satın Al</string>
+    <string name="pp_download_bottom_tip">Zaten kilidi açılmış bölümler için ücret alınmayacaktır</string>
+    <string name="pp_top_up">YÜKLEME</string>
+    <string name="pp_pay_now">Şimdi Öde</string>
+    <string name="payment_method">Ödeme Yöntemi</string>
+    <string name="top_up_amount">Yükleme Miktarı</string>
+    <string name="pp_pay_tip1">1. Bonus = 1 Coin. Bölümleri açarken önce Bonuslar düşülecektir.</string>
+    <string name="pp_pay_tips1">İpuçları:</string>
+    <string name="pp_pay_tip2">2. Kullanıcı ID\'niz: #%s#. Eğer yükleme başarısız olursa ya da uzun süre başarısız olursa, sorunu çözmek için Geri Yükle\'yi tıklayabilirsiniz (yeniden yüklemeye gerek yok). Veya doğrudan #geri bildirim soruları# ile bize başvurabilirsiniz.</string>
+    <string name="pp_pay_tip3">4. Yardıma mı ihtiyacınız var? Lütfen #SSS#\'yi kontrol edin</string>
+    <string name="pp_pay_tip4">3. Varsayılan ödeme yöntemimiz Google Play ödeme platformudur. Google Play, taşıyıcı faturası, kredi kartları, hediye kartları, Paypal ve Cüzdan bakiyelerini destekler.</string>
+    <string name="pp_pay_tip5">5. Yükleme ile verilen Bonusun geçerlilik süresi 7 gündür.</string>
+    <string name="pp_pay_tip6">6. Coin ve bonuslar eşdeğer değere sahiptir, geçerli bonuslar sanal ürünlerdir ve geri ödeme yapılmaz.</string>
+    <string name="pp_pay_tip7">7. Hesabınızdaki dijital varlıkların güvenliğini sağlamak için Coin satın alırken üçüncü taraf bir hesap kullanmanızı öneririz: FB veya Google hesabı.</string>
+    <string name="thank_you">Teşekkür ederiz!</string>
+    <string name="pp_read_pay_tip">Yazarın daha fazla ve daha iyi hikayeler oluşturmasına destek olun</string>
+    <string name="read_pay_tip1">Sonraki bölümü otomatik olarak aç</string>
+    <string name="more_top_up_amounts">Daha fazla yükleme miktarı</string>
+    <string name="get_free_coins">Ücretsiz Coin Al</string>
+    <string name="purchase_now">Şimdi Satın Al</string>
+    <string name="unlock_chapter">Bu bölümü aç %s Coin</string>
+    <string name="purchase_successful">Satın alma başarılı</string>
+    <string name="purchase_failed">Satın alma başarısız</string>
+    <string name="coins">Coin</string>
+    <string name="top_up">YÜKLEME</string>
+    <string name="about">Hakkında</string>
+    <string name="top_up_record">Yükleme Geçmişi</string>
+    <string name="bonus_record">Bonus Geçmişi</string>
+    <string name="consumption_record">Tüketim Geçmişi</string>
+    <string name="books_on_auto_purchase">Otomatik açılan kitaplar</string>
+    <string name="pp_viewed">Görüntülendi</string>
+    <string name="pp_rating">Değerlendirme</string>
+    <string name="pp_settings">Ayarlar</string>
+    <string name="pp_wallet">Cüzdan</string>
+    <string name="google_play_not_available">Google Play hizmeti mevcut değil</string>
+    <string name="pp_turn_off">Kapatmak İstediğinizden Emin Misiniz?</string>
+    <string name="pp_turn_off_content">Bunu kapatmak okuma deneyiminizi etkileyebilir, kapatıp kapatmamaya karar verin.</string>
+    <string name="pp_no_purchase">Satın alınacak başka bölüm yok</string>
+    <string name="purchase_more_coins">Daha fazla Coin satın al</string>
+    <string name="top_up_and_purchase">Yükleme yap ve bu bölümü aç</string>
+    <string name="feedback">Geribildirim</string>
+    <string name="genres">Türler</string>
+    <string name="font_merriweather">Merriweather</string>
+    <string name="no_longer_remind_upgrade">Artık güncelleme hatırlatılmasın</string>
+    <string name="pp_version">Sürüm </string>
+    <string name="terms_service">Hizmet Şartları</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="chapters">%d Bölüm</string>
+    <string name="chapters_count">Bölümler (%d)</string>
+    <string name="last_read_chapter">Son okunan: Bölüm %d</string>
+    <string name="last_read_chapter2">Son okunan: %s</string>
+    <string name="balance_bonus">Bakiye: %d  Coin + %d Bonus</string>
+    <string name="insufficient_balance">Yetersiz bakiye, daha fazla Coin satın alın</string>
+    <string name="price_coin">%d Coin</string>
+    <string name="common_warning">Uyarı</string>
+    <string name="total_coins_bonus">Toplam: %d  Coin +  %d  Bonus</string>
+    <string name="total_coins">Toplam: %dCoin</string>
+    <string name="send_feedback">Geribildirim Gönder</string>
+    <string name="pp_expiring_soon">%d yakında sona erecek</string>
+    <string name="cancel">İptal Et</string>
+
+    <string name="ok">Onayla</string>
+    <string name="common_no_data">Henüz veri yok</string>
+    <string name="common_no_more">Daha fazla yok</string>
+    <string name="common_loadmore">Daha fazla yüklemek için kaydırın</string>
+    <string name="common_loading">yükleniyor…</string>
+    <string name="pp_visitor">Ziyaretçi</string>
+    <string name="pp_user_name">Kullanıcı Adı</string>
+    <string name="click_to_login">Daha fazla hizmet için giriş yapmak için tıklayın</string>
+    <string name="language_setting">Dil Ayarı</string>
+    <string name="switch_language_hint">%s diline geçmek istediğinizden emin misiniz?</string>
+    <string name="pp_language">Dil</string>
+    <string name="remaining_chapters">Tüm kalan bölümler</string>
+    <string name="coins_all_chapters">%s Coin tüm bölümler için ücretlendirildi</string>
+    <string name="next_num_chapters">Sonraki %s bölüm</string>
+    <string name="coins_for_num_chapters">%d Coin %d bölüm için ücretlendirildi</string>
+    <string name="pp_off">KAPALI</string>
+    <string name="pp_off_value">%d%% İNDİRİM</string>
+    <string name="pp_email_phone_hint">E-posta / Telefon numarası</string>
+    <string name="pp_email_null_hint">E-posta / Telefon numarası boş olamaz</string>
+    <string name="pp_contacts">İletişim</string>
+    <string name="leave_feedback_hint">Karşılaştığınız sorunu açıklayın veya geri bildiriminizi bırakın.</string>
+    <string name="pp_problem_description">Problem Açıklaması</string>
+    <string name="pp_problem_type">Problem Türü (Gerekli)</string>
+    <string name="pp_about_book">Bu kitap hakkında</string>
+    <string name="pp_report">Şikayet Et</string>
+    <string name="sign_in_facebook">Facebook ile giriş yap</string>
+    <string name="sign_in_google">Google ile giriş yap</string>
+    <string name="sign_in_email">E-posta ile giriş yap</string>
+    <string name="pp_first">İlk</string>
+    <string name="writer_benefits">Yazar Faydaları</string>
+    <string name="writer_central">Yazar Merkezi</string>
+    <string name="copy_address_tip">İpucu: Adresi kopyalamak için tıklayın ve bilgisayar tarayıcınızla ziyaret edin.</string>
+    <string name="pp_all">Tüm</string>
+    <string name="pp_rankings">Sıralamalar</string>
+    <string name="pp_flip">Çevir</string>
+    <string name="pp_swipe">Kaydır</string>
+    <string name="pp_scroll">Kaydır</string>
+    <string name="pp_system_font">Sistem yazı tipi</string>
+    <string name="pp_contents">İçerik</string>
+    <string name="about_app">Hakkında %s</string>
+    <string name="pp_overview">Genel Bakış</string>
+    <string name="pp_swipe_up_read">Yukarı kaydırarak okuyun</string>
+    <string name="pp_swipe_left_read">Sola kaydırarak okuyun</string>
+    <string name="book_detail_words">Kelime</string>
+    <string name="most_popular">En Popüler</string>
+    <string name="read_now">Şimdi Oku</string>
+    <string name="updated">GÜNCELLENDİ</string>
+    <string name="pp_pay_restore">Yeniden Yükle</string>
+    <string name="pp_restore_success">Başarıyla Yeniden Yüklendi</string>
+    <string name="pp_continue">Devam Et</string>
+    <string name="rewards">Ödüller</string>
+    <string name="pp_daily_check">Günlük Kontrol</string>
+    <string name="pp_novice_tasks">Yeni Başlayan Görevleri</string>
+    <string name="pp_daily_tasks">Günlük Görevler</string>
+    <string name="pp_congratulations">Tebrikler</string>
+    <string name="pp_go">Git</string>
+    <string name="pp_claim">Talep Et</string>
+    <string name="pp_rewards">Ödüller</string>
+    <string name="pp_expired">süresi dolmuş</string>
+    <string name="pp_done">Tamamlandı</string>
+    <string name="pp_claim_failed">Talep başarısız oldu</string>
+    <string name="pp_recommend">TAVSİYE ET</string>
+    <string name="pp_free">ÜCRETSİZ</string>
+    <string name="pp_exclusive">ÖZEL</string>
+    <string name="pp_exit_read_recommend_hint">Takip içeriği daha ilginç!</string>
+    <string name="pp_renew">Yenile</string>
+    <string name="pp_tell_found">Bize bulduğunuz şeyi söyleyin</string>
+    <string name="feedback_details">Geribildirim Detayları</string>
+    <string name="pp_copyright_notice">Telif Hakkı Bildirimi</string>
+    <string name="pp_copyright_notice_hint_line1">İçeriğin telif hakkınızı ihlal ettiğini düşünüyorsanız, lütfen #bize bildirin#.</string>
+    <string name="pp_copyright_notice_hint_line2">%s tarafından %s yetkisiyle yayımlanmıştır.</string>
+    <string name="pp_copyright_notice_hint_line3">© Tüm Hakları Saklıdır.</string>
+    <string name="pp_new">Yeni</string>
+    <string name="pp_team">Takım</string>
+    <string name="pp_connect_googleplay_fail">Google Play hizmetlerinde bir hata oluştu. Lütfen Google Play önbelleğini temizleyin veya Google hesabınızla tekrar giriş yapın ve tekrar deneyin!</string>
+    <string name="pp_close">Kapat</string>
+    <string name="start_reading">Okumaya Başla</string>
+    <string name="pp_skip">Atla %d</string>
+    <string name="georgia">Gürcistan</string>
+    <string name="search_books">Kitapları Ara</string>
+    <string-array name="day_arr">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </string-array>
+    <string name="app_wallet">Cüzdan</string>
+
+    <string name="pp_pending_retry_tip">Bir süre sonra hesabınızda görünmezse veya herhangi bir sorunla karşılaşırsanız, lütfen #müşteri hizmetleri# ile iletişime geçin.</string>
+    <string name="pp_reward_feedback_hint">Herhangi bir sorununuz varsa, lütfen #geri bildiriminizi# Yardım Merkezi\'ne bırakın.</string>
+    <string name="pp_retry">Yeniden Deneyin</string>
+    <string name="error_request_tip">İstek başarısız oldu, lütfen daha sonra tekrar deneyin.</string>
+    <string name="book_load_error">Kitap yüklenemedi, lütfen başka bir kitap deneyin.</string>
+    <string name="daily_check_disable_tip">Geri gelerek yarın tekrar kontrol edin ve bonusunuzu alın.</string>
+    <string name="pp_notice">Bildirim</string>
+    <string name="del_account_note">Bu işlem geri alınamaz. Hesabı silmeden önce aşağıdaki bilgileri doğrulayın.</string>
+    <string name="del_account_title1">1. Hesabınızı yeniden etkinleştiremeyeceksiniz</string>
+
+    <string name="del_account_note1">Hesap silindiğinde, bir daha giriş yapamayacak veya bu hesabı kullanamayacaksınız. Silinen hesaba ait kitaplar, bilgiler veya varlıklar geri alınamaz veya işlem yapılamaz. Yeniden kayıt olsanız bile, yalnızca yeni bir hesap oluşturulacaktır.</string>
+    <string name="del_account_title2">2. Mülkiyet ve bilgiler silinecek</string>
+    <string name="del_account_note2">Hesabınızın silinmesi, hesap haklarınızı ve varlıklarınızı terk ettiğiniz anlamına gelir. Kişisel bilgiler, Coin, Bonus, Kupon, Yükleme Kartı ve diğer sanal varlıklar dahil. Lütfen kitaplarınızı, bilgilerinizi ve varlıklarınızı düzgün bir şekilde yönetin.</string>
+    <string name="del_account_title3">3. Anlaşmazlık çözümü</string>
+    <string name="del_account_note3">Hesabınızda çözülmemiş herhangi bir anlaşmazlık varsa, şikayetler, raporlar vb. dahil, hesabınızı başarıyla silemezsiniz.</string>
+    <string name="del_account_title4">4. Silme geçerlilik zamanı</string>
+    <string name="del_account_note4">Hesap silme başvurusu, 30. günün 24:00\'de otomatik olarak gözden geçirilecek ve onaylanacaktır. Ancak, işlemi tamamlamadan önce üçüncü taraf bir hesap ile giriş yaparak süreci sonlandırabilirsiniz.</string>
+    <string name="read_del_account_notice_note">Yukarıdaki bilgiyi okudum ve bu işlemin geri alınamayacağını anlıyorum.</string>
+    <string name="pp_del_account">Hesabı Sil</string>
+    <string name="pp_cancel_del_account">Hesap Silme İşlemini İptal Et</string>
+    <string name="pp_cancel_del_account2">Hesap silmeyi iptal et</string>
+    <string name="pp_cancel_del_account_hint">Hesap silme için incelemeye alındı. Silme işlemini iptal etmek istediğinizden emin misiniz?</string>
+    <string name="del_account_submitted">Hesap silme başvurusu gönderildi.</string>
+    <string name="del_account_confirm_time">Bu başvuru, %s tarihinde otomatik olarak gözden geçirilecek ve onaylanacaktır.</string>
+    <string name="del_account_terms_read_hint">Hesap silme sözleşmesinin seçildiğinden emin olun.</string>
+    <string name="account_in_normal_state_hint">Hesap normal durumda.</string>
+    <string name="account_deleted_hint">Hesap silindi.</string>
+    <string name="account_deleting_hint">Hesap silme işlemi işleniyor, lütfen tekrar denemeyin.</string>
+    <string name="account_delete_action_confirm">Hesap silme başvurusu başarıyla gönderildi.</string>
+    <string name="pp_attention">Dikkat</string>
+    <string name="pp_account_deleted_hint">Hesabınız silinmiş olarak tespit edildi. Size yeni bir hesap atandı ve uygulama otomatik olarak yeniden başlatılarak kullanmaya başlamanız sağlanacak.</string>
+    <string name="pp_think_again">Tekrar düşün</string>
+
+    <string name="pp_confirm">Onayla</string>
+    <string name="del_account_cancel_success_hint">Hesap silme işlemi başarıyla iptal edildi.</string>
+    <string name="chapter_not_exist">Bölüm mevcut değil.</string>
+    <string name="recharge_pedding_hint">%d tamamlanmamış yüklemeniz var.</string>
+    <string name="pp_friendly_reminder">Dostça Hatırlatma</string>
+    <string name="pp_restore_reminder_content">‘Yeniden Yükle’ butonuna tıkladıktan sonra lütfen sabırlı olun. Eğer yükleme bir süre sonra hesabınızda görünmezse veya herhangi bir sorunla karşılaşırsanız, lütfen müşteri hizmetlerimizle iletişime geçin. Yardımcı olmak için her zaman buradayız!</string>
+    <string name="pp_report_immediately">Hemen Bildir</string>
+    <string name="pp_payment_error">Ödeme Hatası</string>
+    <string name="pp_payment_error_hint">Google Pay şu anda satın almanızı desteklemiyor. Lütfen alternatif bir ödeme yöntemi kullanmayı deneyin.</string>
+    <string name="pp_switch_payment">Başka bir yöntem seçin</string>
+    <string name="pp_operate_frequent_tip">İşlem çok sık yapılıyor, lütfen biraz sonra tekrar deneyin.</string>
+    <string name="pp_valid">Geçerli</string>
+    <string name="pp_invalid">Geçersiz</string>
+    <string name="pp_received_time">Alındığı zaman:</string>
+    <string name="pp_expired_date">Son kullanma tarihi:</string>
+    <string name="pp_chapter">Bölüm</string>
+    <string name="pp_rules">Kurallar</string>
+    <string name="pp_rules_check_in_title">1. Günlük Kontrol Kuralları</string>
+    <string name="pp_rules_check_in_content">Her gün giriş yaparak bonus kazanabilirsiniz. 3. ve 7. ardışık girişlerde ek ödüller verilir. Kesilen girişler, o günkü ödüllerin kaybına neden olur.</string>
+    <string name="pp_rules_novice_title">2. Yeni Başlayan Görevleri</string>
+    <string name="pp_rules_novice_content">Başlangıç görevlerini tamamlayarak ilgili bonusu alabilirsiniz.</string>
+    <string name="pp_rules_daily_title">3. Günlük Görevler</string>
+    <string name="pp_rules_daily_content">Bir Günlük Görevi tamamladığınızda, bonusu almak için "Talep Et" butonuna tıklayın. Bu görev zaman zaman güncellenir. Güncellemeler nedeniyle bonus dağıtımında sorun yaşarsanız, lütfen geri bildiriminizi sayfamda bırakın.</string>
+    <string name="pp_rules_reward_rule_title">4. Ödül kuralları</string>
+    <string name="pp_rules_reward_rule_content">Buradaki bonusun geçerlilik süresi 7 gündür. 1 Bonus = 1 Coin. Bölümleri açarken önce Bonuslar düşülecektir.</string>
+    <string name="pp_day">Gün</string>
+    <string name="net_connect_tip">Ağ hatası, lütfen daha sonra tekrar deneyin.</string>
+    <string name="pp_merge_assets_hint">Sizin <Data><![CDATA[ <b>%s</b> ]]> </Data> uygulamanızdaki varlıklar, <Data><![CDATA[ <b>%s</b> ]]> </Data> uygulamasında normal şekilde kullanılacaktır. Varlıklarınızdaki değişikliklere dikkat edin.</string>
+    <string name="pp_merge_assets_hint_coin">Sizdeki <Data><![CDATA[ <b>%s</b> ]]> </Data> varlıkları, kitaplar, %s coin ve %s bonus içerir.</string>
+    <string name="pp_merge_assets_hint_account">Varlık birleşimiyle ilişkili hesap, <Data><![CDATA[ <b>%s</b> ]]> </Data> uygulamasında %s hesabına aittir.</string>
+    <string name="pp_merge_account_success">Hesap başarıyla birleştirildi!</string>
+    <string name="pp_merge_account_fail">Hesap birleştirme başarısız oldu!</string>
+    <string name="pp_reward_signin_hint">Giriş yapın ve daha fazla ücretsiz avantajdan yararlanın</string>
+    <string name="pp_sign_in">Giriş Yap</string>
+    <string name="pp_pay_sign_hint">Hesabınızın ve verilerinizin en yüksek güvenliğini sağlamak için lütfen hesabınıza giriş yapın; yapmazsanız potansiyel kayıplar olabilir!</string>
+    <string name="pp_pay_sign_cancel">Yoksay &amp; Devam Et</string>
+    <string name="pp_library_login_hint">Hemen giriş yapın ve yeni gelenlere özel ücretsiz avantajlardan yararlanın</string>
+    <string name="pp_login_unlock_benefit">Daha fazla özellik ve avantaj için giriş yapın</string>
+    <string name="pp_login_earn_bonus">bonus kazanın</string>
+    <string name="pp_sign_in_continue">Devam etmek için giriş yapın</string>
+    <string name="pp_reader_sign_warning">Hesabınız tehlikede. Lütfen hesap ve veri güvenliğiniz için hemen giriş yapın.</string>
+    <string name="pp_verify_email">E-postayı Doğrula</string>
+    <string name="pp_link_email_hint">E-postanızı bağlayarak ücretsiz bonus kazanın</string>
+    <string name="pp_email_address">E-posta Adresi</string>
+    <string name="pp_verification_code">Doğrulama kodu</string>
+    <string name="pp_code_send_hint">Doğrulama kodu gönderildi</string>
+    <string name="pp_resend_code">(%d)Tekrar Gönder</string>
+    <string name="pp_verification_code_send_successful">Doğrulama kodu gönderildi, lütfen e-postanızı kontrol edin.</string>
+    <string name="pp_already_bind_hint">Bu uygulamanın hesabı, #%s# platformunda başka hesaplara bağlanmıştır.</string>
+    <string name="pp_more_login_methods">Daha Fazla Giriş Yöntemi</string>
+    <string name="pp_switch_account">Hesap Değiştir</string>
+    <string name="pp_switch_account_hint">Bu giriş yöntemi başka bir hesaba bağlıdır, hesabı değiştirmek ve varlıklarınızı birleştirmek ister misiniz?</string>
+    <string name="pp_reminder">Hatırlatma</string>
+    <string name="pp_email_code_expire">Doğrulama kodu geçersiz!</string>
+    <string name="pp_email_code_error">Doğrulama kodu hatası!</string>
+    <string name="pp_preference_setting">Tercih Ayarları</string>
+    <string name="pp_select_tag_hint">Size daha doğru kitap önerileri sunabilmek için etiketleri seçin</string>
+    <string name="pp_skip2">Atla</string>
+    <string name="pp_reading_preference">Okuma tercihleri</string>
+    <string-array name="ranking_left_tab">
+        <item>En İyi</item>
+        <item>Popüler</item>
+        <item>Umut Verici</item>
+        <item>Yeni</item>
+        <item>Tamamlanmış</item>
+    </string-array>
+    <string name="app_hot">Popüler</string>
+    <string name="app_new">Yeni</string>
+    <string name="app_read_guide_gesture_hint">Sayfaları çevirmek için bu alanı yukarı ve aşağı kaydırın</string>
+    <string name="unlock_now">Hemen Aç</string>
+    <string name="unlock_successful">Başarıyla Açıldı</string>
+    <string name="unlock_fail">Açma Başarısız</string>
+    <string name="top_up_failed">Yükleme Başarısız</string>
+    <string name="top_up_cancel">Yükleme İptal Edildi</string>
+
+    <string name="payment_recharge_error">Ödemenizle ilgili bir sorun yaşadık. Hızlıca çözmek için:\n\n1. Google Play\'i açın.\n2. Ödemeler &#038; Abonelikler\'e gidin.\n3. Bütçe &#038; Geçmişi seçin.\n4. Siparişi iptal edin, ödeme miktarını değiştirin veya farklı bir ödeme yöntemi seçin.</string>
+    <string name="payment_recharge_error_other">Ödemenizle ilgili bir sorun yaşadık. Hızlıca çözmek için:\n1. %s\'yi açın.\n2. Siparişi iptal edin.\n3. Ödeme miktarını değiştirin veya farklı bir ödeme yöntemi kullanın.</string>
+
+    <string name="payment_window_bottom_tip">Herhangi bir sorunla karşılaşırsanız, lütfen müşteri hizmetlerimizle iletişime geçin.</string>
+    <string name="payment_bottom_ignore">Yoksay</string>
+    <string name="payment_pending_title">Yükleme İşlemi Devam Ediyor</string>
+    <string name="payment_pending_content">Yükleme işleminiz işleniyor ve 5–10 dakika kadar gecikmiş olabilir.</string>
+    <string name="payment_pending_button">Hızlandır</string>
+    <string name="payment_pending_accelerating">Hızlandırılıyor…</string>
+    <string name="payment_pending_keep">Beklemeye Devam Et</string>
+    <string name="payment_pending_shoose_other">Siparişiniz hâlâ işleniyor. Beklenenden daha uzun sürüyor. Lütfen biraz daha sabırlı olun. Eğer ödeme kısa süre içinde gerçekleşmezse, başka bir ödeme yöntemi deneyebilirsiniz.</string>
+    <string name="top_up_successful">Yükleme Başarılı</string>
+    <string name="have_incomplete_payment">Tamamlanmamış bir ödeme siparişiniz var. Lütfen farklı bir ödeme tutarı deneyin veya başka bir ödeme yöntemi seçin.</string>
+    <string name="pending_clicking_frequently">Çok fazla deneme, lütfen daha sonra tekrar deneyin</string>
+    <string name="order_processing">Sipariş İşleniyor</string>
+    <string name="proceed_cancel_order_hint">İptal etmek, tamamlanmamış ödemeleri kesintiye uğratır.</string>
+    <string name="cancel_order_feedback_title">İptal Ediyorsunuz? Nedenini Bize Bildirin</string>
+    <string name="cancel_order_feedback_subtitle">Geri bildiriminiz bizim gelişmemize yardımcı olur.</string>
+    <string name="payment_not_working">Ödeme yöntemi çalışmıyor</string>
+    <string name="price_too_high">Fiyat çok yüksek</string>
+    <string name="pick_wrong_product">Yanlış ürün seçildi</string>
+    <string name="payment_page_slow">Ödeme sayfası çok yavaş</string>
+    <string name="change_mind">Fikrimi değiştirdim/Diğer</string>
+    <string name="other_reason_share">(İsteğe bağlı) Diğer nedenler? Lütfen paylaşın.</string>
+
+    <string name="load_failed">Yükleme başarısız oldu, tekrar denemek için dokunun</string>
+    <string name="load_end">Daha fazla ~</string>
+
+    <string name="other_payment_methods">Diğer ödeme yöntemleri</string>
+    <string name="select_payment_method">Ödeme yöntemini seçin</string>
+    <string name="payment_unavailable_attention">Ödeme yöntemi kullanılabilir değil. Lütfen alternatif bir ödeme yöntemi kullanmayı deneyin.</string>
+
+    <string name="login_welcome">Hoş geldiniz %s</string>
+    <string name="login_other_methods">Diğer giriş yöntemleri</string>
+
+    <string name="help_feedback">Yardım &amp; Geri Bildirim</string>
+    <string name="faq">SSS</string>
+    <string name="recharge_not_receive_q">Yükleme başarılı oldu fakat jetonları almadım, ne yapmalıyım?</string>
+    <string name="recharge_not_receive_a">
+        Lütfen bankacılık işleminizin başarılı olup olmadığını ve ödemenin kesilip kesilmediğini kontrol edin. Eğer ödeme başarılı bir şekilde kesildiyse, uygulamayı yeniden açmayı deneyin ve cüzdanınızın ve işlem geçmişinizin güncellenip güncellenmediğine bakın.
+        \n\n
+        Önemli notlar:
+        \n\n
+        · Yüklemeyi yaptığınız hesapla aynı hesapla giriş yaptığınızdan emin olun. Bazen kullanıcılar giriş bilgilerini unutabilir ve misafir olarak ödeme yapabilirler.
+        \n\n
+        · İşlem sürecine bağlı olarak, jetonların başarılı ödeme sonrası krediye aktarılması bir süre alabilir. Ödeme yöntemine göre işlem süresi değişebilir. Ödeme başarıyla yapıldıktan sonra cüzdanınızın ve işlem geçmişinizin güncellenip güncellenmediğini kontrol etmeden önce 10 dakika beklemenizi öneririz.
+        \n\n
+        Yukarıdaki yöntemler işe yaramazsa, \"Geri Bildirim\" üzerinden bizimle iletişime geçin, böylece sorununuzu hızlıca çözebiliriz.
+    </string>
+    <string name="cannot_complete_payment_q">Ödememi tamamlayamıyorum?</string>
+    <string name="cannot_complete_payment_a">
+        · Mağazada bir hata mesajı görünüyorsa, ağınızın düzgün çalışıp çalışmadığını kontrol edin. Farklı bir ağ kullanmayı deneyebilirsiniz, örneğin başka bir Wi-Fi ağı.
+        \n\n
+        · Ayrıca, cihazınızda Google ve Apple hesaplarına başarılı bir şekilde giriş yapamadıysanız, bu sorun da meydana gelebilir.
+        \n\n
+        · Yukarıdaki yöntemlerden hiçbiri sorununuzu çözmezse, karşılaştığınız problemle ilgili geri bildirimde bulunun.
+    </string>
+    <string name="refund_payment_q">Ödemeyi yaptıktan sonra geri ödeme talep edebilir miyim?</string>
+    <string name="refund_payment_a">
+        Şu anda geri ödemeler desteklenmemektedir. Jetonlar ve bonuslar bölümleri açmak için kullanılabilir.
+    </string>
+    <string name="disable_automatic_purchase_q">Otomatik satın alma işlevini nasıl devre dışı bırakabilirim?</string>
+    <string name="disable_automatic_purchase_a">Bunu \"Benim\"/\"Cüzdan\"/\"Otomatik açılan kitaplar\" üzerinden devre dışı bırakabilirsiniz.</string>
+    <string name="view_unlock_chapter_history_q">Bölüm açma geçmişimi nasıl görüntüleyebilirim?</string>
+    <string name="view_unlock_chapter_history_a">\"Benim\"/\"Cüzdan\"/\"Tüketim Geçmişi\" üzerinden kontrol edebilirsiniz.</string>
+    <string name="get_coins_bonus_q">Jetonlarımı ve bonuslarımı nasıl alırım?</string>
+    <string name="get_coins_bonus_a">Jetonlar ve bonuslar, yükleme etkinliklerine katılarak ve refah merkezindeki görevlerde yer alarak elde edilebilir. Lütfen unutmayın ki jetonlar yalnızca yükleme yoluyla elde edilebilir.</string>
+    <string name="difference_coins_bonus_q">Jetonlar ve bonuslar arasındaki fark nedir?</string>
+    <string name="difference_coins_bonus_a">
+        · Her ikisi de bölümleri açmak için kullanılabilir.
+        \n\n
+        · Bonusların bir geçerlilik süresi vardır. Bonusun geçerlilik süresini \"Cüzdan\"daki \"Bonus Geçmişi\"nde kontrol edebilirsiniz.
+    </string>
+    <string name="check_user_id_q">Kullanıcı ID\'mi nasıl kontrol edebilirim?</string>
+    <string name="check_user_id_a">
+        Misafir hesabı
+        \n
+        1. \"Benim Sayfam\"a tıklayın.
+        \n
+        2. Avatarın sağında bir dizi rakam olacak.
+        \n\n\n
+        Zaten bağlanmış hesap
+        \n
+        1. \"Benim Sayfam\"a tıklayın.
+        \n
+        2. Avatarın üst kısmına tıklayın ve yeni bir sayfa açılacak.
+        \n
+        3. Avatarın altındaki bir dizi rakamı göreceksiniz.
+    </string>
+    <string name="assets_synchronize_q">Farklı cihazlarda giriş yaptığımda varlıklarım senkronize olacak mı?</string>
+    <string name="assets_synchronize_a">
+        Aynı hesapla giriş yaparak varlıklarınızı hızlıca senkronize edebilirsiniz. İşte nasıl:
+        \n\n
+        · Önceki cihazınızı bulun ve üçüncü parti bir hesapla (Google veya Facebook gibi) giriş yapın.
+        \n\n
+        · Hesabınızın kullanıcı ID\'sini ve şifresini hatırlayın.
+        \n\n
+        · Aynı hesapla yeni cihazınıza giriş yapın.
+        \n\n
+        · Kullanıcı ID numaranızın kaydınızla eşleştiğinden emin olun.
+        \n\n
+        İlerlemeyi korumak için, yeni cihaza geçmeden önce eski cihazınızda okuma işleminizi tamamlamanızı öneririz.
+    </string>
+    <string name="categories">Kategoriler</string>
+    <string name="recharge_issues">Yükleme sorunları</string>
+    <string name="coin_bonus_issues">Jetonlar ve bonus sorunları</string>
+    <string name="chapter_unlock_issues">Bölüm açma sorunları</string>
+    <string name="book_issues">Kitap açma sorunları</string>
+    <string name="account_issues">Hesap sorunları</string>
+    <string name="other">Diğer</string>
+
+    <string name="error_code3_a">Bu tür hata kodları için, Google Play hizmetlerini güncellemeyi veya alternatif bir ödeme yöntemi kullanmayı öneriyoruz.</string>
+    <string name="coins_bonus_reduce_a">
+        · Farklı bir hesaba giriş yapmış olabilirsiniz. Bonus alım geçmişinizi kontrol edin ve sürekli bir kayıt olup olmadığına bakın.
+        \n\n
+        · Facebook, Google ve e-posta adresi gibi farklı giriş yöntemleri vardır. Yukarıda belirtilen hesaplardan hiçbirine giriş yapmadıysanız, cihazınızda bir misafir hesabı olacaktır. Hesabınızı \"Benim\" sayfasında görebilirsiniz.
+        \n\n
+        · Bonusunuz azaldıysa, önce bonus kayıtlarınızı kontrol edebilirsiniz; bir olasılık, bonusunuzun bir kısmının süresinin dolmuş olmasıdır.
+        \n\n
+        · Otomatik açma işlemi kurmuş olabilirsiniz. Lütfen bölüm açma kayıtlarınızı kontrol edin ve jetonlarınızı veya bonuslarınızı harcayıp harcamadığınızı kontrol edin.
+        \n\n
+        · Yukarıdaki yöntemler sorununuzu çözmezse, \"Geri Bildirim\" üzerinden sorunu bize bildirebilirsiniz.
+    </string>
+
+    <string name="check_bonus_usage_history">Bonuslarınızın veya jetonlarınızın tüketim geçmişini \"Benim\"/\"Cüzdan\"/\"Tüketim geçmişi\"nde görüntüleyebilirsiniz.</string>
+
+    <string name="unlock_chapter_a">Hem bireysel bölüm açma hem de toplu açma desteklenmektedir. İhtiyacınıza göre seçim yapabilirsiniz. Bölüm açma işlemi jetonlar veya bonuslar gerektirir. Jetonlarınız veya bonuslarınız yetersizse, yeniden yükleme yapmanız gerekecektir.</string>
+
+    <string name="unable_next_chapter_a">
+        · Ağ bağlantınızın iyi olduğundan emin olmalısınız. Ağ değiştirip tekrar deneyin.
+        \n\n
+        · Lütfen jetonlarınızın veya bonuslarınızın yeterli olduğundan emin olun.
+    </string>
+
+    <string name="grammar_spell_error_a">Bize \"Geri Bildirim\" üzerinden ulaşın ve kitabın başlığını ve bölüm adlarını sağlayarak sorununuzu hızlıca çözmemize yardımcı olun.</string>
+    <string name="violent_insult_content_a">Bize \"Geri Bildirim\" üzerinden ulaşın ve kitabın başlığını ve bölüm adlarını sağlayın. Konuyu ele alacağız.</string>
+    <string name="paid_book_pay_again_a">Satın aldığınız kitaplar her zaman varlıklarınız olacaktır. Satın aldığınız kitapları silerseniz, \"Benim\"/\"Görüntülenen\" sekmesinden tekrar edinebilirsiniz.</string>
+    <string name="bookshelf_coin_assets_disappeared_a">Bu durum genellikle farklı hesaplar veya cihazlarla giriş yapıldığında meydana gelir. Lütfen düzenli hesabınızla giriş yaptığınızdan emin olun. Sorun devam ederse, \"Geri Bildirim\" üzerinden bize yardımcı olabilmemiz için iletişime geçin.</string>
+    <string name="login_del_account_a">
+        Giriş Yap:
+        \n
+        1. \"Benim Sayfam\"a tıklayın
+        \n
+        2. \"Avatar\"a tıklayın
+        \n
+        3. Tercih ettiğiniz \"giriş yöntemini\" seçin
+        \n\n\n
+        Hesap Silme:
+        \n
+        1. \"Benim Sayfam\"a tıklayın
+        \n
+        2. \"Ayarlar\"a tıklayın
+        \n
+        3. \"Hesabı Sil\"e tıklayın
+    </string>
+
+    <string-array name="issues_category_item">
+        <item>Yükleme sorunları</item>
+        <item>Jetonlar ve bonus sorunları</item>
+        <item>Bölüm açma sorunları</item>
+        <item>Kitap sorunları</item>
+        <item>Hesap sorunları</item>
+        <item>Diğer</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>Yükleme başarılı oldu ama jetonları almadım, ne yapmalıyım?</item>
+        <item>Ödememi tamamlayamıyorum?</item>
+        <item>Hata Kodu 3</item>
+        <item>Ödemeyi yaptıktan sonra geri ödeme talep edebilir miyim?</item>
+    </string-array>
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>Jetonlarımı ve bonuslarımı nasıl alırım?</item>
+        <item>Jetonlarım veya bonuslarım kayboldu veya azaldı</item>
+        <item>Jetonlar ve bonuslar arasındaki fark nedir?</item>
+        <item>Bonuslarımın kullanım geçmişini nasıl kontrol ederim?</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>Bölüm nasıl açılır?</item>
+        <item>Bölüm açma geçmişimi nasıl görüntülerim?</item>
+        <item>Otomatik satın alma işlevini nasıl devre dışı bırakırım?</item>
+        <item>Sonraki bölümü okuyamıyorum?</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>Birçok içerik tekrarlı, dilbilgisi veya yazım hataları var.</item>
+        <item>Şiddetli, aşağılayıcı ve uygunsuz içerik içeriyor.</item>
+        <item>Bir ücretli kitabı kitaplığımda kaldırırsam, tekrar ödeme yapmam gerekir mi?</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>Kullanıcı ID\'mi nasıl kontrol edebilirim?</item>
+        <item>Hesabıma nasıl giriş yaparım/Hesap silme?</item>
+        <item>Farklı cihazlarda giriş yaptığımda varlıklarım senkronize olur mu?</item>
+        <item>Kitaplık kayıtlarım ve altın jeton varlıklarım kayboldu?</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>Lütfen sorunu hızlıca çözmemize yardımcı olmak için \"Geri Bildirim\" üzerinden bizimle iletişime geçin.</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">Hala sorunu çözemediniz mi? #Geri Bildirim#\'e tıklayın</string>
+
+    <string-array name="subscribe_tips">
+        <item>Jetonlarımı ve bonuslarımı nasıl alırım?</item>
+        <item>Jetonlarım veya bonuslarım kayboldu veya azaldı</item>
+        <item>Jetonlar ve bonuslar arasındaki fark nedir?</item>
+        <item>Bonuslarımın kullanım geçmişini nasıl kontrol ederim?</item>
+    </string-array>
+
+    <string name="total">Toplam: %d</string>
+    <string name="subscription_get_coins_bonus">%d jeton ve %d bonus al</string>
+    <string name="subscription_login_bonus">%d gün giriş yaparak %d bonus al</string>
+    <string name="per_week">/hafta</string>
+    <string name="details">Ayrıntılar</string>
+    <string name="subscription_in_effect">Geçerli</string>
+    <string name="subscription_date">Son Kullanma Tarihi: %s</string>
+    <string name="subscription_get_coins">%d jeton al</string>
+
+    <string name="subscription_bonus">+%d bonus</string>
+    <string name="subscription">Aboneliğim</string>
+    <string name="subscription_rewards">Abonelik ödülleri</string>
+    <string name="subscription_claim_title">Abonelik ödüllerini talep et</string>
+    <string name="claim_success">Talep Başarılı</string>
+    <string name="claim_fail">Talep Başarısız</string>
+    <string name="days">Gün %d</string>
+
+    <string name="subscription_success">Abonelik Başarılı</string>
+    <string name="subscribe_success_tip">%d jeton ve %d bonus aldınız. Günlük %d bonus talep edebilirsiniz.</string>
+
+    <string name="subscribe_tips1">1. Satın alma ücreti ödeme hesabınızdan düşülecektir.</string>
+    <string name="subscribe_tips2">2. Aboneliğiniz otomatik olarak yenilenecektir. Abonelikler, aylık veya başka bir periyot olarak her faturalama döneminde otomatik olarak ücretlendirilir. Aboneliğinizi iptal edene kadar her faturalama dönemi başlamadan 24 saat önceye kadar ücretlendirilebilirsiniz.</string>
+    <string name="subscribe_tips3">3. Aboneliği, yenileme tarihinizden 24 saat önceye kadar istediğiniz zaman iptal edebilirsiniz.</string>
+    <string name="subscribe_tips4">4. Yükleme sırasında verilen bonusun geçerlilik süresi %d gündür.</string>
+    <string name="subscribe_tips5">5. Bonus, yedi gün boyunca dağıtılır ve süresi dolmuş bonuslar geri alınamaz.</string>
+    <string name="subscribe_tips6">6. Jetonlar ve bonuslar eşdeğer değere sahiptir, süresi dolmamış bonuslar sanal ürünlerdir ve geri ödeme desteği sağlanmamaktadır.</string>
+    <string name="subscribe_tips7">7. Yardıma mı ihtiyacınız var? Lütfen #SSS# kısmına göz atın.</string>
+
+    <string name="subscribe_rules">1. Abonelikle birlikte %s Jeton ve %s Bonus hemen verilecektir.\n2. %s ardışık gün giriş yaparak %s bonus alırsınız, yani günlük %s Bonus.\n3. Abonelikten sonra ek ödülleri Cüzdanınızda kontrol edebilirsiniz.</string>
+
+    <string name="subscribe_pay_title">Abonelik Sözleşmesi</string>
+    <string name="subscribe_pay_tip1_title">1. Ödeme:</string>
+    <string name="subscribe_pay_tip1_content">Satın alma ücreti ödeme hesabınızdan düşülecektir.</string>
+    <string name="subscribe_pay_tip2_title">2. Yenileme:</string>
+    <string name="subscribe_pay_tip2_content">Aboneliğiniz otomatik olarak yenilenecektir. Abonelikler, aylık veya başka bir periyot olarak her faturalama döneminde otomatik olarak ücretlendirilir. Aboneliğinizi iptal edene kadar her faturalama dönemi başlamadan 24 saat önceye kadar ücretlendirilebilirsiniz.</string>
+    <string name="subscribe_pay_tip3_title">3. İptal:</string>
+    <string name="subscribe_pay_tip3_content">Aboneliği, yenileme tarihinizden 24 saat önceye kadar istediğiniz zaman iptal edebilirsiniz. Aboneliği iptal etmek için ödeme platformuna gidin.</string>
+    <string name="subscribe_pay_tip4_title">4. Aboneliklerinizi yönetme:</string>
+    <string name="subscribe_pay_tip4_content">Aboneliklerinizi görüntüleyebilir, değiştirebilir veya iptal edebilirsiniz.</string>
+
+    <string name="subscribe_out_of_date">Abonelik Süresi Dolmuş!</string>
+
+    <string name="pp_got_it">Anladım</string>
+    <string name="got_it">Anladım</string>
+    <string name="pp_get">Anladım</string>
+
+    <string name="pp_submit">Gönder</string>
+    <string name="pp_submitted">Gönderildi</string>
+    <string name="pp_submit_fail">Gönderim Başarısız</string>
+
+    <string name="admob_watch_ad_add_tip">Reklamları izleyin +%s bonus</string>
+    <string name="admob_loading_tip">Reklam yükleniyor, lütfen daha sonra tekrar izlemeyi deneyin</string>
+    <string name="admob_waiting_count_down">Sayım bitene kadar reklamı izlemeye devam edin</string>
+
+    <string name="bonus_value">%d Bonus</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus_ad_claimed">talep edilen %d bonus</string>
+
+    <string name="admob_watch_tip">Bonus kazanmak için reklamları izleyin</string>
+    <string name="admob_earn_bonus_tip">Her reklamı izlediğinizde %d bonus kazanın</string>
+    <string name="admob_watch_count_tip">Reklamı %d/%d izleyin</string>
+    <string name="admob_count_down_tip">Reklamı sonra izleyin %s\'de</string>
+    <string name="admob_daily_desc">%d bonus her video reklamı izlendiğinde, tamamlandı %d/%d</string>
+
+    <string name="usa_ad_privacy">Reklam Tercihleri</string>
+
+    <string name="member_benefits">Premium Üyelik Avantajları</string>
+    <string name="unlimit_premium_books">10.000+ premium kitabı ücretsiz ve sınırsız oku</string>
+    <string name="weekly_access_books">Haftalık olarak 200+ özel kitaba erişim</string>
+    <string name="enjoy_add_free_experience">Reklamsız bir deneyimin keyfini çıkar</string>
+    <string name="premium_member_identity">Premium üye kimliği</string>
+    <string name="subscribe">Abone ol</string>
+    <string name="unlimit_reading">Sınırsız Okuma!</string>
+    <string name="only_1499_price">Sade $14.99</string>
+    <string name="premium">Premium</string>
+    <string name="premium_first_week_discount">İlk hafta %s, ardından haftalık %s</string>
+    <string name="premium_expire_date">Son Kullanma Tarihi: %s</string>
+    <string name="discover_vip_price">Sade $14.99</string>
+    <string name="premium_daily_active_text">Günlük üyeliğiniz aktif</string>
+    <string name="premium_week_active_text">Haftalık üyeliğiniz aktif.</string>
+    <string name="premium_month_active_text">Aylık üyeliğiniz aktif.</string>
+    <string name="premium_year_active_text">Yıllık üyeliğiniz şimdi aktif.</string>
+    <string name="premium_expire_time">%s tarihinde sona erecek</string>
+    <string name="vip_rules">
+        1. Premium aboneleri tüm özel Premium kitaplara ücretsiz erişebilir.\n2. Ödeme: Ücret, ödeme hesabınızdan tahsil edilecektir.\n3. Yenileme: Abonelik otomatik olarak yenilenir. Her faturalama döneminin başlangıcından en fazla 24 saat önce ücret alınabilir.\n4. İptal: Aboneliğinizi, yenileme tarihinden en az 24 saat önce istediğiniz zaman iptal edebilirsiniz. İptal için ödeme platformuna gidiniz.
+    </string>
+
+
+    <string name="unlock_watch_count">Reklam izle, kilidi aç (%d/%d)</string>
+    <string name="unlock_watch_title">Reklam izle, kilidi aç</string>
+    <string name="unlock_watch_desc">Bu bölümü bir reklam izleyerek açabilirsiniz</string>
+    <string name="unlock_watch_now">Şimdi izle</string>
+    <string name="unlock_watch_chapter_count">Bugün %d bölümü ücretsiz açabilirsiniz (%d/%d) </string>
+
+    <string name="email_login_top">Hesabınız için kullandığınız e-postayı girin</string>
+    <string name="email_address_enter_tip">e-posta adresinizi girin</string>
+    <string name="email_code_enter_tip">doğrulama kodunu girin</string>
+    <string name="email_send_code">Kodu gönder</string>
+
+    <string name="facebook_link_title">Facebook hesabını bağla</string>
+    <string name="facebook_link_content">Daha fazla madeni para kazanmak için Facebook hesabınızı bağlayın. Merak etmeyin, mevcut ilerlemenizin ve verilerinizin tümü bu hesaba bağlı olarak kalacak</string>
+
+    <string name="limit_time_title">Süreli teklif</string>
+    <string name="limit_time_content">Hemen yakalayın — şimdiye kadarki en düşük fiyat, sadece sınırlı bir süre!</string>
+    <string name="limit_time_premium">premium bölüm okumaları</string>
+
+    <string name="subscribe_now">Hemen abone ol</string>
+    <string name="transaction_ompleted">İşlem tamamlandı</string>
+    <string name="transaction_content">Jeton satın alma işlemi başarılı oldu. Bonus 7 gün geçerlidir.</string>
+
+    <string name="send_again">Tekrar gönder</string>
+    <string name="ad_unlock">Reklamı aç</string>
+
+    <string name="top_up_history">Yükleme Geçmişi</string>
+    <string name="not_activated">Aktif değil</string>
+    <string name="vip_feedback_rule">
+        6. Yardıma ihtiyacınız varsa veya sorularınız varsa, lütfen #Feedback# üzerinden bizimle iletişime geçin.
+    </string>
+
+    <string name="unlock_adv_used">Reklam ile açma hakkı kullanıldı. Yarın tekrar deneyin</string>
+    <string name="expiration_date">Son Kullanma Tarihi:</string>
+    <string name="select_gender">Cinsiyetinizi seçin</string>
+    <string name="enter_nickname">Takma adınızı girin…</string>
+    <string name="enter_email">E-postanızı buraya girin…</string>
+    <string name="select_birthday">Doğum tarihinizi seçin</string>
+
+
+    <string name="pay_premium_weekly_membership">Haftalık Üyelik</string>
+    <string name="pay_premium_monthly_membership">Aylık Üyelik</string>
+    <string name="pay_save_value">%s%% tasarruf</string>
+    <string name="pay_unlock_chapter_count">%s bölüm kilidini aç</string>
+    <string name="pay_coins">%s jeton</string>
+    <string name="pay_unlock_in_bulk">Toplu kilitlemeyi aç</string>
+    <string name="top_up_now">Şimdi yükle</string>
+    <string name="dont_waste_time">Zaman kaybetme</string>
+    <string name="subscribe_unlock_tip">Anında kilidi açmak için abone ol</string>
+    <string name="auto_renew_cancel_tip">Otomatik yenileme · İstediğin zaman iptal et</string>
+    <string name="week">hafta</string>
+    <string name="month">ay</string>
+    <string name="books_free_cycle">Tüm kitaplar 1 %s ücretsiz</string>
+    <string name="unlock_all_story">Tüm hikayelerin kilidini aç</string>
+    <string name="premium_benefits">Premium Üyelik Avantajları</string>
+    <string name="read_free">Ücretsiz Oku</string>
+    <string name="no_ads">Reklamsız</string>
+    <string name="early_access">Erken Erişim</string>
+    <string name="pay_premium_yearly_membership">Yıllık Üyelik</string>
+    <string name="year">yıl</string>
+    <string name="per_month">/ay</string>
+    <string name="per_year">/yıl</string>
+    <string name="pay_premium_daily_membership">Günlük Üyelik</string>
+    <string name="day">gün</string>
+    <string name="per_day">/gün</string>
+    <string name="pay_premium_free_for">Tüm kitaplar %s boyunca ücretsizdir</string>
+    <string name="top_up_more">Daha fazla yükle, daha fazla tasarruf et</string>
+    <string name="premium_books_free">Tüm kitaplar ücretsiz oku</string>
+    <string name="join_premium">Üyeliğe katıl</string>
+
+    <string name="subscription_now">Şimdi Abone Ol</string>
+    <string name="get_special_offer">Özel teklifi kap!</string>
+    <string name="sevel_month">/%d ay</string>
+
+    <string name="subscription_agreement">Abonelik Sözleşmesi</string>
+    <string name="subscription_agreement_tips1">1. Premium\'a abone olan kullanıcılar tüm kitaplara ücretsiz erişimin tadını çıkarabilir.</string>
+    <string name="subscription_agreement_tips2">2. Ödeme: Satın alma maliyeti ödeme hesabınızdan düşülecektir.</string>
+    <string name="subscription_agreement_tips3">3. Yenileme: Aboneliğiniz otomatik olarak yenilenecektir. Abonelikler, aylık veya başka bir dönem olsun, her faturalandırma döneminde otomatik olarak ücretlendirilir. Aboneliğinizi iptal edene kadar her faturalandırma döneminin başlamasından en fazla 24 saat önce ücretlendirilebilirsiniz.</string>
+    <string name="subscription_agreement_tips4">4. İptal: Yenileme tarihinizden 24 saatten fazla bir süre önce istediğiniz zaman aboneliğinizi iptal edebilirsiniz. Aboneliği iptal etmek için lütfen ödeme platformuna gidin.</string>
+
+    <string name="enjoy_app_so_for">Uygulamayı beğendin mi?</string>
+    <string name="thank_for_support">Desteğin için teşekkürler!\nKısa bir puan çok yardımcı olur.</string>
+    <string name="five_star">5 yıldız</string>
+    <string name="maybe_later">Daha sonra</string>
+    <string name="thank_help_improve">Yardımın için teşekkürler!</string>
+    <string name="continue_bring_more_emotional">Senin sayende ilham verici hikâyeler sunmaya devam ediyoruz.</string>
+    <string name="continue_reading">Okumaya Devam Et</string>
+    <string name="read_more">Daha Fazla Oku, Daha Fazla Tasarruf Et</string>
+    <string name="this_chapter">Bu Bölüm</string>
+    <string name="my_wallet">Cüzdanım</string>
+
+    <string name="featured_collection">Öne Çıkan Koleksiyon</string>
+    <string name="book_catalog">Kitap Kataloğu</string>
+    <string name="fold_up">Katla</string>
+    <string name="choose_your_plan">Planını seç</string>
+    <string name="select_payment_method_2">Ödeme yöntemini seç</string>
+    <string name="personalized_tip">Tercihlerine göre kişiselleştirilmiş öneriler</string>
+    <string name="money_back_tip">Para İade Garantisi</string>
+    <string name="what_you_get">Neler kazanıyorsun</string>
+    <string name="premium_center_recharge_tip">Devam ederek aboneliğinin otomatik olarak yenileneceğini kabul edersin. Abonelikler, ister aylık ister başka bir dönem olsun, her faturalandırma döneminde otomatik olarak tahsil edilir. Aboneliğini iptal edene kadar her faturalandırma döneminin başlamasından 24 saat öncesine kadar ücretlendirilebilirsin. İptal ve iade politikamız hakkında daha fazlasını #Abonelik Şartları#\'nda öğrenebilirsin.</string>
+    <string name="premium_pay_safe">Güvenli &amp; korumalı öde</string>
+    <string name="premium_access">Premium Erişim</string>
+    <string name="unlock_unlimited_books">Sınırsız Kitabın Kilidini Aç</string>
+    <string name="limit_title_premium">Tüm Kitaplar Ücretsiz Okunur</string>
+    <string name="secure_payment">Güvenli ödeme</string>
+    <string name="easy_cancellation">Kolay İptal</string>
+    <string name="money_back_guarantee">Para İade Garantisi</string>
+    <string name="subscription_renews_tip">Tanıtım döneminden sonra aboneliğin, seçilen plan fiyatıyla otomatik olarak yenilenir. İstediğin zaman iptal edebilirsin.</string>
+    <string name="first_days">İlk %d gün</string>
+    <string name="then_price">Sonra $%.2f</string>
+    <string name="only_price">Yalnızca US$%.2f/gün</string>
+    <string name="full_story">Tam Hikâye Seni Bekliyor</string>
+    <string name="continue_read_unlock">Okumaya devam et ve beklediğin sonun kilidini aç.</string>
+    <string name="trust_readers">10M+ okurun güvendiği</string>
+    <string name="keep_reading">Okumaya Devam Et</string>
+    <string name="no_Interruptions">Kesinti Yok</string>
+    <string name="stories_num">10.000+ Hikâye</string>
+    <string name="read_full_story">Tam Hikâyeyi Oku</string>
+    <string name="without_limit">Sınırsız</string>
+    <string name="unlock_romance">Bugünün okur fırsatıyla sınırsız romantik, fantastik ve kurt adam hikâyelerinin kilidini aç.</string>
+    <string name="save_percent">TASARRUF %d%%</string>
+
+    <string name="daily">günlük</string>
+    <string name="weekly">haftalık</string>
+    <string name="monthly">aylık</string>
+    <string name="yearly">yıllık</string>
+    <string name="cancel_anytime">İstediğin zaman iptal et</string>
+    <string name="continue_story">Hikâyeme Devam Et</string>
+    <string name="next_chapter_waiting">Sıradaki bölümün seni bekliyor</string>
+    <string name="continue_read_long">Hikâyeye şimdi devam et ve onun gibi binlercesinin kilidini aç.</string>
+    <string name="read_full_stories">Tam Hikâyeleri Oku</string>
+    <string name="start_short_reading">Sınırsız Okumayı Başlat</string>
+
+</resources>
+<!--
+    土耳其语
+!-->

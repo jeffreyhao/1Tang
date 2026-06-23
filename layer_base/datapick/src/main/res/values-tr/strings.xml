@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    土耳其语
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">%s seçildi</string>
+    <string name="mdtp_ok">Onayla</string>
+    <string name="mdtp_cancel">İptal</string>
+    <string name="mdtp_day_picker_description">Ay gün ızgarası</string>
+    <string name="mdtp_year_picker_description">Yıl listesi</string>
+    <string name="mdtp_select_day">Ay ve gün seç</string>
+    <string name="mdtp_select_year">Yıl seç</string>
+    <string name="mdtp_next_month_arrow_description">Sonraki ay</string>
+    <string name="mdtp_previous_month_arrow_description">Önceki ay</string>
+
+</resources>
+<!--
+    土耳其语
+!-->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:parentTag="android.widget.LinearLayout"
+    >
+
+    <com.meta.ui.widget.ToolBar
+        android:id="@+id/main_tab_0"
+        style="@style/style_default_tool_bar"
+        attr:img="@drawable/ic_home_selector"
+        attr:title="@string/nav_bookshelf"
+        />
+    <com.meta.ui.widget.ToolBar
+        android:id="@+id/main_tab_1"
+        style="@style/style_default_tool_bar"
+        attr:img="@drawable/ic_home_selector"
+        attr:title="@string/nav_discover"
+        />
+    <com.meta.ui.widget.ToolBar
+        android:id="@+id/main_tab_2"
+        style="@style/style_default_tool_bar"
+        attr:img="@drawable/ic_home_selector"
+        attr:title="@string/nav_reward"
+        />
+    <com.meta.ui.widget.ToolBar
+        android:id="@+id/main_tab_3"
+        style="@style/style_default_tool_bar"
+        attr:img="@drawable/ic_home_selector"
+        attr:title="@string/nav_profile"
+        />
+    <com.meta.ui.widget.ToolBar
+        android:id="@+id/main_tab_4"
+        style="@style/style_default_tool_bar"
+        attr:img="@drawable/ic_home_selector"
+        attr:title="@string/nav_profile"
+        android:visibility="gone"
+        />
+
+</merge>

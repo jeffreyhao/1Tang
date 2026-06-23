@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.baidu.baselibrary.widget.CommonRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.baidu.baselibrary.widget.AutoLoadRecyclerView
+                android:id="@+id/recyclerView"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.baidu.baselibrary.widget.CommonRefreshLayout>
+
+
+        <com.baidu.baselibrary.widget.EmptyView
+            android:id="@+id/empty_view"
+            android:visibility="gone"
+            app:textId="@string/common_no_data"
+            app:imgId="@drawable/default_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</layout>

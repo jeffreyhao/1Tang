@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingVertical="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/windowBackground">
+
+    <ImageView
+        android:id="@+id/view_holder_one_line_seenum_img"
+        android:scaleType="fitXY"
+        android:layout_width="74dp"
+        android:layout_height="101dp" />
+
+    <com.common.config.view.BookTypeView
+        android:id="@+id/bookTypeView"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:visibility="visible"
+        />
+
+    <View
+        android:layout_width="74dp"
+        android:layout_height="101dp"
+        android:background="@drawable/book_cover_radius_2dp"
+        tools:background="#cccc"/>
+
+    <TextView
+        android:id="@+id/view_holder_one_line_seenum_title"
+        android:layout_below="@+id/view_holder_one_line_seenum_img"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/color_store_item_title"
+        android:textSize="13sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:minHeight="36dp"
+        tools:text="A book have not been…"
+        />
+
+    <ImageView
+        android:id="@+id/view_holder_one_line_seenum_eye"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/view_holder_one_line_seenum_title"
+        android:background="@drawable/tag_book_store"
+        android:layout_width="10dp"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:id="@+id/view_holder_one_line_see_num"
+        android:layout_marginTop="3.67dp"
+        android:layout_marginStart="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/color_bookstore_view_num"
+        android:textSize="11sp"
+        android:layout_toEndOf="@+id/view_holder_one_line_seenum_eye"
+        android:layout_below="@+id/view_holder_one_line_seenum_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="33.7K"/>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    泰语
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">เลือก %s แล้ว</string>
+    <string name="mdtp_ok">ยืนยัน</string>
+    <string name="mdtp_cancel">ยกเลิก</string>
+    <string name="mdtp_day_picker_description">ตารางเดือนของวัน</string>
+    <string name="mdtp_year_picker_description">รายการปี</string>
+    <string name="mdtp_select_day">เลือกเดือนและวัน</string>
+    <string name="mdtp_select_year">เลือกปี</string>
+    <string name="mdtp_next_month_arrow_description">เดือนถัดไป</string>
+    <string name="mdtp_previous_month_arrow_description">เดือนก่อนหน้า</string>
+
+</resources>

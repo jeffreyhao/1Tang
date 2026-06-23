@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    葡萄牙语：葡萄牙、巴西等
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">%s selecionado</string>
+    <string name="mdtp_ok">Confirmar</string>
+    <string name="mdtp_cancel">Cancelar</string>
+    <string name="mdtp_day_picker_description">Grade de dias do mês</string>
+    <string name="mdtp_year_picker_description">Lista de anos</string>
+    <string name="mdtp_select_day">Selecionar mês e dia</string>
+    <string name="mdtp_select_year">Selecionar ano</string>
+    <string name="mdtp_next_month_arrow_description">Próximo mês</string>
+    <string name="mdtp_previous_month_arrow_description">Mês anterior</string>
+
+</resources>

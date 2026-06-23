@@ -1,0 +1,92 @@
+{
+  "DiscoverFragment": {
+    "page_name": "discover_for_you",
+    "page_id": "2",
+    "page_type": "1"
+  },
+  "discover_ranking": {
+    "page_name": "discover_ranking",
+    "page_id": "6",
+    "page_type": "2"
+  },
+  "genres": {
+    "page_name": "discover_genres",
+    "page_id": "9",
+    "page_type": "1"
+  },
+  "BookShelf2Fragment": {
+    "page_name": "library",
+    "page_id": "1",
+    "page_type": "1"
+  },
+  "CategoryGridFragment": {
+    "page_name": "genres",
+    "page_id": "3",
+    "page_type": "1"
+  },
+  "genres_list": {
+    "page_name": "genres_list",
+    "page_id": "10",
+    "page_type": "2"
+  },
+  "ProfileFragment": {
+    "page_name": "me",
+    "page_id": "5",
+    "page_type": "1"
+  },
+  "RewardFragment": {
+    "page_name": "rewards",
+    "page_id": "4",
+    "page_type": "1"
+  },
+  "rewards_level2": {
+    "page_name": "rewards",
+    "page_id": "4",
+    "page_type": "2"
+  },
+  "Reading_history": {
+    "page_name": "Reading_history",
+    "page_id": "11",
+    "page_type": "2"
+  },
+  "pay_page": {
+    "page_name": "pay_page",
+    "page_id": "15",
+    "page_type": "2"
+  },
+  "book_last_page": {
+    "page_name": "book_last_page",
+    "page_id": "16",
+    "page_type": "2"
+  },
+  "book_details_page": {
+    "page_name": "book_details_page",
+    "page_id": "14",
+    "page_type": "2"
+  },
+  "LoginActivity": {
+    "page_name": "login_page",
+    "page_id": "13",
+    "page_type": "2"
+  },
+  "PayActivity": {
+    "page_name": "top_up",
+    "page_id": "12",
+    "page_type": "2"
+  },
+  "SearchFragment": {
+    "page_name": "search_page",
+    "page_id": "17",
+    "page_type": "2"
+  },
+  "SearchResultFragment": {
+    "page_name": "search_result_page",
+    "page_id": "18",
+    "page_type": "3"
+  },
+  "ReadLastUiActivity": {
+    "page_name": "book_last_page",
+    "page_id": "16",
+    "page_type": "2"
+  }
+}

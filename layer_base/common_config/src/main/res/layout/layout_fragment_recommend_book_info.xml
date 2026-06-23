@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/csl"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:elevation="5dp"
+    tools:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:paddingBottom="16dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_book_name"
+                android:layout_weight="1"
+                android:paddingStart="20dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/pp_color_333333"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="A Secret Alpha Mate"
+                />
+            <ImageView
+                android:id="@+id/iv_close"
+                android:visibility="gone"
+                android:src="@drawable/icon_close"
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:visibility="visible"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_chapter_title"
+            android:paddingHorizontal="20dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/pp_color_333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="A Secret Alpha Mate"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            tools:background="#cccc"/>
+        <TextView
+            android:id="@+id/tv_chapter_content"
+            android:paddingHorizontal="20dp"
+            android:lineSpacingExtra="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/pp_color_666666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="chapter is a mo xi lo yi"/>
+    </LinearLayout>
+
+</ScrollView>

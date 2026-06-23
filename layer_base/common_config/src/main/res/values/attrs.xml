@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="gallery_recyclerview">
+        <attr name="helper" format="string">
+            <enum name="LinearySnapHelper" value="0" />
+            <enum name="PagerSnapHelper" value="1" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="CollapsingToolbarView">
+        <attr name="collapsing_toolbar" format="boolean" />
+        <attr name="collapsing_toolbar_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CompoundEditText">
+        <attr name="limitColor" format="color" />
+        <attr name="limitTextSize" format="dimension" />
+        <attr name="alertColor" format="color" />
+        <attr name="limitCharCount" format="integer" />
+        <attr name="hint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <!-- 展开图标资源 -->
+        <attr name="collapsedIcon" format="reference" />
+        <!-- 展开图标宽度 -->
+        <attr name="collapsedIconWidth" format="dimension" />
+        <!-- 展开图标高度 -->
+        <attr name="collapsedIconHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MoonCurveView">
+        <attr name="shapeColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="Search_View">
+        <attr name="textSizeSearch" format="dimension" />
+        <attr name="textColorSearch" format="color" />
+        <attr name="textHintSearch" format="string" />
+        <attr name="searchBlockColor" format="color" />
+    </declare-styleable>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FlowLayout">
+        <attr name="is_line_center" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="LineFlowLayout">
+        <attr name="flow_line_count" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ScrollFlowLayout">
+        <attr name="effect_top_color" format="color" />
+        <attr name="effect_bottom_color" format="color" />
+        <attr name="need_effect" format="boolean" />
+    </declare-styleable>
+
+
+    <!--广告轮播View-->
+    <declare-styleable name="BannerView">
+        <attr name="can_circulation" format="boolean" />
+        <attr name="can_play" format="boolean" />
+        <attr name="default_color" format="color" />
+        <attr name="indicator_color" format="color" />
+        <attr name="indicator_padding" format="dimension" />
+        <attr name="indicato_bottom" format="dimension" />
+        <attr name="indicator_radius" format="dimension" />
+        <attr name="animation_duration" format="integer" />
+        <attr name="banner_duration" format="integer" />
+        <attr name="banner_count" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MTextView">
+        <attr name="character_space" format="dimension" />
+        <attr name="line_space" format="dimension" />
+        <attr name="align_chars" format="boolean" />
+        <attr name="end_str" format="string" />
+    </declare-styleable>
+
+    <!--收起展开textview-->
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines1" format="integer" />
+        <attr name="animDuration1" format="integer" />
+        <attr name="expandCollapseDrawable" format="reference" />
+        <attr name="contentTextColor" format="color" />
+        <attr name="collapseExpandTextColor" format="color" />
+        <attr name="contentTextSize" format="dimension" />
+        <attr name="collapseExpandTextSize" format="dimension" />
+        <attr name="textCollapse" format="string" />
+        <attr name="textExpand" format="string" />
+        <attr name="contentTextLineSpacing" format="float" />
+        <attr name="isCollapseExpandIcon" format="boolean" />
+        <attr name="isShowTvExpandCollapse" format="boolean" />
+        <attr name="collapseExpandGrarity">
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DiscreteScrollView">
+        <attr name="dsv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundedConstrainLayout">
+        <attr name="rv_backgroundColor"/>
+        <attr name="rv_backgroundColor_array"/>
+        <attr name="rv_backgroundPressColor"/>
+        <attr name="rv_backgroundPressColor_array"/>
+        <attr name="rv_cornerRadius"/>
+        <attr name="rv_strokeWidth"/>
+        <attr name="rv_strokeColor"/>
+        <attr name="rv_strokePressColor"/>
+        <attr name="rv_isRadiusHalfHeight"/>
+        <attr name="rv_isWidthHeightEqual"/>
+        <attr name="rv_cornerRadius_TL"/>
+        <attr name="rv_cornerRadius_TR"/>
+        <attr name="rv_cornerRadius_BL"/>
+        <attr name="rv_cornerRadius_BR"/>
+        <attr name="rv_isRippleEnable"/>
+    </declare-styleable>
+
+    <declare-styleable name="EqualSpaceRowView">
+        <attr name="numColumns" format="integer" />
+        <attr name="rowSpace" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ToolBar">
+        <attr name="img" format="reference" />
+        <attr name="title" format="string" />
+    </declare-styleable>
+</resources>

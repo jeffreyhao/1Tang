@@ -1,0 +1,7 @@
+/build
+.gradle/
+.idea/
+mapping.txt
+seeds.txt
+unused.txt
+google-services.json

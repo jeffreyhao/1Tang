@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- button圆角尺寸 -->
+    <dimen name="common_button_radius">22dp</dimen>
+
+    <!-- 书城模块item书名字体大小 -->
+    <dimen name="size_store_item_title">13dp</dimen>
+
+    <!-- 正常字体大小 -->
+    <dimen name="app_text_size_xmedium">16sp</dimen>
+    <dimen name="app_text_size_large">16sp</dimen>
+
+
+    <dimen name="small_divider">1px</dimen>
+    <dimen name="share_icon_size">42dp</dimen>
+
+    <!-- standard metrics -->
+    <dimen name="spacing_medium">15dp</dimen>
+
+    <dimen name="progress_size">80dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+
+
+    <dimen name="size_store_navigation_tab_selected">15dp</dimen>
+    <dimen name="size_store_navigation_tab_unselected">15dp</dimen>
+
+    <dimen name="size_store_height_nav_tab">32dp</dimen>
+    <dimen name="padding_top_store_top_tab">8dp</dimen>
+
+    <dimen name="height_discover_top_tab_line">0.33dp</dimen>
+
+    <dimen name="last_read_margin_h">20dp</dimen>
+    <dimen name="last_read_margin_b">71dp</dimen>
+
+    <dimen name="margin_lr_native_adv">20dp</dimen>
+
+</resources>

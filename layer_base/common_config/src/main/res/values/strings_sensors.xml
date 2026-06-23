@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools"  tools:ignore="MissingTranslation">
+    <!-- sensors -->
+    <string name="default_word">Prefilled_words</string>
+    <string name="history_word">History_words</string>
+    <string name="hot_word">Hot_words</string>
+    <string name="custom_word">Custom_words</string>
+    <string name="top_up_page">top_up</string>
+    <string name="reader_page">reader</string>
+    <string name="book_shelf_page">library</string>
+    <string name="reward_page">check_in</string>
+    <string name="push_recommend_book">push_recommend_book</string>
+    <string name="push_recommend_recharge">push_recommend_recharge</string>
+    <string name="daily_check_hint">push_check_in</string>
+    <string name="book_shelf_update">push_book_update</string>
+    <string name="push_open">open</string>
+    <string name="push_close">close</string>
+    <string name="book_end_page">book_last_page</string>
+    <string name="login_page">login</string>
+    <string name="reading_history_page">Reading_history</string>
+    <string name="pop_top_up">Pop-ups_top_up</string>
+    <string name="float_window_top_up">Floating_window_top_up</string>
+    <string name="last_read_popup">Last_read_popup</string>
+    <string name="activity_recommend_books">recommended_books</string>
+    <string name="reader_quit_recommend_books">Reader_quit_recommend_books</string>
+    <string name="upgrade_popup">Upgrade_popup</string>
+    <string name="module_book_last_page">book_last_page</string>
+    <string name="facebook_deeplink">facebook_deeplink</string>
+    <string name="top_up_reminder_pop_up">Top_up_reminder_pop_up</string>
+    <!-- sensors -->
+
+
+
+</resources>

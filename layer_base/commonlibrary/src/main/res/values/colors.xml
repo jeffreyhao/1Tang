@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Cr_FFE45F">#FFE45F</color>
+    <color name="Cr_88FFE45F">#88FFE45F</color>
+    <color name="Cr_FFA01A">#FFA01A</color>
+    <color name="Cr_FF4A42">#FF4A42</color>
+    <color name="pp_color_dadada">#dadada</color>
+    <color name="Cr_F6">#F6F6F6</color>
+    <color name="pp_color_555555">#555555</color>
+    <color name="Cr_FFAC3B">#FFAC3B</color>
+    <color name="color_dialog_btn_confirm">@color/white</color>
+
+</resources>

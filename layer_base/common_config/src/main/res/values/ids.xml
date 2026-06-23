@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="toolbar" />
+    <item type="id" name="recycler_view" />
+    <item type="id" name="list_progress" />
+    <item type="id" name="list_swipeLayout" />
+
+    <item type="id" name="error_text" />
+    <item type="id" name="error_img" />
+    <item type="id" name="error_reload_text" />
+
+    <item name="expand_collapse" type="id"/>
+    <item name="expandable_text" type="id"/>
+    <item name="flow_layout" type="id"/>
+
+
+    <item type="id" name="list_purchase" />
+
+</resources>

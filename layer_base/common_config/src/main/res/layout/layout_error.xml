@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.tencent.common.widget.ScaleImageView
+        android:id="@id/error_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/default_no_data"
+        tools:ignore="ContentDescription" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/error_text"
+        style="@style/Text.Primary.Large"
+        android:layout_below="@+id/error_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="350dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="Load failed, Click to try again"
+        android:textColor="@color/pp_color_999999"
+        android:textSize="14sp" />
+
+    <com.tencent.common.widget.RoundTextView
+        android:id="@id/error_reload_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:padding="100dp"
+        android:text=""
+        android:textColor="@color/pp_color_999999"
+        android:textSize="@dimen/sp_14" />
+</RelativeLayout>

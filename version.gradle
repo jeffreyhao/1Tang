@@ -1,0 +1,18 @@
+/**
+ * APP版本
+ *
+ * ⚠️ 上新包，版本号要从2.0开始
+ */
+ext {
+
+
+    cheatsheet = [
+            versionCode: 100,
+            versionName: '1.0.0'
+    ]
+
+
+
+
+
+}

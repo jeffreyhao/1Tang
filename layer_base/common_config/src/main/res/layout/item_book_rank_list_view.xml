@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    排行榜页面的item
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/windowBackground">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/book_name_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_book_cover_card"
+        android:minWidth="16dp"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textStyle="italic|bold"
+        android:textColor="@color/pp_color_999999"
+        android:textSize="12dp"
+        tools:text="1"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/iv_book_cover_card"
+        android:layout_marginStart="12dp"
+        android:layout_width="67dp"
+        android:layout_height="90dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toEndOf="@+id/book_name_rank"
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageView
+            android:id="@+id/iv_book_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:background="#cccc"/>
+        <View
+            android:background="@drawable/book_cover_radius_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <com.common.config.view.BookTypeView
+        android:id="@+id/bookTypeView"
+        android:visibility="gone"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintStart_toStartOf="@+id/iv_book_cover_card"
+        app:layout_constraintEnd_toEndOf="@+id/iv_book_cover_card"
+        app:layout_constraintTop_toTopOf="@+id/iv_book_cover_card"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:visibility="visible"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/book_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:textColor="@color/color_store_item_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_book_cover_card"
+        app:layout_constraintTop_toTopOf="@+id/iv_book_cover_card"
+        tools:text="@string/pp_update_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_book_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/color_store_item_text"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/book_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_name"
+        tools:text="@string/pp_tip" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_info"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/color_store_item_text"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_book_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_book_type"
+        tools:text="Chloe Stlater is a 17-year-old werewolf wating to get her wolf…" />
+
+    <ImageView
+        android:id="@+id/iv_book_tag"
+        app:layout_constraintStart_toEndOf="@+id/iv_book_cover_card"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_book_cover_card"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/icon_book_store3"
+        android:layout_width="10.4dp"
+        android:layout_height="8.3dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_book_see_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/color_book_store3"
+        android:textSize="11sp"
+        app:layout_constraintTop_toTopOf="@+id/iv_book_tag"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_book_tag"
+        app:layout_constraintStart_toEndOf="@+id/iv_book_tag"
+        tools:text="39.8k" />
+</androidx.constraintlayout.widget.ConstraintLayout>

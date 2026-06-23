@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_more_payment"
+    android:visibility="gone"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="40.67dp"
+    tools:visibility="visible">
+    <TextView
+        android:text="@string/other_payment_methods"
+        android:layout_marginStart="13.3dp"
+        android:textSize="12sp"
+        android:textColor="@color/pp_color_999999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_marginStart="4dp"
+        android:src="@drawable/icon_arrow_1"
+        android:layout_width="11.3dp"
+        android:layout_height="11.3dp"
+        />
+</LinearLayout>

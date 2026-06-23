@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/white_top_radius10_corner"
+    tools:ignore="MissingDefaultResource"
+    tools:elevation="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_above="@+id/iv_top"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:src="@drawable/login_icon_close"
+            />
+
+        <ImageView
+            android:id="@+id/iv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_super_bonus"
+            />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#333333"
+            android:text="@string/facebook_link_title"
+            />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48dp"
+            android:layout_marginBottom="32dp"
+            android:textSize="12dp"
+            android:textColor="#6f6f6f"
+            android:text="@string/facebook_link_content"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_button"
+                android:layout_width="280dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_login_facebook_btn"
+                android:gravity="center"
+                android:textColor="@color/color_login_facebook_btn"
+                android:textSize="14dp"
+                android:text="@string/facebook_link_title"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/tv_button"
+                android:paddingHorizontal="8dp"
+                android:paddingBottom="2dp"
+                android:text="@string/pp_login_earn_bonus"
+                android:textAllCaps="true"
+                android:textSize="13dp"
+                android:textColor="@color/color_login_earn_bonus_text"
+                android:background="@drawable/login_earn_bonus_bg"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        layout="@layout/item_template_title_layout" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:clipChildren="false"
+        android:paddingStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        tools:background="#1111"/>
+
+<!--    item_zoom_out_viewpager-->
+
+    <TextView
+        android:id="@+id/tv_book_title"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/color_store_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="book name"/>
+    <TextView
+        android:id="@+id/tv_intro"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="14sp"
+        android:textColor="@color/pp_color_999999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="book intro"/>
+</LinearLayout>

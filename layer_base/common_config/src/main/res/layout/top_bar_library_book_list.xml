@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_tab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="17dp"
+    android:paddingHorizontal="20dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <include
+        android:id="@+id/category_type_hot"
+        layout="@layout/item_book_store_ranking_tab"
+        />
+
+    <include
+        android:id="@+id/category_type_new"
+        layout="@layout/item_book_store_ranking_tab" />
+
+</LinearLayout>
+

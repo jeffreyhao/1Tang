@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    阿拉伯语
+!-->
+<resources>
+    <string name="loading">جار التحميل...</string>
+    <string name="close_and_go_back">رجوع</string>
+    <string name="error_data_tip">حدث خطأ ما، اضغط للمحاولة مرة أخرى</string>
+    <string name="error_empty_data_tip">لا توجد بيانات بعد</string>
+    <string name="error_net_tip">خطأ في الشبكة، اضغط للمحاولة مرة أخرى</string>
+    <string name="permisions_essential_tip">الحصول على الإذن أولاً للاستخدام</string>
+    <string name="permisions_read_phone_tip">الحصول على الإذن للتشغيل أولاً</string>
+    <string name="permission_setting">الإعدادات</string>
+    <string name="permission_cancel">إلغاء</string>
+    <string name="collapse">طي</string>
+    <string name="expand">فتح</string>
+    <string name="nb_mode_night">وضع الليل</string>
+    <string name="nb_mode_morning">وضع النهار</string>
+    <string name="nav_bookshelf">المكتبة</string>
+    <string name="nav_bookshelf2">المكتبة</string>
+    <string name="nav_discover">اكتشف</string>
+    <string name="nav_featured">اكتشف</string>
+    <string name="nav_reward">المكافآت</string>
+    <string name="nav_profile">حسابي</string>
+    <string name="nav_mine">حسابي</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="done">تم</string>
+    <string name="delete">حذف</string>
+    <string name="clear_cache">مسح الذاكرة المؤقتة</string>
+    <string name="check_update">التحقق من التحديثات</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="privacy">سياسة الخصوصية</string>
+    <string name="agreement">شروط الخدمة</string>
+    <string name="joinedBookShelf">تمت إضافته إلى المكتبة</string>
+    <string name="add_to_shelf_dlg_title">أضف إلى المكتبة؟</string>
+    <string name="add_to_shelf_dlg_content">أضف هذا الكتاب إلى مكتبتك واقرأه في أي وقت.</string>
+    <string name="add_to_shelf_dlg_cancel">إلغاء</string>
+    <string name="add_to_shelf_dlg_confirm">أضف</string>
+    <string name="hint_search_bookstore">بحث</string>
+    <string name="become_author">كن كاتبًا</string>
+    <string name="buy_sale">شراء مخفض</string>
+    <string name="free_start_read">ابدأ القراءة</string>
+    <string name="pp_sex_boy_brief">ذكر</string>
+    <string name="pp_sex_girl_brief">أنثى</string>
+    <string name="pp_tip_none_photo">لا توجد صور في الألبوم</string>
+    <string name="pp_history_search">التاريخ</string>
+    <string name="pp_tip_input_search_key">أدخل الكلمة المفتاحية هنا</string>
+    <string name="pp_clear_success">تم المسح</string>
+    <string name="pp_me">أنا</string>
+    <string name="pp_build_fail">فشل في البناء</string>
+    <string name="pp_author">المؤلف</string>
+    <string name="pp_note_id_null">معرف الملاحظة فارغ</string>
+    <string name="pp_login_fail">فشل تسجيل الدخول</string>
+    <string name="pp_collection_success">تمت الإضافة إلى المكتبة</string>
+    <string name="pp_please_check_network">تحقق من اتصال الشبكة</string>
+    <string name="pp_add_success">تمت إضافة هذا الكتاب إلى المكتبة</string>
+    <string name="pp_remove_success">تمت إزالة هذا الكتاب من المكتبة</string>
+    <string name="pp_please_chose_one_book">اختر كتابًا أولاً</string>
+    <string name="pp_login_first">قم بتسجيل الدخول أولاً</string>
+    <string name="pp_pay_success">تمت عملية الدفع بنجاح</string>
+    <string name="pp_pay_cancel">تم إلغاء عملية الدفع</string>
+    <string name="pp_pay_error">خطأ في عملية الدفع</string>
+    <string name="pp_check_pay_fail">فشل التحقق من الشراء</string>
+    <string name="pp_tip">قم بتثبيت متجر التطبيقات أو المتصفح أولاً</string>
+    <string name="pp_copy_success">تم النسخ</string>
+    <string name="pp_save_fail">فشل الحفظ</string>
+    <string name="pp_saved">تم الحفظ</string>
+    <string name="pp_exit_app">هل أنت متأكد من الخروج؟</string>
+    <string name="pp_exit">خروج</string>
+    <string name="pp_sure">تأكيد</string>
+    <string name="pp_today_read">قراءة اليوم</string>
+    <string name="pp_second_red_packet"> دقائق للحصول على الحزمة الحمراء</string>
+    <string name="pp_after_ad_bye">أكثر إثارة بعد الإعلان.</string>
+    <string name="pp_time_error">الانحراف الزمني بين النظام والخادم كبير جدًا. يُرجى معايرة وقت النظام</string>
+    <string name="pp_about">حول التطبيق</string>
+    <string name="pp_notiy">نصائح</string>
+    <string name="pp_get_photo">اختر صورة</string>
+    <string name="pp_affirm">تأكيد</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">Moments</string>
+    <string name="pp_xml_qq_space">QQ Zone</string>
+    <string name="pp_xml_text_11">تسجيل الخروج</string>
+    <string name="pp_xml_text_22">الإشعارات</string>
+    <string name="pp_xml_text_24">المساعدة والملاحظات</string>
+    <string name="pp_xml_text_35">البحث الساخن</string>
+    <string name="pp_xml_text_350">الاتجاهات</string>
+    <string name="pp_xml_text_39">فتح</string>
+    <string name="pp_xml_text_40">إغلاق</string>
+    <string name="pp_xml_text_45">المزيد</string>
+    <string name="pp_xml_text_48">عرض</string>
+    <string name="pp_xml_text_49">نسخ</string>
+    <string name="pp_xml_text_50">مشاركة</string>
+    <string name="pp_xml_remove">إزالة</string>
+    <string name="pp_xml_find_novel">البحث عن كتاب</string>
+    <string name="pp_xml_no_book">لم تقم بإضافة أي كتب إلى مكتبتك بعد</string>
+    <string name="pp_remove_book_title">هل ترغب في الإزالة؟</string>
+    <string name="pp_remove_book_content">هل أنت متأكد من إزالة الكتاب من المكتبة؟</string>
+    <string name="pp_search_default_text">البحث عن الكتب</string>
+    <string name="pp_search_no_data">لم يتم العثور على نتائج</string>
+    <string name="book_detail_start_reading">بدء القراءة</string>
+    <string name="book_detail_adds">إضافات</string>
+    <string name="book_detail_views">مشاهدات</string>
+    <string name="book_detail_rating">التقييم</string>
+    <string name="book_detail_report_msg">المحتوى والصور يعبران عن آراء الكتّاب الشخصية ولا يتعلقان بـ %s. إذا كان لديك أي أسئلة، يرجى #الإبلاغ# إلينا.</string>
+    <string name="login_view_tip">من خلال الاستمرار، فإنك توافق على #شروط الخدمة# و#سياسة الخصوصية#</string>
+    <string name="pp_string_profile">الملف الشخصي</string>
+    <string name="pp_string_gender">الجنس</string>
+    <string name="pp_string_birthday">تاريخ الميلاد</string>
+    <string name="pp_string_nickname">الاسم المستعار</string>
+    <string name="pp_string_email_address">عنوان البريد الإلكتروني</string>
+    <string name="pp_new_chapter">فصل جديد</string>
+    <string name="pp_coming_soon">قريبًا</string>
+    <string name="pp_this_is_the">هذا هو</string>
+    <string name="pp_last_chapter">آخر فصل</string>
+    <string name="pp_book_completed">مكتمل</string>
+    <string name="pp_book_ongoing">جاري</string>
+    <string name="pp_you_may_also_like">قد يعجبك أيضًا</string>
+    <string name="pp_view_all">عرض الكل</string>
+    <string name="pp_to_explore_more">لاستكشاف المزيد</string>
+    <string name="pp_rather_not_say">أفضل عدم الإفصاح</string>
+    <string name="pp_read">قراءة</string>
+    <string name="pp_you_might_like">قد يعجبك</string>
+    <string name="pp_writer_about_des">تهدف %s إلى توفير مسرح للكتّاب لمتابعة أحلامهم ومكانٍ لمشاركة قصصهم مع جمهور عالمي. مهمتنا هي أن نجعل صوتك مسموعًا. إذا كان لديك قصة لترويها، فإن %s هو المكان المناسب لك!</string>
+    <string name="pp_writer_benefits">نقدم مجموعة متنوعة من المكافآت للكتّاب الذين يوقّعون قصصهم مع %s، بما في ذلك رسوم التوقيع، مكافأة إكمال القصة، مكافأة التحديث اليومي، ومكافأة الإحالة. لمزيد من الفوائد، انقر #هنا#.</string>
+    <string name="pp_writer_tip0">أرسل كتاباتك إلى بريدنا الإلكتروني:</string>
+    <string name="pp_writer_email">البريد الإلكتروني: #leo@i%s.com#</string>
+    <string name="pp_writer_author">مركز الكتّاب: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">يمكن أن تكون أنت الكاتب الأكثر مبيعًا التالي.</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">تم النسخ</string>
+    <string name="pp_problem_null_tip">لا يمكن أن يكون وصف المشكلة فارغًا</string>
+    <string name="pp_update_title">تحديث متاح</string>
+    <string name="pp_update_content">توجد نسخة أحدث: تم إصلاح الأخطاء المعروفة وتحسين تجربة القراءة</string>
+    <string name="pp_update_button">تحديث الآن</string>
+    <string name="pp_download">تنزيل</string>
+    <string name="pp_purchase">شراء</string>
+    <string name="pp_purchase_tip">ابتداءً من الفصل الحالي</string>
+    <string name="pp_download_auto_pay_tip">تنزيل الملفات محليًا في الوقت نفسه</string>
+    <string name="pp_price">السعر:</string>
+    <string name="pp_purchase_now">شراء الآن</string>
+    <string name="pp_download_bottom_tip">لن يتم احتساب رسوم على الفصول التي قمت بفتحها بالفعل</string>
+    <string name="pp_top_up">تعبئة الرصيد</string>
+    <string name="pp_pay_now">الدفع الآن</string>
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="top_up_amount">مبلغ التعبئة</string>
+    <string name="pp_pay_tip1">1 مكافأة = 1 عملة. سيتم خصم المكافآت أولاً عند فتح الفصول.</string>
+    <string name="pp_pay_tips1">نصائح:</string>
+    <string name="pp_pay_tip2">2. معرف المستخدم الخاص بك: #%s#. إذا فشلت عملية إعادة الشحن أو فشلت عملية إعادة الشحن لفترة طويلة، فيمكنك النقر فوق استعادة لحل المشكلة (لا حاجة لإعادة الشحن). أو قم بتوجيه #أسئلة الملاحظات# إلينا.</string>
+    <string name="pp_pay_tip3">4. هل تحتاج للمساعدة؟ يرجى الاطلاع على #الأسئلة الشائعة# لدينا</string>
+    <string name="pp_pay_tip4">3. طريقة الدفع الافتراضية لدينا هي منصة دفع Google Play. تدعم Google Play الدفع عبر الفواتير الناقل، وبطاقات الائتمان، وبطاقات الهدايا، وبايبال ورصيد المحفظة.</string>
+    <string name="pp_pay_tip5">5. فترة صلاحية النقاط المكافئة التي تحصل عليها عند التعبئة هي 7 يومًا.</string>
+    <string name="pp_pay_tip6">6. العملات والمكافآت لهما قيمة متساوية، والمكافآت غير المنتهية صلاحيتها عبارة عن عناصر افتراضية ولا ندعم استردادها.</string>
+    <string name="pp_pay_tip7">7. لضمان أمان الأصول الرقمية في حسابك، نوصي بشراء العملات باستخدام حساب طرف ثالث: حساب Facebook أو Google.</string>
+    <string name="thank_you">شكرًا لك!</string>
+    <string name="pp_read_pay_tip">قم بدعم الكاتب في إنشاء قصص أكثر وأفضل</string>
+    <string name="read_pay_tip1">الفتح التلقائي للفصل التالي</string>
+    <string name="more_top_up_amounts">المزيد من مبالغ التعبئة</string>
+    <string name="get_free_coins">احصل على عملات مجانية</string>
+    <string name="purchase_now">شراء الآن</string>
+    <string name="unlock_chapter">افتح هذا الفصل %s عملات</string>
+    <string name="purchase_successful">تم الشراء بنجاح</string>
+    <string name="purchase_failed">فشلت عملية الشراء</string>
+    <string name="coins">العملات</string>
+    <string name="top_up">تعبئة الرصيد</string>
+    <string name="about">حول</string>
+    <string name="top_up_record">تاريخ الشحن</string>
+    <string name="bonus_record">تاريخ البونص</string>
+    <string name="consumption_record">تاريخ الاستهلاك</string>
+    <string name="pp_viewed">تمت المشاهدة</string>
+    <string name="pp_rating">التقييم</string>
+    <string name="pp_settings">الإعدادات</string>
+    <string name="pp_wallet">المحفظة</string>
+    <string name="google_play_not_available">خدمة Google Play غير متاحة</string>
+    <string name="pp_turn_off">إيقاف التشغيل؟</string>
+    <string name="pp_turn_off_content">إيقاف التشغيل سيؤثر على تجربتك في القراءة، تأكد من إيقافه أو عدم إيقافه.</string>
+    <string name="pp_no_purchase">لا توجد مزيد من الفصول المتاحة للشراء</string>
+    <string name="purchase_more_coins">شراء المزيد من العملات</string>
+    <string name="top_up_and_purchase">اشحن وافتح هذا الفصل</string>
+    <string name="feedback">ملاحظات</string>
+    <string name="genres">الأنواع</string>
+    <string name="font_merriweather">ميريويذر</string>
+    <string name="no_longer_remind_upgrade">لا تذكير بالتحديث بعد الآن</string>
+    <string name="pp_version">الإصدار</string>
+    <string name="terms_service">شروط الخدمة</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="chapters">%d فصل</string>
+    <string name="chapters_count">الفصول (%d)</string>
+    <string name="last_read_chapter">آخر فصل قرأته: الفصل %d</string>
+    <string name="last_read_chapter2">آخر فصل قرأته: %s</string>
+    <string name="balance_bonus">الرصيد: %d عملة + %d مكافأة</string>
+    <string name="insufficient_balance">الرصيد غير كافٍ، قم بشراء المزيد من العملات</string>
+    <string name="price_coin">%d عملة</string>
+    <string name="common_warning">تحذير</string>
+    <string name="total_coins_bonus">الإجمالي: %d عملة + %d مكافأة</string>
+    <string name="total_coins">الإجمالي: %d عملة</string>
+    <string name="send_feedback">إرسال ملاحظات</string>
+    <string name="pp_expiring_soon">%d سينتهي قريبًا</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">تأكيد</string>
+    <string name="common_no_data">لا توجد بيانات حتى الآن</string>
+    <string name="common_no_more">لا يوجد المزيد</string>
+    <string name="common_loadmore">اسحب لأعلى لتحميل المزيد</string>
+    <string name="common_loading">جارٍ التحميل...</string>
+    <string name="pp_visitor">زائر</string>
+    <string name="pp_user_name">اسم المستخدم</string>
+    <string name="click_to_login">انقر لتسجيل الدخول للحصول على خدمات أكثر</string>
+    <string name="language_setting">إعداد اللغة</string>
+    <string name="switch_language_hint">هل أنت متأكد من تغيير اللغة إلى %s؟</string>
+    <string name="pp_language">اللغة</string>
+    <string name="remaining_chapters">جميع الفصول المتبقية</string>
+    <string name="coins_all_chapters">%s عملة مقابل جميع الفصول</string>
+    <string name="next_num_chapters">%s فصل التالي</string>
+    <string name="coins_for_num_chapters">%d عملة مقابل %d فصول</string>
+    <string name="pp_off">إيقاف</string>
+    <string name="pp_off_value">إيقاف %d%%</string>
+    <string name="pp_email_phone_hint">البريد الإلكتروني / رقم الهاتف</string>
+    <string name="pp_email_null_hint">لا يمكن ترك البريد الإلكتروني / رقم الهاتف فارغًا</string>
+    <string name="pp_contacts">جهات الاتصال</string>
+    <string name="leave_feedback_hint">صف المشكلة التي تواجهها أو اترك تعليقك.</string>
+    <string name="pp_problem_description">وصف المشكلة</string>
+    <string name="pp_problem_type">نوع المشكلة (مطلوب)</string>
+    <string name="pp_about_book">عن هذا الكتاب</string>
+    <string name="pp_report">تقرير</string>
+    <string name="sign_in_facebook">تسجيل الدخول بواسطة فيسبوك</string>
+    <string name="sign_in_google">تسجيل الدخول بواسطة جوجل</string>
+    <string name="sign_in_email">تسجيل الدخول باستخدام البريد الإلكتروني</string>
+    <string name="pp_first">الأول</string>
+    <string name="writer_benefits">مزايا الكتّاب</string>
+    <string name="writer_central">مركز الكتّاب</string>
+    <string name="copy_address_tip">تلميح: انقر لنسخ العنوان وزيارته عبر مستعرض الكمبيوتر الخاص بك.</string>
+    <string name="pp_all">الكل</string>
+    <string name="pp_rankings">التصنيفات</string>
+    <string name="pp_flip">انقلاب</string>
+    <string name="pp_swipe">انتقال بالسحب</string>
+    <string name="pp_scroll">التمرير</string>
+    <string name="pp_system_font">خط النظام</string>
+    <string name="pp_contents">المحتويات</string>
+    <string name="about_app">حول تطبيق %s</string>
+    <string name="pp_overview">نظرة عامة</string>
+    <string name="pp_swipe_up_read">اسحب للأعلى للقراءة</string>
+    <string name="pp_swipe_left_read">اسحب لليسار للقراءة</string>
+    <string name="book_detail_words">الكلمات</string>
+    <string name="most_popular">الأكثر شهرة</string>
+    <string name="read_now">اقرأ الآن</string>
+    <string name="updated">تم التحديث</string>
+    <string name="pp_pay_restore">استعادة</string>
+    <string name="pp_restore_success">استعادة ناجحة</string>
+    <string name="pp_continue">متابعة</string>
+    <string name="rewards">المكافآت</string>
+    <string name="pp_daily_check">تسجيل الدخول اليومي</string>
+    <string name="pp_novice_tasks">مهام المبتدئين</string>
+    <string name="pp_daily_tasks">المهام اليومية</string>
+    <string name="pp_congratulations">تهانينا</string>
+    <string name="pp_go">انطلق</string>
+    <string name="pp_claim">المطالبة</string>
+    <string name="pp_rewards">المكافآت</string>
+    <string name="pp_expired">منتهي الصلاحية</string>
+    <string name="pp_done">تم</string>
+    <string name="pp_claim_failed">فشلت عملية الحصول</string>
+    <string name="pp_recommend">توصية</string>
+    <string name="pp_free">مجاناً</string>
+    <string name="pp_exclusive">حصري</string>
+    <string name="pp_exit_read_recommend_hint">المحتوى التالي أكثر إثارة للاهتمام!</string>
+    <string name="pp_renew">تجديد</string>
+    <string name="pp_tell_found">أخبرنا بما وجدته</string>
+    <string name="feedback_details">تفاصيل التعليقات</string>
+    <string name="pp_copyright_notice">إشعار حقوق النشر</string>
+    <string name="pp_copyright_notice_hint_line1">إذا كنت تعتقد أن المحتوى ينتهك حقوق الطبع والنشر الخاصة بك. يرجى #إبلاغنا عنه.</string>
+    <string name="pp_copyright_notice_hint_line2">تم النشر بواسطة %s بتفويض %s.</string>
+    <string name="pp_copyright_notice_hint_line3">© جميع الحقوق محفوظة.</string>
+    <string name="pp_new">جديد</string>
+    <string name="pp_team">فريق</string>
+    <string name="pp_connect_googleplay_fail">حدث خطأ في خدمات Google Play. يرجى مسح ذاكرة التخزين المؤقت في Google Play أو تسجيل الدخول مرة أخرى إلى حساب Google الخاص بك والمحاولة مرة أخرى!</string>
+    <string name="pp_close">إغلاق</string>
+    <string name="start_reading">بدء القراءة</string>
+    <string name="pp_skip">تخطي %d</string>
+    <string name="georgia">جورجيا</string>
+    <string name="search_books">البحث عن الكتب</string>
+    <string-array name="day_arr">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+    <string name="app_wallet">المحفظة</string>
+
+    <string name="pp_pending_retry_tip">إذا استمر عدم ظهوره في حسابك بعد فترة، أو إذا واجهت أي مشكلات، فيرجى التواصل مع #خدمة_العملاء# للحصول على المساعدة.</string>
+    <string name="pp_reward_feedback_hint">إذا كان لديك أي مشاكل، يرجى ترك #ملاحظاتك# في مركز المساعدة.</string>
+    <string name="pp_retry">أعد المحاولة</string>
+    <string name="error_request_tip">فشل الطلب، يرجى المحاولة مرة أخرى في وقت لاحق.</string>
+    <string name="book_load_error">خطأ في تحميل الكتاب، يرجى تجربة كتاب آخر.</string>
+    <string name="daily_check_disable_tip">عد غدًا لتسجيل الوصول والمطالبة بمكافأتك.</string>
+    <string name="pp_notice">يلاحظ</string>
+    <string name="del_account_note">لا يمكن التراجع عن هذا الإجراء. يرجى تأكيد المعلومات التالية قبل حذف الحساب</string>
+    <string name="del_account_title1">1. لن تتمكن من إعادة تنشيط حسابك</string>
+    <string name="del_account_note1">بمجرد حذفه، لن تتمكن من تسجيل الدخول أو استخدام هذا الحساب مرة أخرى. من المستحيل استرجاع أو التصرف في أي كتب أو معلومات أو أصول تتعلق بالحساب المحذوف. حتى لو قمت بإعادة التسجيل، سيتم إنشاء حساب جديد تمامًا فقط.</string>
+    <string name="del_account_title2">2. سيتم مسح الممتلكات والمعلومات</string>
+    <string name="del_account_note2">سيتم اعتبار حذف الحساب بمثابة تخلي عن حقوق الحساب وأصوله. بما في ذلك المعلومات الشخصية والعملات المعدنية والمكافآت والقسيمة وبطاقة التعبئة والأصول الافتراضية الأخرى. يرجى التعامل مع كتبك ومعلوماتك وأصولك بشكل صحيح.</string>
+    <string name="del_account_title3">3. تسوية المنازعات</string>
+    <string name="del_account_note3">لا يمكنك حذف حسابك بنجاح، إذا كان به أي نزاعات لم يتم حلها، بما في ذلك على سبيل المثال لا الحصر، الشكاوى والبلاغات وما إلى ذلك.</string>
+    <string name="del_account_title4">4. حذف الوقت الفعال</string>
+    <string name="del_account_note4">ستتم مراجعة طلب الحذف وتمريره تلقائيًا في تمام الساعة 24:00 من اليوم الثلاثين. ولكن يمكنك تسجيل الدخول عبر حساب جهة خارجية لإنهاء العملية قبل الانتهاء منها.</string>
+    <string name="read_del_account_notice_note">لقد قرأت المعلومات المذكورة أعلاه وأدركت أنه لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="pp_del_account">حذف الحساب</string>
+    <string name="pp_cancel_del_account">إلغاء حذف الحساب</string>
+    <string name="pp_cancel_del_account2">إلغاء حذف الحساب</string>
+    <string name="pp_cancel_del_account_hint">الحساب قيد المراجعة للحذف. هل أنت متأكد أنك تريد إلغاء الحذف؟</string>
+    <string name="del_account_submitted">تم تقديم طلب حذف الحساب.</string>
+    <string name="del_account_confirm_time">ستتم مراجعة هذا الطلب والموافقة عليه تلقائيًا في %s.</string>
+    <string name="del_account_terms_read_hint">يرجى التأكد من تحديد اتفاقية حذف الحساب.</string>
+    <string name="account_in_normal_state_hint">الحساب في حالة طبيعية.</string>
+    <string name="account_deleted_hint">تم حذف الحساب.</string>
+    <string name="account_deleting_hint">جاري معالجة حذف الحساب، يرجى عدم المحاولة مرة أخرى.</string>
+    <string name="account_delete_action_confirm">تم إرسال حذف الحساب بنجاح.</string>
+    <string name="pp_attention">انتباه</string>
+    <string name="pp_account_deleted_hint">تم اكتشاف حسابك على أنه محذوف. تم تخصيص حساب جديد لك، وسيتم إعادة تشغيل التطبيق تلقائيًا لتتمكن من البدء في استخدامه.</string>
+    <string name="pp_think_again">فكر مرة اخرى</string>
+
+    <string name="pp_confirm">يتأكد</string>
+    <string name="del_account_cancel_success_hint">لقد قمت بإلغاء حذف الحساب بنجاح.</string>
+    <string name="chapter_not_exist">الفصل غير موجود.</string>
+    <string name="recharge_pedding_hint">لديك %d عملية تعبئة غير مكتملة.</string>
+    <string name="pp_friendly_reminder">تذكير ودي</string>
+    <string name="pp_restore_reminder_content">بعد النقر على زر \'استعادة\'، يرجى التحلي بالصبر. إذا لم تظهر عملية إعادة الشحن في حسابك بعد فترة، أو إذا واجهت أي مشكلات، فلا تتردد في الاتصال بخدمة العملاء لدينا. نحن دائما هنا لمساعدتك!</string>
+    <string name="pp_report_immediately">الإبلاغ على الفور</string>
+    <string name="pp_payment_error">خطأ الدفع</string>
+    <string name="pp_payment_error_hint">لا يدعم Google Pay الشراء الخاص بك حاليًا. يرجى تجربة استخدام طريقة دفع بديلة.</string>
+    <string name="pp_switch_payment">اختر طريقة أخرى</string>
+    <string name="pp_operate_frequent_tip">العملية متكررة جدًا، يرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="pp_valid">صالح</string>
+    <string name="pp_invalid">غير صالح</string>
+    <string name="pp_received_time">وقت الاستلام:</string>
+    <string name="pp_expired_date">تاريخ انتهاء الصلاحية:</string>
+    <string name="pp_chapter">الفصل</string>
+    <string name="pp_rules">قواعد</string>
+    <string name="pp_rules_check_in_title">1. قواعد تسجيل الوصول</string>
+    <string name="pp_rules_check_in_content">يمكنك كسب مكافآت عن طريق تسجيل الدخول كل يوم. يتم منح مكافآت إضافية عند تسجيل الوصول الثالث والسابع على التوالي. ستؤدي عمليات تسجيل الوصول المتقطعة إلى فقدان المكافآت لذلك اليوم.</string>
+    <string name="pp_rules_novice_title">2. مهام المبتدئين</string>
+    <string name="pp_rules_novice_content">أكمل مهام المبتدئين لتحصل على المكافأة المقابلة.</string>
+    <string name="pp_rules_daily_title">3. المهام اليومية</string>
+    <string name="pp_rules_daily_content">عند إكمال المهام اليومية، انقر فوق الزر "مطالبة" للمطالبة بالمكافأة. يتم تحديث هذه المهمة من وقت لآخر. إذا كانت هناك مشكلات تتعلق بتوزيع المكافآت بسبب التحديثات، فيرجى ترك تعليقاتك على صفحتي.</string>
+    <string name="pp_rules_reward_rule_title">4. قواعد المكافأة</string>
+    <string name="pp_rules_reward_rule_content">المكافأة هنا صالحة لمدة 7 أيام. 1 مكافأة = 1 عملة. سيتم خصم المكافآت أولاً عند فتح الفصول.</string>
+    <string name="pp_day">يوم</string>
+    <string name="net_connect_tip">خطأ في الشبكة، يرجى المحاولة مرة أخرى في وقت لاحق.</string>
+    <string name="pp_library_login_hint">سجل الدخول الآن واستمتع بمزايا مجانية حصرية للوافد الجديد</string>
+    <string name="pp_merge_assets_hint">الأصول في <Data><![CDATA[ <b>%s</b> ]]> </Data> التطبيق سيتم استخدامها بشكل طبيعي في <Data><![CDATA[ <b>%s</b> ]]> </Data> التطبيق. يرجى الانتباه إلى التغييرات في أصولك.</string>
+    <string name="pp_merge_assets_hint_coin">الأصول في <Data><![CDATA[ <b>%s</b> ]]> </Data> تشمل الكتب في الرف، %s عملات و %s مكافآت.</string>
+    <string name="pp_merge_assets_hint_account">الحساب المقابل لدمج الأصول تحت حساب %s في <Data><![CDATA[ <b>%s</b> ]]> </Data> التطبيق.</string>
+    <string name="pp_merge_account_success">تم دمج الحساب بنجاح!</string>
+    <string name="pp_merge_account_fail">فشل دمج الحساب!</string>
+    <string name="pp_reward_signin_hint">قم بتسجيل الدخول واستمتع بمزيد من الفوائد المجانية</string>
+    <string name="pp_sign_in">تسجيل الدخول</string>
+    <string name="pp_pay_sign_hint">لضمان أقصى درجات الأمان لحسابك وبياناتك، يرجى تسجيل الدخول إلى حسابك؛ عدم القيام بذلك قد يؤدي إلى خسائر محتملة!</string>
+    <string name="pp_pay_sign_cancel">تجاهل واستمر</string>
+    <string name="pp_login_unlock_benefit">لإلغاء قفل المزيد من الميزات والفوائد</string>
+    <string name="pp_login_earn_bonus">احصل على مكافأة</string>
+    <string name="pp_sign_in_continue">سجل الدخول للمتابعة</string>
+    <string name="pp_reader_sign_warning">حسابك في خطر. يرجى تسجيل الدخول على الفور من أجل أمان الحساب والبيانات.</string>
+    <string name="pp_verify_email">التحقق من البريد الإلكتروني</string>
+    <string name="pp_link_email_hint">اربط بريدك الإلكتروني لتحصل على مكافأة مجانية</string>
+    <string name="pp_email_address">عنوان البريد الإلكتروني</string>
+    <string name="pp_verification_code">رمز التحقق</string>
+    <string name="pp_code_send_hint">تم إرسال رمز التحقق</string>
+    <string name="pp_resend_code">(%d)إعادة الإرسال</string>
+    <string name="pp_verification_code_send_successful">تم إرسال رمز التحقق، يرجى التحقق من بريدك الإلكتروني.</string>
+    <string name="pp_already_bind_hint">تم ربط حساب هذا التطبيق بحسابات أخرى على النظام الأساسي #%s#.</string>
+    <string name="pp_more_login_methods">المزيد من طرق تسجيل الدخول</string>
+    <string name="pp_switch_account">تبديل الحساب</string>
+    <string name="pp_switch_account_hint">تم ربط طريقة تسجيل الدخول هذه بحساب آخر، هل تريد تبديل الحساب ودمج أصولك؟</string>
+    <string name="pp_reminder">تذكير</string>
+    <string name="pp_email_code_expire">رمز التحقق غير صالح!</string>
+    <string name="pp_email_code_error">خطأ في رمز التحقق!</string>
+    <string name="pp_preference_setting">إعدادات التفضيلات</string>
+    <string name="pp_select_tag_hint">حدد العلامات لتوصيك بالكتب بدقة أكبر</string>
+    <string name="pp_skip2">تخطي</string>
+    <string name="pp_reading_preference">تفضيلات القراءة</string>
+    <string-array name="ranking_left_tab">
+        <item>الأفضل</item>
+        <item>ساخن</item>
+        <item>واعدة</item>
+        <item>جديد</item>
+        <item>مكتمل</item>
+    </string-array>
+    <string name="app_hot">حار</string>
+    <string name="app_new">جديد</string>
+    <string name="app_read_guide_gesture_hint">اسحب هذه المنطقة لأعلى ولأسفل لتقليب الصفحات</string>
+    <string name="unlock_now">افتح الآن</string>
+    <string name="books_on_auto_purchase">الكتب على الفتح التلقائي</string>
+    <string name="unlock_successful">الفتح ناجح</string>
+    <string name="unlock_fail">فشل الفتح</string>
+    <string name="top_up_failed">فشل التعبئة</string>
+    <string name="top_up_cancel">تم إلغاء التعبئة</string>
+    <string name="payment_recharge_error">لقد واجهنا مشكلة تتعلق بدفعتك. لإصلاح المشكلة بسرعة:\n1. افتح جوجل بلاي. \n2. انتقل إلى المدفوعات &#038; الاشتراكات. \n3. حدد الميزانية &#038; تاريخ. \n4. قم بإلغاء الطلب، أو تغيير مبلغ الدفع، أو اختيار طريقة دفع مختلفة.</string>
+    <string name="payment_recharge_error_other">لقد واجهنا مشكلة تتعلق بدفعتك. لإصلاح المشكلة بسرعة:\n1. افتح %s. \n2. الغي الطلب. \n3. قم بتغيير مبلغ الدفع أو استخدم طريقة دفع مختلفة.</string>
+    <string name="payment_window_bottom_tip">إذا واجهت أية مشكلات، فيرجى التواصل مع #خدمة_العملاء# للحصول على المساعدة.</string>
+    <string name="payment_bottom_ignore">تجاهل</string>
+    <string name="payment_pending_title">الإعادة قيد التقدم</string>
+    <string name="payment_pending_content">الإعادة تتم المعالجة وقد تتأخر من 5 إلى 10 دقائق.</string>
+    <string name="payment_pending_button">التسريع</string>
+    <string name="payment_pending_accelerating">جارٍ التسارع…</string>
+    <string name="payment_pending_keep">واصل الانتظار</string>
+    <string name="payment_pending_shoose_other">لا يزال طلبك قيد المعالجة. الأمر يستغرق وقتًا أطول من المعتاد. يرجى الانتظار قليلاً. إذا لم يتم الدفع قريبًا، يمكنك تجربة طريقة أخرى.</string>
+    <string name="top_up_successful">تم بنجاح تعبئة الرصيد</string>
+    <string name="have_incomplete_payment">لديك أمر دفع غير مكتمل، الرجاء تجربة مبلغ دفع مختلف أو اختيار طريقة دفع أخرى.</string>
+    <string name="pending_clicking_frequently">محاولات كثيرة جدًا، يرجى المحاولة مرة أخرى في وقت لاحق.</string>
+    <string name="order_processing">معالجة الطلب</string>
+    <string name="proceed_cancel_order_hint">سوف يؤدي الإلغاء إلى مقاطعة أي عمليات دفع غير مكتملة.</string>
+    <string name="cancel_order_feedback_title">إلغاء؟ أخبرنا لماذا</string>
+    <string name="cancel_order_feedback_subtitle">ملاحظاتك تساعدنا على التحسين.</string>
+    <string name="payment_not_working">طريقة الدفع لا تعمل</string>
+    <string name="price_too_high">السعر مرتفع جدا</string>
+    <string name="pick_wrong_product">اخترت المنتج الخاطئ</string>
+    <string name="payment_page_slow">صفحة الدفع بطيئة جدا</string>
+    <string name="change_mind">غيرت رأيي / أخرى</string>
+    <string name="other_reason_share">(اختياري) أسباب أخرى؟ يرجى المشاركة.</string>
+    <string name="load_failed">فشل التحميل، اضغط لإعادة المحاولة</string>
+    <string name="load_end">لا يوجد المزيد~</string>
+    <string name="other_payment_methods">طرق دفع أخرى</string>
+    <string name="select_payment_method">اختر طرق الدفع</string>
+    <string name="payment_unavailable_attention">طريقة الدفع غير متاحة. يرجى المحاولة باستخدام طريقة دفع بديلة.</string>
+    <string name="login_welcome">مرحبًا بك في %s</string>
+    <string name="login_other_methods">طرق تسجيل الدخول الأخرى</string>
+
+    <string name="help_feedback">المساعدة والتعليقات</string>
+    <string name="faq">FAQ</string>
+    <string name="recharge_not_receive_q">ماذا يجب أن أفعل إذا كانت عملية الشحن ناجحة لكن لم أستلم العملات؟</string>
+    <string name="recharge_not_receive_a">
+        يرجى التأكد من أن المعاملة المصرفية قد تمت بنجاح وإذا تم خصم المدفوعات. إذا تم خصم المدفوعات بنجاح، يرجى إعادة فتح التطبيق للتحقق مما إذا كان المحفظة وسجل المعاملات قد تم تحديثهما.
+        \n\n
+        ملاحظات هامة:
+        \n\n
+        · تأكد من أنك مسجل الدخول بنفس الحساب الذي تم استخدامه لإجراء عملية الشحن. في بعض الأحيان، قد ينسى المستخدمون بيانات الدخول الخاصة بهم ويقومون بالشحن كزوار.
+        \n\n
+        · وفقًا لعملية المعاملة، قد يستغرق الأمر بعض الوقت حتى يتم إضافة العملات بعد الدفع الناجح. قد يختلف وقت المعالجة حسب طريقة الدفع. نوصي بالانتظار لمدة 10 دقائق بعد إتمام الدفع للتحقق مما إذا كان المحفظة وسجل المعاملات قد تم تحديثهما.
+        \n\n
+        إذا لم تعمل الطرق السابقة، يرجى الاتصال بنا من خلال "التعليقات" لمساعدتنا في حل المشكلة بسرعة.
+    </string>
+    <string name="cannot_complete_payment_q">لا أستطيع إتمام الدفع؟</string>
+    <string name="cannot_complete_payment_a">
+        · إذا ظهرت رسالة خطأ في المتجر، يرجى التحقق مما إذا كانت الشبكة تعمل بشكل طبيعي. يمكنك محاولة تغيير بيئة الشبكة، مثل استخدام شبكة WiFi مختلفة.
+        \n\n
+        · بالإضافة إلى ذلك، إذا لم تقم بتسجيل الدخول بنجاح إلى حسابات Google وApple على جهازك، فقد تحدث هذه المشكلة أيضًا.
+        \n\n
+        · إذا لم تحل الطرق السابقة مشكلتك، يرجى تزويدنا بالتعليقات حول المشكلة التي واجهتها.
+    </string>
+    <string name="refund_payment_q">هل يمكنني طلب استرداد بعد إتمام الدفع؟</string>
+    <string name="refund_payment_a">
+        لا تدعم الخدمة حاليًا الاسترداد. يمكن استخدام العملات والمكافآت لفتح الفصول.
+    </string>
+    <string name="disable_automatic_purchase_q">كيف يمكنني تعطيل وظيفة الشراء التلقائي؟</string>
+    <string name="disable_automatic_purchase_a">يمكنك تعطيلها من خلال "حسابي"/"المحفظة"/"الكتب التي يتم فتحها تلقائيًا".</string>
+    <string name="view_unlock_chapter_history_q">كيف يمكنني عرض تاريخ فتح فصولي؟</string>
+    <string name="view_unlock_chapter_history_a">يمكنك التحقق من ذلك من خلال "حسابي"/"المحفظة"/"سجل الاستهلاك".</string>
+    <string name="get_coins_bonus_q">كيف يمكنني الحصول على العملات والمكافآت؟</string>
+    <string name="get_coins_bonus_a">يمكنك الحصول على العملات والمكافآت من خلال فعاليات الشحن، والمشاركة في المهام في مركز الرفاهية لكسب المكافآت. يرجى ملاحظة أن العملات يمكن الحصول عليها فقط من خلال الشحن.</string>
+    <string name="difference_coins_bonus_q">ما هو الفرق بين العملات والمكافآت؟</string>
+    <string name="difference_coins_bonus_a">
+        · يمكن استخدام كل من العملات والمكافآت لفتح الفصول.
+        \n\n
+        · للمكافآت فترة صلاحية. يمكنك التحقق من فترة صلاحية المكافأة في "تاريخ المكافآت" في "المحفظة".
+    </string>
+    <string name="check_user_id_q">كيف يمكنني التحقق من رقم المستخدم الخاص بي؟</string>
+    <string name="check_user_id_a">
+        حساب الضيف:
+        \n
+        1. انقر على "صفحة حسابي".
+        \n
+        2. ستجد سلسلة من الأرقام على الجانب الأيمن من الصورة الرمزية.
+        \n\n\n
+        حساب مرتبط:
+        \n
+        1. انقر على "صفحة حسابي".
+        \n
+        2. انقر على الصورة الرمزية في الأعلى لفتح صفحة جديدة.
+        \n
+        3. ستجد سلسلة من الأرقام تحت الصورة الرمزية.
+    </string>
+    <string name="assets_synchronize_q">هل سيتزامن الأصول عند تسجيل الدخول على أجهزة مختلفة؟</string>
+    <string name="assets_synchronize_a">
+        يمكنك مزامنة أصولك بسرعة عن طريق تسجيل الدخول بنفس الحساب. إليك الطريقة:
+        \n\n
+        · حدد جهازك السابق وسجل الدخول باستخدام حساب طرف ثالث (مثل Google أو Facebook).
+        \n\n
+        · تذكر رقم تعريف المستخدم وكلمة المرور الخاصة بحسابك.
+        \n\n
+        · سجل الدخول بنفس الحساب على جهازك الجديد.
+        \n\n
+        · تأكد من أن رقم تعريف المستخدم يتطابق مع ما سجلته.
+        \n\n
+        لضمان حفظ تقدمك، نوصي بإكمال قراءتك على الجهاز القديم قبل الانتقال إلى الجهاز الجديد.
+    </string>
+    <string name="categories">الفئات</string>
+    <string name="recharge_issues">مشاكل الشحن</string>
+    <string name="coin_bonus_issues">مشاكل العملات والمكافآت</string>
+    <string name="chapter_unlock_issues">مشاكل فتح الفصول</string>
+    <string name="book_issues">مشاكل فتح الفصول</string>
+    <string name="account_issues">مشاكل الحساب</string>
+    <string name="other">أخرى</string>
+
+    <string name="error_code3_a">بالنسبة لهذه الرموز الخطأ، نوصي بتحديث خدمات Google Play أو استخدام طريقة دفع بديلة.</string>
+    <string name="coins_bonus_reduce_a">
+        · قد تكون قد قمت بتسجيل الدخول إلى حساب مختلف. يرجى التحقق من تاريخ استلام المكافآت لمعرفة ما إذا كان هناك سجل متتابع.
+        \n\n
+        · هناك طرق تسجيل دخول مختلفة، مثل Facebook و Google وعنوان البريد الإلكتروني. إذا لم تسجل الدخول باستخدام أي من الحسابات المذكورة، سيكون جهازك قد دخل بحساب زائر. يمكنك عرض حسابك في صفحة "حسابي".
+        \n\n
+        · إذا كان مكافأتك قد نقصت، يمكنك أولاً التحقق من سجلات المكافآت الخاصة بك؛ إحدى الاحتمالات هي أن جزءًا من المكافأة قد انتهت صلاحيته.
+        \n\n
+        · قد تكون قد قمت بإعداد الفتح التلقائي. يرجى التحقق من سجلات فتح الفصول الخاصة بك لمعرفة ما إذا كنت قد أنفقت بعض العملات أو المكافآت.
+        \n\n
+        · إذا لم تحل الطرق السابقة مشكلتك، يرجى إرسال المشكلة لنا من خلال "التعليقات".
+    </string>
+
+    <string name="check_bonus_usage_history">يمكنك عرض تاريخ استهلاك المكافآت أو العملات في "حسابي"/"المحفظة"/"سجل الاستهلاك".</string>
+
+    <string name="unlock_chapter_a">ندعم كل من فتح الفصول الفردية وفتح الفصول بالجملة. يمكنك الاختيار وفقًا لاحتياجاتك. سيتطلب الفتح استخدام العملات أو المكافآت. إذا كانت رصيد عملاتك أو مكافآتك غير كافية، فستحتاج إلى إعادة الشحن.</string>
+
+    <string name="unable_next_chapter_a">
+        · تأكد من أن الاتصال بشبكة الإنترنت جيد. يوصى بتبديل الشبكات ثم المحاولة مرة أخرى.
+        \n\n
+        · تأكد من أن لديك ما يكفي من العملات أو المكافآت.
+    </string>
+
+    <string name="grammar_spell_error_a">يرجى الاتصال بنا من خلال "التعليقات" وتقديم عنوان الكتاب وأسماء الفصول لمساعدتنا في حل المشكلة بسرعة.</string>
+    <string name="violent_insult_content_a">يرجى الاتصال بنا من خلال "التعليقات" وتقديم عنوان الكتاب وأسماء الفصول. سنتعامل مع الأمر.</string>
+    <string name="paid_book_pay_again_a">الكتب التي تشتريها ستظل دائمًا ملكك. إذا قمت بحذف أي كتب تم شراؤها، يمكنك استعادتها من خلال "حسابي"/"تمت مشاهدته".</string>
+    <string name="bookshelf_coin_assets_disappeared_a">يحدث هذا عادةً عند تسجيل الدخول باستخدام حسابات أو أجهزة مختلفة. يرجى التأكد من أنك تسجل الدخول باستخدام حسابك المعتاد. إذا استمرت المشكلة، يرجى الاتصال بنا للحصول على المساعدة عبر "التعليقات".</string>
+    <string name="login_del_account_a">
+        تسجيل الدخول:
+        \n
+        1. انقر على "صفحة حسابي"
+        \n
+        2. انقر على "الصورة الرمزية"
+        \n
+        3. اختر "طريقة تسجيل الدخول" المفضلة لديك
+        \n\n\n
+        حذف الحساب:
+        \n
+        1. انقر على "صفحة حسابي"
+        \n
+        2. انقر على "الإعدادات"
+        \n
+        3. انقر على "حذف الحساب"
+    </string>
+    <string-array name="issues_category_item">
+        <item>مشاكل الشحن</item>
+        <item>مشاكل العملات والمكافآت</item>
+        <item>مشاكل فتح الفصول</item>
+        <item>مشاكل الكتب</item>
+        <item>مشاكل الحساب</item>
+        <item>أخرى</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>ماذا يجب أن أفعل إذا كانت عملية الشحن ناجحة لكن لم أستلم العملات؟</item>
+        <item>لا أستطيع إتمام الدفع؟</item>
+        <item>رمز الخطأ 3</item>
+        <item>هل يمكنني طلب استرداد بعد إتمام الدفع؟</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>كيف يمكنني الحصول على العملات والمكافآت؟</item>
+        <item>عملاتي أو مكافآتي مفقودة أو تم تقليصها</item>
+        <item>ما هو الفرق بين العملات والمكافآت؟</item>
+        <item>كيف يمكنني التحقق من تاريخ استخدام مكافآتي؟</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>كيف يمكنني فتح الفصول؟</item>
+        <item>كيف يمكنني عرض تاريخ فتح فصولي؟</item>
+        <item>كيف يمكنني تعطيل وظيفة الشراء التلقائي؟</item>
+        <item>لا أستطيع قراءة الفصل التالي؟</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>العديد من المحتويات مكررة وتحتوي على أخطاء لغوية أو إملائية.</item>
+        <item>يحتوي على محتوى عنيف، مسيء، وغير لائق.</item>
+        <item>إذا قمت بحذف كتاب مدفوع من رف الكتب الخاص بي، هل أحتاج إلى الدفع مرة أخرى؟</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>كيف يمكنني التحقق من رقم المستخدم الخاص بي؟</item>
+        <item>كيف يمكنني تسجيل الدخول/حذف الحساب؟</item>
+        <item>هل سيتزامن الأصول عند تسجيل الدخول على أجهزة مختلفة؟</item>
+        <item>اختفت سجلات رف الكتب وأصول العملات الذهبية؟</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>يرجى الاتصال بنا من خلال "التعليقات" لمساعدتنا في حل المشكلة بسرعة.</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">لا تزال لا تستطيع حل المشكلة؟ انقر على #التعليقات#</string>
+
+
+    <!-- 阿拉伯语 -->
+    <string name="total">الإجمالي: %d</string>
+    <string name="subscription_get_coins_bonus">احصل على %d عملة و %d مكافأة</string>
+    <string name="subscription_login_bonus">سجل الدخول لمدة %d أيام للحصول على %d مكافآت</string>
+    <string name="per_week">/الأسبوع</string>
+    <string name="details">التفاصيل</string>
+    <string name="subscription_in_effect">ساري المفعول</string>
+    <string name="subscription_date">تاريخ الانتهاء: %s</string>
+    <string name="subscription_get_coins">احصل على %d قطعة نقدية</string>
+
+    <string name="subscription">اشتراكي</string>
+    <string name="subscription_rewards">مكافآت الاشتراك</string>
+    <string name="subscription_bonus">+%d مكافأة</string>
+    <string name="subscription_success">تم الاشتراك بنجاح</string>
+
+    <string name="subscription_claim_title">المطالبة بمكافآت الاشتراك</string>
+    <string name="days">يوم %d</string>
+    <string name="claim_success">تمت المطالبة بنجاح</string>
+    <string name="claim_fail">فشل المطالبة</string>
+
+
+    <string name="subscribe_tips1">1. سيتم خصم تكلفة الشراء من حساب الدفع الخاص بك.</string>
+    <string name="subscribe_tips2">2. سيتم تجديد اشتراكك تلقائيًا. يتم خصم الاشتراكات تلقائيًا لكل فترة فوترة، سواء كانت شهرية أو فترة أخرى. قد يتم الخصم قبل 24 ساعة من بداية كل فترة فوترة حتى تلغي الاشتراك.</string>
+    <string name="subscribe_tips3">3. يمكنك إلغاء الاشتراك في أي وقت قبل أكثر من 24 ساعة من تاريخ التجديد.</string>
+    <string name="subscribe_tips4">4. فترة صلاحية المكافأة المقدمة عند الشحن هي %d أيام.</string>
+    <string name="subscribe_tips5">5. يتم توزيع المكافأة على مدار سبعة أيام، وأي مكافآت غير مستلمة بعد انتهاء الصلاحية لا يمكن استردادها.</string>
+    <string name="subscribe_tips6">6. العملات والمكافآت لها نفس القيمة، والمكافآت غير المنتهية هي عناصر افتراضية ولا ندعم استرداد الأموال.</string>
+    <string name="subscribe_tips7">7. تحتاج إلى مساعدة؟ يرجى مراجعة #التعليمات#.</string>
+
+
+    <string name="subscribe_rules">1. ستحصل على %s عملة و %s مكافأة فور الاشتراك.\n2. سجل الدخول لمدة %s يومًا متتاليًا للحصول على %sd مكافأة، أي %s مكافأة يوميًا.\n3. يمكنك التحقق من المكافآت الإضافية في محفظتك بعد الاشتراك.</string>
+    <string name="subscribe_success_tip">لقد حصلت على %d عملة و %d مكافأة. يمكنك المطالبة بـ %d مكافأة يوميًا.</string>
+
+    <string name="subscribe_pay_title">اتفاقية الاشتراك</string>
+    <string name="subscribe_pay_tip1_title">1. الدفع:</string>
+    <string name="subscribe_pay_tip1_content">سيتم خصم تكلفة الشراء من حساب الدفع الخاص بك.</string>
+    <string name="subscribe_pay_tip2_title">2. التجديد:</string>
+    <string name="subscribe_pay_tip2_content">سيتم تجديد اشتراكك تلقائيًا. يتم فرض رسوم الاشتراك تلقائيًا في كل فترة فوترة، سواء كانت شهرية أو لفترة أخرى. قد يتم تحصيل الرسوم منك قبل 24 ساعة كحد أقصى من بداية كل فترة فوترة حتى تقوم بإلغاء اشتراكك.</string>
+    <string name="subscribe_pay_tip3_title">3. الإلغاء:</string>
+    <string name="subscribe_pay_tip3_content">يمكنك إلغاء الاشتراك في أي وقت قبل 24 ساعة على الأقل من تاريخ التجديد. لإلغاء الاشتراك، يرجى الانتقال إلى منصة الدفع.</string>
+    <string name="subscribe_pay_tip4_title">4. إدارة اشتراكاتك:</string>
+    <string name="subscribe_pay_tip4_content">يمكنك عرض أو تغيير أو إلغاء اشتراكاتك.</string>
+
+    <string name="subscribe_out_of_date">انتهت صلاحية الاشتراك!</string>
+
+    <string name="pp_got_it">فهمت</string>
+    <string name="got_it">فهمت</string>
+    <string name="pp_get">فهمت</string>
+
+    <string name="pp_submit">إرسال</string>
+    <string name="pp_submitted">تم الإرسال</string>
+    <string name="pp_submit_fail">فشل الإرسال</string>
+
+
+    <string name="admob_watch_ad_add_tip">شاهد الإعلانات +%s مكافأة</string>
+    <string name="admob_loading_tip">يتم تحميل الإعلان، يرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="admob_waiting_count_down">تابع مشاهدة الإعلان بعد العد التنازلي</string>
+
+    <string name="bonus">المكافآت</string>
+    <string name="bonus_value"> %d المكافآت</string>
+    <string name="bonus_ad_claimed">تم استلام %d مكافأة</string>
+
+    <string name="admob_watch_tip">شاهد الإعلانات لكسب المكافآت</string>
+    <string name="admob_earn_bonus_tip">احصل على %d مكافأة عن كل إعلان تشاهده</string>
+    <string name="admob_watch_count_tip">مشاهدة الإعلان %d/%d</string>
+    <string name="admob_count_down_tip">شاهد الإعلان لاحقًا في %s</string>
+    <string name="admob_daily_desc">%d %d/%d نقاط مكافأة لكل إعلان فيديو مشاهد، تم إكمال</string>
+
+    <string name="usa_ad_privacy">تفضيلات الإعلانات</string>
+
+    <string name="member_benefits">مزايا العضوية المميزة</string>
+    <string name="unlimit_premium_books">قراءة مجانية غير محدودة لأكثر من 10,000 كتاب مميز</string>
+    <string name="weekly_access_books">الوصول الأسبوعي إلى أكثر من 200 كتاب حصري</string>
+    <string name="enjoy_add_free_experience">استمتع بتجربة خالية من الإعلانات</string>
+    <string name="premium_member_identity">هوية عضو مميز</string>
+    <string name="subscribe">اشترك</string>
+    <string name="unlimit_reading">قراءة غير محدودة!</string>
+    <string name="only_1499_price">فقط 14.99 دولار</string>
+    <string name="premium">مميز</string>
+    <string name="premium_first_week_discount">%s للأسبوع الأول، ثم %s/أسبوع</string>
+    <string name="premium_expire_date">تاريخ الانتهاء: %s</string>
+    <string name="discover_vip_price">فقط 14.99 دولار</string>
+    <string name="premium_daily_active_text">عضويتك اليومية نشطة</string>
+    <string name="premium_week_active_text">عضويتك الأسبوعية نشطة الآن.</string>
+    <string name="premium_month_active_text">عضويتك الشهرية مفعّلة.</string>
+    <string name="premium_year_active_text">عضويتك السنوية نشطة الآن.</string>
+    <string name="premium_expire_time">تنتهي في %s</string>
+    <string name="top_up_history">سجل التعبئة</string>
+    <string name="not_activated">غير مفعل</string>
+
+    <string name="vip_rules">
+        1. يمكن للمستخدمين المشتركين في البريميوم الوصول مجانًا إلى جميع الكتب الحصرية للبريميوم.
+        \n
+        2. الدفع: سيتم خصم تكلفة الشراء من حساب الدفع الخاص بك.
+        \n
+        3. التجديد: سيتم تجديد اشتراكك تلقائيًا. يتم خصم رسوم الاشتراك تلقائيًا في كل دورة فوترة، سواء كانت شهرية أو غير ذلك. قد يتم الخصم قبل 24 ساعة على الأكثر من بداية كل فترة فوترة حتى تقوم بإلغاء الاشتراك.
+        \n
+        4. الإلغاء: يمكنك إلغاء الاشتراك في أي وقت قبل أكثر من 24 ساعة من تاريخ التجديد. لإلغاء الاشتراك، يرجى التوجه إلى منصة الدفع.
+        \n
+        5. يتم الفوترة أسبوعيًا وصلاحية الاشتراك 7 أيام؛ يتم الفوترة سنويًا وصلاحية الاشتراك 365 يومًا.
+    </string>
+
+    <string name="vip_feedback_rule">
+        6. إذا كنت بحاجة إلى أي مساعدة أو لديك أي استفسارات، يرجى إعلامنا عبر #Feedback#.
+    </string>
+
+    <string name="unlock_watch_count">شاهد الإعلان لفتح (%d/%d)</string>
+    <string name="unlock_watch_title">شاهد الإعلان لفتح</string>
+    <string name="unlock_watch_desc">يمكنك فتح هذا الفصل بمشاهدة إعلان</string>
+    <string name="unlock_watch_now">شاهد الآن</string>
+    <string name="unlock_watch_chapter_count">يمكنك فتح %d فصول مجانًا اليوم (%d/%d) </string>
+
+    <string name="email_login_top">أدخل البريد الإلكتروني الذي استخدمته لحسابك</string>
+    <string name="email_address_enter_tip">أدخل عنوان بريدك الإلكتروني</string>
+    <string name="email_code_enter_tip">أدخل رمز التحقق</string>
+    <string name="email_send_code">إرسال الرمز</string>
+
+    <string name="facebook_link_title">ربط حساب فيسبوك</string>
+    <string name="facebook_link_content">اربط حسابك على فيسبوك للحصول على المزيد من العملات. لا تقلق، ستحتفظ بجميع تقدمك وبياناتك المرتبطة بهذا الحساب</string>
+
+    <string name="limit_time_title">عرض لفترة محدودة</string>
+    <string name="limit_time_content">اغتنم الفرصة الآن — أقل سعر على الإطلاق، لفترة محدودة فقط!</string>
+    <string name="limit_time_premium">قراءات القسم المميز</string>
+
+    <string name="subscribe_now">اشترك الآن</string>
+
+    <string name="transaction_ompleted">اكتملت العملية</string>
+    <string name="transaction_content">تم شراء العملات بنجاح. المكافأة صالحة لمدة 7 أيام.</string>
+
+    <string name="send_again">إرسال مرة أخرى</string>
+    <string name="ad_unlock">فتح الإعلان</string>
+
+    <string name="unlock_adv_used">تم استخدام فتح الإعلان. حاول مرة أخرى غدًا</string>
+    <string name="expiration_date">تاريخ الانتهاء:</string>
+    <string name="select_gender">اختر جنسك</string>
+    <string name="enter_nickname">أدخل اسمك المستعار…</string>
+    <string name="enter_email">أدخل بريدك الإلكتروني هنا…</string>
+    <string name="select_birthday">اختر تاريخ ميلادك</string>
+    <string name="enjoy_app_so_for">هل تستمتع بالتطبيق؟</string>
+    <string name="thank_for_support">شكرًا لدعمك!\nتقييم سريع يساعدنا كثيرًا.</string>
+    <string name="five_star">5 نجوم</string>
+    <string name="maybe_later">لاحقًا</string>
+    <string name="thank_help_improve">شكرًا لمساعدتنا!</string>
+    <string name="continue_bring_more_emotional">بفضلك نستمر في تقديم قصص ملهمة ومؤثرة.</string>
+    <string name="continue_reading">متابعة القراءة</string>
+
+
+    <string name="pay_premium_weekly_membership">عضوية أسبوعية</string>
+    <string name="pay_premium_monthly_membership">عضوية شهرية</string>
+    <string name="pay_save_value">وفّر %s%%</string>
+    <string name="pay_unlock_chapter_count">فتح %s فصول</string>
+    <string name="pay_coins">%s عملة</string>
+    <string name="pay_unlock_in_bulk">فتح دفعة واحدة</string>
+    <string name="top_up_now">اشحن الآن</string>
+    <string name="dont_waste_time">لا تضيع الوقت</string>
+    <string name="subscribe_unlock_tip">اشترك للفتح الفوري</string>
+    <string name="auto_renew_cancel_tip">تجديد تلقائي · إلغاء في أي وقت</string>
+    <string name="books_free_cycle">جميع الكتب مجانية لمدة %s واحد</string>
+    <string name="unlock_all_story">فتح جميع القصص</string>
+    <string name="premium_benefits">مزايا العضوية المميزة</string>
+    <string name="read_free">قراءة مجانية</string>
+    <string name="no_ads">بدون إعلانات</string>
+    <string name="early_access">وصول مبكر</string>
+    <string name="pay_premium_yearly_membership">العضوية السنوية</string>
+
+
+    <string name="pay_premium_daily_membership">العضوية اليومية</string>
+
+    <string name="pay_premium_free_for">جميع الكتب مجانية لمدة %s</string>
+    <string name="top_up_more">اشحن أكثر، وفّر أكثر</string>
+    <string name="premium_books_free">جميع الكتب مجانية للقراءة</string>
+    <string name="join_premium">انضم للعضوية</string>
+
+    <string name="subscription_now">اشترك الآن</string>
+    <string name="get_special_offer">احصل على عرض خاص!</string>
+
+    <string name="subscription_agreement">اتفاقية الاشتراك</string>
+    <string name="subscription_agreement_tips1">1. يمكن للمستخدمين الذين يشتركون في Premium الاستمتاع بالوصول المجاني إلى جميع الكتب.</string>
+    <string name="subscription_agreement_tips2">2. الدفع: سيتم خصم تكلفة الشراء من حساب الدفع الخاص بك.</string>
+    <string name="subscription_agreement_tips3">3. التجديد: سيتم تجديد اشتراكك تلقائيًا. يتم احتساب الاشتراكات تلقائيًا كل فترة فوترة، سواء كانت شهرية أو فترة أخرى. قد يتم فرض رسوم عليك قبل 24 ساعة على الأكثر من بداية كل فترة فوترة حتى تقوم بإلغاء اشتراكك.</string>
+    <string name="subscription_agreement_tips4">4. الإلغاء: يمكنك إلغاء الاشتراك في أي وقت قبل أكثر من 24 ساعة من تاريخ التجديد. لإلغاء الاشتراك، يرجى الذهاب إلى منصة الدفع.</string>
+
+    <string name="read_more">اقرأ المزيد، وفّر المزيد</string>
+    <string name="this_chapter">هذا الفصل</string>
+    <string name="my_wallet">محفظتي</string>
+
+    <string name="featured_collection">المجموعة المميزة</string>
+    <string name="book_catalog">فهرس الكتاب</string>
+    <string name="fold_up">طي</string>
+    <string name="choose_your_plan">اختر خطتك</string>
+    <string name="select_payment_method_2">اختر طريقة الدفع</string>
+    <string name="personalized_tip">توصيات مخصصة بناءً على التفضيلات</string>
+    <string name="money_back_tip">ضمان استرداد الأموال</string>
+    <string name="what_you_get">ما ستحصل عليه</string>
+    <string name="premium_center_recharge_tip">بالمتابعة، فإنك توافق على أن اشتراكك سيتم تجديده تلقائيًا. يتم خصم الاشتراكات تلقائيًا كل فترة فوترة، سواء كانت شهرية أو دورة أخرى. قد يتم خصم المبلغ قبل 24 ساعة من بداية كل فترة فوترة حتى تقوم بإلغاء اشتراكك. يمكنك معرفة المزيد عن سياسة الإلغاء والاسترداد في #شروط الاشتراك#.</string>
+    <string name="premium_pay_safe">الدفع آمن ومضمون</string>
+    <string name="premium_access">الوصول المميز</string>
+    <string name="unlock_unlimited_books">افتح كتبًا غير محدودة</string>
+
+    <string name="coins_with_bonus">%1$s %2$s \u200E+ \u200E%3$s %4$s</string>
+
+    <string name="day">يوم</string>
+    <string name="week">أسبوع</string>
+    <string name="month">شهر</string>
+    <string name="year">سنة</string>
+
+    <string name="per_day">/يوم</string>
+    <string name="per_month">/شهر</string>
+    <string name="per_year">/سنة</string>
+    <string name="sevel_month">/%d شهر</string>
+    <string name="limit_title_premium">كل الكتب مجانية للقراءة</string>
+    <string name="secure_payment">دفع آمن</string>
+    <string name="easy_cancellation">إلغاء سهل</string>
+    <string name="money_back_guarantee">ضمان استرداد الأموال</string>
+    <string name="subscription_renews_tip">بعد الفترة التمهيدية، يتم تجديد اشتراكك تلقائيًا بسعر الخطة المحددة. يمكنك الإلغاء في أي وقت.</string>
+    <string name="first_days">أول %d أيام</string>
+    <string name="then_price">ثم $%.2f</string>
+    <string name="only_price">فقط US$%.2f/يوم</string>
+
+    <string name="full_story">القصة الكاملة في انتظارك</string>
+    <string name="continue_read_unlock">واصل القراءة وافتح النهاية التي كنت تنتظرها.</string>
+
+    <string name="trust_readers">موثوق به من أكثر من 10M قارئ</string>
+    <string name="keep_reading">مواصلة القراءة</string>
+    <string name="no_Interruptions">بدون انقطاعات</string>
+    <string name="stories_num">أكثر من 10,000 قصة</string>
+    <string name="read_full_story">اقرأ القصة الكاملة</string>
+    <string name="without_limit">بلا حدود</string>
+    <string name="unlock_romance">افتح قصصًا غير محدودة من الرومانسية والفانتازيا والمستذئبين مع عرض القراء اليوم.</string>
+
+    <string name="save_percent">وفّر %d%%</string>
+
+    <string name="daily">يومي</string>
+    <string name="weekly">أسبوعي</string>
+    <string name="monthly">شهري</string>
+    <string name="yearly">سنوي</string>
+
+    <string name="cancel_anytime">يمكنك الإلغاء في أي وقت</string>
+    <string name="continue_story">متابعة قصتي</string>
+    <string name="next_chapter_waiting">الفصل التالي في انتظارك</string>
+
+    <string name="continue_read_long">تابع القصة الآن وافتح آلاف القصص المشابهة.</string>
+
+    <string name="read_full_stories">قراءة القصص كاملة</string>
+    <string name="start_short_reading">ابدأ القراءة بلا حدود</string>
+
+</resources>
+<!--
+    阿拉伯语
+!-->

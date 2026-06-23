@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        阅读器颜色
+-->
+<resources>
+
+    <!--阅读器的字体颜色-->
+    <color name="nb.read.font_1">#cc000000</color>
+    <color name="nb.read.font_2">#cc000000</color>
+    <color name="nb.read.font_3">#8a8884</color>
+    <color name="nb.read.font_4">#cc000000</color>
+    <color name="nb.read.font_5">#cc000000</color>
+    <color name="nb.read.bg.night">#000000</color>
+
+    <!--阅读器的背景颜色-->
+    <color name="nb.read.bg_1">#E3F7E4</color>
+    <color name="nb.read.bg_2">#FEE6D1</color>
+    <color name="nb.read.bg_3">#322e2b</color>
+    <color name="nb.read.bg_4">#FAFAFA</color>
+    <color name="nb.read.bg_5">#E0F1FB</color>
+    <color name="nb.read.font_night">#66ffffff</color>
+
+    <!--阅读器的字体切换器颜色-->
+    <color name="color_day_font_selected">@color/pp_color_333333</color>
+    <color name="color_day_font_unselect">@color/pp_color_999999</color>
+    <color name="color_night_font_selected">@color/pp_color_666666</color>
+    <color name="color_night_font_unselect">@color/pp_color_3E3E3E</color>
+
+    <color name="color_day_turn_type_selected">@color/pp_color_333333</color>
+    <color name="color_day_turn_type_unselect">@color/pp_color_999999</color>
+    <color name="color_night_turn_type_selected">@color/pp_color_666666</color>
+    <color name="color_night_turn_type_unselect">@color/pp_color_3E3E3E</color>
+
+
+    <!-- 扉页rating颜色-->
+    <color name="color_headpage_rating">@color/colorAccent</color>
+
+    <!-- 扉页rating icon 颜色-->
+    <color name="color_headpage_rating_icon">@color/colorAccent</color>
+
+    <!-- 阅读页面off字体颜色-->
+    <color name="color_read_off_text">@color/white</color>
+
+    <!-- 退出阅读器弹窗Renew颜色-->
+    <color name="color_exit_reader_renew">@color/colorAccent</color>
+
+    <!-- 退出阅读器弹窗阅读人数颜色-->
+    <color name="color_exit_reader_item_count">@color/colorAccent</color>
+
+
+    <!-- 目录页-区分当前阅读的position显示-->
+    <color name="color_chapter_title_select">@color/colorAccent</color>
+
+    <color name="color_book_detail_read_button">@color/white</color>
+
+    <color name="color_read_pop_text_night">@color/pp_color_666666</color>
+
+
+
+
+    <color name="color_bg_read_night">@color/black</color>
+
+    <color name="color_status_bar_menu_night">@color/pp_color_090909</color>
+
+    <color name="color_read_size_night">#EDEDED</color>
+    <color name="color_read_size">@color/pp_color_333333</color>
+
+    <color name="color_read_end_state_serial">@color/pp_color_FF6979</color>
+    <color name="color_read_end_state_finish">@color/pp_color_333333</color>
+
+
+    <color name="color_catalog_divider">@color/divider_line_color</color>
+    <color name="color_catalog_divider_night">@color/transparent</color>
+    <color name="color_catalog_book_name_night">@color/color_mix_white_050</color>
+    <color name="color_catalog_book_name">@color/pp_color_333333</color>
+    <color name="color_catalog_book_author_night">@color/color_mix_white_035</color>
+    <color name="color_catalog_book_author">@color/pp_color_999999</color>
+    <color name="color_catalog_book_update_night">@color/color_mix_white_030</color>
+    <color name="color_catalog_book_update">@color/pp_color_999999</color>
+
+
+
+
+
+</resources>

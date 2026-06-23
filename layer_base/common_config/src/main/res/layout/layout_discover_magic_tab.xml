@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:id="@+id/book_store_magic_tab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingHorizontal="10dp"
+        android:background="@color/color_store_bg"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:layout_height="40dp">
+        <View
+            android:id="@+id/discover_divider"
+            android:layout_marginTop="-2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_discover_top_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_discover_top_tab_line"
+            tools:layout_height="2dp"/>
+        <net.lucode.hackware.magicindicator.MagicIndicator
+            android:id="@+id/magic_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_store_height_nav_tab"
+            android:layout_alignParentBottom="true"
+            tools:background="@color/white"
+            />
+    </RelativeLayout>
+</layout>

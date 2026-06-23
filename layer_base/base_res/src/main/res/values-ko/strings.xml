@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    韩语
+!-->
+<resources>
+    <string name="loading">로딩 중...</string>
+    <string name="close_and_go_back">뒤로가기</string>
+    <string name="error_data_tip">문제가 발생했습니다. 다시 시도하려면 탭하세요</string>
+    <string name="error_empty_data_tip">데이터가 없습니다</string>
+    <string name="error_net_tip">네트워크 오류, 다시 시도하려면 탭하세요</string>
+    <string name="permisions_essential_tip">사용하려면 먼저 허가를 받으세요</string>
+    <string name="permisions_read_phone_tip">작동을 위해 허가를 받으세요</string>
+    <string name="permission_setting">설정</string>
+    <string name="permission_cancel">취소</string>
+    <string name="collapse">접기</string>
+    <string name="expand">펼치기</string>
+    <string name="nb_mode_night">야간 모드</string>
+    <string name="nb_mode_morning">주간 모드</string>
+    <string name="nav_bookshelf">도서관</string>
+    <string name="nav_discover">발견</string>
+    <string name="nav_bookshelf2">책장</string>
+    <string name="nav_featured">추천</string>
+    <string name="nav_mine">내 것</string>
+    <string name="nav_reward">보상</string>
+    <string name="nav_profile">프로필</string>
+    <string name="select_all">모두 선택</string>
+    <string name="done">완료</string>
+    <string name="delete">삭제</string>
+    <string name="clear_cache">캐시 지우기</string>
+    <string name="check_update">업데이트 확인</string>
+    <string name="contact_us">문의하기</string>
+    <string name="privacy">개인 정보 보호 정책</string>
+    <string name="agreement">서비스 약관</string>
+    <string name="joinedBookShelf">도서관에 추가되었습니다</string>
+    <string name="add_to_shelf_dlg_title">도서관에 추가하시겠습니까?</string>
+    <string name="add_to_shelf_dlg_content">이 책을 도서관에 추가하여 언제든지 읽을 수 있습니다</string>
+    <string name="add_to_shelf_dlg_cancel">취소</string>
+    <string name="add_to_shelf_dlg_confirm">추가</string>
+    <string name="hint_search_bookstore">검색</string>
+    <string name="become_author">작가 되기</string>
+    <string name="buy_sale">할인 구매</string>
+    <string name="free_start_read">읽기 시작</string>
+    <string name="pp_sex_boy_brief">남성</string>
+    <string name="pp_sex_girl_brief">여성</string>
+    <string name="pp_tip_none_photo">앨범 사진을 가져오지 못했습니다</string>
+    <string name="pp_history_search">검색 기록</string>
+    <string name="pp_tip_input_search_key">키워드를 입력하세요</string>
+    <string name="pp_clear_success">삭제됨</string>
+    <string name="pp_me">나</string>
+    <string name="pp_build_fail">빌드 실패</string>
+    <string name="pp_author">작가</string>
+    <string name="pp_note_id_null">노트 ID가 없습니다</string>
+    <string name="pp_login_fail">로그인 실패</string>
+    <string name="pp_collection_success">도서관에 추가되었습니다</string>
+    <string name="pp_please_check_network">네트워크 연결을 확인하세요</string>
+    <string name="pp_add_success">이 책이 도서관에 추가되었습니다</string>
+    <string name="pp_remove_success">이 책이 도서관에서 제거되었습니다</string>
+    <string name="pp_please_chose_one_book">먼저 책을 선택하세요</string>
+    <string name="pp_login_first">먼저 로그인하세요</string>
+    <string name="pp_pay_success">결제 성공</string>
+    <string name="pp_pay_cancel">결제 취소</string>
+    <string name="pp_pay_error">결제 오류</string>
+    <string name="pp_check_pay_fail">구매 확인 실패</string>
+    <string name="pp_tip">앱 갤러리 또는 브라우저를 먼저 설치하세요</string>
+    <string name="pp_copy_success">복사됨</string>
+    <string name="pp_save_fail">저장 실패</string>
+    <string name="pp_saved">저장됨</string>
+    <string name="pp_exit_app">종료하시겠습니까?</string>
+    <string name="pp_exit">종료</string>
+    <string name="pp_sure">확인</string>
+    <string name="pp_today_read">오늘 읽음</string>
+    <string name="pp_second_red_packet">분 후에 레드 패킷을 받습니다</string>
+    <string name="pp_after_ad_bye">광고 후에 더욱 흥미로워집니다.</string>
+    <string name="pp_time_error">시스템과 서버 사이의 시간 차이가 너무 큽니다. 시스템 시간을 보정하세요</string>
+    <string name="pp_about">앱 정보</string>
+    <string name="pp_notiy">팁</string>
+    <string name="pp_get_photo">사진 선택</string>
+    <string name="pp_affirm">확인</string>
+    <string name="pp_xml_wechat">위챗</string>
+    <string name="pp_xml_pyq">모멘트</string>
+    <string name="pp_xml_qq_space">QQ 공간</string>
+    <string name="pp_xml_text_11">로그아웃</string>
+    <string name="pp_xml_text_22">알림</string>
+    <string name="pp_xml_text_24">도움말 및 피드백</string>
+    <string name="pp_xml_text_35">인기 검색</string>
+    <string name="pp_xml_text_350">트렌딩</string>
+    <string name="pp_xml_text_39">열기</string>
+    <string name="pp_xml_text_40">닫기</string>
+    <string name="pp_xml_text_45">더 보기</string>
+    <string name="pp_xml_text_48">보기</string>
+    <string name="pp_xml_text_49">복사</string>
+    <string name="pp_xml_text_50">공유</string>
+    <string name="pp_xml_remove">삭제</string>
+    <string name="pp_xml_find_novel">책 찾기</string>
+    <string name="pp_xml_no_book">아직 도서관에 책을 추가하지 않았습니다.</string>
+    <string name="pp_remove_book_title">삭제하시겠습니까?</string>
+    <string name="pp_remove_book_content">도서관에서 책을 삭제하시겠습니까?</string>
+    <string name="pp_search_default_text">책 검색</string>
+    <string name="pp_search_no_data">결과가 없습니다.</string>
+    <string name="book_detail_start_reading">읽기 시작</string>
+    <string name="book_detail_adds">추가</string>
+    <string name="book_detail_views">조회수</string>
+    <string name="book_detail_rating">평점</string>
+    <string name="book_detail_report_msg">이 콘텐츠와 이미지는 작가 개인의 의견으로, %s과 관련이 없습니다. 질문이 있으시면 저희에게 #신고#해 주세요.</string>
+    <string name="login_view_tip">계속하면 #이용 약관#과 #개인 정보 처리 방침#에 동의하는 것입니다.</string>
+    <string name="pp_string_profile">프로필</string>
+    <string name="pp_string_gender">성별</string>
+    <string name="pp_string_birthday">생일</string>
+    <string name="pp_string_nickname">닉네임</string>
+    <string name="pp_string_email_address">이메일 주소</string>
+    <string name="pp_new_chapter">새로운 챕터</string>
+    <string name="pp_coming_soon">곧 출시</string>
+    <string name="pp_this_is_the">이것은</string>
+    <string name="pp_last_chapter">마지막 챕터</string>
+    <string name="pp_book_completed">완결</string>
+    <string name="pp_book_ongoing">연재 중</string>
+    <string name="pp_you_may_also_like">추천 도서</string>
+    <string name="pp_view_all">모두 보기</string>
+    <string name="pp_to_explore_more">더 알아보기</string>
+    <string name="pp_rather_not_say">알리기 원하지 않음</string>
+    <string name="pp_read">읽기</string>
+    <string name="pp_you_might_like">추천 도서</string>
+    <string name="pp_writer_about_des">%s은 작가들이 꿈을 펼칠 수 있는 무대를 제공하고 전 세계 독자들과 이야기를 공유할 수 있는 장소를 만들기 위해 노력합니다. 우리의 사명은 당신의 목소리가 들리게 하는 것입니다. 당신이 전할 이야기가 있다면, %s이 그 곳입니다!</string>
+    <string name="pp_writer_benefits">%s과 계약하는 작가들에게는 서명료, 작품 완결 보너스, 매일 업데이트 보상 및 추천 보너스 등 다양한 혜택을 제공합니다. 더 많은 혜택을 보려면 #여기#를 클릭하세요.</string>
+    <string name="pp_writer_tip0">글을 이메일로 보내세요:</string>
+    <string name="pp_writer_email">이메일: #leo@i%s.com#</string>
+    <string name="pp_writer_author">작가 센터: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">당신이 다음 베스트셀러 작가가 될 수 있습니다.</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">복사됨</string>
+    <string name="pp_problem_null_tip">문제 설명을 비워 둘 수 없습니다.</string>
+    <string name="pp_update_title">업데이트 가능</string>
+    <string name="pp_update_content">새로운 버전을 사용할 수 있습니다: 알려진 버그 수정 및 읽기 경험 최적화</string>
+    <string name="pp_update_button">지금 업데이트</string>
+    <string name="pp_download">다운로드</string>
+    <string name="pp_purchase">구매</string>
+    <string name="pp_purchase_tip">현재 챕터부터 시작하여 구매</string>
+    <string name="pp_download_auto_pay_tip">동시에 로컬로 다운로드</string>
+    <string name="pp_price">가격:</string>
+    <string name="pp_purchase_now">지금 구매</string>
+    <string name="pp_download_bottom_tip">이미 잠금 해제한 챕터에 대해서는 요금이 부과되지 않습니다.</string>
+    <string name="pp_top_up">충전</string>
+    <string name="pp_pay_now">지금 결제</string>
+    <string name="payment_method">결제 수단</string>
+    <string name="top_up_amount">충전 금액</string>
+    <string name="pp_pay_tip1">1. 보너스 = 1 코인. 챕터를 잠금 해제하면 보너스가 먼저 차감됩니다.</string>
+    <string name="pp_pay_tips1">팁:</string>
+    <string name="pp_pay_tip2">2. 귀하의 사용자 ID: #%s#. 재충전에 실패하거나 장기간 재충전에 실패하는 경우 복원을 클릭하여 해결할 수 있습니다(재충전할 필요 없음). 아니면 #피드백 질문#을 저희에게 직접 보내주세요.</string>
+    <string name="pp_pay_tip3">4. 도움이 필요하신가요? #FAQ#를 참조해주세요.</string>
+    <string name="pp_pay_tip4">3. 우리의 기본 결제 방법은 Google Play 결제 플랫폼입니다. Google Play는 통신사 청구, 신용 카드, 기프트 카드, Paypal 및 지갑 잔액을 지원합니다.</string>
+    <string name="pp_pay_tip5">5. 충전 시 선물로 지급되는 보너스의 유효 기간은 7일입니다.</string>
+    <string name="pp_pay_tip6">6. 코인과 보너스는 동일한 가치를 가지며, 유효 기간이 남아있는 보너스는 가상 아이템이므로 환불을 지원하지 않습니다.</string>
+    <string name="pp_pay_tip7">7. 계정의 디지털 자산의 보안을 보장하기 위해 제3자 계정인 Facebook 또는 Google 계정으로 코인을 구매하는 것을 권장합니다.</string>
+    <string name="thank_you">감사합니다!</string>
+    <string name="pp_read_pay_tip">작가를 지원하여 더 많고 더 나은 이야기를 만들어주세요.</string>
+    <string name="read_pay_tip1">다음 챕터 자동 잠금 해제</string>
+    <string name="more_top_up_amounts">충전 금액 더 보기</string>
+    <string name="get_free_coins">무료 코인 받기</string>
+    <string name="purchase_now">지금 구매</string>
+    <string name="unlock_chapter">이 장을 잠금 해제하십시오 %s 코인</string>
+    <string name="purchase_successful">구매 성공</string>
+    <string name="purchase_failed">구매 실패</string>
+    <string name="coins">코인</string>
+    <string name="top_up">충전</string>
+    <string name="about">소개</string>
+    <string name="top_up_record">충전 내역</string>
+    <string name="bonus_record">보너스 내역</string>
+    <string name="consumption_record">소비 내역</string>
+    <string name="pp_viewed">조회됨</string>
+    <string name="pp_rating">평점</string>
+    <string name="pp_settings">설정</string>
+    <string name="pp_wallet">지갑</string>
+    <string name="google_play_not_available">Google Play 서비스를 사용할 수 없습니다</string>
+    <string name="pp_turn_off">끄시겠습니까?</string>
+    <string name="pp_turn_off_content">끄면 독서 경험에 영향을 미칠 수 있으므로 꼭 끄거나 아니면 안 끄시기 바랍니다.</string>
+    <string name="pp_no_purchase">더 이상 구매 가능한 챕터가 없습니다</string>
+    <string name="purchase_more_coins">더 많은 코인 구매</string>
+    <string name="top_up_and_purchase">충전하고 이 장을 잠금 해제하십시오</string>
+    <string name="feedback">피드백</string>
+    <string name="genres">장르</string>
+    <string name="font_merriweather">메리웨더</string>
+    <string name="no_longer_remind_upgrade">더 이상 업데이트를 알리지 않음</string>
+    <string name="pp_version">버전 </string>
+    <string name="terms_service">서비스 약관</string>
+    <string name="privacy_policy">개인 정보 보호 정책</string>
+    <string name="chapters">%d 챕터</string>
+    <string name="chapters_count">챕터 (%d)</string>
+    <string name="last_read_chapter">마지막으로 읽은 챕터: %d화</string>
+    <string name="last_read_chapter2">마지막으로 읽은 챕터: %s</string>
+    <string name="balance_bonus">잔액: %d 코인 + %d 보너스</string>
+    <string name="insufficient_balance">잔액이 부족합니다. 더 많은 코인을 구매하세요</string>
+    <string name="price_coin">%d 코인</string>
+    <string name="common_warning">경고</string>
+    <string name="total_coins_bonus">총: %d 코인 + %d 보너스</string>
+    <string name="total_coins">총: %d코인</string>
+    <string name="send_feedback">피드백 보내기</string>
+    <string name="pp_expiring_soon">%d개의 유효 기간이 만료 예정입니다</string>
+    <string name="cancel">취소</string>
+    <string name="ok">확인</string>
+    <string name="common_no_data">아직 데이터가 없습니다</string>
+    <string name="common_no_more">더 이상 없음</string>
+    <string name="common_loadmore">더 많은 항목을 로드하려면 위로 슬라이드</string>
+    <string name="common_loading">로딩 중...</string>
+    <string name="pp_visitor">방문자</string>
+    <string name="pp_user_name">사용자 이름</string>
+    <string name="click_to_login">더 많은 서비스를 위해 로그인하려면 클릭하세요</string>
+    <string name="language_setting">언어 설정</string>
+    <string name="switch_language_hint">언어를 %s(으)로 변경하시겠습니까?</string>
+    <string name="pp_language">언어</string>
+    <string name="remaining_chapters">남은 모든 챕터</string>
+    <string name="coins_all_chapters">모든 챕터에 대해 %s 코인이 청구됩니다</string>
+    <string name="next_num_chapters">다음 %s 챕터</string>
+    <string name="coins_for_num_chapters">%d 코인이 %d 챕터에 대해 청구됩니다</string>
+    <string name="pp_off">끄기</string>
+    <string name="pp_off_value">%d%% 끄기</string>
+    <string name="pp_email_phone_hint">이메일 / 전화번호</string>
+    <string name="pp_email_null_hint">이메일 / 전화번호를 비워둘 수 없습니다.</string>
+    <string name="pp_contacts">연락처</string>
+    <string name="leave_feedback_hint">경험하는 문제를 설명하거나 피드백을 남기세요.</string>
+    <string name="pp_problem_description">문제 설명</string>
+    <string name="pp_problem_type">문제 유형 (필수)</string>
+    <string name="pp_about_book">이 책에 대해</string>
+    <string name="pp_report">신고</string>
+    <string name="sign_in_facebook">Facebook으로 로그인</string>
+    <string name="sign_in_google">Google로 로그인</string>
+    <string name="sign_in_email">이메일로 로그인</string>
+    <string name="pp_first">첫 번째</string>
+    <string name="writer_benefits">작가 혜택</string>
+    <string name="writer_central">작가 센터</string>
+    <string name="copy_address_tip">팁: 주소를 클릭하여 복사하고 컴퓨터 브라우저에서 방문하세요.</string>
+    <string name="pp_all">모두</string>
+    <string name="pp_rankings">랭킹</string>
+    <string name="pp_flip">페이지 넘기기</string>
+    <string name="pp_swipe">스와이프</string>
+    <string name="pp_scroll">스크롤</string>
+    <string name="pp_system_font">시스템 글꼴</string>
+    <string name="pp_contents">목차</string>
+    <string name="about_app">%s 소개</string>
+    <string name="pp_overview">개요</string>
+    <string name="pp_swipe_up_read">위로 스와이프하여 읽기</string>
+    <string name="pp_swipe_left_read">왼쪽으로 스와이프하여 읽기</string>
+    <string name="book_detail_words">단어</string>
+    <string name="most_popular">가장 인기 있는</string>
+    <string name="read_now">지금 읽기</string>
+    <string name="updated">업데이트됨</string>
+    <string name="pp_pay_restore">복원</string>
+    <string name="pp_restore_success">복원 성공</string>
+    <string name="pp_continue">계속</string>
+    <string name="rewards">보상</string>
+    <string name="pp_daily_check">일일 체크인</string>
+    <string name="pp_novice_tasks">초보자 과제</string>
+    <string name="pp_daily_tasks">일일 과제</string>
+    <string name="pp_congratulations">축하합니다</string>
+    <string name="pp_go">이동</string>
+    <string name="pp_claim">수령하기</string>
+    <string name="pp_rewards">보상</string>
+    <string name="pp_expired">만료됨</string>
+    <string name="pp_done">완료</string>
+    <string name="pp_claim_failed">수령 실패</string>
+    <string name="pp_recommend">추천</string>
+    <string name="pp_free">무료</string>
+    <string name="pp_exclusive">독점</string>
+    <string name="pp_exit_read_recommend_hint">추가 콘텐츠가 더 흥미로울 수 있습니다!</string>
+    <string name="pp_renew">갱신</string>
+    <string name="pp_tell_found">발견한 내용을 알려주세요</string>
+    <string name="feedback_details">피드백 내용</string>
+    <string name="pp_copyright_notice">저작권 안내</string>
+    <string name="pp_copyright_notice_hint_line1">해당 콘텐츠가 귀하의 저작권을 침해한다고 판단되면 #신고#해 주시기 바랍니다.</string>
+    <string name="pp_copyright_notice_hint_line2">%s 권한으로 %s에 의해 게시되었습니다.</string>
+    <string name="pp_copyright_notice_hint_line3">© 모든 권리 보유.</string>
+    <string name="pp_new">새로운</string>
+    <string name="pp_team">팀</string>
+    <string name="pp_connect_googleplay_fail">Google Play 서비스에 오류가 발생했습니다. Google Play 캐시를 지우거나 Google 계정에 다시 로그인한 후 다시 시도해 보세요!</string>
+    <string name="pp_close">닫기</string>
+    <string name="start_reading">읽기 시작하기 ></string>
+    <string name="pp_skip">%d 건 건너뛰기</string>
+    <string name="georgia">조지아</string>
+    <string name="search_books">책 검색</string>
+    <string-array name="day_arr">
+        <item>일</item>
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+    </string-array>
+    <string name="app_wallet">지갑</string>
+
+    <string name="pp_pending_retry_tip">시간이 지나도 계정에 표시되지 않거나 문제가 발생하는 경우 #고객 서비스#에 문의하여 도움을 받으세요.</string>
+    <string name="pp_reward_feedback_hint">문제가 있는 경우 도움말 센터에 #피드백#을 남겨주세요.</string>
+    <string name="pp_retry">다시 시도</string>
+    <string name="error_request_tip">요청이 실패했습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="book_load_error">책 로드 오류입니다. 다른 책을 시도해 보세요.</string>
+    <string name="daily_check_disable_tip">내일 다시 방문하여 체크인하고 보너스를 받으세요.</string>
+    <string name="pp_notice">공지</string>
+    <string name="del_account_note">이 작업은 취소할 수 없습니다. 계정을 삭제하기 전에 다음 정보를 확인하세요</string>
+    <string name="del_account_title1">1. 귀하의 계정을 재활성화하실 수 없습니다</string>
+    <string name="del_account_note1">한 번 삭제되면 해당 계정에 다시 로그인하거나 사용할 수 없습니다. 삭제된 계정과 관련된 도서, 정보, 자산은 검색하거나 폐기할 수 없습니다. 재등록을 하더라도 새로운 계정만 생성됩니다.</string>
+    <string name="del_account_title2">2. 속성과 정보가 삭제됩니다</string>
+    <string name="del_account_note2">계정 삭제는 계정 권리 및 자산을 포기한 것으로 간주됩니다. 개인정보, 코인, 보너스, 쿠폰, Top-up 카드 및 기타 가상 자산도 포함됩니다. 장부를 올바르게 처리하시기 바랍니다. 정보 및 자산.</string>
+    <string name="del_account_title3">3. 분쟁 해결</string>
+    <string name="del_account_note3">불만, 신고 등을 포함하되 이에 국한되지 않는 해결되지 않은 분쟁이 있는 경우 계정을 성공적으로 삭제할 수 없습니다.</string>
+    <string name="del_account_title4">4. 삭제 유효 시간</string>
+    <string name="del_account_note4">삭제 신청은 자동으로 검토되어 30일 24시에 통과됩니다. 단, 제3자 계정을 통해 로그인하시면 완료되기 전에 절차를 종료하실 수 있습니다.</string>
+    <string name="read_del_account_notice_note">위 정보를 읽었으며 이 작업은 취소할 수 없음을 이해합니다.</string>
+    <string name="pp_del_account">계정 삭제</string>
+    <string name="pp_cancel_del_account">계정 삭제 취소</string>
+    <string name="pp_cancel_del_account2">계정 삭제 취소</string>
+    <string name="pp_cancel_del_account_hint">해당 계정이 삭제 검토 중입니다. 삭제를 취소하시겠습니까?</string>
+    <string name="del_account_submitted">계정 삭제 요청이 제출되었습니다.</string>
+    <string name="del_account_confirm_time">이 요청은 %s에 자동으로 검토 및 승인됩니다.</string>
+    <string name="del_account_terms_read_hint">계정 삭제 동의가 선택되었는지 확인해주세요.</string>
+    <string name="account_in_normal_state_hint">계정 상태는 정상입니다.</string>
+    <string name="account_deleted_hint">계정이 삭제되었습니다.</string>
+    <string name="account_deleting_hint">계정 삭제를 처리 중이니 다시 시도하지 마세요.</string>
+    <string name="account_delete_action_confirm">계정 삭제가 성공적으로 제출되었습니다.</string>
+    <string name="pp_attention">주의</string>
+    <string name="pp_account_deleted_hint">귀하의 계정이 삭제된 것으로 감지되었습니다. 새 계정이 귀하에게 할당되었으며 해당 계정을 사용할 수 있도록 애플리케이션이 자동으로 다시 시작됩니다.</string>
+    <string name="pp_think_again">다시 생각해 보세요</string>
+
+    <string name="pp_confirm">확인</string>
+    <string name="del_account_cancel_success_hint">계정 삭제를 성공적으로 취소하셨습니다.</string>
+    <string name="chapter_not_exist">챕터가 존재하지 않습니다.</string>
+    <string name="recharge_pedding_hint">%d개의 불완전한 충전이 있습니다.</string>
+    <string name="pp_friendly_reminder">친절한 알림</string>
+    <string name="pp_restore_reminder_content">\'복원\' 버튼을 클릭하신 후 잠시 기다려 주세요. 잠시 후에도 충전 금액이 계정에 표시되지 않거나 문제가 발생하는 경우 언제든지 고객 서비스에 문의하세요. 우리는 항상 당신을 돕기 위해 여기 있습니다!</string>
+    <string name="pp_report_immediately">즉시 신고</string>
+    <string name="pp_payment_error">결제 오류</string>
+    <string name="pp_payment_error_hint">Google Pay는 현재 귀하의 구매를 지원하지 않습니다. 다른 결제 방법을 사용해 보십시오.</string>
+    <string name="pp_switch_payment">다른 방법을 선택하세요</string>
+    <string name="pp_operate_frequent_tip">작업이 너무 잦습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="pp_valid">유효함</string>
+    <string name="pp_invalid">잘못됨</string>
+    <string name="pp_received_time">수신 시간:</string>
+    <string name="pp_expired_date">만료일:</string>
+    <string name="pp_chapter">장</string>
+    <string name="pp_rules">규칙</string>
+    <string name="pp_rules_check_in_title">1. 체크인 규칙</string>
+    <string name="pp_rules_check_in_content">매일 체크인하시면 보너스를 받으실 수 있습니다. 3회, 7회 연속 출석 시 추가 보상이 지급됩니다. 체크인이 중단되면 해당 날짜의 보상이 손실됩니다.</string>
+    <string name="pp_rules_novice_title">2. 초보자 작업</string>
+    <string name="pp_rules_novice_content">초보자의 작업을 완료하여 해당 보너스를 받으세요.</string>
+    <string name="pp_rules_daily_title">3. 일일 작업</string>
+    <string name="pp_rules_daily_content">일일 작업을 완료한 후 "청구" 버튼을 클릭하여 보너스를 청구하세요. 이 작업은 수시로 업데이트됩니다. 업데이트로 인해 보너스 배포에 문제가 있는 경우 내 페이지에 피드백을 남겨주세요.</string>
+    <string name="pp_rules_reward_rule_title">4. 보상 규칙 </string>
+    <string name="pp_rules_reward_rule_content">여기 보너스는 7일 동안 유효합니다. 1 보너스 = 1 코인. 챕터를 잠금 해제하면 보너스가 먼저 차감됩니다.</string>
+    <string name="pp_day">요일</string>
+    <string name="net_connect_tip">네트워크 오류가 발생했습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="pp_merge_assets_hint">귀하의 <Data><![CDATA[ <b>%s</b> ]]></Data> 애플리케이션의 자산은 <Data><![CDATA[ <b>%s</b> ]]></Data> 애플리케이션에서 정상적으로 사용될 것입니다. 자산의 변동에 주의하십시오.</string>
+    <string name="pp_merge_assets_hint_coin"><Data><![CDATA[ <b>%s</b> ]]></Data> 애플리케이션의 자산에는 책장에 있는 책, %s 코인 및 %s 보너스가 포함됩니다.</string>
+    <string name="pp_merge_assets_hint_account">자산 병합에 해당하는 계정은 <Data><![CDATA[ <b>%s</b> ]]></Data> 애플리케이션의 %s 계정 하에 있습니다.</string>
+    <string name="pp_merge_account_success">계정 병합에 성공했습니다!</string>
+    <string name="pp_merge_account_fail">계정 병합에 실패했습니다!</string>
+
+    <string name="pp_sign_in">로그인</string>
+
+    <string name="pp_reward_signin_hint">로그인하시고 더 많은 무료 혜택을 누리세요</string>
+    <string name="pp_pay_sign_hint">귀하의 계정과 데이터에 대한 최고의 보안을 보장하려면 귀하의 계정에 로그인하십시오. 그렇게 하지 않으면 잠재적인 손실을 초래할 수 있습니다!</string>
+    <string name="pp_pay_sign_cancel">무시 &amp; 계속</string>
+    <string name="pp_library_login_hint">지금 로그인하고 신규 사용자에게 제공되는 무료 혜택을 누리세요</string>
+    <string name="pp_login_unlock_benefit">더 많은 기능과 혜택을 누리시려면</string>
+    <string name="pp_login_earn_bonus">보너스 받기</string>
+    <string name="pp_sign_in_continue">계속하려면 로그인하세요</string>
+    <string name="pp_reader_sign_warning">귀하의 계정이 위험에 처해 있습니다. 계정 및 데이터 보안을 위해 즉시 로그인하세요.</string>
+    <string name="pp_verify_email">이메일 확인</string>
+    <string name="pp_link_email_hint">이메일을 연결하여 무료 보너스를 받으세요</string>
+    <string name="pp_email_address">이메일 주소</string>
+    <string name="pp_verification_code">인증 코드</string>
+    <string name="pp_code_send_hint">인증코드가 전송되었습니다</string>
+    <string name="pp_resend_code">(%d)재전송</string>
+    <string name="pp_verification_code_send_successful">인증코드가 발송되었습니다. 이메일을 확인해 주세요.</string>
+    <string name="pp_already_bind_hint">이 애플리케이션의 계정은 #%s# 플랫폼의 다른 계정에 연결되어 있습니다.</string>
+    <string name="pp_more_login_methods">추가 로그인 방법</string>
+    <string name="pp_switch_account">계정 전환</string>
+    <string name="pp_switch_account_hint">이 로그인 방법은 다른 계정에 연결되어 있습니다. 계정을 전환하고 자산을 병합하시겠습니까?</string>
+    <string name="pp_reminder">알림</string>
+    <string name="pp_email_code_expire">인증 코드가 잘못되었습니다!</string>
+    <string name="pp_email_code_error">인증코드 오류!</string>
+    <string name="pp_preference_setting">기본 설정</string>
+    <string name="pp_select_tag_hint">더 정확하게 책을 추천하려면 태그를 선택하세요</string>
+    <string name="pp_skip2">건너뛰기</string>
+    <string name="pp_reading_preference">읽기 기본 설정</string>
+    <string-array name="ranking_left_tab">
+        <item>최고</item>
+        <item>핫</item>
+        <item>유망</item>
+        <item>새로운</item>
+        <item>완료</item>
+    </string-array>
+    <string name="app_hot">뜨거운</string>
+    <string name="app_new">새로운</string>
+    <string name="app_read_guide_gesture_hint">이 영역을 위아래로 스와이프하여 페이지를 넘기십시오</string>
+    <string name="unlock_now">지금 잠금 해제</string>
+    <string name="books_on_auto_purchase">자동 잠금 해제 기능이 있는 책</string>
+    <string name="unlock_successful">잠금 해제 성공</string>
+    <string name="unlock_fail">잠금 해제 실패</string>
+    <string name="top_up_failed">충전 실패</string>
+    <string name="top_up_cancel">충전 취소</string>
+    <string name="payment_recharge_error">결제에 문제가 발생했습니다. 신속하게 문제를 해결하려면 다음 단계를 따르세요.\n1. 구글 플레이를 엽니다. \n2. 결제로 이동하세요 &#038; 구독. \n3. 예산 선택 &#038; 역사. \n4. 주문을 취소하거나 결제 금액을 변경하거나 다른 결제 방법을 선택하세요.</string>
+    <string name="payment_recharge_error_other">결제에 문제가 발생했습니다. 신속하게 문제를 해결하려면 다음 단계를 따르세요.\n1. %s을(를) 엽니다. \n2. 주문을 취소하세요. \n3. 결제 금액을 변경하거나 다른 결제 방법을 사용하세요.</string>
+    <string name="payment_window_bottom_tip">문제가 발생하면 #고객 서비스#에 문의하여 도움을 받으세요.</string>
+    <string name="payment_bottom_ignore">무시</string>
+    <string name="payment_pending_title">충전 진행 중</string>
+    <string name="payment_pending_content">충전이 처리 중이며 5–10분 지연될 수 있습니다.</string>
+    <string name="payment_pending_button">가속화</string>
+    <string name="payment_pending_accelerating">가속 중…</string>
+    <string name="payment_pending_keep">계속 기다리세요</string>
+    <string name="payment_pending_shoose_other">귀하의 주문이 아직 처리 중입니다. 평소보다 시간이 더 걸립니다. 조금만 더 기다려 주세요. 결제가 곧 이루어지지 않으면 다른 방법을 시도해 볼 수 있습니다.</string>
+    <string name="top_up_successful">충전 성공</string>
+    <string name="have_incomplete_payment">결제 주문이 완료되지 않았습니다. 다른 결제 금액을 시도하거나 다른 결제 방법을 선택하세요.</string>
+    <string name="pending_clicking_frequently">너무 많은 시도, 나중에 다시 시도해 주세요.</string>
+    <string name="order_processing">주문 처리</string>
+    <string name="proceed_cancel_order_hint">취소하면 완료되지 않은 결제가 중단됩니다.</string>
+    <string name="cancel_order_feedback_title">취소하실 건가요? 이유를 알려주세요</string>
+    <string name="cancel_order_feedback_subtitle">귀하의 피드백이 우리의 개선에 도움이 됩니다.</string>
+    <string name="payment_not_working">결제 방법이 작동하지 않음</string>
+    <string name="price_too_high">가격이 너무 높음</string>
+    <string name="pick_wrong_product">잘못된 제품을 선택함</string>
+    <string name="payment_page_slow">결제 페이지가 너무 느림</string>
+    <string name="change_mind">마음이 바뀌었음 / 기타</string>
+    <string name="other_reason_share">(선택 사항) 다른 이유가 있으신가요? 공유해주세요.</string>
+    <string name="load_failed">로드 실패, 다시 시도하려면 탭하세요</string>
+    <string name="load_end">더 이상 없음~</string>
+    <string name="other_payment_methods">다른 결제 방법</string>
+    <string name="select_payment_method">결제 방법 선택</string>
+    <string name="payment_unavailable_attention">결제 방법을 사용할 수 없습니다. 다른 결제 방법을 사용해 보십시오.</string>
+    <string name="login_welcome">%s에 오신 것을 환영합니다</string>
+    <string name="login_other_methods">다른 로그인 방법</string>
+
+    <string name="help_feedback">도움말 &amp; 피드백</string>
+    <string name="faq">FAQ</string>
+    <string name="recharge_not_receive_q">충전이 성공했는데 코인을 받지 못한 경우 어떻게 해야 하나요?</string>
+    <string name="recharge_not_receive_a">
+        은행 거래가 성공했는지 확인하고 결제가 차감되었는지 확인하십시오. 결제가 성공적으로 차감되었으면 앱을 다시 열어 지갑과 거래 내역이 업데이트되었는지 확인하십시오.
+        \n\n
+        중요한 사항:
+        \n\n
+        · 충전 시 사용한 계정으로 로그인되어 있는지 확인하십시오. 가끔 사용자가 로그인 자격 증명을 잊고 게스트로 충전할 수 있습니다.
+        \n\n
+        · 결제 후 코인이 적립되는 데 시간이 걸릴 수 있습니다. 결제 방법에 따라 처리 시간이 달라질 수 있습니다. 결제가 완료된 후 10분 정도 기다리고 지갑과 거래 내역이 업데이트되었는지 확인하는 것이 좋습니다.
+        \n\n
+        위 방법으로 해결되지 않으면 \"피드백\"을 통해 문제를 빠르게 해결할 수 있도록 도와주세요.
+    </string>
+    <string name="cannot_complete_payment_q">결제를 완료할 수 없습니다.</string>
+    <string name="cannot_complete_payment_a">
+        · 스토어에서 오류 메시지가 표시되면 네트워크가 정상적으로 작동하는지 확인하십시오. 다른 WiFi를 사용해 네트워크 환경을 변경해 보십시오.
+        \n\n
+        · 또한 Google 및 Apple 계정에 정상적으로 로그인하지 않은 경우에도 이 문제가 발생할 수 있습니다.
+        \n\n
+        · 위 방법으로 문제가 해결되지 않으면 발생한 문제에 대해 피드백을 주세요.
+    </string>
+    <string name="refund_payment_q">결제 후 환불을 요청할 수 있나요?</string>
+    <string name="refund_payment_a">
+        현재 환불은 지원되지 않습니다. 코인과 보너스는 챕터 잠금을 해제하는 데 사용할 수 있습니다.
+    </string>
+    <string name="disable_automatic_purchase_q">자동 구매 기능을 어떻게 비활성화하나요?</string>
+    <string name="disable_automatic_purchase_a">\"마이\"/\"지갑\"/\"자동 잠금된 책\"에서 비활성화할 수 있습니다.</string>
+    <string name="view_unlock_chapter_history_q">내 챕터 잠금 기록을 어떻게 볼 수 있나요?</string>
+    <string name="view_unlock_chapter_history_a">\"마이\"/\"지갑\"/\"소비 내역\"을 통해 확인할 수 있습니다.</string>
+    <string name="get_coins_bonus_q">코인과 보너스를 어떻게 얻을 수 있나요?</string>
+    <string name="get_coins_bonus_a">코인과 보너스는 충전 이벤트를 통해 얻을 수 있으며, 복지 센터에서 태스크에 참여하여 보너스를 얻을 수 있습니다. 코인은 충전만 통해 얻을 수 있습니다.</string>
+    <string name="difference_coins_bonus_q">코인과 보너스의 차이는 무엇인가요?</string>
+    <string name="difference_coins_bonus_a">
+        · 두 가지 모두 챕터를 잠금 해제하는 데 사용할 수 있습니다.
+        \n\n
+        · 보너스에는 유효 기간이 있습니다. 보너스의 유효 기간은 \"지갑\"의 \"보너스 내역\"에서 확인할 수 있습니다.
+    </string>
+    <string name="check_user_id_q">내 사용자 ID는 어떻게 확인하나요?</string>
+    <string name="check_user_id_a">
+        게스트 계정
+        \n
+        1. \"마이 페이지\"를 클릭하십시오.
+        \n
+        2. 아바타 오른쪽에 있는 숫자 일련번호를 확인하십시오.
+        \n\n\n
+        이미 바인딩된 계정
+        \n
+        1. \"마이 페이지\"를 클릭하십시오.
+        \n
+        2. 상단에 있는 아바타를 클릭하여 새 페이지를 엽니다.
+        \n
+        3. 아바타 아래에 있는 숫자 일련번호를 확인하십시오.
+    </string>
+    <string name="assets_synchronize_q">다른 장치에서 로그인하면 자산이 동기화되나요?</string>
+    <string name="assets_synchronize_a">
+        동일한 계정으로 로그인하면 자산을 빠르게 동기화할 수 있습니다. 방법은 다음과 같습니다:
+        \n\n
+        · 이전 장치를 찾아서 Google 또는 Facebook과 같은 타사 계정으로 로그인하십시오.
+        \n\n
+        · 계정의 사용자 ID와 비밀번호를 기억하십시오.
+        \n\n
+        · 새 장치에서 동일한 계정으로 로그인하십시오.
+        \n\n
+        · 기록한 사용자 ID 번호와 일치하는지 확인하십시오.
+        \n\n
+        진행 상황을 보존하려면 새 장치로 전환하기 전에 이전 장치에서 독서를 완료하는 것이 좋습니다.
+    </string>
+    <string name="categories">카테고리</string>
+    <string name="recharge_issues">충전 문제</string>
+    <string name="coin_bonus_issues">코인 및 보너스 문제</string>
+    <string name="chapter_unlock_issues">챕터 잠금 문제</string>
+    <string name="book_issues">책 문제</string>
+    <string name="account_issues">계정 문제</string>
+    <string name="other">기타</string>
+
+    <string name="error_code3_a">이런 오류 코드의 경우, Google Play 서비스를 업데이트하거나 대체 결제 방법을 사용해 보시기 바랍니다.</string>
+    <string name="coins_bonus_reduce_a">
+        · 다른 계정으로 로그인했을 수 있습니다. 보너스 수령 내역을 확인하여 연속된 기록이 있는지 확인하십시오.
+        \n\n
+        · 로그인 방법에는 Facebook, Google, 이메일 주소 등이 있습니다. 위 방법으로 로그인하지 않은 경우, 장치에 게스트 계정이 있을 수 있습니다. \"마이\" 페이지에서 계정을 확인할 수 있습니다.
+        \n\n
+        · 보너스가 줄어든 경우, 먼저 보너스 기록을 확인해 보십시오. 일부 보너스가 만료되었을 수 있습니다.
+        \n\n
+        · 자동 잠금 설정이 되어 있을 수 있습니다. 잠금 해제 기록을 확인하여 코인이나 보너스를 이미 사용했는지 확인하십시오.
+        \n\n
+        · 위 방법으로 해결되지 않으면 \"피드백\"을 통해 문제를 알려주세요.
+    </string>
+
+    <string name="check_bonus_usage_history">보너스 또는 코인의 소비 내역을 \"마이\"/\"지갑\"/\"소비 내역\"에서 확인할 수 있습니다.</string>
+
+    <string name="unlock_chapter_a">개별 챕터 잠금 해제와 일괄 잠금 해제가 모두 지원됩니다. 필요에 따라 선택하실 수 있습니다. 잠금 해제에는 코인 또는 보너스가 필요합니다. 코인 또는 보너스 잔액이 부족하면 충전이 필요합니다.</string>
+
+    <string name="unable_next_chapter_a">
+        · 네트워크 연결 상태를 확인하십시오. 다른 네트워크로 전환한 후 다시 시도해 보세요.
+        \n\n
+        · 코인이나 보너스가 충분한지 확인하십시오.
+    </string>
+
+    <string name="grammar_spell_error_a">문제를 신속하게 해결할 수 있도록 책 제목과 챕터 이름을 \"피드백\"을 통해 제공해주세요.</string>
+    <string name="violent_insult_content_a">\"피드백\"을 통해 책 제목과 챕터 이름을 제공해 주시면 문제를 해결하겠습니다.</string>
+    <string name="paid_book_pay_again_a">구매한 책은 항상 내 자산으로 남습니다. 구매한 책을 삭제한 경우 \"마이\"/\"조회된 책\"에서 다시 가져올 수 있습니다.</string>
+    <string name="bookshelf_coin_assets_disappeared_a">이 상황은 다른 계정이나 장치로 로그인했을 때 발생할 수 있습니다. 정상적인 계정으로 로그인했는지 확인하십시오. 문제가 지속되면 \"피드백\"을 통해 도움을 요청해 주세요.</string>
+    <string name="login_del_account_a">
+        로그인:
+        \n
+        1. \"마이 페이지\"를 클릭하십시오.
+        \n
+        2. \"아바타\"를 클릭하십시오.
+        \n
+        3. 선호하는 \"로그인 방법\"을 선택하십시오.
+        \n\n\n
+        계정 삭제:
+        \n
+        1. \"마이 페이지\"를 클릭하십시오.
+        \n
+        2. \"설정\"을 클릭하십시오.
+        \n
+        3. \"계정 삭제\"를 클릭하십시오.
+    </string>
+
+    <string-array name="issues_category_item">
+        <item>충전 문제</item>
+        <item>코인 및 보너스 문제</item>
+        <item>챕터 잠금 문제</item>
+        <item>책 문제</item>
+        <item>계정 문제</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>충전이 성공했는데 코인을 받지 못한 경우 어떻게 해야 하나요?</item>
+        <item>결제를 완료할 수 없습니다.</item>
+        <item>오류 코드 3</item>
+        <item>결제 후 환불을 요청할 수 있나요?</item>
+    </string-array>
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>코인과 보너스를 어떻게 얻을 수 있나요?</item>
+        <item>내 코인 또는 보너스가 사라지거나 줄어들었습니다</item>
+        <item>코인과 보너스의 차이는 무엇인가요?</item>
+        <item>내 보너스 사용 내역을 어떻게 확인하나요?</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>챕터를 어떻게 잠금 해제하나요?</item>
+        <item>내 챕터 잠금 기록을 어떻게 볼 수 있나요?</item>
+        <item>자동 구매 기능을 어떻게 비활성화하나요?</item>
+        <item>다음 챕터를 읽을 수 없습니다.</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>많은 콘텐츠가 반복되거나 문법/맞춤법 오류가 있습니다.</item>
+        <item>폭력적이거나 모욕적이고 부적절한 내용이 포함되어 있습니다.</item>
+        <item>유료 책을 내 서재에서 삭제하면 다시 결제해야 하나요?</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>내 사용자 ID는 어떻게 확인하나요?</item>
+        <item>계정에 로그인하거나 계정을 삭제하려면 어떻게 해야 하나요?</item>
+        <item>다른 장치에서 로그인하면 자산이 동기화되나요?</item>
+        <item>내 서재 기록과 금 코인 자산이 사라졌습니다?</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>문제를 신속하게 해결하려면 \"피드백\"을 통해 연락 주세요.</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">문제를 해결하지 못하셨나요? #피드백#을 클릭하세요.</string>
+
+
+    <!-- 韩语 -->
+    <string name="total">총액: %d</string>
+    <string name="subscription_get_coins_bonus">%d코인과 %d 보너스를 받으세요</string>
+    <string name="subscription_login_bonus">%d 일 동안 로그인하면 %d 보너스를 받을 수 있습니다</string>
+    <string name="per_week">/주</string>
+    <string name="details">세부사항</string>
+    <string name="subscription_in_effect">유효</string>
+    <string name="subscription_date">만료일: %s</string>
+    <string name="subscription_get_coins">%d코인을 받으세요</string>
+
+    <string name="subscription">내 구독</string>
+    <string name="subscription_rewards">구독 보상</string>
+    <string name="subscription_bonus">+%d 보너스</string>
+    <string name="subscription_success">구독 성공</string>
+
+    <string name="subscription_claim_title">구독 보상 받기</string>
+    <string name="days">%d일</string>
+    <string name="claim_success">받기 성공</string>
+    <string name="claim_fail">받기 실패</string>
+
+
+    <string name="subscribe_tips1">1. 구매 비용은 귀하의 결제 계정에서 차감됩니다.</string>
+    <string name="subscribe_tips2">2. 구독은 자동으로 갱신됩니다. 구독료는 매 청구 기간마다 자동으로 부과되며, 월간 또는 기타 기간일 수 있습니다. 갱신일 24시간 전까지 자동으로 결제될 수 있으며, 취소하지 않는 한 계속 청구됩니다.</string>
+    <string name="subscribe_tips3">3. 갱신일 24시간 이전에 언제든지 구독을 취소할 수 있습니다.</string>
+    <string name="subscribe_tips4">4. 충전 시 제공되는 보너스의 유효 기간은 %d 일입니다.</string>
+    <string name="subscribe_tips5">5. 보너스는 7일 동안 지급되며, 만료 후 미수령 보너스는 복구할 수 없습니다.</string>
+    <string name="subscribe_tips6">6. 코인과 보너스의 가치는 동일하며, 만료되지 않은 보너스는 가상 아이템으로 환불이 불가능합니다.</string>
+    <string name="subscribe_tips7">7. 도움이 필요하신가요? #FAQ#를 확인해 주세요.</string>
+
+
+    <string name="subscribe_rules">1. 구독 즉시 %s 코인과 %s 보너스를 받을 수 있습니다.\n2. %s 일 연속 로그인 시 %s 보너스를 받을 수 있으며, 하루에 %s 보너스가 지급됩니다.\n3. 추가 보상은 구독 후 지갑에서 확인할 수 있습니다.</string>
+    <string name="subscribe_success_tip">%d 코인과 %d 보너스를 받았습니다. 매일 %d 보너스를 수령할 수 있습니다.</string>
+
+    <string name="subscribe_pay_title">구독 계약</string>
+    <string name="subscribe_pay_tip1_title">1. 결제:</string>
+    <string name="subscribe_pay_tip1_content">구매 비용은 귀하의 결제 계좌에서 차감됩니다.</string>
+    <string name="subscribe_pay_tip2_title">2. 갱신:</string>
+    <string name="subscribe_pay_tip2_content">귀하의 구독은 자동으로 갱신됩니다. 구독은 매 청구 주기마다 자동으로 청구됩니다. 월간 또는 다른 주기일 수 있습니다. 구독을 취소할 때까지 각 청구 주기의 시작 24시간 이내에 요금이 청구될 수 있습니다.</string>
+    <string name="subscribe_pay_tip3_title">3. 취소:</string>
+    <string name="subscribe_pay_tip3_content">구독은 갱신 날짜 24시간 이상 전 언제든지 취소할 수 있습니다. 구독을 취소하려면 결제 플랫폼으로 이동하십시오.</string>
+    <string name="subscribe_pay_tip4_title">4. 구독 관리:</string>
+    <string name="subscribe_pay_tip4_content">구독을 조회, 변경 또는 취소할 수 있습니다.</string>
+
+    <string name="subscribe_out_of_date">구독이 만료되었습니다!</string>
+
+    <string name="pp_got_it">알겠어요</string>
+    <string name="got_it">알겠어요</string>
+    <string name="pp_get">알겠어요</string>
+
+    <string name="pp_submit">제출</string>
+    <string name="pp_submitted">제출됨</string>
+    <string name="pp_submit_fail">제출 실패</string>
+
+    <string name="admob_watch_ad_add_tip">광고 시청 +%s 보너스</string>
+    <string name="admob_loading_tip">광고 로딩 중입니다. 나중에 다시 시도해 주세요.</string>
+    <string name="admob_waiting_count_down">카운트다운이 끝난 후 광고를 계속 시청하세요</string>
+
+    <string name="bonus">보너스</string>
+    <string name="bonus_value">%d 보너스</string>
+    <string name="bonus_ad_claimed">%d 보너스를 받았습니다</string>
+
+    <string name="admob_watch_tip">광고를 시청하여 보너스를 받으세요</string>
+    <string name="admob_earn_bonus_tip">광고 1개당 %d 보너스를 획득하세요</string>
+    <string name="admob_watch_count_tip">광고 보기 %d/%d</string>
+    <string name="admob_count_down_tip">%s 후에 광고를 시청하세요</string>
+    <string name="admob_daily_desc">동영상 광고 1개당 %d 보너스, 완료 %d/%d</string>
+
+    <string name="usa_ad_privacy">광고 환경설정</string>
+
+    <string name="member_benefits">프리미엄 회원 혜택</string>
+    <string name="unlimit_premium_books">10,000권 이상의 프리미엄 도서 무제한 무료 읽기</string>
+    <string name="weekly_access_books">200권 이상의 독점 도서 주간 이용</string>
+    <string name="enjoy_add_free_experience">광고 없는 경험을 즐기세요</string>
+    <string name="premium_member_identity">프리미엄 회원 신분</string>
+    <string name="subscribe">구독하기</string>
+    <string name="unlimit_reading">무제한 읽기!</string>
+    <string name="only_1499_price">단 $14.99</string>
+    <string name="premium">프리미엄</string>
+    <string name="premium_first_week_discount">첫 주는 %s, 이후 %s/주</string>
+    <string name="premium_expire_date">만료일: %s</string>
+    <string name="discover_vip_price">단 $14.99</string>
+    <string name="premium_daily_active_text">당신의 일일 멤버십이 활성화되었습니다</string>
+    <string name="premium_week_active_text">주간 멤버십이 활성화되었습니다.</string>
+    <string name="premium_month_active_text">월간 멤버십이 활성화되었습니다.</string>
+    <string name="premium_year_active_text">연간 멤버십이 활성화되었습니다.</string>
+    <string name="premium_expire_time">%s에 만료됩니다</string>
+    <string name="vip_rules">
+        1. 프리미엄 구독자는 모든 프리미엄 전용 도서를 무료로 이용할 수 있습니다.\n2. 결제: 결제 계정에서 비용이 차감됩니다.\n3. 갱신: 구독은 자동으로 갱신되며, 매 결제 주기마다 최대 24시간 전에 요금이 청구될 수 있습니다.\n4. 취소: 갱신일 24시간 이전에 결제 플랫폼을 통해 구독을 취소할 수 있습니다.
+    </string>
+
+    <string name="unlock_watch_count">광고를 보고 잠금 해제 (%d/%d)</string>
+    <string name="unlock_watch_title">광고를 보고 잠금 해제</string>
+    <string name="unlock_watch_desc">광고를 보면 이 챕터를 잠금 해제할 수 있습니다</string>
+    <string name="unlock_watch_now">지금 보기</string>
+    <string name="unlock_watch_chapter_count">오늘 %d개의 챕터를 무료로 잠금 해제할 수 있습니다 (%d/%d) </string>
+
+    <string name="email_login_top">계정에 사용한 이메일을 입력하세요</string>
+    <string name="email_address_enter_tip">이메일 주소 입력</string>
+    <string name="email_code_enter_tip">인증 코드 입력</string>
+    <string name="email_send_code">코드 보내기</string>
+
+    <string name="facebook_link_title">Facebook 계정 연결</string>
+    <string name="facebook_link_content">Facebook 계정을 연결하여 더 많은 코인을 받으세요. 걱정 마세요, 현재 진행 상황과 데이터는 그대로 유지됩니다</string>
+
+    <string name="limit_time_title">한정 기간 할인</string>
+    <string name="limit_time_content">지금 바로 — 역대 최저가, 한정 기간만!</string>
+    <string name="limit_time_premium">프리미엄 섹션 읽기</string>
+
+    <string name="subscribe_now">지금 구독</string>
+    <string name="transaction_ompleted">거래가 완료되었습니다</string>
+    <string name="transaction_content">코인 구매가 성공적으로 완료되었습니다. 보너스는 7일 동안 유효합니다.</string>
+
+    <string name="send_again">다시 보내기</string>
+    <string name="ad_unlock">광고 잠금 해제</string>
+
+    <string name="top_up_history">충전 내역</string>
+    <string name="not_activated">활성화되지 않음</string>
+    <string name="vip_feedback_rule">
+        6. 도움이 필요하시거나 궁금한 점이 있으시면 #Feedback#을 통해 알려주세요.
+    </string>
+
+    <string name="unlock_adv_used">광고 해제가 모두 사용되었습니다. 내일 다시 시도해 주세요</string>
+    <string name="expiration_date">만료일:</string>
+    <string name="select_gender">성별을 선택하세요</string>
+    <string name="enter_nickname">닉네임을 입력하세요…</string>
+    <string name="enter_email">이메일을 여기에 입력하세요…</string>
+    <string name="select_birthday">生年月日を選択してください</string>
+
+    <string name="featured_collection">추천 컬렉션</string>
+    <string name="book_catalog">도서 목록</string>
+    <string name="fold_up">접기</string>
+    <string name="choose_your_plan">플랜을 선택하세요</string>
+    <string name="select_payment_method_2">결제 방법 선택</string>
+    <string name="personalized_tip">선호도 기반 맞춤 추천</string>
+    <string name="money_back_tip">환불 보장</string>
+    <string name="what_you_get">혜택 안내</string>
+    <string name="premium_center_recharge_tip">계속 진행하면 구독이 자동으로 갱신되는 것에 동의하게 됩니다. 구독은 월간 또는 다른 주기 여부에 관계없이 매 결제 기간마다 자동으로 청구됩니다. 구독을 취소할 때까지 각 결제 기간 시작 최대 24시간 전에 청구될 수 있습니다. #구독 약관#에서 취소 및 환불 정책에 대해 자세히 알아볼 수 있습니다.</string>
+    <string name="premium_pay_safe">안전하고 보안된 결제</string>
+    <string name="premium_access">프리미엄 액세스</string>
+    <string name="unlock_unlimited_books">무제한 도서 잠금 해제</string>
+
+    <string name="coins_with_bonus">%1$s %2$s \u200E+ \u200E%3$s %4$s</string>
+
+    <string name="day">일</string>
+    <string name="week">주</string>
+    <string name="month">월</string>
+    <string name="year">년</string>
+
+    <string name="per_day">/일</string>
+    <string name="per_month">/월</string>
+    <string name="per_year">/년</string>
+    <string name="sevel_month">/%d개월</string>
+    <string name="limit_title_premium">모든 책 무료 읽기</string>
+    <string name="secure_payment">안전한 결제</string>
+    <string name="easy_cancellation">간편한 취소</string>
+    <string name="money_back_guarantee">환불 보장</string>
+    <string name="subscription_renews_tip">체험 기간이 끝나면 선택한 플랜 가격으로 구독이 자동 갱신됩니다. 언제든지 취소할 수 있습니다.</string>
+    <string name="first_days">처음 %d일</string>
+    <string name="then_price">이후 $%.2f</string>
+    <string name="only_price">단 US$%.2f/일</string>
+
+    <string name="full_story">전체 이야기가 기다리고 있어요</string>
+    <string name="continue_read_unlock">계속 읽고 기다려온 결말을 잠금 해제하세요.</string>
+
+    <string name="trust_readers">1,000만+ 독자가 신뢰합니다</string>
+    <string name="keep_reading">계속 읽기</string>
+    <string name="no_Interruptions">중단 없음</string>
+    <string name="stories_num">10,000+개 이야기</string>
+    <string name="read_full_story">전체 이야기 읽기</string>
+    <string name="without_limit">제한 없이</string>
+    <string name="unlock_romance">오늘의 독자 혜택으로 로맨스, 판타지, 늑대인간 이야기를 무제한으로 잠금 해제하세요.</string>
+
+    <string name="save_percent">%d%% 절약</string>
+
+    <string name="daily">매일</string>
+    <string name="weekly">매주</string>
+    <string name="monthly">매월</string>
+    <string name="yearly">매년</string>
+
+    <string name="cancel_anytime">언제든지 취소 가능</string>
+    <string name="continue_story">내 이야기 계속하기</string>
+    <string name="next_chapter_waiting">다음 챕터가 기다리고 있어요</string>
+
+    <string name="continue_read_long">지금 이야기를 계속하고 비슷한 수천 개의 이야기를 더 잠금 해제하세요.</string>
+
+    <string name="read_full_stories">전체 이야기 읽기</string>
+    <string name="start_short_reading">무제한 읽기 시작</string>
+
+    <string name="pay_premium_weekly_membership">주간 멤버십</string>
+    <string name="pay_premium_monthly_membership">월간 멤버십</string>
+    <string name="pay_save_value">%s%% 절약</string>
+    <string name="pay_unlock_chapter_count">%s 챕터 잠금 해제</string>
+    <string name="pay_coins">%s 코인</string>
+    <string name="pay_unlock_in_bulk">일괄 잠금 해제</string>
+    <string name="top_up_now">지금 충전</string>
+    <string name="dont_waste_time">시간 낭비하지 마세요</string>
+    <string name="subscribe_unlock_tip">구독하여 즉시 잠금 해제</string>
+    <string name="auto_renew_cancel_tip">자동 갱신 · 언제든지 취소 가능</string>
+
+
+    <string name="books_free_cycle">모든 도서 1%s 무료</string>
+    <string name="unlock_all_story">모든 스토리 잠금 해제</string>
+    <string name="premium_benefits">프리미엄 멤버십 혜택</string>
+    <string name="read_free">무료 읽기</string>
+    <string name="no_ads">광고 없음</string>
+    <string name="early_access">얼리 액세스</string>
+    <string name="pay_premium_yearly_membership">연간 멤버십</string>
+
+
+    <string name="pay_premium_daily_membership">일일 멤버십</string>
+
+
+    <string name="pay_premium_free_for">모든 책이 %s 동안 무료입니다</string>
+    <string name="top_up_more">더 많이 충전하고, 더 많이 절약하세요</string>
+    <string name="premium_books_free">모든 책 무료 열람</string>
+    <string name="join_premium">멤버십 가입</string>
+
+    <string name="subscription_now">지금 구독하세요</string>
+    <string name="get_special_offer">특별 오퍼를 받으세요!</string>
+
+    <string name="subscription_agreement">구독 계약</string>
+    <string name="subscription_agreement_tips1">1. Premium을 구독하는 사용자는 모든 책에 무료로 액세스할 수 있습니다.</string>
+    <string name="subscription_agreement_tips2">2. 결제: 구매 비용은 결제 계정에서 공제됩니다.</string>
+    <string name="subscription_agreement_tips3">3. 갱신: 구독이 자동으로 갱신됩니다. 구독은 월간 또는 다른 기간의 청구 기간마다 자동으로 청구됩니다. 구독을 취소할 때까지 각 청구 기간 시작 24시간 이전에 청구될 수 있습니다.</string>
+    <string name="subscription_agreement_tips4">4. 취소: 갱신 날짜 24시간 이전에 언제든지 구독을 취소할 수 있습니다. 구독을 취소하려면 결제 플랫폼으로 이동하세요.</string>
+
+    <string name="enjoy_app_so_for">앱이 마음에 드시나요?</string>
+    <string name="thank_for_support">응원해 주셔서 감사합니다!\n짧은 평점이 큰 도움이 됩니다.</string>
+    <string name="five_star">5점</string>
+    <string name="maybe_later">나중에</string>
+    <string name="thank_help_improve">도움 주셔서 감사합니다!</string>
+    <string name="continue_bring_more_emotional">여러분 덕분에 감동적인 이야기를 계속 전할 수 있습니다.</string>
+    <string name="continue_reading">계속 읽기</string>
+    <string name="read_more">더 많이 읽고 더 많이 절약하세요</string>
+    <string name="this_chapter">이번 챕터</string>
+    <string name="my_wallet">내 지갑</string>
+
+</resources>
+<!--
+    韩语
+!-->

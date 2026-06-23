@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,DuplicateDefinition">
+
+    <string name="app_name">novel</string>
+
+    <string name="cache_dir" >decrypt_book_cache2</string>
+
+
+    <!-- 以下为novelverse的appid -->
+
+    <string name="facebook_app_id" >693014899500064</string>
+    <string name="facebook_client_token">254464f5e8749a3574d4d6896b625c0b</string>
+    <string name="facebook_referrer_key">e37c9b29049f31ebc8f40ae0a879ea7e0cdd44c2d002ab1e9270d36230c1bd66</string>
+    <string name="fb_login_protocol_scheme" >fb693014899500064</string>
+    <string name="login_google_server_client_id">206268657036-3d66avlr6k5uof8lrrsn91fhe1tt98am.apps.googleusercontent.com</string>
+
+
+
+    <string name="size_add">A+</string>
+    <string name="size_sub">A-</string>
+
+
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleBar">
+        <attr name="Toptitle" format="string|reference" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextcolor" format="color" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftText" format="string" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="showBackRipple" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="EmptyView">
+        <attr name="imgId" format="reference|integer" />
+        <attr name="textId" format="reference|integer" />
+        <attr name="showRetry" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="flFlow" format="boolean"/>
+        <attr name="flChildSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+        </attr>
+        <attr name="flMinChildSpacing" format="dimension"/>
+        <attr name="flChildSpacingForLastRow" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+            <enum name="align" value="-65537"/>
+        </attr>
+        <attr name="flRowSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+        </attr>
+        <attr name="flRtl" format="boolean"/>
+        <attr name="flMaxRows" format="integer"/>
+        <attr name="flRowVerticalGravity" format="enum">
+            <enum name="auto" value="-65536"/>
+            <enum name="top" value="0x30"/>
+            <enum name="center" value="0x10"/>
+            <enum name="bottom" value="0x50"/>
+        </attr>
+        <attr name="android:gravity"/>
+    </declare-styleable>
+
+    <declare-styleable name="GestureLayoutPager">
+        <attr name="initPageIndex" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientTextView">
+        <attr name="startColor" format="color" />
+        <attr name="centerColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="92dp"
+    android:layout_height="50dp"
+    android:layout_marginEnd="10dp"
+    tools:layout_gravity="center"
+    tools:elevation="6dp">
+    <View
+        android:id="@+id/read_pay_method_bg"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_payment_item"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@+id/read_pay_method_img"
+        android:src="@drawable/icon_google_pay"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        />
+    <TextView
+        android:id="@+id/tv_pay_extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="3dp"
+        android:paddingVertical="2dp"
+        android:paddingHorizontal="4dp"
+        android:gravity="center_vertical"
+        android:textSize="9dp"
+        android:textColor="@color/white"
+        android:background="@drawable/pay_amount_tip_background"
+        tools:text="+10% Bonus"/>
+
+</FrameLayout>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cancel_order_reason">
+        <item>@string/payment_not_working</item>
+        <item>@string/price_too_high</item>
+        <item>@string/pick_wrong_product</item>
+        <item>@string/payment_page_slow</item>
+        <item>@string/change_mind</item>
+    </string-array>
+</resources>

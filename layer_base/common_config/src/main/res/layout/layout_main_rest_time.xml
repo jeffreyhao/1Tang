@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="56dp"
+    android:id="@+id/ll_rest_read"
+    android:elevation="3dp"
+    android:background="@color/color_shelf_rest_time"
+    android:visibility="gone"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:visibility="visible">
+    <TextView
+        android:id="@+id/tv_rest_read"
+        android:paddingStart="15dp"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/pp_color_333333"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="还有**秒钟"/>
+    <ImageView
+        android:id="@+id/iv_close_rest_read"
+        android:paddingHorizontal="15dp"
+        android:src="@drawable/login_icon_close"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:background="#ccc"/>
+</LinearLayout>
+

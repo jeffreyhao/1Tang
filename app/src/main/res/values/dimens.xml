@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="title_bar_dimen">50dp</dimen>
+    <dimen name="bottom_navigation_height">50dp</dimen>
+    <dimen name="height_search_bar">50dp</dimen>
+    <dimen name="height_search_shadow">105dp</dimen>
+    <dimen name="height_state_view">30dp</dimen>
+
+
+</resources>

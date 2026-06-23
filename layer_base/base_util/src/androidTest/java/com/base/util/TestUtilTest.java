@@ -1,0 +1,22 @@
+package com.base.util;
+
+
+import org.junit.Test;
+
+public class TestUtilTest {
+
+
+
+    @Test
+    public void testDecodeB64() {
+
+        String value = "dlv_dXRtX3B1Ymxpc2hlcl9wbGF0Zm9ybT1GYWNlYm9vay1XMkEtQW5kcm9pZCZsaW5rX2lkPTE0ODE2JnV0bV9hY3RfaWQ9MTM5Mjg3MDQzNTMzNzQxMCZhcHBfbGluaz1odHRwcyUzQSUyRiUyRnBsYXkuZ29vZ2xlLmNvbSUyRnN0b3JlJTJGYXBwcyUyRmRldGFpbHMlM0ZpZCUzRGNvbS5zdGFyLm5vdmVsaGl2ZSZ1dG1fY2FtcGFpZ249JnV0bV9jYW1wYWlnbl9pZD0mYm9vaz0xVTIxMzQ3JnBsYXRmb3JtPTEmcGFja2FnZT1jb20uc3Rhci5ub3ZlbGhpdmUmdXRtX2FkX2lkPSZ1dG1fYWRfbmFtZT0mdXRtX2Fkc2V0X2lkPSZjb29raWVfaWQ9M2M0OWVjNTMtY2IwNi00M2YyLTlmYWMtMjU2ZjIwZGQyODFiJnNob3J0X2xpbms9M2lFbmlxckVibXFpJnV0bV9hZHNldF9uYW1lPSZwaXhlbF9pZD0zODQ3Mjc1NjQ1NTA0NDM2Jmg1X3VybD1odHRwcyUzQSUyRiUyRnd3dy5ub3ZlbHNiZC5jb20lMkZmcyUyRjNpRW5pcXJFYm1xaSZ1bmlxX3Zpc2l0b3I9MCZ1dG1fc291cmNlPSZ0aW1lX3pvbmU9QW1lcmljYSUyRk5ld19Zb3JrJmxhbmd1YWdlPWVuLVVTJnNjcmVlbj0zNzZ4ODM1JmZicD1mYi4xLjE3NTg2MTUyNDY5NzMuMTcwMDcwNzYxNjUxODg0MiZmYmM9ZmIuMS4xNzYyOTM3ODEzMTc3Lkl3WlhoMGJnTmhaVzBCTUFCaFpHbGtBYXNwbGlQamJEMXpjblJqQm1Gd2NGOXBaQXd6TlRBMk9EVTFNekUzTWpnQUFSNTJrbnJiaVBheXVMYl9kT1puVXFaVWVDUFBrSjZqeHV4clQzQlBnOThKV2E5X3M0M1Z0a3k1cmNOQl9nX2FlbV83MG5zUWRacUlpV0YxZjk0UkdmOC1R";
+        String decoded = TestUtil.subValue(value);
+        System.out.println("substring(4): \n" + decoded);
+
+
+    }
+
+
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    阿拉伯语
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">تم اختيار %s</string>
+    <string name="mdtp_ok">تأكيد</string>
+    <string name="mdtp_cancel">إلغاء</string>
+    <string name="mdtp_day_picker_description">شبكة الأيام للشهر</string>
+    <string name="mdtp_year_picker_description">قائمة السنوات</string>
+    <string name="mdtp_select_day">اختر الشهر واليوم</string>
+    <string name="mdtp_select_year">اختر السنة</string>
+    <string name="mdtp_next_month_arrow_description">الشهر التالي</string>
+    <string name="mdtp_previous_month_arrow_description">الشهر السابق</string>
+
+</resources>

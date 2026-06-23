@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    泰语
+!-->
+<resources>
+    <string name="loading">กำลังโหลด...</string>
+    <string name="close_and_go_back">กลับ</string>
+    <string name="error_data_tip">เกิดข้อผิดพลาดบางอย่าง แตะเพื่อลองอีกครั้ง</string>
+    <string name="error_empty_data_tip">ยังไม่มีข้อมูล</string>
+    <string name="error_net_tip">ข้อผิดพลาดในการเชื่อมต่อเครือข่าย แตะเพื่อลองอีกครั้ง</string>
+    <string name="permisions_essential_tip">เรียกร้องสิทธิ์ก่อนใช้งาน</string>
+    <string name="permisions_read_phone_tip">ขอสิทธิ์ในการดำเนินการก่อน</string>
+    <string name="permission_setting">การตั้งค่า</string>
+    <string name="permission_cancel">ยกเลิก</string>
+    <string name="collapse">ยุบ</string>
+    <string name="expand">ขยาย</string>
+    <string name="nb_mode_night">โหมดกลางคืน</string>
+    <string name="nb_mode_morning">โหมดกลางวัน</string>
+    <string name="nav_bookshelf">ห้องสมุด</string>
+    <string name="nav_discover">ค้นพบ</string>
+    <string name="nav_bookshelf2">ชั้นวางหนังสือ</string>
+    <string name="nav_featured">โดดเด่น</string>
+    <string name="nav_mine">ของฉัน</string>
+    <string name="nav_reward">รางวัล</string>
+    <string name="nav_profile">ฉัน</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="done">เสร็จสิ้น</string>
+    <string name="delete">ลบ</string>
+    <string name="clear_cache">ล้างแคช</string>
+    <string name="check_update">ตรวจสอบการอัปเดต</string>
+    <string name="contact_us">ติดต่อเรา</string>
+    <string name="privacy">นโยบายความเป็นส่วนตัว</string>
+    <string name="agreement">เงื่อนไขการให้บริการ</string>
+    <string name="joinedBookShelf">เพิ่มในห้องสมุด</string>
+    <string name="add_to_shelf_dlg_title">เพิ่มลงในห้องสมุด?</string>
+    <string name="add_to_shelf_dlg_content">เพิ่มหนังสือเล่มนี้ลงในห้องสมุดและอ่านได้ทุกเมื่อ</string>
+    <string name="add_to_shelf_dlg_cancel">ยกเลิก</string>
+    <string name="add_to_shelf_dlg_confirm">เพิ่ม</string>
+    <string name="hint_search_bookstore">ค้นหา</string>
+    <string name="become_author">เป็นนักเขียน</string>
+    <string name="buy_sale">ซื้อสินค้าลดราคา</string>
+    <string name="free_start_read">เริ่มอ่านฟรี</string>
+    <string name="pp_sex_boy_brief">ชาย</string>
+    <string name="pp_sex_girl_brief">หญิง</string>
+    <string name="pp_tip_none_photo">ไม่มีรูปภาพในอัลบั้ม</string>
+    <string name="pp_history_search">ประวัติ</string>
+    <string name="pp_tip_input_search_key">ป้อนคีย์เวิร์ดที่นี่</string>
+    <string name="pp_clear_success">ล้างเรียบร้อย</string>
+    <string name="pp_me">ฉัน</string>
+    <string name="pp_build_fail">สร้างล้มเหลว</string>
+    <string name="pp_author">ผู้เขียน</string>
+    <string name="pp_note_id_null">รหัสบันทึกย่อเป็นค่าว่าง</string>
+    <string name="pp_login_fail">เข้าสู่ระบบล้มเหลว</string>
+    <string name="pp_collection_success">เพิ่มในห้องสมุดแล้ว</string>
+    <string name="pp_please_check_network">ตรวจสอบการเชื่อมต่อเครือข่าย</string>
+    <string name="pp_add_success">เพิ่มหนังสือเล่มนี้ในห้องสมุดของคุณแล้ว</string>
+    <string name="pp_remove_success">ลบหนังสือเล่มนี้ออกจากห้องสมุดของคุณแล้ว</string>
+    <string name="pp_please_chose_one_book">โปรดเลือกหนังสือก่อน</string>
+    <string name="pp_login_first">เข้าสู่ระบบก่อน</string>
+    <string name="pp_pay_success">การชำระเงินสำเร็จ</string>
+    <string name="pp_pay_cancel">การชำระเงินถูกยกเลิก</string>
+    <string name="pp_pay_error">การชำระเงินผิดพลาด</string>
+    <string name="pp_check_pay_fail">การตรวจสอบการชำระเงินล้มเหลว</string>
+    <string name="pp_tip">ติดตั้งแอปเพื่อดูแกลเลอรีหรือเบราว์เซอร์ก่อน</string>
+    <string name="pp_copy_success">คัดลอกแล้ว</string>
+    <string name="pp_save_fail">บันทึกล้มเหลว</string>
+    <string name="pp_saved">บันทึกแล้ว</string>
+    <string name="pp_exit_app">คุณแน่ใจหรือไม่ว่าต้องการออก?</string>
+    <string name="pp_exit">ออก</string>
+    <string name="pp_sure">ยืนยัน</string>
+    <string name="pp_today_read">อ่านวันนี้</string>
+    <string name="pp_second_red_packet"> นาทีเพื่อรับซองสีแดง</string>
+    <string name="pp_after_ad_bye">สนุกมากขึ้นหลังจากการโฆษณา</string>
+    <string name="pp_time_error">เวลาที่ต่างกันระหว่างระบบและเซิร์ฟเวอร์ยังไม่เท่ากันเกินไป โปรดสอบถามเวลาของระบบ</string>
+    <string name="pp_about">เกี่ยวกับ</string>
+    <string name="pp_notiy">เคล็ดลับ</string>
+    <string name="pp_get_photo">เลือกรูปภาพ</string>
+    <string name="pp_affirm">ยืนยัน</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">Moments</string>
+    <string name="pp_xml_qq_space">QQ Zone</string>
+    <string name="pp_xml_text_11">ออกจากระบบ</string>
+    <string name="pp_xml_text_22">การแจ้งเตือน</string>
+    <string name="pp_xml_text_24">ช่วยเหลือและคำติชม</string>
+    <string name="pp_xml_text_35">ค้นหายอดนิยม</string>
+    <string name="pp_xml_text_350">เทรนด์</string>
+    <string name="pp_xml_text_39">เปิด</string>
+    <string name="pp_xml_text_40">ปิด</string>
+    <string name="pp_xml_text_45">เพิ่มเติม</string>
+    <string name="pp_xml_text_48">ดู</string>
+    <string name="pp_xml_text_49">คัดลอก</string>
+    <string name="pp_xml_text_50">แชร์</string>
+    <string name="pp_xml_remove">ลบ</string>
+    <string name="pp_xml_find_novel">ค้นหาหนังสือ</string>
+    <string name="pp_xml_no_book">คุณยังไม่เคยเพิ่มหนังสือใดๆ ในห้องสมุดของคุณ</string>
+    <string name="pp_remove_book_title">ลบหรือไม่?</string>
+    <string name="pp_remove_book_content">คุณแน่ใจหรือไม่ว่าต้องการลบหนังสือออกจากห้องสมุดของคุณ</string>
+    <string name="pp_search_default_text">ค้นหาหนังสือ</string>
+    <string name="pp_search_no_data">ไม่พบผลลัพธ์</string>
+    <string name="book_detail_start_reading">เริ่มอ่าน</string>
+    <string name="book_detail_adds">การเพิ่ม</string>
+    <string name="book_detail_views">การเข้าชม</string>
+    <string name="book_detail_rating">การจัดอันดับ</string>
+    <string name="book_detail_report_msg">เนื้อหาและรูปภาพเป็นมุมมองส่วนบุคคลของผู้เขียนและไม่เกี่ยวข้องกับ %s หากคุณมีคำถามใด ๆ กรุณา #รายงาน# ให้เราทราบ</string>
+    <string name="login_view_tip">ด้วยการดำเนินการต่อ คุณยินยอมตาม #เงื่อนไขการให้บริการ# และ #นโยบายความเป็นส่วนตัว#</string>
+    <string name="pp_string_profile">โปรไฟล์</string>
+    <string name="pp_string_gender">เพศ</string>
+    <string name="pp_string_birthday">วันเกิด</string>
+    <string name="pp_string_nickname">ชื่อเล่น</string>
+    <string name="pp_string_email_address">ที่อยู่อีเมล</string>
+    <string name="pp_new_chapter">ตอนใหม่</string>
+    <string name="pp_coming_soon">เร็ว ๆ นี้</string>
+    <string name="pp_this_is_the">นี่คือ</string>
+    <string name="pp_last_chapter">ตอนล่าสุด</string>
+    <string name="pp_book_completed">เสร็จสมบูรณ์</string>
+    <string name="pp_book_ongoing">กำลังดำเนินการ</string>
+    <string name="pp_you_may_also_like">คุณอาจชอบ</string>
+    <string name="pp_view_all">ดูทั้งหมด</string>
+    <string name="pp_to_explore_more">เพื่อสำรวจเพิ่มเติม</string>
+    <string name="pp_rather_not_say">ไม่ต้องการบอก</string>
+    <string name="pp_read">อ่าน</string>
+    <string name="pp_you_might_like">คุณอาจชอบ</string>
+    <string name="pp_writer_about_des">%s มุ่งหวังที่จะให้เวทีให้แก่นักเขียนในการตามฝันของพวกเขา และเป็นที่สำหรับแบ่งปันเรื่องราวของพวกเขากับผู้อ่านทั่วโลก พวกเรามุ่งมั่นที่จะทำให้เสียงของคุณดังขึ้น หากคุณมีเรื่องราวที่จะเล่า %s คือสถานที่ที่เหมาะสมสำหรับคุณ!</string>
+    <string name="pp_writer_benefits">เรามีการตอบแทนที่หลากหลายสำหรับนักเขียนที่ลงนามกับ %s รวมถึงค่าลงนามเรื่องเรียบร้อยแล้ว เงินชดเชยเมื่อเรื่องเสร็จสมบูรณ์ รางวัลการอัปเดตรายวัน และโบนัสการแนะนำ สำหรับข้อมูลเพิ่มเติมคลิก #ที่นี่#</string>
+    <string name="pp_writer_tip0">ส่งงานเขียนของคุณไปที่อีเมลของเรา:</string>
+    <string name="pp_writer_email">อีเมล: #leo@i%s.com#</string>
+    <string name="pp_writer_author">Author Central: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">คุณอาจเป็นนักเขียนขายดีต่อไปของเรา</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">คัดลอกแล้ว</string>
+    <string name="pp_problem_null_tip">คำอธิบายปัญหาต้องไม่เป็นค่าว่าง</string>
+    <string name="pp_update_title">มีการอัปเดตที่พร้อมใช้งาน</string>
+    <string name="pp_update_content">มีเวอร์ชันใหม่ที่พร้อมใช้งาน: แก้ไขข้อบกพร่องที่รู้จักและปรับปรุงประสบการณ์การอ่าน</string>
+    <string name="pp_update_button">อัปเดตเดี๋ยวนี้</string>
+    <string name="pp_download">ดาวน์โหลด</string>
+    <string name="pp_purchase">ซื้อ</string>
+    <string name="pp_purchase_tip">เริ่มต้นจากตอนปัจจุบัน</string>
+    <string name="pp_download_auto_pay_tip">ดาวน์โหลดไปยังอุปกรณ์ท้องถิ่นพร้อมกัน</string>
+    <string name="pp_price">ราคา:</string>
+    <string name="pp_purchase_now">ซื้อเดี๋ยวนี้</string>
+    <string name="pp_download_bottom_tip">คุณจะไม่ถูกเรียกเก็บค่าใช้จ่ายสำหรับตอนที่คุณปลดล็อคแล้ว</string>
+    <string name="pp_top_up">เติมเงิน</string>
+    <string name="pp_pay_now">ชำระเงินเดี๋ยวนี้</string>
+    <string name="payment_method">วิธีการชำระเงิน</string>
+    <string name="top_up_amount">จำนวนที่เติมเงิน</string>
+    <string name="pp_pay_tip1">1. โบนัส = 1 เหรียญ โบนัสจะถูกหักออกก่อนเมื่อคุณปลดล็อคบทต่างๆ</string>
+    <string name="pp_pay_tips1">เคล็ดลับ:</string>
+    <string name="pp_pay_tip2">2. ID ผู้ใช้ของคุณ: #%s# หากการชาร์จล้มเหลวหรือการชาร์จล้มเหลวเป็นเวลานาน คุณสามารถคลิกคืนค่าเพื่อแก้ไข (ไม่จำเป็นต้องชาร์จใหม่) หรือส่ง #ข้อเสนอแนะคำถาม# มาหาเราโดยตรง</string>
+    <string name="pp_pay_tip3">4. ต้องการความช่วยเหลือหรือไม่? กรุณาดูคำถามที่พบบ่อย #FAQ#</string>
+    <string name="pp_pay_tip4">3. วิธีการชำระเงินเริ่มต้นของเราคือแพลตฟอร์มการชำระเงินของ Google Play Google Play สนับสนุนการเรียกเก็บเงินผ่านบริษัทโทรศัพท์เคลื่อนที่, บัตรเครดิต, บัตรกำนัล, บัญชี Paypal และยอดคงเหลือใน Wallet</string>
+    <string name="pp_pay_tip5">5. ระยะเวลาที่บัญชีโบนัสหลังจากการเติมเงินคือ 7 วัน</string>
+    <string name="pp_pay_tip6">6. เหรียญและโบนัสมีมูลค่าเท่ากัน โบนัสที่ไม่หมดอายุเป็นไอเท็มเสมือน และเราไม่รองรับการคืนเงิน</string>
+    <string name="pp_pay_tip7">7. เพื่อให้มั่นใจในความปลอดภัยของสินทรัพย์ดิจิตอลในบัญชีของคุณ เราขอแนะนำให้ซื้อเหรียญด้วยบัญชีบุคคลที่สาม: บัญชี FB หรือ Google</string>
+    <string name="thank_you">ขอบคุณ!</string>
+    <string name="pp_read_pay_tip">สนับสนุนผู้เขียนในการสร้างเรื่องราวที่ดีขึ้น</string>
+    <string name="read_pay_tip1">ปลดล็อคบทถัดไปโดยอัตโนมัติ</string>
+    <string name="more_top_up_amounts">ยอดเติมเงินเพิ่มเติม</string>
+    <string name="get_free_coins">รับเหรียญฟรี</string>
+    <string name="purchase_now">ซื้อเดี๋ยวนี้</string>
+    <string name="unlock_chapter">ปลดล็อคบทนี้ %s เหรียญ</string>
+    <string name="purchase_successful">ซื้อสำเร็จ</string>
+    <string name="purchase_failed">ซื้อล้มเหลว</string>
+    <string name="coins">เหรียญ</string>
+    <string name="top_up">เติมเงิน</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="top_up_record">ประวัติการเติมเงิน</string>
+    <string name="bonus_record">ประวัติโบนัส</string>
+    <string name="consumption_record">ประวัติการใช้งาน</string>
+    <string name="pp_viewed">เข้าชมแล้ว</string>
+    <string name="pp_rating">การจัดอันดับ</string>
+    <string name="pp_settings">การตั้งค่า</string>
+    <string name="pp_wallet">กระเป๋าเงิน</string>
+    <string name="google_play_not_available">บริการ Google Play ไม่สามารถใช้งานได้</string>
+    <string name="pp_turn_off">ปิด?</string>
+    <string name="pp_turn_off_content">การปิดอาจส่งผลกระทบต่อประสบการณ์การอ่านของคุณ โปรดตรวจสอบว่าคุณต้องการปิดหรือไม่</string>
+    <string name="pp_no_purchase">ไม่มีตอนเพิ่มเติมที่สามารถซื้อได้</string>
+    <string name="purchase_more_coins">ซื้อเหรียญเพิ่มเติม</string>
+    <string name="top_up_and_purchase">เติมเงินและปลดล็อคบทนี้</string>
+    <string name="feedback">ข้อเสนอแนะ</string>
+    <string name="genres">ประเภท</string>
+    <string name="font_merriweather">แบบอักษร Merriweather</string>
+    <string name="no_longer_remind_upgrade">ไม่ต้องแสดงการแจ้งเตือนการอัปเดตอีกต่อไป</string>
+    <string name="pp_version">เวอร์ชัน</string>
+    <string name="terms_service">ข้อกำหนดการให้บริการ</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="chapters">%d ตอน</string>
+    <string name="chapters_count">ตอน (%d)</string>
+    <string name="last_read_chapter">อ่านล่าสุด: ตอนที่ %d</string>
+    <string name="last_read_chapter2">อ่านล่าสุด: %s</string>
+    <string name="balance_bonus">ยอดเงิน: %d เหรียญ + %d โบนัส</string>
+    <string name="insufficient_balance">ยอดเงินไม่เพียงพอ โปรดซื้อเหรียญเพิ่ม</string>
+    <string name="price_coin">%d เหรียญ</string>
+    <string name="common_warning">คำเตือน</string>
+    <string name="total_coins_bonus">รวม: %d เหรียญ + %d โบนัส</string>
+    <string name="total_coins">รวม: %d เหรียญ</string>
+    <string name="send_feedback">ส่งข้อเสนอแนะ</string>
+    <string name="pp_expiring_soon">%d หมดอายุเร็ว ๆ นี้</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="ok">ยืนยัน</string>
+    <string name="common_no_data">ยังไม่มีข้อมูล</string>
+    <string name="common_no_more">ไม่มีอีกแล้ว</string>
+    <string name="common_loadmore">เลื่อนขึ้นเพื่อโหลดเพิ่ม</string>
+    <string name="common_loading">กำลังโหลด...</string>
+    <string name="pp_visitor">ผู้เยี่ยมชม</string>
+    <string name="pp_user_name">ชื่อผู้ใช้</string>
+    <string name="click_to_login">คลิกเพื่อเข้าสู่ระบบเพื่อใช้บริการเพิ่มเติม</string>
+    <string name="language_setting">การตั้งค่าภาษา</string>
+    <string name="switch_language_hint">คุณแน่ใจหรือไม่ว่าต้องการเปลี่ยนภาษาเป็น %s?</string>
+    <string name="pp_language">ภาษา</string>
+    <string name="remaining_chapters">ตอนที่เหลือทั้งหมด</string>
+    <string name="coins_all_chapters">เหรียญ %s จะถูกหักสำหรับตอนทั้งหมด</string>
+    <string name="next_num_chapters">ตอนถัดไป %s ตอน</string>
+    <string name="coins_for_num_chapters">เหรียญ %d จะถูกหักสำหรับ %d ตอน</string>
+    <string name="pp_off">ปิด</string>
+    <string name="pp_off_value">%d%% ปิด</string>
+    <string name="pp_email_phone_hint">อีเมล / เบอร์โทรศัพท์</string>
+    <string name="pp_email_null_hint">อีเมล / เบอร์โทรศัพท์ต้องไม่เป็นค่าว่าง</string>
+    <string name="pp_contacts">รายชื่อผู้ติดต่อ</string>
+    <string name="leave_feedback_hint">อธิบายปัญหาที่คุณพบหรือแสดงความคิดเห็นของคุณ</string>
+    <string name="pp_problem_description">ลักษณะของปัญหา</string>
+    <string name="pp_problem_type">ประเภทของปัญหา (จำเป็น)</string>
+    <string name="pp_about_book">เกี่ยวกับหนังสือเล่มนี้</string>
+    <string name="pp_report">รายงาน</string>
+    <string name="sign_in_facebook">เข้าสู่ระบบด้วย Facebook</string>
+    <string name="sign_in_google">เข้าสู่ระบบด้วย Google</string>
+    <string name="sign_in_email">ลงชื่อเข้าใช้โดยใช้อีเมล</string>
+    <string name="pp_first">แรก</string>
+    <string name="writer_benefits">สิ่งประโยชน์สำหรับนักเขียน</string>
+    <string name="writer_central">ศูนย์กลางนักเขียน</string>
+    <string name="copy_address_tip">เคล็ดลับ: คลิกเพื่อคัดลอกที่อยู่และเยี่ยมชมด้วยเบราว์เซอร์บนคอมพิวเตอร์ของคุณ</string>
+    <string name="pp_all">ทั้งหมด</string>
+    <string name="pp_rankings">อันดับ</string>
+    <string name="pp_flip">พลิกหน้า</string>
+    <string name="pp_swipe">เลื่อน</string>
+    <string name="pp_scroll">เลื่อนลง</string>
+    <string name="pp_system_font">ฟอนต์ระบบ</string>
+    <string name="pp_contents">สารบัญ</string>
+    <string name="about_app">เกี่ยวกับ %s</string>
+    <string name="pp_overview">ภาพรวม</string>
+    <string name="pp_swipe_up_read">เลื่อนขึ้นเพื่ออ่าน</string>
+    <string name="pp_swipe_left_read">เลื่อนไปทางซ้ายเพื่ออ่าน</string>
+    <string name="book_detail_words">คำ</string>
+    <string name="most_popular">ยอดนิยม</string>
+    <string name="read_now">อ่านทันที</string>
+    <string name="updated">อัปเดตแล้ว</string>
+    <string name="pp_pay_restore">เรียกคืน</string>
+    <string name="pp_restore_success">เรียกคืนสำเร็จ</string>
+    <string name="pp_continue">ดำเนินการต่อ</string>
+    <string name="rewards">รางวัล</string>
+    <string name="pp_daily_check">การเช็คอินประจำวัน</string>
+    <string name="pp_novice_tasks">ภารกิจสำหรับผู้เริ่มต้น</string>
+    <string name="pp_daily_tasks">ภารกิจประจำวัน</string>
+    <string name="pp_congratulations">ขอแสดงความยินดี</string>
+    <string name="pp_go">ไป</string>
+    <string name="pp_claim">รับสิทธิ์</string>
+    <string name="pp_rewards">รางวัล</string>
+    <string name="pp_expired">หมดอายุแล้ว</string>
+    <string name="pp_done">เสร็จแล้ว</string>
+    <string name="pp_claim_failed">การเรียกรับล้มเหลว</string>
+    <string name="pp_recommend">แนะนำ</string>
+    <string name="pp_free">ฟรี</string>
+    <string name="pp_exclusive">พิเศษ</string>
+    <string name="pp_exit_read_recommend_hint">เนื้อหาที่ตามมานั้นน่าสนใจกว่า!</string>
+    <string name="pp_renew">ต่ออายุ</string>
+    <string name="pp_tell_found">บอกเราว่าคุณพบอะไร</string>
+    <string name="feedback_details">รายละเอียดของคำติชม</string>
+    <string name="pp_copyright_notice">ประกาศลิขสิทธิ์</string>
+    <string name="pp_copyright_notice_hint_line1">หากคุณเชื่อว่าเนื้อหาละเมิดลิขสิทธิ์ของคุณโปรด #รายงาน# ให้เราทราบ</string>
+    <string name="pp_copyright_notice_hint_line2">เผยแพร่โดย %s โดยมีสิทธิอำนาจของ %s</string>
+    <string name="pp_copyright_notice_hint_line3">© สงวนลิขสิทธิ์</string>
+    <string name="pp_new">ใหม่</string>
+    <string name="pp_team">ทีมงาน</string>
+    <string name="pp_connect_googleplay_fail">มีข้อผิดพลาดในบริการ Google Play โปรดล้างแคช Google Play หรือกลับเข้าสู่บัญชี Google ของคุณแล้วลองอีกครั้ง!</string>
+    <string name="pp_close">ปิด</string>
+    <string name="start_reading">เริ่มอ่าน ></string>
+    <string name="pp_skip">ข้าม %d</string>
+    <string name="georgia">จอร์เจีย</string>
+    <string name="search_books">ค้นหาหนังสือ</string>
+    <string-array name="day_arr">
+        <item>อา</item>
+        <item>จ</item>
+        <item>อ</item>
+        <item>พ</item>
+        <item>พฤ</item>
+        <item>ศ</item>
+        <item>ส</item>
+    </string-array>
+    <string name="app_wallet">กระเป๋าเงิน</string>
+
+    <string name="pp_pending_retry_tip">หากยังไม่แสดงในบัญชีของคุณหลังจากผ่านไประยะหนึ่ง หรือหากคุณประสบปัญหาใดๆ โปรดติดต่อ #ฝ่ายบริการลูกค้า# ของเราเพื่อขอความช่วยเหลือ</string>
+    <string name="pp_reward_feedback_hint">หากคุณมีปัญหาใดๆ โปรดฝาก #ข้อเสนอแนะ# ของคุณไว้ที่ศูนย์ช่วยเหลือ</string>
+    <string name="pp_retry">ลองอีกครั้ง</string>
+    <string name="error_request_tip">คำขอล้มเหลว โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="book_load_error">มีข้อผิดพลาดในการโหลดหนังสือ โปรดลองหนังสือเล่มอื่น</string>
+    <string name="daily_check_disable_tip">กลับมาพรุ่งนี้เพื่อเช็คอินและรับโบนัสของคุณ</string>
+    <string name="pp_notice">ประกาศ</string>
+    <string name="del_account_note">การดำเนินการนี้ไม่สามารถยกเลิกได้ โปรดยืนยันข้อมูลต่อไปนี้ก่อนที่คุณจะลบบัญชี</string>
+    <string name="del_account_title1">1. คุณจะไม่สามารถเปิดใช้งานบัญชีของคุณอีกครั้งได้</string>
+    <string name="del_account_note1">เมื่อถูกลบแล้ว คุณจะไม่สามารถเข้าสู่ระบบหรือใช้บัญชีนี้ได้อีก ไม่สามารถเรียกคืนหรือกำจัดหนังสือ ข้อมูล หรือทรัพย์สินที่เกี่ยวข้องกับบัญชีที่ถูกลบได้ แม้ว่าคุณจะลงทะเบียนใหม่ จะมีเพียงบัญชีใหม่เท่านั้นที่จะถูกสร้างขึ้น</string>
+    <string name="del_account_title2">2. คุณสมบัติและข้อมูลจะถูกล้าง</string>
+    <string name="del_account_note2">การลบบัญชีจะถือว่าคุณละทิ้งสิทธิ์และทรัพย์สินของบัญชี รวมถึงข้อมูลส่วนบุคคล เหรียญ โบนัส คูปอง บัตรเติมเงิน และทรัพย์สินเสมือนอื่น ๆ โปรดจัดการหนังสือของคุณอย่างเหมาะสม ข้อมูลและทรัพย์สิน</string>
+    <string name="del_account_title3">3. การระงับข้อพิพาท</string>
+    <string name="del_account_note3">คุณไม่สามารถลบบัญชีของคุณได้สำเร็จ หากมีข้อพิพาทที่ยังไม่ได้รับการแก้ไข รวมถึงแต่ไม่จำกัดเพียงการร้องเรียน รายงาน ฯลฯ</string>
+    <string name="del_account_title4">4. การลบเวลาที่มีผล</string>
+    <string name="del_account_note4">แอปพลิเคชันการลบจะได้รับการตรวจสอบและส่งต่อไปโดยอัตโนมัติในเวลา 24:00 น. ของวันที่ 30 แต่คุณสามารถเข้าสู่ระบบผ่านบัญชีบุคคลที่สามเพื่อยุติกระบวนการก่อนที่จะสรุปได้</string>
+    <string name="read_del_account_notice_note">ฉันได้อ่านข้อมูลข้างต้นแล้ว และเข้าใจว่าการดำเนินการนี้ไม่สามารถยกเลิกได้</string>
+    <string name="pp_del_account">ลบบัญชี</string>
+    <string name="pp_cancel_del_account">ยกเลิกการลบบัญชี</string>
+    <string name="pp_cancel_del_account2">ยกเลิกการลบบัญชี</string>
+    <string name="pp_cancel_del_account_hint">บัญชีอยู่ระหว่างการตรวจสอบการลบ คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการลบ</string>
+    <string name="del_account_submitted">คำขอลบบัญชีถูกส่งไปแล้ว</string>
+    <string name="del_account_confirm_time">คำขอนี้จะได้รับการตรวจสอบและอนุมัติโดยอัตโนมัติเมื่อ %s</string>
+    <string name="del_account_terms_read_hint">โปรดยืนยันว่าได้เลือกข้อตกลงการลบบัญชีแล้ว</string>
+    <string name="account_in_normal_state_hint">บัญชีอยู่ในสภาพปกติ</string>
+    <string name="account_deleted_hint">บัญชีถูกลบแล้ว</string>
+    <string name="account_deleting_hint">กำลังดำเนินการลบบัญชี โปรดอย่าลองอีกครั้ง</string>
+    <string name="account_delete_action_confirm">การลบบัญชีได้ถูกส่งเรียบร้อยแล้ว</string>
+    <string name="pp_attention">ความสนใจ</string>
+    <string name="pp_account_deleted_hint">ตรวจพบบัญชีของคุณว่าถูกลบแล้ว มีการกำหนดบัญชีใหม่ให้กับคุณแล้ว และแอปพลิเคชันจะรีสตาร์ทโดยอัตโนมัติเพื่อให้คุณเริ่มใช้งานได้</string>
+    <string name="pp_think_again">คิดใหม่</string>
+
+    <string name="pp_confirm">ยืนยัน</string>
+    <string name="del_account_cancel_success_hint">คุณยกเลิกการลบบัญชีสำเร็จแล้ว</string>
+    <string name="chapter_not_exist">ไม่มีบทเนื้อหา</string>
+    <string name="recharge_pedding_hint">คุณมีการเติมเงินที่ไม่สมบูรณ์ %d รายการ</string>
+    <string name="pp_friendly_reminder">คำเตือนที่เป็นมิตร</string>
+    <string name="pp_restore_reminder_content">หลังจากคลิกปุ่ม \'Restore\' แล้ว โปรดอดทนรอ หากการเติมเงินยังคงไม่แสดงในบัญชีของคุณหลังจากผ่านไประยะหนึ่ง หรือหากคุณพบปัญหาใดๆ โปรดติดต่อฝ่ายบริการลูกค้าของเรา เราพร้อมให้ความช่วยเหลือคุณเสมอ!</string>
+    <string name="pp_report_immediately">รายงานทันที</string>
+    <string name="pp_payment_error">ข้อผิดพลาดในการชำระเงิน</string>
+    <string name="pp_payment_error_hint">Google Pay ไม่สนับสนุนการซื้อของคุณในขณะนี้ กรุณาลองใช้วิธีการชำระเงินอื่น</string>
+    <string name="pp_switch_payment">เลือกวิธีอื่น</string>
+    <string name="pp_operate_frequent_tip">การดำเนินการบ่อยเกินไป โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="pp_valid">ถูกต้อง</string>
+    <string name="pp_invalid">ไม่ถูกต้อง</string>
+    <string name="pp_received_time">เวลาที่ได้รับ:</string>
+    <string name="pp_expired_date">วันที่หมดอายุ:</string>
+    <string name="pp_chapter">บท</string>
+    <string name="pp_rules">กฎ</string>
+    <string name="pp_rules_check_in_title">1. กฎการเช็คอิน</string>
+    <string name="pp_rules_check_in_content">คุณสามารถรับโบนัสได้ด้วยการเช็คอินทุกวัน จะได้รับรางวัลเพิ่มเติมเมื่อเช็คอินติดต่อกันครั้งที่ 3 และ 7 การเช็คอินที่ขัดจังหวะจะส่งผลให้สูญเสียรางวัลในวันนั้น</string>
+    <string name="pp_rules_novice_title">2. งานมือใหม่</string>
+    <string name="pp_rules_novice_content">ทำงานของผู้เริ่มต้นให้เสร็จสิ้นเพื่อรับโบนัสที่เกี่ยวข้อง</string>
+    <string name="pp_rules_daily_title">3. งานรายวัน</string>
+    <string name="pp_rules_daily_content">เมื่อคุณทำงานรายวันเสร็จสิ้น ให้คลิกปุ่ม "อ้างสิทธิ์" เพื่อรับโบนัส งานนี้จะได้รับการอัปเดตเป็นครั้งคราว หากมีปัญหาเกี่ยวกับการแจกโบนัสเนื่องจากการอัพเดต โปรดแสดงความคิดเห็นของคุณบนเพจของฉัน</string>
+    <string name="pp_rules_reward_rule_title">4. กฎการให้รางวัล </string>
+    <string name="pp_rules_reward_rule_content">โบนัสที่นี่มีอายุ 7 วัน 1 โบนัส = 1 เหรียญ โบนัสจะถูกหักออกก่อนเมื่อคุณปลดล็อคบท</string>
+    <string name="pp_day">วัน</string>
+    <string name="net_connect_tip">เครือข่ายเกิดข้อผิดพลาด โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="pp_merge_assets_hint">ทรัพย์สินในแอปพลิเคชัน <Data><![CDATA[ <b>%s</b> ]]></Data> ของคุณจะถูกใช้ตามปกติในแอปพลิเคชัน <Data><![CDATA[ <b>%s</b> ]]></Data> โปรดระวังการเปลี่ยนแปลงในทรัพย์สินของคุณ</string>
+    <string name="pp_merge_assets_hint_coin">ทรัพย์สินใน <Data><![CDATA[ <b>%s</b> ]]></Data> ประกอบด้วยหนังสือในชั้นหนังสือ, %s เหรียญ และ %s โบนัส</string>
+    <string name="pp_merge_assets_hint_account">บัญชีที่สอดคล้องกับการควบรวมทรัพย์สินอยู่ภายใต้บัญชี %s ในแอปพลิเคชัน <Data><![CDATA[ <b>%s</b> ]]></Data> </string>
+    <string name="pp_merge_account_success">การควบรวมบัญชีสำเร็จ!</string>
+    <string name="pp_merge_account_fail">การควบรวมบัญชีล้มเหลว!</string>
+    <string name="pp_sign_in">ลงชื่อเข้าใช้</string>
+    <string name="pp_pay_sign_cancel">ละเว้นและดำเนินการต่อ</string>
+    <string name="pp_reward_signin_hint">ลงชื่อเข้าใช้และรับสิทธิประโยชน์ฟรีอีกมากมาย</string>
+    <string name="pp_pay_sign_hint">เพื่อให้มั่นใจถึงความปลอดภัยสูงสุดสำหรับบัญชีและข้อมูลของคุณ โปรดลงชื่อเข้าใช้บัญชีของคุณ หากไม่ทำเช่นนั้นอาจส่งผลให้เกิดการสูญเสีย!</string>
+    <string name="pp_library_login_hint">ลงชื่อเข้าใช้ตอนนี้และรับสิทธิประโยชน์ฟรีสำหรับผู้ใช้ใหม่</string>
+    <string name="pp_login_unlock_benefit">เพื่อปลดล็อกคุณสมบัติและคุณประโยชน์เพิ่มเติม</string>
+    <string name="pp_login_earn_bonus">รับโบนัส</string>
+    <string name="pp_sign_in_continue">ลงชื่อเข้าใช้เพื่อดำเนินการต่อ</string>
+    <string name="pp_reader_sign_warning">บัญชีของคุณตกอยู่ในความเสี่ยง โปรดเข้าสู่ระบบทันทีเพื่อความปลอดภัยของบัญชีและข้อมูล</string>
+    <string name="pp_verify_email">ยืนยันอีเมล</string>
+    <string name="pp_link_email_hint">เชื่อมโยงอีเมลของคุณเพื่อรับโบนัสฟรี</string>
+    <string name="pp_email_address">ที่อยู่อีเมล</string>
+    <string name="pp_verification_code">รหัสยืนยัน</string>
+    <string name="pp_code_send_hint">รหัสยืนยันถูกส่งไปแล้ว</string>
+    <string name="pp_resend_code">(%d)ส่งอีกครั้ง</string>
+    <string name="pp_verification_code_send_successful">รหัสยืนยันถูกส่งไปแล้ว โปรดตรวจสอบอีเมลของคุณ</string>
+    <string name="pp_already_bind_hint">บัญชีของแอปพลิเคชันนี้ถูกผูกไว้กับบัญชีอื่นบนแพลตฟอร์ม #%s#</string>
+    <string name="pp_more_login_methods">วิธีการเข้าสู่ระบบเพิ่มเติม</string>
+    <string name="pp_switch_account">สลับบัญชี</string>
+    <string name="pp_switch_account_hint">วิธีการเข้าสู่ระบบนี้ถูกผูกไว้กับบัญชีอื่น คุณต้องการเปลี่ยนบัญชีและรวมทรัพย์สินของคุณหรือไม่</string>
+    <string name="pp_reminder">คำเตือน</string>
+    <string name="pp_email_code_expire">รหัสยืนยันไม่ถูกต้อง!</string>
+    <string name="pp_email_code_error">ข้อผิดพลาดรหัสยืนยัน!</string>
+    <string name="pp_preference_setting">การตั้งค่ากำหนด</string>
+    <string name="pp_select_tag_hint">เลือกแท็กเพื่อแนะนำหนังสือให้คุณแม่นยำยิ่งขึ้น</string>
+    <string name="pp_skip2">ข้าม</string>
+    <string name="pp_reading_preference">การตั้งค่าการอ่าน</string>
+    <string-array name="ranking_left_tab">
+        <item>ดีที่สุด</item>
+        <item>ร้อนแรง</item>
+        <item>สัญญา</item>
+        <item>ใหม่</item>
+        <item>เสร็จสมบูรณ์</item>
+    </string-array>
+    <string name="app_hot">ร้อน</string>
+    <string name="app_new">ใหม่</string>
+    <string name="app_read_guide_gesture_hint">เลื่อนขึ้นและลงในพื้นที่นี้เพื่อพลิกหน้า</string>
+    <string name="unlock_now">ปลดล็อคทันที</string>
+    <string name="books_on_auto_purchase">หนังสือที่มีการปลดล็อคอัตโนมัติ</string>
+    <string name="unlock_successful">ปลดล็อคสำเร็จ</string>
+    <string name="unlock_fail">ปลดล็อคไม่สำเร็จ</string>
+    <string name="top_up_failed">เติมเงินไม่สำเร็จ</string>
+    <string name="top_up_cancel">ยกเลิกการเติมเงิน</string>
+    <string name="payment_recharge_error">เราประสบปัญหากับการชำระเงินของคุณ หากต้องการแก้ไขอย่างรวดเร็ว:\n1. เปิด Google Play \n2. ไปที่การชำระเงิน &#038; การสมัครรับข้อมูล. \n3. เลือกงบประมาณ &#038; ประวัติศาสตร์. \n4. ยกเลิกคำสั่งซื้อ เปลี่ยนจำนวนเงินที่ชำระ หรือเลือกวิธีการชำระเงินอื่น</string>
+    <string name="payment_recharge_error_other">เราประสบปัญหากับการชำระเงินของคุณ หากต้องการแก้ไขอย่างรวดเร็ว:\n1. เปิด %s \n2. ยกเลิกคำสั่งซื้อ \n3. เปลี่ยนจำนวนเงินที่ชำระหรือใช้วิธีการชำระเงินอื่น</string>
+    <string name="payment_window_bottom_tip">หากคุณประสบปัญหาใดๆ โปรดติดต่อ #ฝ่ายบริการลูกค้า# ของเราเพื่อขอความช่วยเหลือ</string>
+    <string name="payment_bottom_ignore">ละเว้น</string>
+    <string name="payment_pending_title">การเติมเงินกำลังดำเนินการ</string>
+    <string name="payment_pending_content">การเติมเงินของคุณกำลังดำเนินการและอาจล่าช้า 5–10 นาที</string>
+    <string name="payment_pending_button">เร่งรัด</string>
+    <string name="payment_pending_accelerating">กำลังเร่งความเร็ว…</string>
+    <string name="payment_pending_keep">โปรดรอ</string>
+    <string name="payment_pending_shoose_other">คำสั่งซื้อของคุณกำลังดำเนินการ มันใช้เวลานานกว่าปกติ กรุณารอสักครู่ หากการชำระเงินไม่สำเร็จในเร็ว ๆ นี้ คุณสามารถลองวิธีอื่น</string>
+    <string name="top_up_successful">เติมเงินสำเร็จ</string>
+    <string name="have_incomplete_payment">คุณมีคำสั่งซื้อการชำระเงินที่ไม่สมบูรณ์ โปรดลองใช้จำนวนการชำระเงินอื่นหรือเลือกวิธีการชำระเงินอื่น</string>
+    <string name="pending_clicking_frequently">พยายามมากเกินไป กรุณาลองอีกครั้งในภายหลัง</string>
+    <string name="order_processing">การประมวลผลคำสั่งซื้อ</string>
+    <string name="proceed_cancel_order_hint">การยกเลิกจะขัดขวางการชำระเงินที่ยังไม่เสร็จสิ้น</string>
+    <string name="cancel_order_feedback_title">กำลังยกเลิก? โปรดบอกเหตุผล</string>
+    <string name="cancel_order_feedback_subtitle">คำติชมของคุณช่วยให้เราปรับปรุง.</string>
+    <string name="payment_not_working">วิธีการชำระเงินไม่ทำงาน</string>
+    <string name="price_too_high">ราคาสูงเกินไป</string>
+    <string name="pick_wrong_product">เลือกสินค้าผิด</string>
+    <string name="payment_page_slow">หน้าชำระเงินช้าเกินไป</string>
+    <string name="change_mind">เปลี่ยนใจ/อื่นๆ</string>
+    <string name="other_reason_share">(ไม่จำเป็นต้องใส่) มีเหตุผลอื่นๆ หรือไม่? กรุณาแชร์.</string>
+    <string name="load_failed">การโหลดล้มเหลว แตะเพื่อโหลดอีกครั้ง</string>
+    <string name="load_end">ไม่มีอีกแล้ว~</string>
+    <string name="other_payment_methods">วิธีการชำระเงินอื่นๆ</string>
+    <string name="select_payment_method">เลือกวิธีการชำระเงิน</string>
+    <string name="payment_unavailable_attention">วิธีการชำระเงินไม่สามารถใช้งานได้ กรุณาลองใช้วิธีการชำระเงินทางเลือกอื่น</string>
+    <string name="login_welcome">ยินดีต้อนรับสู่ %s</string>
+    <string name="login_other_methods">วิธีการเข้าสู่ระบบอื่น</string>
+
+    <string name="help_feedback">ช่วยเหลือ &amp; ข้อเสนอแนะ</string>
+    <string name="faq">FAQ</string>
+    <string name="recharge_not_receive_q">ควรทำอย่างไรถ้าการเติมเงินสำเร็จแต่ไม่ได้รับเหรียญ?</string>
+    <string name="recharge_not_receive_a">
+        กรุณายืนยันว่าธุรกรรมทางธนาคารสำเร็จและการชำระเงินได้ถูกหักออกหรือไม่ หากการชำระเงินสำเร็จแล้ว กรุณาปิดแอปพลิเคชันแล้วเปิดใหม่เพื่อตรวจสอบว่าเงินในกระเป๋าและประวัติการทำธุรกรรมได้รับการอัปเดตหรือไม่
+        \n\n
+        หมายเหตุสำคัญ:
+        \n\n
+        · โปรดตรวจสอบให้แน่ใจว่าคุณได้เข้าสู่ระบบด้วยบัญชีเดียวกับที่ใช้ในการเติมเงิน บางครั้งผู้ใช้อาจลืมข้อมูลการเข้าสู่ระบบและเติมเงินเป็นผู้ใช้งานไม่ระบุตัวตน
+        \n\n
+        · ตามกระบวนการทำธุรกรรม อาจใช้เวลาสักครู่ในการอัปเดตเหรียญหลังจากการชำระเงินสำเร็จ เวลาที่ใช้ในการประมวลผลอาจแตกต่างกันขึ้นอยู่กับวิธีการชำระเงิน เราขอแนะนำให้รอประมาณ 10 นาทีหลังจากการชำระเงินสำเร็จแล้วตรวจสอบว่าเงินในกระเป๋าและประวัติการทำธุรกรรมได้รับการอัปเดตหรือไม่
+        \n\n
+        หากวิธีข้างต้นไม่ช่วยแก้ปัญหา กรุณาติดต่อเราผ่าน \"ข้อเสนอแนะ\" เพื่อให้เราช่วยแก้ปัญหาของคุณโดยเร็ว
+    </string>
+    <string name="cannot_complete_payment_q">ไม่สามารถทำการชำระเงินได้?</string>
+    <string name="cannot_complete_payment_a">
+        · หากมีข้อความผิดพลาดในร้านค้า โปรดตรวจสอบการเชื่อมต่อเครือข่ายของคุณ คุณสามารถลองเปลี่ยนเครือข่าย เช่น ใช้ WiFi ตัวอื่น
+        \n\n
+        · หากคุณยังไม่ได้เข้าสู่ระบบบัญชี Google หรือ Apple บนอุปกรณ์ของคุณ ปัญหานี้อาจเกิดขึ้นได้
+        \n\n
+        · หากวิธีข้างต้นไม่ได้ช่วยแก้ปัญหา กรุณาส่งข้อเสนอแนะเกี่ยวกับปัญหาที่คุณพบ
+    </string>
+    <string name="refund_payment_q">สามารถขอคืนเงินได้หลังจากการชำระเงินหรือไม่?</string>
+    <string name="refund_payment_a">
+        ขณะนี้ไม่รองรับการขอคืนเงิน เหรียญและโบนัสสามารถใช้เพื่อปลดล็อกบท
+    </string>
+    <string name="disable_automatic_purchase_q">จะปิดฟังก์ชันการซื้ออัตโนมัติได้อย่างไร?</string>
+    <string name="disable_automatic_purchase_a">คุณสามารถปิดการซื้ออัตโนมัติได้ที่ \"ของฉัน\"/\"กระเป๋าเงิน\"/\"หนังสือที่ปลดล็อคอัตโนมัติ\"</string>
+    <string name="view_unlock_chapter_history_q">จะดูประวัติการปลดล็อคบทได้อย่างไร?</string>
+    <string name="view_unlock_chapter_history_a">คุณสามารถตรวจสอบได้ที่ \"ของฉัน\"/\"กระเป๋าเงิน\"/\"ประวัติการใช้จ่าย\"</string>
+    <string name="get_coins_bonus_q">จะรับเหรียญและโบนัสได้อย่างไร?</string>
+    <string name="get_coins_bonus_a">คุณสามารถรับเหรียญและโบนัสได้จากกิจกรรมเติมเงินและการเข้าร่วมงานในศูนย์สวัสดิการ โปรดทราบว่าเหรียญสามารถรับได้เฉพาะจากการเติมเงินเท่านั้น</string>
+    <string name="difference_coins_bonus_q">ความแตกต่างระหว่างเหรียญและโบนัสคืออะไร?</string>
+    <string name="difference_coins_bonus_a">
+        · ทั้งสองสามารถใช้เพื่อปลดล็อคบท
+        \n\n
+        · โบนัสมีระยะเวลาหมดอายุ คุณสามารถตรวจสอบระยะเวลาหมดอายุของโบนัสได้ใน \"ประวัติโบนัส\" ของ \"กระเป๋าเงิน\"
+    </string>
+    <string name="check_user_id_q">จะตรวจสอบหมายเลขผู้ใช้ได้อย่างไร?</string>
+    <string name="check_user_id_a">
+        บัญชีผู้ใช้งานไม่ระบุตัวตน
+        \n
+        1. คลิกที่ "หน้าของฉัน"
+        \n
+        2. หมายเลขชุดหนึ่งที่อยู่ด้านขวาของรูปโปรไฟล์
+        \n\n\n
+        บัญชีที่ผูกบัญชีแล้ว
+        \n
+        1. คลิกที่ "หน้าของฉัน"
+        \n
+        2. คลิกที่รูปโปรไฟล์ที่ด้านบนเพื่อเปิดหน้าจอใหม่
+        \n
+        3. หมายเลขชุดหนึ่งที่อยู่ใต้รูปโปรไฟล์
+    </string>
+    <string name="assets_synchronize_q">สินทรัพย์จะซิงค์เมื่อเข้าสู่ระบบจากอุปกรณ์ต่างๆ หรือไม่?</string>
+    <string name="assets_synchronize_a">
+        คุณสามารถซิงค์สินทรัพย์ของคุณได้อย่างรวดเร็วโดยการเข้าสู่ระบบด้วยบัญชีเดียวกัน วิธีการคือ:
+        \n\n
+        · ค้นหาอุปกรณ์เดิมของคุณแล้วเข้าสู่ระบบด้วยบัญชีที่สาม (เช่น Google หรือ Facebook)
+        \n\n
+        · จำหมายเลข ID และรหัสผ่านของบัญชีของคุณ
+        \n\n
+        · เข้าสู่ระบบด้วยบัญชีเดียวกันในอุปกรณ์ใหม่
+        \n\n
+        · ตรวจสอบให้แน่ใจว่า หมายเลข ID ผู้ใช้ตรงกับที่คุณบันทึกไว้
+        \n\n
+        เพื่อให้แน่ใจว่าไม่มีข้อมูลหาย เราขอแนะนำให้คุณอ่านหนังสือบนอุปกรณ์เดิมก่อนแล้วจึงย้ายไปยังอุปกรณ์ใหม่
+    </string>
+    <string name="categories">หมวดหมู่</string>
+    <string name="recharge_issues">ปัญหาการเติมเงิน</string>
+    <string name="coin_bonus_issues">ปัญหากับเหรียญและโบนัส</string>
+    <string name="chapter_unlock_issues">ปัญหาการปลดล็อคบท</string>
+    <string name="book_issues">ปัญหาหนังสือ</string>
+    <string name="account_issues">ปัญหาบัญชีผู้ใช้</string>
+    <string name="other">อื่นๆ</string>
+
+    <string name="error_code3_a">สำหรับรหัสข้อผิดพลาดเช่นนี้ เราขอแนะนำให้คุณอัปเดตบริการ Google Play หรือใช้วิธีการชำระเงินทางเลือก</string>
+    <string name="coins_bonus_reduce_a">
+        · คุณอาจได้เข้าสู่ระบบด้วยบัญชีที่แตกต่างกัน กรุณาตรวจสอบประวัติการรับโบนัสเพื่อดูว่ามีการบันทึกต่อเนื่องหรือไม่
+        \n\n
+        · มีวิธีการเข้าสู่ระบบต่างๆ เช่น Facebook, Google, หรืออีเมล หากคุณไม่ได้เข้าสู่ระบบบัญชีใดๆ บนอุปกรณ์ของคุณ ระบบจะใช้บัญชีผู้เยี่ยมชม คุณสามารถตรวจสอบบัญชีของคุณได้ที่หน้า \"ของฉัน\"
+        \n\n
+        · หากโบนัสของคุณหายไป คุณสามารถตรวจสอบประวัติโบนัสของคุณได้ก่อน ซึ่งอาจมีบางส่วนของโบนัสหมดอายุ
+        \n\n
+        · คุณอาจตั้งค่าการปลดล็อคอัตโนมัติ กรุณาตรวจสอบประวัติการปลดล็อคบทเพื่อดูว่าคุณใช้เหรียญหรือโบนัสไปแล้วหรือไม่
+        \n\n
+        · หากวิธีข้างต้นไม่ช่วยแก้ปัญหาของคุณ กรุณาส่งปัญหาของคุณผ่าน \"ข้อเสนอแนะ\"
+    </string>
+
+    <string name="check_bonus_usage_history">คุณสามารถตรวจสอบประวัติการใช้จ่ายโบนัสหรือเหรียญได้ที่ \"ของฉัน\"/\"กระเป๋าเงิน\"/\"ประวัติการใช้จ่าย\"</string>
+
+    <string name="unlock_chapter_a">เรารองรับการปลดล็อคบทแบบทีละบทหรือหลายบท คุณสามารถเลือกตามความต้องการ การปลดล็อคจะต้องใช้เหรียญหรือโบนัส หากคุณไม่มีเหรียญหรือโบนัสเพียงพอ คุณจะต้องเติมเงิน</string>
+
+    <string name="unable_next_chapter_a">
+        · คุณต้องตรวจสอบให้แน่ใจว่าการเชื่อมต่อเครือข่ายของคุณดี แนะนำให้เปลี่ยนเครือข่ายแล้วลองใหม่
+        \n\n
+        · กรุณาตรวจสอบว่าเหรียญหรือโบนัสของคุณเพียงพอหรือไม่
+    </string>
+
+    <string name="grammar_spell_error_a">กรุณาติดต่อเราผ่าน \"ข้อเสนอแนะ\" พร้อมระบุชื่อหนังสือและชื่อบทเพื่อช่วยให้เราช่วยเหลือได้อย่างรวดเร็ว</string>
+
+    <string name="violent_insult_content_a">กรุณาติดต่อเราผ่าน \"ข้อเสนอแนะ\" และระบุชื่อหนังสือและชื่อบท เราจะดำเนินการแก้ไขปัญหานี้</string>
+    <string name="paid_book_pay_again_a">หนังสือที่คุณซื้อจะเป็นทรัพย์สินของคุณเสมอ หากคุณลบหนังสือที่ซื้อออก คุณสามารถกู้คืนได้ผ่าน \"ของฉัน\"/\"ดูแล้ว\"</string>
+    <string name="bookshelf_coin_assets_disappeared_a">สถานการณ์นี้มักเกิดขึ้นเมื่อคุณเข้าสู่ระบบด้วยบัญชีหรืออุปกรณ์ที่แตกต่างกัน โปรดตรวจสอบให้แน่ใจว่าคุณกำลังเข้าสู่ระบบด้วยบัญชีปกติของคุณ หากปัญหายังคงมีอยู่ กรุณาติดต่อเราผ่าน \"ข้อเสนอแนะ\"</string>
+    <string name="login_del_account_a">
+        เข้าสู่ระบบ:
+        \n
+        1. คลิกที่ \"หน้าของฉัน\"
+        \n
+        2. คลิกที่ \"อวตาร\"
+        \n
+        3. เลือก \"วิธีการเข้าสู่ระบบ\" ที่คุณต้องการ
+        \n\n\n
+        ลบบัญชี:
+        \n
+        1. คลิกที่ \"หน้าของฉัน\"
+        \n
+        2. คลิกที่ \"การตั้งค่า\"
+        \n
+        3. คลิกที่ \"ลบบัญชี\"
+    </string>
+
+    <string-array name="issues_category_item">
+        <item>ปัญหาการชาร์จเงิน</item>
+        <item>ปัญหาค่าเหรียญและโบนัส</item>
+        <item>ปัญหาการปลดล็อกบท</item>
+        <item>ปัญหาหนังสือ</item>
+        <item>ปัญหาบัญชี</item>
+        <item>อื่น ๆ</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>ทำอย่างไรหากการชาร์จสำเร็จแล้วแต่ไม่ได้รับเหรียญ?</item>
+        <item>ไม่สามารถชำระเงินให้สำเร็จได้?</item>
+        <item>รหัสข้อผิดพลาด 3</item>
+        <item>สามารถขอเงินคืนหลังจากชำระเงินแล้วได้หรือไม่?</item>
+    </string-array>
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>ทำอย่างไรถึงจะได้รับเหรียญและโบนัส?</item>
+        <item>เหรียญหรือโบนัสของฉันหายไปหรือถูกลดลง</item>
+        <item>เหรียญและโบนัสต่างกันอย่างไร?</item>
+        <item>ทำอย่างไรถึงจะตรวจสอบประวัติการใช้โบนัสของฉัน?</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>ทำอย่างไรถึงจะปลดล็อกบท?</item>
+        <item>ทำอย่างไรถึงจะดูประวัติการปลดล็อกบท?</item>
+        <item>ทำอย่างไรถึงจะปิดฟังก์ชันการซื้ออัตโนมัติ?</item>
+        <item>ไม่สามารถอ่านบทถัดไปได้?</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>เนื้อหาหลายส่วนซ้ำซ้อน หรือมีข้อผิดพลาดทางไวยากรณ์หรือการสะกดคำ</item>
+        <item>มีเนื้อหาที่รุนแรง, ดูหมิ่น หรือไม่เหมาะสม</item>
+        <item>หากฉันลบหนังสือที่ชำระเงินแล้วออกจากชั้นหนังสือ จำเป็นต้องชำระเงินอีกครั้งหรือไม่?</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>ฉันสามารถตรวจสอบ ID ผู้ใช้ของฉันได้อย่างไร?</item>
+        <item>ฉันสามารถเข้าสู่ระบบหรือลบบัญชีได้อย่างไร?</item>
+        <item>ทรัพย์สินจะซิงค์เมื่อเข้าสู่ระบบจากอุปกรณ์ต่าง ๆ หรือไม่?</item>
+        <item>บันทึกในชั้นหนังสือและทรัพย์สินเหรียญหายไป?</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>กรุณาติดต่อเราผ่าน \"ข้อเสนอแนะ\" เพื่อให้เราช่วยคุณแก้ไขปัญหานี้โดยเร็ว</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">ยังคงไม่สามารถแก้ไขปัญหาได้? คลิกที่ #ข้อเสนอแนะ#</string>
+
+
+    <!-- 泰语 -->
+    <string name="total">ทั้งหมด: %d</string>
+    <string name="subscription_get_coins_bonus">รับ %d เหรียญ และโบนัส %d</string>
+    <string name="subscription_login_bonus">ล็อกอินเป็นเวลา %d วันเพื่อรับโบนัส %d</string>
+    <string name="per_week">/สัปดาห์</string>
+    <string name="details">รายละเอียด</string>
+    <string name="subscription_in_effect">มีผล</string>
+    <string name="subscription_date">วันหมดอายุ: %s</string>
+    <string name="subscription_get_coins">รับ %d เหรียญ</string>
+
+    <string name="subscription">การสมัครสมาชิกของฉัน</string>
+    <string name="subscription_rewards">รางวัลจากการสมัครสมาชิก</string>
+    <string name="subscription_bonus">+%d โบนัส</string>
+
+    <string name="subscription_claim_title">รับรางวัลจากการสมัครสมาชิก</string>
+    <string name="days">วันที %d</string>
+    <string name="claim_success">รับสำเร็จ</string>
+    <string name="claim_fail">รับไม่สำเร็จ</string>
+
+    <string name="subscription_success">สมัครสมาชิกสำเร็จ</string>
+    <string name="subscribe_success_tip">คุณได้รับ %d เหรียญ และโบนัส %d แล้ว คุณสามารถรับโบนัส %d ต่อวัน</string>
+
+    <string name="subscribe_tips1">1. ค่าซื้อจะถูกหักจากบัญชีการชำระเงินของคุณ</string>
+    <string name="subscribe_tips2">2. การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติ การสมัครสมาชิกจะถูกเรียกเก็บเงินโดยอัตโนมัติในแต่ละรอบบิล ไม่ว่าจะเป็นรายเดือนหรือระยะเวลาอื่น คุณอาจถูกเรียกเก็บเงินล่วงหน้าสูงสุด 24 ชั่วโมงก่อนเริ่มรอบบิลแต่ละรอบ จนกว่าคุณจะยกเลิกการสมัครสมาชิก</string>
+    <string name="subscribe_tips3">3. คุณสามารถยกเลิกการสมัครสมาชิกได้ตลอดเวลา โดยต้องดำเนินการล่วงหน้ามากกว่า 24 ชั่วโมงก่อนวันที่ต่ออายุ</string>
+    <string name="subscribe_tips4">4. ระยะเวลาการใช้โบนัสที่ได้รับจากการเติมเงินคือ %d วัน</string>
+    <string name="subscribe_tips5">5. โบนัสจะถูกแจกจ่ายเป็นเวลาเจ็ดวัน และโบนัสที่ไม่ได้รับการใช้หลังจากหมดอายุจะไม่สามารถกู้คืนได้</string>
+    <string name="subscribe_tips6">6. เหรียญและโบนัสมีมูลค่าเท่ากัน โบนัสที่ยังไม่หมดอายุเป็นไอเท็มเสมือนจริง และเราไม่รองรับการคืนเงิน</string>
+    <string name="subscribe_tips7">7. ต้องการความช่วยเหลือหรือไม่? โปรดดูที่ #FAQ#.</string>
+
+    <string name="subscribe_rules">1. คุณจะได้รับ %s เหรียญ และโบนัส %s ทันทีหลังจากสมัครสมาชิก\n2. เข้าสู่ระบบต่อเนื่อง %s วันเพื่อรับโบนัส %s รวมเป็นโบนัส %s ต่อวัน\n3. คุณสามารถตรวจสอบรางวัลเพิ่มเติมได้ในกระเป๋าเงินของคุณหลังจากสมัครสมาชิก</string>
+
+    <string name="subscribe_pay_title">ข้อตกลงการสมัครสมาชิก</string>
+    <string name="subscribe_pay_tip1_title">1. การชำระเงิน:</string>
+    <string name="subscribe_pay_tip1_content">ค่าซื้อจะถูกหักจากบัญชีการชำระเงินของคุณ</string>
+    <string name="subscribe_pay_tip2_title">2. การต่ออายุ:</string>
+    <string name="subscribe_pay_tip2_content">การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติ ระบบจะเรียกเก็บค่าบริการโดยอัตโนมัติในแต่ละรอบบิล ไม่ว่าจะเป็นรายเดือนหรือรอบอื่น ๆ คุณอาจถูกเรียกเก็บเงินไม่เกิน 24 ชั่วโมงก่อนเริ่มรอบบิลใหม่จนกว่าคุณจะยกเลิกการสมัครสมาชิก</string>
+    <string name="subscribe_pay_tip3_title">3. การยกเลิก:</string>
+    <string name="subscribe_pay_tip3_content">คุณสามารถยกเลิกการสมัครสมาชิกได้ทุกเมื่อ โดยต้องดำเนินการก่อนวันต่ออายุอย่างน้อย 24 ชั่วโมง หากต้องการยกเลิกการสมัครสมาชิก โปรดไปที่แพลตฟอร์มการชำระเงิน</string>
+    <string name="subscribe_pay_tip4_title">4.จัดการการสมัครสมาชิกของคุณ:</string>
+    <string name="subscribe_pay_tip4_content">คุณสามารถดู เปลี่ยนแปลง หรือยกเลิกการสมัครสมาชิกของคุณได้</string>
+
+    <string name="subscribe_out_of_date">การสมัครสมาชิกหมดอายุ</string>
+
+    <string name="pp_got_it">เข้าใจแล้ว</string>
+    <string name="got_it">เข้าใจแล้ว</string>
+    <string name="pp_get">เข้าใจแล้ว</string>
+
+    <string name="pp_submit">ส่ง</string>
+    <string name="pp_submitted">ส่งแล้ว</string>
+    <string name="pp_submit_fail">ส่งไม่สำเร็จ</string>
+
+    <string name="admob_watch_ad_add_tip">ดูโฆษณา +%s โบนัส</string>
+    <string name="admob_loading_tip">กำลังโหลดโฆษณา กรุณาลองดูใหม่อีกครั้ง لاحقا.</string>
+    <string name="admob_waiting_count_down">ดูโฆษณาต่อหลังจากนับถอยหลัง</string>
+
+    <string name="bonus">โบนัส</string>
+    <string name="bonus_value">%d โบนัส</string>
+    <string name="bonus_ad_claimed">รับโบนัส %d แล้ว</string>
+
+
+    <string name="admob_watch_tip">ดูโฆษณาเพื่อรับโบนัส</string>
+    <string name="admob_earn_bonus_tip">รับ %d โบนัสต่อโฆษณาที่รับชม</string>
+    <string name="admob_watch_count_tip">ดูโฆษณา %d/%d</string>
+    <string name="admob_count_down_tip">ดูโฆษณาในภายหลังเวลา %s</string>
+    <string name="admob_daily_desc">รับโบนัส %d ต่อโฆษณาวิดีโอที่รับชม สำเร็จ %d/%d</string>
+
+    <string name="usa_ad_privacy">การตั้งค่าโฆษณา</string>
+
+    <string name="member_benefits">สิทธิประโยชน์ของสมาชิกพรีเมียม</string>
+    <string name="unlimit_premium_books">อ่านหนังสือพรีเมียมกว่า 10,000 เล่มได้ไม่จำกัด</string>
+    <string name="weekly_access_books">เข้าถึงหนังสือพิเศษกว่า 200 เล่มทุกสัปดาห์</string>
+    <string name="enjoy_add_free_experience">เพลิดเพลินกับประสบการณ์ไร้โฆษณา</string>
+    <string name="premium_member_identity">สถานะสมาชิกพรีเมียม</string>
+    <string name="subscribe">สมัครสมาชิก</string>
+    <string name="unlimit_reading">อ่านไม่อั้น!</string>
+    <string name="only_1499_price">เพียง $14.99</string>
+    <string name="premium">พรีเมียม</string>
+    <string name="premium_first_week_discount">%s สำหรับสัปดาห์แรก จากนั้น %s/สัปดาห์</string>
+    <string name="premium_expire_date">วันหมดอายุ: %s</string>
+    <string name="discover_vip_price">เพียง $14.99</string>
+    <string name="premium_daily_active_text">สมาชิกแบบรายวันของคุณใช้งานอยู่แล้ว</string>
+    <string name="premium_week_active_text">สมาชิกแบบรายสัปดาห์ของคุณใช้งานอยู่</string>
+    <string name="premium_month_active_text">สมาชิกแบบรายเดือนของคุณใช้งานอยู่</string>
+    <string name="premium_year_active_text">สมาชิกแบบรายปีของคุณใช้งานแล้ว</string>
+    <string name="premium_expire_time">หมดอายุวันที่ %s</string>
+    <string name="vip_rules">
+        1. ผู้ใช้ที่สมัครสมาชิกพรีเมียมสามารถเข้าถึงหนังสือพรีเมียมได้ฟรีทั้งหมด\n2. การชำระเงิน: ระบบจะหักค่าบริการจากบัญชีชำระเงินของคุณ\n3. การต่ออายุ: ระบบจะต่ออายุโดยอัตโนมัติ โดยมีการเรียกเก็บเงินล่วงหน้าไม่เกิน 24 ชั่วโมงก่อนเริ่มรอบการเรียกเก็บเงินใหม่\n4. การยกเลิก: คุณสามารถยกเลิกได้ทุกเมื่อก่อนถึงวันต่ออายุอย่างน้อย 24 ชั่วโมง โดยไปที่แพลตฟอร์มการชำระเงิน
+    </string>
+
+    <string name="unlock_watch_count">ดูโฆษณาเพื่อปลดล็อก (%d/%d)</string>
+    <string name="unlock_watch_title">ดูโฆษณาเพื่อปลดล็อก</string>
+    <string name="unlock_watch_desc">คุณสามารถปลดล็อกบทนี้ได้โดยการดูโฆษณา</string>
+    <string name="unlock_watch_now">ดูตอนนี้</string>
+    <string name="unlock_watch_chapter_count">คุณสามารถปลดล็อก %d บทได้ฟรีวันนี้ (%d/%d) </string>
+
+    <string name="email_login_top">ป้อนอีเมลที่คุณใช้สำหรับบัญชีของคุณ</string>
+    <string name="email_address_enter_tip">ป้อนที่อยู่อีเมลของคุณ</string>
+    <string name="email_code_enter_tip">ป้อนรหัสยืนยัน</string>
+    <string name="email_send_code">ส่งรหัส</string>
+
+    <string name="facebook_link_title">เชื่อมบัญชี Facebook</string>
+    <string name="facebook_link_content">เชื่อมบัญชี Facebook ของคุณเพื่อรับเหรียญเพิ่ม ไม่ต้องกังวล คุณจะยังคงเก็บความคืบหน้าและข้อมูลปัจจุบันทั้งหมดที่เชื่อมกับบัญชีนี้ไว้</string>
+
+    <string name="limit_time_title">ข้อเสนอจำกัดเวลา</string>
+    <string name="limit_time_content">คว้าโอกาสตอนนี้ — ราคาต่ำสุดเป็นประวัติการณ์ เฉพาะช่วงเวลาจำกัด!</string>
+    <string name="limit_time_premium">การอ่านในส่วนพรีเมียม</string>
+
+    <string name="subscribe_now">สมัครตอนนี้</string>
+    <string name="transaction_ompleted">ทำรายการเสร็จสิ้น</string>
+    <string name="transaction_content">การซื้อเหรียญสำเร็จแล้ว โบนัสมีอายุ 7 วัน</string>
+
+    <string name="send_again">ส่งอีกครั้ง</string>
+    <string name="ad_unlock">ปลดล็อกโฆษณา</string>
+
+    <string name="top_up_history">ประวัติการเติมเงิน</string>
+    <string name="not_activated">ยังไม่เปิดใช้งาน</string>
+    <string name="vip_feedback_rule">
+        6. หากคุณต้องการความช่วยเหลือหรือมีคำถาม โปรดแจ้งให้เราทราบผ่าน #Feedback# ของเรา
+    </string>
+
+    <string name="unlock_adv_used">การปลดล็อกด้วยโฆษณาถูกใช้แล้ว ลองใหม่พรุ่งนี้</string>
+    <string name="expiration_date">วันหมดอายุ:</string>
+    <string name="select_gender">เลือกเพศของคุณ</string>
+    <string name="enter_nickname">กรอกชื่อเล่นของคุณ…</string>
+    <string name="enter_email">กรอกอีเมลของคุณที่นี่…</string>
+    <string name="select_birthday">เลือกวันเกิดของคุณ</string>
+
+    <string name="featured_collection">คอลเลกชันแนะนำ</string>
+    <string name="book_catalog">แคตตาล็อกหนังสือ</string>
+    <string name="fold_up">พับ</string>
+    <string name="choose_your_plan">เลือกแผนของคุณ</string>
+    <string name="select_payment_method_2">เลือกวิธีการชำระเงิน</string>
+    <string name="personalized_tip">คำแนะนำเฉพาะบุคคลตามความชอบ</string>
+    <string name="money_back_tip">รับประกันคืนเงิน</string>
+    <string name="what_you_get">สิ่งที่คุณจะได้รับ</string>
+    <string name="premium_center_recharge_tip">ดำเนินการต่อ แสดงว่าคุณยอมรับว่าการสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติ การสมัครสมาชิกจะถูกเรียกเก็บเงินโดยอัตโนมัติทุกช่วงการเรียกเก็บเงิน ไม่ว่าจะรายเดือนหรือรอบอื่น คุณอาจถูกเรียกเก็บเงินไม่เกิน 24 ชั่วโมงก่อนเริ่มต้นแต่ละช่วงการเรียกเก็บเงินจนกว่าคุณจะยกเลิกการสมัครสมาชิก คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับนโยบายการยกเลิกและคืนเงินของเราได้ใน#ข้อกำหนดการสมัครสมาชิก#</string>
+    <string name="premium_pay_safe">ชำระเงินอย่างปลอดภัยและมั่นคง</string>
+    <string name="premium_access">การเข้าถึงแบบพรีเมียม</string>
+    <string name="unlock_unlimited_books">ปลดล็อกหนังสือไม่จำกัด</string>
+
+    <string name="coins_with_bonus">%1$s %2$s \u200E+ \u200E%3$s %4$s</string>
+
+    <string name="sevel_month">/%d เดือน</string>
+
+    <string name="day">วัน</string>
+    <string name="week">สัปดาห์</string>
+    <string name="month">เดือน</string>
+    <string name="year">ปี</string>
+
+    <string name="per_day">/วัน</string>
+    <string name="per_month">/เดือน</string>
+    <string name="per_year">/ปี</string>
+    <string name="limit_title_premium">อ่านหนังสือทั้งหมดได้ฟรี</string>
+    <string name="secure_payment">การชำระเงินปลอดภัย</string>
+    <string name="easy_cancellation">ยกเลิกง่าย</string>
+    <string name="money_back_guarantee">รับประกันคืนเงิน</string>
+    <string name="subscription_renews_tip">หลังจากช่วงแนะนำ การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติตามราคาของแผนที่เลือก คุณสามารถยกเลิกได้ทุกเมื่อ</string>
+    <string name="first_days">%d วันแรก</string>
+    <string name="then_price">จากนั้น $%.2f</string>
+    <string name="only_price">เพียง US$%.2f/วัน</string>
+
+    <string name="full_story">เรื่องเต็มกำลังรออยู่</string>
+    <string name="continue_read_unlock">อ่านต่อและปลดล็อกตอนจบที่คุณรอคอย</string>
+
+    <string name="trust_readers">ได้รับความไว้วางใจจากผู้อ่านกว่า 10M คน</string>
+    <string name="keep_reading">อ่านต่อ</string>
+    <string name="no_Interruptions">ไม่มีการขัดจังหวะ</string>
+    <string name="stories_num">เรื่องราวกว่า 10,000 เรื่อง</string>
+    <string name="read_full_story">อ่านเรื่องเต็ม</string>
+    <string name="without_limit">ไม่จำกัด</string>
+    <string name="unlock_romance">ปลดล็อกเรื่องราวโรแมนซ์ แฟนตาซี และมนุษย์หมาป่าแบบไม่จำกัดด้วยข้อเสนอสำหรับผู้อ่านวันนี้</string>
+
+    <string name="save_percent">ประหยัด %d%%</string>
+
+    <string name="daily">รายวัน</string>
+    <string name="weekly">รายสัปดาห์</string>
+    <string name="monthly">รายเดือน</string>
+    <string name="yearly">รายปี</string>
+
+    <string name="cancel_anytime">ยกเลิกได้ทุกเมื่อ</string>
+    <string name="continue_story">อ่านเรื่องของฉันต่อ</string>
+    <string name="next_chapter_waiting">บทถัดไปของคุณกำลังรออยู่</string>
+
+    <string name="continue_read_long">อ่านเรื่องต่อเลยตอนนี้ และปลดล็อกเรื่องราวที่คล้ายกันอีกหลายพันเรื่อง</string>
+
+    <string name="read_full_stories">อ่านเรื่องเต็ม</string>
+    <string name="start_short_reading">เริ่มอ่านแบบไม่จำกัด</string>
+
+    <string name="pay_premium_weekly_membership">สมาชิกรายสัปดาห์</string>
+    <string name="pay_premium_monthly_membership">สมาชิกรายเดือน</string>
+    <string name="pay_save_value">ประหยัด %s%%</string>
+    <string name="pay_unlock_chapter_count">ปลดล็อก %s ตอน</string>
+    <string name="pay_coins">%s เหรียญ</string>
+    <string name="pay_unlock_in_bulk">ปลดล็อกแบบกลุ่ม</string>
+    <string name="top_up_now">เติมเงินเลย</string>
+    <string name="dont_waste_time">อย่าเสียเวลา</string>
+    <string name="subscribe_unlock_tip">สมัครสมาชิกเพื่อปลดล็อกทันที</string>
+    <string name="auto_renew_cancel_tip">ต่ออายุอัตโนมัติ · ยกเลิกได้ทุกเมื่อ</string>
+
+    <string name="books_free_cycle">หนังสือทั้งหมดฟรี 1 %s</string>
+    <string name="unlock_all_story">ปลดล็อกเรื่องราวทั้งหมด</string>
+    <string name="premium_benefits">สิทธิประโยชน์สมาชิกพรีเมียม</string>
+    <string name="read_free">อ่านฟรี</string>
+    <string name="no_ads">ไม่มีโฆษณา</string>
+    <string name="early_access">เข้าถึงล่วงหน้า</string>
+    <string name="pay_premium_yearly_membership">สมาชิกประจำปี</string>
+
+    <string name="pay_premium_daily_membership">สมาชิกรายวัน</string>
+
+    <string name="pay_premium_free_for">หนังสือทั้งหมดฟรีเป็นเวลา %s</string>
+    <string name="top_up_more">เติมเงินมากขึ้น ประหยัดมากขึ้น</string>
+    <string name="premium_books_free">อ่านหนังสือทั้งหมดฟรี</string>
+    <string name="join_premium">เข้าร่วมสมาชิก</string>
+
+    <string name="subscription_now">สมัครสมาชิกเลย</string>
+    <string name="get_special_offer">รับข้อเสนอพิเศษ!</string>
+
+    <string name="subscription_agreement">ข้อตกลงการสมัครสมาชิก</string>
+    <string name="subscription_agreement_tips1">1. ผู้ใช้ที่สมัคร Premium สามารถเข้าถึงหนังสือทั้งหมดได้ฟรี</string>
+    <string name="subscription_agreement_tips2">2. การชำระเงิน: ค่าใช้จ่ายในการซื้อจะถูกหักจากบัญชีการชำระเงินของคุณ</string>
+    <string name="subscription_agreement_tips3">3. การต่ออายุ: การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติ การสมัครสมาชิกจะถูกเรียกเก็บเงินโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน ไม่ว่าจะรายเดือนหรือรอบอื่น คุณอาจถูกเรียกเก็บเงินไม่เกิน 24 ชั่วโมงก่อนเริ่มต้นแต่ละรอบการเรียกเก็บเงินจนกว่าคุณจะยกเลิกการสมัครสมาชิก</string>
+    <string name="subscription_agreement_tips4">4. การยกเลิก: คุณสามารถยกเลิกการสมัครสมาชิกได้ตลอดเวลาก่อนวันต่ออายุมากกว่า 24 ชั่วโมง หากต้องการยกเลิกการสมัครสมาชิก โปรดไปที่แพลตฟอร์มการชำระเงิน</string>
+
+    <string name="enjoy_app_so_for">ชอบแอปนี้ไหม?</string>
+    <string name="thank_for_support">ขอบคุณที่สนับสนุนเรา!\nการให้คะแนนช่วยเราได้มาก</string>
+    <string name="five_star">5 ดาว</string>
+    <string name="maybe_later">ไว้ทีหลัง</string>
+    <string name="thank_help_improve">ขอบคุณที่ช่วยเรา!</string>
+    <string name="continue_bring_more_emotional">เพราะคุณ เราจึงยังคงสร้างเรื่องราวดี ๆ ต่อไป</string>
+    <string name="continue_reading">อ่านต่อ</string>
+    <string name="read_more">อ่านมากขึ้น ประหยัดมากขึ้น</string>
+    <string name="this_chapter">บทนี้</string>
+    <string name="my_wallet">กระเป๋าของฉัน</string>
+
+</resources>
+<!--
+    泰语
+!-->

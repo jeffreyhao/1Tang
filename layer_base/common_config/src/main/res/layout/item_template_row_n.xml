@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@color/windowBackground"
+    >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        layout="@layout/item_template_title_layout"
+        />
+    <LinearLayout
+        android:id="@+id/new_update_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+<!--        <include tools:layout="@layout/item_new_update_book"/>-->
+
+    </LinearLayout>
+</LinearLayout>

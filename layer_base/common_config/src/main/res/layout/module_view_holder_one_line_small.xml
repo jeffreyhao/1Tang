@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="107dp"
+    android:layout_height="70dp"
+    android:paddingEnd="11dp"
+    android:paddingVertical="8dp"
+    tools:background="@color/windowBackground"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="96dp"
+        android:layout_height="54dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="6dp"
+        >
+
+        <ImageView
+            android:id="@+id/one_line_small_img"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_bg_vertical"
+            tools:src="@tools:sample/backgrounds/scenic"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_mask_press"
+            />
+
+        <TextView
+            android:id="@+id/one_line_small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:textColor="@color/pp_color_FFFFFF"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:paddingHorizontal="8dp"
+            tools:text="STEAMY STORIES"
+            />
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

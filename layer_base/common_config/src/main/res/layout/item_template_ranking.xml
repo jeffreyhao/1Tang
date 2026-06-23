@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@color/windowBackground">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        layout="@layout/item_template_title_layout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tab"
+        android:layout_marginStart="20dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_book_store_left_ranking_tab"
+        tools:itemCount="1"/>
+
+    <FrameLayout
+        android:id="@+id/rv_book"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="20dp">
+
+        <com.baidu.baselibrary.widget.RecyclerViewInViewPager2
+            android:id="@+id/three_line_recyclerview"
+            android:layout_marginStart="0dp"
+            android:overScrollMode="never"
+            android:layout_width="match_parent"
+            android:layout_height="327dp"
+            tools:itemCount="3"
+            tools:listitem="@layout/module_view_holder_three_line"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

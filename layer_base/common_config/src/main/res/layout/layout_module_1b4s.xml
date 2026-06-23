@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_template_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@color/windowBackground">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        layout="@layout/item_template_title_layout" />
+
+    <LinearLayout
+        android:id="@+id/item_template_three_line_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp">
+
+        <include
+            android:id="@+id/topView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_module_1b4s_top_view"
+            />
+
+        <com.baidu.baselibrary.widget.RecyclerViewInViewPager2
+            android:id="@+id/recyclerView"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:overScrollMode="never"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:itemCount="1"
+            tools:listitem="@layout/module_view_holder_one_line_viewnum" />
+
+    </LinearLayout>
+
+</LinearLayout>

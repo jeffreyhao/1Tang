@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="mdtp_item_is_selected">%s selected</string>
+
+    <string name="mdtp_ok">Confirm</string>
+
+    <string name="mdtp_cancel">Cancel</string>
+
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+
+    <string name="mdtp_year_picker_description">Year list</string>
+
+    <string name="mdtp_select_day">Select month and day</string>
+
+    <string name="mdtp_select_year">Select year</string>
+
+    <string name="mdtp_next_month_arrow_description">Next Month</string>
+
+    <string name="mdtp_previous_month_arrow_description">Previous Month</string>
+
+</resources>

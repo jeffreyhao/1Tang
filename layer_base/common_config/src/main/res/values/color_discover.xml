@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        书城颜色
+-->
+<resources>
+
+
+
+    <color name="color_template_title">@color/color_title_black</color>
+
+    <!-- 书城背景颜色 -->
+    <color name="color_store_bg">@color/pp_color_fafafafa</color>
+
+    <!-- 书城搜索框背景色 -->
+    <color name="color_search_bar_bg">@color/pp_color_0f787878</color>
+
+    <!-- 书城导航栏下标未选中色 -->
+    <color name="color_bookstore_unselect">@color/pp_color_333333</color>
+
+    <!-- 书城导航栏下标选中色 -->
+    <color name="color_bookstore_selected">@color/colorAccent</color>
+
+    <!-- 书城导航栏分割线选中色 -->
+    <color name="color_bookstore_nav_line">@color/transparent</color>
+
+
+
+    <!-- 书城ViewPager背景色 -->
+    <color name="color_store_pager_bg">@color/transparent</color>
+
+    <!-- 书城item-title颜色 -->
+    <color name="color_store_item_title">@color/color_title_black</color>
+
+    <!-- 书城item-text颜色 -->
+    <color name="color_store_item_text">@color/pp_color_999999</color>
+
+    <!-- 排行榜页-title字体颜色-->
+    <color name="color_ranking_title">@color/pp_color_999999</color>
+
+    <!-- 排行榜页-title选中字体颜色-->
+    <color name="color_ranking_title_select">@color/pp_color_FFFFFF</color>
+
+    <!-- 排行榜页-title字体颜色-->
+    <color name="color_ranking_activity_title">@color/pp_color_333333</color>
+    <!-- 排行榜页-left_list背景色-->
+    <color name="color_ranking_activity_left">@color/Cr_F6</color>
+
+
+    <!-- ViewAll页-item数字颜色-->
+    <color name="color_store_view_all_item_count">@color/colorAccent</color>
+
+
+    <!-- 书城排行tab背景色 -->
+    <color name="bookstore_rank_tab_bg">@color/colorPrimaryDark</color>
+
+    <!-- ranking左侧tab背景色 -->
+    <color name="bookstore_ranking_left_tab_bg">@color/Cr_F6</color>
+
+    <!-- ranking左侧tab选中背景色 -->
+    <color name="bookstore_ranking_left_tab_select_bg">@color/white</color>
+
+    <!-- 书城页面 浏览量 文案颜色 -->
+    <color name="color_bookstore_view_num">@color/pp_color_999999</color>
+
+    <!-- ranking左侧tab选中文字颜色 -->
+    <color name="bookstore_ranking_left_tab_select_text_color">@color/pp_color_333333</color>
+
+    <!-- ranking左侧tab默认文字颜色 -->
+    <color name="bookstore_ranking_left_tab_text_color">@color/pp_color_666666</color>
+
+    <!-- 狼人包 ranking顶部tab选中背景色 -->
+    <color name="bookstore_ranking_top_tab_select_bg">#38383D</color>
+
+    <!-- 狼人包 ranking顶部tab未选中背景色 -->
+    <color name="bookstore_ranking_top_tab_bg">#1A1B21</color>
+
+    <!-- 狼人包 ranking顶部tab选中文字颜色 -->
+    <color name="bookstore_ranking_top_tab_select_text_color">#DDDDDD</color>
+    <!-- 狼人包 ranking顶部tab选中文字颜色 -->
+    <color name="bookstore_ranking_top_tab_text_color">#666666</color>
+
+
+    <!-- 书城item-view all颜色 -->
+    <color name="color_store_btn_view_all">@color/pp_color_999999</color>
+
+    <!--ranking选中tab字体颜色-->
+    <color name="bookstore_rank_tab_select_text_color">@color/pp_color_333333</color>
+
+    <!--分类页item字体颜色-->
+    <color name="color_category_item_text">@color/white</color>
+
+    <color name="color_item_category_bg">#BEBEBE</color>
+
+
+
+    <color name="color_icon_select_language">@color/colorAccent</color>
+    <color name="color_item_select_language">@color/colorAccent</color>
+    <color name="color_alert_change_language_cancel">@color/pp_color_333333</color>
+    <color name="color_alert_change_language_confirm">@color/white</color>
+
+    <color name="color_bookstore_rank_tab_text">@color/white</color>
+
+    <color name="color_book_store0">@color/pp_color_999999</color>
+    <color name="color_book_store1">@color/pp_color_999999</color>
+    <color name="color_book_store2">@color/pp_color_999999</color>
+    <color name="color_book_store3">@color/pp_color_999999</color>
+
+    <!-- 排行榜页面的item排名 -->
+    <color name="color_rank_0">@color/pp_color_999999</color>
+    <color name="color_rank_1">@color/pp_color_999999</color>
+    <color name="color_rank_2">@color/pp_color_999999</color>
+    <color name="color_rank_3">@color/pp_color_999999</color>
+
+    <color name="color_refresh_icon">@color/colorAccent</color>
+    <color name="color_loading_footer">@color/colorAccent</color>
+
+
+</resources>

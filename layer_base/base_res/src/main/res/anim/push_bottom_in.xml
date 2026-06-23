@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--时长通过push_left_in 计算而来-->
+    <translate
+        android:duration="300"
+        android:fromYDelta="100%p"
+        android:interpolator="@anim/accelerate_decelerate_interpolator"
+        android:toYDelta="0" />
+</set>

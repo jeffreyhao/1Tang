@@ -1,0 +1,615 @@
+
+def VERSION_NAME = project.hasProperty("VERSION_NAME") ? project.getProperty("VERSION_NAME") : null
+
+android {
+
+    signingConfigs {
+        novelclub {
+            keyPassword 'QG#18DD%ZN4@A&VL'
+            storeFile file('../layer_channel/novelclub/app_sign_key')
+            storePassword 'QG#18DD%ZN4@A&VL'
+            keyAlias 'key0'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelverse {
+            keyPassword '4DDRNNHYFBpUNjCY'
+            storeFile file('../layer_channel/novelverse/novelverse.jks')
+            storePassword '4DDRNNHYFBpUNjCY'
+            keyAlias 'novelverse'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelhive {
+            keyPassword '!novelhive'
+            storeFile file('../layer_channel/novelhive/novelhive.jks')
+            storePassword '!novelhive'
+            keyAlias 'novelhive'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelmuse {
+            keyPassword 'novelmusexcyh'
+            storeFile file('../layer_channel/novelmuse/novelmuse.jks')
+            storePassword 'xcyhnovelmuse'
+            keyAlias 'inovelmuse'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        romanfic {
+            keyPassword '!romanfic'
+            storeFile file('../layer_channel/romanfic/romanfic')
+            storePassword '!romanfic'
+            keyAlias 'romanfic'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelhome {
+            keyPassword '!hhmchome'
+            storeFile file('../layer_channel/novelhome/app_keystore')
+            storePassword '!hhmchome'
+            keyAlias 'hhmc'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelworm {
+            keyPassword '!novelist'
+            storeFile file('../layer_channel/novelworm/novelist.jks')
+            storePassword '!novelist'
+            keyAlias 'novelist'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        alphafiction {
+            keyPassword '!alphafiction'
+            storeFile file('../layer_channel/alphafiction/alphafiction.jks')
+            storePassword '!alphafiction'
+            keyAlias 'alphafiction'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelpal {
+            keyPassword 'xcyhnovelpal!'
+            storeFile file('../layer_channel/novelpal/novelpal.jks')
+            storePassword 'xcyhnovelpal!'
+            keyAlias 'novelpal'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        lycannovel {
+            keyPassword '!lycannovel'
+            storeFile file('../layer_channel/lycannovel/lycannovel')
+            storePassword '!lycannovel'
+            keyAlias 'lycannovel'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelplant {
+            keyPassword '!novelplant'
+            storeFile file('../layer_channel/novelplant/novelplant.jks')
+            storePassword '!novelplant'
+            keyAlias 'novelplant'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        wolffiction {
+            keyPassword '!wolffiction'
+            storeFile file('../layer_channel/wolffiction/wolffiction.jks')
+            storePassword '!wolffiction'
+            keyAlias 'wolffiction'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        peaknovel {
+            keyPassword '!peaknovel'
+            storeFile file('../layer_channel/peaknovel/peaknovel.jks')
+            storePassword '!peaknovel'
+            keyAlias 'peaknovel'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        lycanfiction {
+            keyPassword '!lycanfiction'
+            storeFile file('../layer_channel/lycanfiction/lycanfiction.jks')
+            storePassword '!lycanfiction'
+            keyAlias 'lycanfiction'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelnook {
+            keyPassword '!saganovel'
+            storeFile file('../layer_channel/novelnook/saganovel')
+            storePassword '!saganovel'
+            keyAlias 'saganovel'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        noveldaily {
+            keyPassword '!storynest'
+            storeFile file('../layer_channel/noveldaily/noveldaily.jks')
+            storePassword '!storynest'
+            keyAlias 'storynest'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        novelvault {
+            keyPassword '!novelpal'
+            storeFile file('../layer_channel/novelvault/novelvault.jks')
+            storePassword '!novelpal'
+            keyAlias 'novelpal'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    defaultConfig {
+        buildConfigField "String", "BASE_URL",          "\"" + "https://appserver.novelhives.com/" + "\""
+        buildConfigField "String", "BASE_LANDING",      "\"" + "https://apps.novelsbd.com/" + "\""
+        buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver.plutofacts.com" + "\""
+        buildConfigField "String", "BACKUP_HOST_IP",    "\"" + "bbxdfaxexdgg" + "\""    // 44.207.3.211     key:86
+        buildConfigField "String", "DIRECT_HOST_IP",    "\"" + "qlzvl{slpvt" + "\""     // 3.84.91.246      key:66
+    }
+
+    flavorDimensions "channel"
+    productFlavors {
+        if(com.build.src.Flavor.novelverse){
+            novelverse {
+                dimension "channel"
+                applicationId "com.benefit.novelverse"
+                versionName VERSION_NAME ?: rootProject.ext.novelverse.versionName
+                versionCode rootProject.ext.novelverse.versionCode
+                signingConfig signingConfigs.novelverse
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "novelverse",
+                        routerHost  :   "apps1.novelhives.com",
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "14" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10014" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.novelhives.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.novelhives.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.novelhives.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.novelhive) {
+            novelhive {
+                dimension "channel"
+                applicationId "com.star.novelhive"
+                versionName VERSION_NAME ?: rootProject.ext.novelhive.versionName
+                versionCode rootProject.ext.novelhive.versionCode
+                signingConfig signingConfigs.novelhive
+                manifestPlaceholders = [
+                        appName     : "@string/app_name",
+                        icon        : "@mipmap/ic_launcher",
+                        roundIcon   : "@mipmap/ic_launcher",
+                        router      : "novelhive",
+                        routerHost  : "apps1.novelhives.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "13" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10013" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.novelhives.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.novelhives.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.novelhives.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.novelmuse) {
+            novelmuse {
+                dimension "channel"
+                applicationId "com.star.novelmuse"
+                versionName VERSION_NAME ?: rootProject.ext.novelmuse.versionName
+                versionCode rootProject.ext.novelmuse.versionCode
+                signingConfig signingConfigs.novelmuse
+                manifestPlaceholders = [
+                        appName     : "@string/app_name",
+                        icon        : "@mipmap/ic_launcher",
+                        roundIcon   : "@mipmap/ic_launcher",
+                        router      : "novelmuse",
+                        routerHost  : "apps1.novelhives.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "10030" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10030" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.novelhives.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.novelhives.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.novelhives.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+
+        if(com.build.src.Flavor.novelclub) {
+            novelclub {
+                dimension "channel"
+                applicationId "com.xcyh.novelclub"
+                versionName VERSION_NAME ?: rootProject.ext.novelclub.versionName
+                versionCode rootProject.ext.novelclub.versionCode
+                signingConfig signingConfigs.novelclub
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "novelclub",
+                        routerHost  :   "apps1.inovelclub.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10101" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "1" + "\""
+                buildConfigField "String", "GROUP_ID",           "\"" + "10001" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://tempapp1.inovelclub.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelclub.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelclub.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.lycannovel){
+            lycannovel {
+                dimension "channel"
+                applicationId "com.lycan.novel"
+                versionName VERSION_NAME ?: rootProject.ext.lycannovel.versionName
+                versionCode rootProject.ext.lycannovel.versionCode
+                signingConfig signingConfigs.lycannovel
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "lycannovel",
+                        routerHost  :   "apps1.inovelclub.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "5" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10005" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://tempapp1.inovelclub.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelclub.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelclub.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+
+        if(com.build.src.Flavor.novelplant){
+            novelplant {
+                dimension "channel"
+                applicationId "com.mcdz.novelplant"
+                versionName VERSION_NAME ?: rootProject.ext.novelplant.versionName
+                versionCode rootProject.ext.novelplant.versionCode
+                signingConfig signingConfigs.novelplant
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "novelplant",
+                        routerHost  :   "apps1.inovelplant.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "6" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10006" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.inovelplant.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelplant.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelplant.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.wolffiction){
+            wolffiction {
+                dimension "channel"
+                applicationId "com.yhxc.wolffiction"
+                versionName VERSION_NAME ?: rootProject.ext.wolffiction.versionName
+                versionCode rootProject.ext.wolffiction.versionCode
+                signingConfig signingConfigs.wolffiction
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "wolffiction",
+                        routerHost  :   "apps1.inovelplant.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "9" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10009" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.inovelplant.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelplant.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelplant.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.peaknovel){
+            peaknovel {
+                dimension "channel"
+                applicationId "com.mount.peaknovel"
+                versionName VERSION_NAME ?: rootProject.ext.peaknovel.versionName
+                versionCode rootProject.ext.peaknovel.versionCode
+                signingConfig signingConfigs.peaknovel
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "peaknovel",
+                        routerHost  :   "apps1.inovelplant.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "10016" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10016" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.inovelplant.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelplant.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelplant.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+
+        if(com.build.src.Flavor.novelworm){
+            novelworm {
+                dimension "channel"
+                applicationId "com.mcpd.novelist"
+                versionName VERSION_NAME ?: rootProject.ext.novelworm.versionName
+                versionCode rootProject.ext.novelworm.versionCode
+                signingConfig signingConfigs.novelworm
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "novelworm",
+                        routerHost  :   "apps1.inovelhome.com"
+                ]
+                buildConfigField("String", "CHANNEL",           "\"" + "10103" + "\"")
+                buildConfigField("String", "PRODUCT_ID",        "\"" + "7" + "\"")
+                buildConfigField("String", "GROUP_ID",          "\"" + "10007" + "\"")
+                buildConfigField "String", "BASE_URL",          "\"" + "https://server1.inovelhome.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelhome.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelhome.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.novelhome){
+            novelhome {
+                dimension "channel"
+                applicationId "com.hhmc.novelhome"
+                versionName VERSION_NAME ?: rootProject.ext.novelhome.versionName
+                versionCode rootProject.ext.novelhome.versionCode
+                signingConfig signingConfigs.novelhome
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "novelhome",
+                        routerHost  :   "apps1.inovelhome.com"
+                ]
+                buildConfigField("String", "CHANNEL",           "\"" + "10103" + "\"")
+                buildConfigField("String", "PRODUCT_ID",        "\"" + "3" + "\"")
+                buildConfigField("String", "GROUP_ID",          "\"" + "10003" + "\"")
+                buildConfigField "String", "BASE_URL",          "\"" + "https://server1.inovelhome.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelhome.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelhome.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.alphafiction){
+            alphafiction {
+                dimension "channel"
+                applicationId "com.jgmw.alphafiction"
+                versionName VERSION_NAME ?: rootProject.ext.alphafiction.versionName
+                versionCode rootProject.ext.alphafiction.versionCode
+                signingConfig signingConfigs.alphafiction
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "alphafiction",
+                        routerHost  :   "apps1.inovelhome.com"
+                ]
+                buildConfigField("String", "CHANNEL",           "\"" + "10103" + "\"")
+                buildConfigField("String", "PRODUCT_ID",        "\"" + "10" + "\"")
+                buildConfigField("String", "GROUP_ID",          "\"" + "10010" + "\"")
+                buildConfigField "String", "BASE_URL",          "\"" + "https://server1.inovelhome.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelhome.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelhome.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+
+        if(com.build.src.Flavor.novelpal){
+            novelpal {
+                dimension "channel"
+                applicationId "com.xcyh.novelpal"
+                versionName VERSION_NAME ?: rootProject.ext.novelpal.versionName
+                versionCode rootProject.ext.novelpal.versionCode
+                signingConfig signingConfigs.novelpal
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "novelpal",
+                        routerHost  :   "apps1.inovelhome.com"
+                ]
+                buildConfigField("String", "CHANNEL",           "\"" + "10103" + "\"")
+                buildConfigField("String", "PRODUCT_ID",        "\"" + "10020" + "\"")
+                buildConfigField("String", "GROUP_ID",          "\"" + "10020" + "\"")
+                buildConfigField "String", "BASE_URL",          "\"" + "https://server1.inovelhome.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelhome.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelhome.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+
+        if(com.build.src.Flavor.romanfic) {
+            romanfic {
+                dimension "channel"
+                applicationId "com.bjz.romanfic"
+                versionName VERSION_NAME ?: rootProject.ext.romanfic.versionName
+                versionCode rootProject.ext.romanfic.versionCode
+                signingConfig signingConfigs.romanfic
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "romanfic",
+                        routerHost  :   "romanficapps1.inovelplant.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "11" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10011" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appromanfic.saganovels.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://romanficse1.inovelplant.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://romanficst1.inovelplant.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.novelnook){
+            novelnook {
+                dimension "channel"
+                applicationId "com.star.saganovel"
+                versionName VERSION_NAME ?: rootProject.ext.novelnook.versionName
+                versionCode rootProject.ext.novelnook.versionCode
+                signingConfig signingConfigs.novelnook
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "novelnook",
+                        routerHost  :   "apps1.saganovels.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "12" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10012" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.saganovels.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.saganovels.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.saganovels.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+
+        if(com.build.src.Flavor.lycanfiction){
+            lycanfiction {
+                dimension "channel"
+                applicationId "com.lycan.fiction"
+                versionName VERSION_NAME ?: rootProject.ext.lycanfiction.versionName
+                versionCode rootProject.ext.lycanfiction.versionCode
+                signingConfig signingConfigs.lycanfiction
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "lycanfiction",
+                        routerHost  :   "apps1.inovelpal.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "8" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10008" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.inovelpal.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelpal.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelpal.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+        if(com.build.src.Flavor.novelvault){
+            novelvault {
+                dimension "channel"
+                applicationId "com.pdjd.novelpal"
+                versionName VERSION_NAME ?: rootProject.ext.novelvault.versionName
+                versionCode rootProject.ext.novelvault.versionCode
+                signingConfig signingConfigs.novelvault
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "novelvault",
+                        routerHost  :   "apps1.inovelpal.com"
+                ]
+                buildConfigField("String", "CHANNEL",           "\"" + "10103" + "\"")
+                buildConfigField("String", "PRODUCT_ID",        "\"" + "4" + "\"")
+                buildConfigField("String", "GROUP_ID",          "\"" + "10004" + "\"")
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver1.inovelpal.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelpal.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelpal.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+            }
+        }
+
+        if(com.build.src.Flavor.noveldaily){
+            novelDaily {
+                dimension "channel"
+                applicationId "com.yhxc.storynest"
+                versionName VERSION_NAME ?: rootProject.ext.noveldaily.versionName
+                versionCode rootProject.ext.noveldaily.versionCode
+                signingConfig signingConfigs.noveldaily
+                manifestPlaceholders = [
+                        appName     :   "@string/app_name",
+                        icon        :   "@mipmap/ic_launcher",
+                        roundIcon   :   "@mipmap/ic_launcher",
+                        router      :   "noveldaily",
+                        routerHost  :   "app1.storynester.com"
+                ]
+                buildConfigField "String", "CHANNEL",           "\"" + "10103" + "\""
+                buildConfigField "String", "PRODUCT_ID",        "\"" + "10021" + "\""
+                buildConfigField "String", "GROUP_ID",          "\"" + "10021" + "\""
+                buildConfigField "String", "BASE_URL",          "\"" + "https://appserver.storynester.com/" + "\""
+                buildConfigField "String", "SEARCH_URL",        "\"" + "https://se1.inovelpal.com/" + "\""
+                buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "https://st1.inovelpal.com/" + "\""
+                buildConfigField "String", "BACKUP_HOST",       "\"" + "appserver1.plutofacts.com" + "\""
+                buildConfigField "String", "BACKUP_HOST_IP",    "\"" + "gexdbnxgdoxgco" + "\""  // 13.248.129.159
+                buildConfigField "String", "DIRECT_HOST_IP",    "\"" + "" + "\""
+            }
+        }
+    }
+}
+
+
+dependencies {
+    if(com.build.src.Flavor.novelverse){
+        novelverseImplementation project(":layer_channel:novelverse")
+    }
+    if(com.build.src.Flavor.novelclub){
+        novelclubImplementation project(":layer_channel:novelclub")
+    }
+    if(com.build.src.Flavor.novelhome){
+        novelhomeImplementation project(":layer_channel:novelhome")
+    }
+    if(com.build.src.Flavor.novelworm){
+        novelwormImplementation project(":layer_channel:novelworm")
+    }
+    if(com.build.src.Flavor.alphafiction){
+        alphafictionImplementation project(":layer_channel:alphafiction")
+    }
+    if(com.build.src.Flavor.lycannovel){
+        lycannovelImplementation project(":layer_channel:lycannovel")
+    }
+    if(com.build.src.Flavor.novelhive){
+        novelhiveImplementation project(":layer_channel:novelhive")
+    }
+    if(com.build.src.Flavor.novelmuse){
+        novelmuseImplementation project(":layer_channel:novelmuse")
+    }
+    if(com.build.src.Flavor.novelplant){
+        novelplantImplementation project(":layer_channel:novelplant")
+    }
+    if(com.build.src.Flavor.wolffiction){
+        wolffictionImplementation project(":layer_channel:wolffiction")
+    }
+    if(com.build.src.Flavor.peaknovel){
+        peaknovelImplementation project(":layer_channel:peaknovel")
+    }
+    if(com.build.src.Flavor.lycanfiction){
+        lycanfictionImplementation project(":layer_channel:lycanfiction")
+    }
+    if(com.build.src.Flavor.novelvault){
+        novelvaultImplementation project(":layer_channel:novelvault")
+        implementation project(':layer_module:module_short')
+    }
+    if(com.build.src.Flavor.romanfic){
+        romanficImplementation project(":layer_channel:romanfic")
+    }
+    if(com.build.src.Flavor.novelnook){
+        novelnookImplementation project(":layer_channel:novelnook")
+    }
+    if(com.build.src.Flavor.novelpal){
+        novelpalImplementation project(":layer_channel:novelpal")
+    }
+    if(com.build.src.Flavor.noveldaily){
+        novelDailyImplementation project(":layer_channel:noveldaily")
+        implementation project(':layer_module:module_short')
+    }
+}
+
+

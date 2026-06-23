@@ -1,0 +1,28 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.common.bean"
+}
+
+dependencies {
+    implementation project(path: ':layer_base:base_res')
+    implementation project(path: ':layer_base:base_api')
+    implementation project(path: ':layer_base:base_util')
+    implementation project(path: ':layer_base:base_net')
+
+    implementation project(path: ':layer_base:commonlibrary')
+    implementation project(path: ':layer_base:RecyclerViewHelper')
+    implementation project(path: ':layer_base:common')
+
+    implementation Dep.gson
+    implementation Dep.utilcodex
+
+    implementation Dep.dbflow
+    implementation Dep.dbflow_core
+    implementation Dep.dbflow_ext_kt
+
+    annotationProcessor Dep.dbflow_processor
+
+}

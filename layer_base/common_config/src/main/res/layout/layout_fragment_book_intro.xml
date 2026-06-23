@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_height="550dp"
+    tools:background="#666">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingVertical="18dp"
+        android:src="@drawable/ic_close_dialog"/>
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/iv_close"
+        android:paddingHorizontal="19dp"
+        android:paddingBottom="21dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/radius_white_10dp"
+        tools:layout_width="300dp"
+        >
+        <TextView
+            android:text="@string/pp_overview"
+            android:layout_marginVertical="17dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:textColor="@color/pp_color_333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:textSize="13dp"
+                android:textColor="@color/pp_color_333333"
+                tools:text="@string/pp_restore_reminder_content"/>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

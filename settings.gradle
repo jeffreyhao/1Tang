@@ -1,0 +1,26 @@
+
+
+    include ':app'
+
+
+    // base分层组件
+    include ':layer_base:base_api'
+    include ':layer_base:base_res'
+    include ':layer_base:base_util'
+    include ':layer_base:base_net'
+
+    // common分层组件
+    include ':layer_base:commonlibrary'
+    include ':layer_base:common_config'
+    include ':layer_base:common_bean'
+
+    // 库
+    include ':layer_base:dialog'
+    include ':layer_base:common'
+    include ':layer_base:RecyclerViewHelper'
+    include ':layer_base:tablayout'
+    include ':layer_base:jsbridge'
+    include ':layer_base:datapick'
+    include ':layer_base:empty_sensors'
+    include ':layer_base:photoview'
+

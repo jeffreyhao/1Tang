@@ -1,0 +1,155 @@
+
+
+/**
+ * 新版本马甲包插件（全量混淆）配置
+ */
+if(com.build.src.Property.applyVest){
+
+    apply plugin: 'vest-code'
+
+    vestConfig {
+
+        boolean enable               = true     // 默认打开
+        boolean applyJunk            = true     // 是否可以生成代码
+        boolean applyInject          = true     // 是否可以在class中注入field和method
+        boolean applyMapping         = true     // 是否支持混淆
+        boolean showLog              = true     // 是否打印 log
+        boolean showDebugLog         = false    // 是否打印 debug log
+        boolean showClassDebug       = false    // 是否打印class的调试log
+        boolean showMethodDebug      = false    // 是否打印method的调试log
+        boolean showFieldDebug       = false    // 是否打印field的调试log
+        boolean checkDuplicateFile   = false    // 是否检查重复文件
+        boolean useRandom            = true     // 是否使用随机值。 false-RandomUtil获取的随机值都是true
+
+        /**
+         * 需要混淆的目录
+         */
+        needMappingDirs                 = [
+                "com.benefit"
+        ]
+
+        /**
+         * 不混淆的目录
+         */
+        mappingKeepDirs             = [
+                "com.meta.ui"
+        ]
+
+        /**
+         * 这是将 com.benefit.novelverse 目录的代码 转成当前 applicationId路径下
+         */
+        mappingPath = [
+                "com.benefit.novelverse":"{applicationId}"
+        ]
+
+        /**
+         * 这些目录需要注入垃圾代码类（缺省的注入目录是applicationId目录）
+         */
+        extraJunkBuildDirs          = [
+
+        ]
+
+        /**
+         * 这些目录不注入垃圾代码
+         */
+        skipInjectDirs          = [
+
+        ]
+
+        /**
+         * 这些类不注入垃圾代码
+         */
+        skipInjectClasses           = [
+                "WebFragment",
+                "CategorySelectedView",
+                "TypeNotPresentException",
+                "CompoundEditText",
+                "ChangeLanguageAdapter",
+                "MainActivity",
+                "SplashActivity",
+                "AdActivity",
+                "PushActivity",
+                "BookCatalogFragment2",
+                "ActivityFragment",
+                "BookDetailFragment",
+                "BookstoreSubFragment",
+                "RewardFragment",
+                "BookShelf2Fragment",
+                "RecommendBookFragment",
+                "FetchBookUpdateWorker",
+                "AdvancedWebView",
+                "AccountManageActivity",
+                "PullBookShelfWorker",
+                "DialogUtils",
+                "LocalBookCatalogSource",
+                "ChapterDownloadInfo",
+                "BookInfo",
+                "FoApplication",
+                "BookMark",
+                "LocalReadingRecordSource",
+                "CatalogList",
+                "BookShelfDataRepo",
+                "BookShelfPresenter",
+                "LocalBookShelfDataSource",
+                "RemoteBookShelfDataSource",
+                "StopTimer",
+                "BookCatalogRepo",
+                "RemoteBookCatalogSource",
+                "RemoteReadingRecordSource",
+                "PageBitmapManager",
+                "ActivityDataDealUtil",
+                "CustomRecyclerView",
+                "SyncCloudData",
+                "LanguageItemBean",
+                "PushDataBean",
+                "BookCatalogAdapter",
+                "RewardTaskAdapter",
+                "NewUpdateBookAdapter",
+                "LoginPresenter",
+                "AppInit",
+                "DeepLinkingManager",
+                "EmailLogin",
+                "SubscribePayBean",
+                "ProfileFragment",
+                "DeepLinkUtil"
+        ]
+    }
+}
+
+
+
+/**
+ * 图片hash修改插件配置
+ * 方案是随机抓取一个像素，对其RGB中的一个值，进行+1或者-1。这样的像素点差异肉眼完全看不出来
+ */
+if(applyImageHash.toBoolean()){
+
+    apply plugin: 'image-hash'
+
+    imageHashConfig {
+        /**
+         * key为index，value为需要修改图片资源的组件相对路径（前后不要加/）
+         *
+         * 这里需要注意下顺序：请按照组件依赖关系，从底层向高层级排列.(因为插件里没有处理组件依赖关系，没有处理资源去重)
+         */
+        modifyModulePaths = [
+                "layer_base/base_res",
+                "layer_base/commonlibrary",
+                "layer_base/common_config"
+        ]
+
+        /**
+         * 马甲包组件相对路径（前后不要加/）
+         */
+        targetModulePath = "layer_channel/greatnovel"
+
+        /**
+         * 是否拷贝到上面 {targetModulePath} 组件下的 res目录里
+         */
+        boolean needCopyToTargetModule = true
+    }
+}
+
+
+
+

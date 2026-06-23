@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    瑞典语
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">%s vald</string>
+    <string name="mdtp_ok">Bekräfta</string>
+    <string name="mdtp_cancel">Avbryt</string>
+    <string name="mdtp_day_picker_description">Månadsrutnät med dagar</string>
+    <string name="mdtp_year_picker_description">Årslista</string>
+    <string name="mdtp_select_day">Välj månad och dag</string>
+    <string name="mdtp_select_year">Välj år</string>
+    <string name="mdtp_next_month_arrow_description">Nästa månad</string>
+    <string name="mdtp_previous_month_arrow_description">Föregående månad</string>
+
+</resources>
+<!--
+    瑞典语
+!-->

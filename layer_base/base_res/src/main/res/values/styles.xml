@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="activityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+
+
+    <!--底部弹框动画-->
+    <style name="bottomDialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_fr_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_fr_out</item>
+    </style>
+
+
+    <style name="leftDialog">
+        <item name="android:windowEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_left_out</item>
+    </style>
+
+
+
+    <!--scaleFade动画-->
+    <style name="scaleFadeDialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_scale_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_scale_fade_out</item>
+    </style>
+
+
+    <!--Fade动画-->
+    <style name="fadeDialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_fade_out</item>
+    </style>
+
+
+
+    <style name="AppTheme.TransparentTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+
+
+    <style name="AppTheme.TranslucentTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/shadow_mask</item>
+        <item name="android:statusBarColor">@color/shadow_mask</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/app_background</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">@dimen/app_text_size_medium</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:windowTranslucentStatus" >false</item>
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+        <item name="dialogCornerRadius">12dp</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <style name="AppTheme.TranslucentStatusBar" parent="AppTheme">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+
+
+    <style name="MyTextViewStyle" parent="android:Widget.Material.TextView">
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+
+
+</resources>

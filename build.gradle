@@ -1,0 +1,63 @@
+import build.src.Vs
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "version.gradle"
+
+
+buildscript {
+
+    /**
+     *  请在 {local.properties} 文件中添加flavor配置。ex：
+     *      novelverse=true
+     *      novelclub=true
+     *
+     *  修改flavor后，先 [Reload Gradle Project]，再 [Rebuild Project]。
+     */
+    com.build.src.Property.init(project)
+
+
+    repositories {
+        maven { url "https://jitpack.io" }
+        maven { url "https://www.jitpack.io" }
+
+        // 华为云
+        maven { url "https://repo.huaweicloud.com/repository/maven/" }
+        maven { url "https://maven.aliyun.com/repository/google/" }
+        maven { url "https://maven.aliyun.com/repository/public/" }
+        maven { url "https://maven.aliyun.com/repository/gradle-plugin/" }
+        maven { url "https://s01.oss.sonatype.org/content/groups/public" }
+        maven { url "https://android-sdk.is.com/" }
+        jcenter()
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${Vs.kotlin_version}"
+        classpath 'com.google.gms:google-services:4.3.10'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.8.1'
+    }
+}
+
+allprojects {
+    repositories {
+        // 华为云
+        maven { url "https://jitpack.io" }
+        maven { url "https://www.jitpack.io" }
+
+        maven { url "https://repo.huaweicloud.com/repository/maven/" }
+        maven { url "https://maven.aliyun.com/repository/google/" }
+        maven { url "https://maven.aliyun.com/repository/public/" }
+        maven { url "https://maven.aliyun.com/repository/gradle-plugin/" }
+        maven { url "https://artifact.bytedance.com/repository/pangle/" }
+        maven { url "https://android-sdk.is.com/" }
+        jcenter()
+        mavenCentral()
+        google()
+        maven { url "https://maven.google.com" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

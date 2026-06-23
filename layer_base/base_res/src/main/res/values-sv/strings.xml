@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    瑞典语
+-->
+<resources>
+    <string name="loading">Laddar…</string>
+    <string name="close_and_go_back">Tillbaka</string>
+    <string name="error_data_tip">Något gick fel, tryck för att försöka igen</string>
+    <string name="error_empty_data_tip">Inga data ännu</string>
+    <string name="error_net_tip">Nätverksfel, tryck för att försöka igen</string>
+    <string name="permisions_essential_tip">Be om tillåtelse först för att använda</string>
+    <string name="permisions_read_phone_tip">Be om tillåtelse för att fortsätta</string>
+    <string name="permission_setting">Inställningar</string>
+    <string name="permission_cancel">Avbryt</string>
+    <string name="collapse">Fäll ihop</string>
+    <string name="expand">Fäll ut</string>
+    <string name="nb_mode_night">Nattläge</string>
+    <string name="nb_mode_morning">Dagsläge</string>
+    <string name="nav_bookshelf">Bibliotek</string>
+    <string name="nav_bookshelf2">Bokhylla</string>
+    <string name="nav_discover">Upptäck</string>
+    <string name="nav_featured">Utvalt</string>
+    <string name="nav_reward">Belöningar</string>
+    <string name="nav_profile">Jag</string>
+    <string name="nav_mine">Mitt</string>
+    <string name="select_all">Markera alla</string>
+    <string name="done">Klar</string>
+    <string name="delete">Radera</string>
+    <string name="clear_cache">Rensa cache</string>
+    <string name="check_update">Sök efter uppdatering</string>
+    <string name="contact_us">Kontakta oss</string>
+    <string name="privacy">Integritetspolicy</string>
+    <string name="agreement">Användarvillkor</string>
+    <string name="joinedBookShelf">Tillagt i biblioteket</string>
+    <string name="add_to_shelf_dlg_title">Lägg till i biblioteket?</string>
+    <string name="add_to_shelf_dlg_content">Lägg till den här boken i ditt bibliotek och läs den när du vill.</string>
+    <string name="add_to_shelf_dlg_cancel">Avbryt</string>
+    <string name="add_to_shelf_dlg_confirm">Lägg till</string>
+    <string name="hint_search_bookstore">Sök</string>
+    <string name="become_author">Bli författare</string>
+    <string name="buy_sale">Rabatterat köp</string>
+    <string name="free_start_read">Börja läsa</string>
+    <string name="pp_sex_boy_brief">Man</string>
+    <string name="pp_sex_girl_brief">Kvinna</string>
+    <string name="pp_tip_none_photo">Inga albumbilder hämtades</string>
+    <string name="pp_history_search">Historik</string>
+    <string name="pp_tip_input_search_key">Ange sökord</string>
+    <string name="pp_clear_success">Rensat</string>
+    <string name="pp_me">Jag</string>
+    <string name="pp_build_fail">Byggning misslyckades</string>
+    <string name="pp_author">Författare</string>
+    <string name="pp_note_id_null">Antecknings-ID saknas</string>
+    <string name="pp_login_fail">Inloggning misslyckades</string>
+    <string name="pp_collection_success">Tillagd i biblioteket</string>
+    <string name="pp_please_check_network">Kontrollera nätverksanslutningen</string>
+    <string name="pp_add_success">Boken lades till i biblioteket</string>
+    <string name="pp_remove_success">Boken togs bort från biblioteket</string>
+    <string name="pp_please_chose_one_book">Välj en bok först</string>
+    <string name="pp_login_first">Logga in först</string>
+    <string name="pp_pay_success">Betalning lyckades</string>
+    <string name="pp_pay_cancel">Betalning avbröts</string>
+    <string name="pp_pay_error">Betalningsfel</string>
+    <string name="pp_check_pay_fail">Kontroll av köp misslyckades</string>
+    <string name="pp_tip">Installera appgalleri eller webbläsare först</string>
+    <string name="pp_copy_success">Kopierat</string>
+    <string name="pp_save_fail">Sparande misslyckades</string>
+    <string name="pp_saved">Sparat</string>
+    <string name="pp_exit_app">Är du säker på att du vill avsluta?</string>
+    <string name="pp_exit">Avsluta</string>
+    <string name="pp_sure">Bekräfta</string>
+    <string name="pp_today_read">Läst idag</string>
+    <string name="pp_second_red_packet"> minuter kvar till röd paket</string>
+    <string name="pp_after_ad_bye">Mer spännande efter reklamen.</string>
+    <string name="pp_time_error">Tidsskillnaden mellan systemet och servern är för stor. Justera systemklockan</string>
+    <string name="pp_about">Om</string>
+    <string name="pp_notiy">Tips</string>
+    <string name="pp_get_photo">Välj foto</string>
+    <string name="pp_affirm">Bekräfta</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">Moments</string>
+    <string name="pp_xml_qq_space">QQ-zon</string>
+    <string name="pp_xml_text_11">Logga ut</string>
+    <string name="pp_xml_text_22">Aviseringar</string>
+    <string name="pp_xml_text_24">Hjälp &amp; Feedback</string>
+    <string name="pp_xml_text_35">Hetaste sökningar</string>
+    <string name="pp_xml_text_350">Trendande</string>
+    <string name="pp_xml_text_39">Öppna</string>
+    <string name="pp_xml_text_40">Stäng</string>
+    <string name="pp_xml_text_45">Mer</string>
+    <string name="pp_xml_text_48">Visa</string>
+    <string name="pp_xml_text_49">Kopiera</string>
+    <string name="pp_xml_text_50">Dela</string>
+    <string name="pp_xml_remove">Ta bort</string>
+    <string name="pp_xml_find_novel">Hitta en bok</string>
+    <string name="pp_xml_no_book">Du har ännu inte lagt till några böcker i ditt bibliotek</string>
+    <string name="pp_remove_book_title">Ta bort?</string>
+    <string name="pp_remove_book_content">Är du säker på att du vill ta bort boken från biblioteket?</string>
+    <string name="pp_search_default_text">Sök efter böcker</string>
+    <string name="pp_search_no_data">Inga resultat hittades</string>
+    <string name="book_detail_start_reading">Börja läsa</string>
+
+    <string name="book_detail_adds">Annonser</string>
+    <string name="book_detail_views">Visningar</string>
+    <string name="book_detail_rating">Betyg</string>
+    <string name="book_detail_report_msg">Innehållet och bilderna representerar författarens personliga åsikter och har ingen koppling till %s. Om du har några frågor, vänligen #Rapportera# till oss.</string>
+    <string name="login_view_tip">Genom att fortsätta godkänner du #Användarvillkor# och #Integritetspolicy#</string>
+    <string name="pp_string_profile">Profil</string>
+    <string name="pp_string_gender">KÖN</string>
+    <string name="pp_string_birthday">FÖDELSEDAG</string>
+    <string name="pp_string_nickname">SMYCKENAMN</string>
+    <string name="pp_string_email_address">E-POSTADRESS</string>
+    <string name="pp_new_chapter">Ny Kapitel</string>
+    <string name="pp_coming_soon">Kommer snart</string>
+    <string name="pp_this_is_the">Detta är den</string>
+    <string name="pp_last_chapter">Sista Kapitel</string>
+    <string name="pp_book_completed">Slutförd</string>
+    <string name="pp_book_ongoing">Pågående</string>
+    <string name="pp_you_may_also_like">Du kanske också gillar</string>
+    <string name="pp_view_all">Visa alla</string>
+    <string name="pp_to_explore_more">För att utforska mer</string>
+    <string name="pp_rather_not_say">Vill inte säga</string>
+    <string name="pp_read">Läs</string>
+    <string name="pp_you_might_like">Du kanske gillar</string>
+    <string name="pp_writer_about_des">%s syftar till att ge en plattform för författare att följa sina drömmar och en plats att dela sina berättelser med en global publik. Vår mission är att få din röst hörd. Om du har en berättelse att berätta är %s platsen för dig!</string>
+    <string name="pp_writer_benefits">Vi erbjuder ett antal belöningar för författare som signerar sina berättelser med %s, inklusive signeringsavgift, bonus vid slutförande av berättelse, dagliga uppdateringsbelöningar och hänvisningsbonus. För mer information, klicka #här#.</string>
+    <string name="pp_writer_tip0">Skicka din skrivning till vår e-post:</string>
+    <string name="pp_writer_email">E-post: #leo@i%s.com#</string>
+    <string name="pp_writer_author">Författarcentral: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">Du kan vara nästa bästsäljande författare.</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">Kopierad</string>
+    <string name="pp_problem_null_tip">Problembeskrivning kan inte vara tom</string>
+    <string name="pp_update_title">Uppdatering tillgänglig</string>
+    <string name="pp_update_content">Nyare version finns tillgänglig: fixade kända buggar och optimerad läsupplevelse</string>
+    <string name="pp_update_button">Uppdatera nu</string>
+    <string name="pp_download">Ladda ner</string>
+    <string name="pp_purchase">Köp</string>
+    <string name="pp_purchase_tip">Från och med nuvarande kapitel</string>
+    <string name="pp_download_auto_pay_tip">Ladda ner lokalt samtidigt</string>
+    <string name="pp_price">Pris:</string>
+    <string name="pp_purchase_now">Köp nu</string>
+    <string name="pp_download_bottom_tip">Du kommer inte att debiteras för kapitel du redan har låst upp</string>
+    <string name="pp_top_up">FÖRSE</string>
+    <string name="pp_pay_now">Betala nu</string>
+    <string name="payment_method">Betalningsmetod</string>
+    <string name="top_up_amount">Belopp att fylla på</string>
+    <string name="pp_pay_tip1">1. Bonus = 1 Coin. Bonusar kommer att dras först när du låser upp kapitel.</string>
+    <string name="pp_pay_tips1">Tips:</string>
+    <string name="pp_pay_tip2">2. Ditt användar-ID: #%s#. Om uppladdningen misslyckas eller om uppladdningen misslyckas under lång tid, kan du klicka på Återställ för att lösa det (ingen återuppladdning krävs). Eller direkt #feedbackfrågor# till oss.</string>
+    <string name="pp_pay_tip3">4. Behöver du hjälp? Titta gärna på vår #FAQ#</string>
+    <string name="pp_pay_tip4">3. Vår standardbetalningsmetod är Google Play-betalningsplattformen. Google Play stöder betalning via mobiloperatör, kreditkort, presentkort, Paypal och plånboksbalanser.</string>
+    <string name="pp_pay_tip5">5. Bonusens giltighetstid vid uppladdning är 7 dagar.</string>
+    <string name="pp_pay_tip6">6. Mynt och bonusar har lika värde, ogiltiga bonusar är virtuella objekt och vi stöder inte återbetalningar.</string>
+    <string name="pp_pay_tip7">7. För att säkerställa säkerheten för dina digitala tillgångar rekommenderar vi att du köper mynt med ett tredjeparts konto: FB eller Google konto.</string>
+    <string name="thank_you">Tack!</string>
+    <string name="pp_read_pay_tip">Stöd författaren att skapa fler och bättre berättelser</string>
+    <string name="read_pay_tip1">Auto-lås upp nästa kapitel</string>
+    <string name="more_top_up_amounts">Fler belopp att fylla på</string>
+    <string name="get_free_coins">Få gratis mynt</string>
+    <string name="purchase_now">Köp nu</string>
+    <string name="unlock_chapter">Lås upp detta kapitel %s Coins</string>
+    <string name="purchase_successful">Köp lyckades</string>
+    <string name="purchase_failed">Köp misslyckades</string>
+    <string name="coins">Mynt</string>
+    <string name="top_up">FÖRSE</string>
+    <string name="about">Om</string>
+    <string name="top_up_record">Top-up Historik</string>
+    <string name="bonus_record">Bonus Historik</string>
+    <string name="consumption_record">Förbrukningshistorik</string>
+    <string name="books_on_auto_purchase">Böcker på Auto-låsning</string>
+    <string name="pp_viewed">Visad</string>
+    <string name="pp_rating">Betyg</string>
+    <string name="pp_settings">Inställningar</string>
+    <string name="pp_wallet">Plånbok</string>
+    <string name="google_play_not_available">Google Play-tjänst är inte tillgänglig</string>
+    <string name="pp_turn_off">Stäng av?</string>
+    <string name="pp_turn_off_content">Att stänga av påverkar din läsupplevelse, var vänlig och bekräfta om du vill stänga av den.</string>
+    <string name="pp_no_purchase">Inga fler kapitel tillgängliga för köp</string>
+    <string name="purchase_more_coins">Köp fler mynt</string>
+    <string name="top_up_and_purchase">Toppa upp och lås upp detta kapitel</string>
+    <string name="feedback">Feedback</string>
+    <string name="genres">Genrer</string>
+    <string name="font_merriweather">Merriweather</string>
+    <string name="no_longer_remind_upgrade">Påminn inte längre om uppdateringar</string>
+    <string name="pp_version">Version </string>
+    <string name="terms_service">Användarvillkor</string>
+    <string name="privacy_policy">Integritetspolicy</string>
+    <string name="chapters">%d Kapitel</string>
+    <string name="chapters_count">Kapitel (%d)</string>
+    <string name="last_read_chapter">Senast lästa: Kapitel %d</string>
+    <string name="last_read_chapter2">Senast lästa: %s</string>
+    <string name="balance_bonus">Balans: %d Mynt + %d Bonus</string>
+    <string name="insufficient_balance">Otillräcklig balans, köp fler mynt</string>
+    <string name="price_coin">%d Mynt</string>
+    <string name="common_warning">Varning</string>
+    <string name="total_coins_bonus">Total: %d Mynt + %d Bonus</string>
+    <string name="total_coins">Total: %d Mynt</string>
+    <string name="send_feedback">Skicka Feedback</string>
+    <string name="pp_expiring_soon">%d håller på att gå ut</string>
+    <string name="cancel">Avbryt</string>
+
+    <string name="ok">Bekräfta</string>
+    <string name="common_no_data">Inga data än</string>
+    <string name="common_no_more">Inget mer</string>
+    <string name="common_loadmore">Skjut upp för att ladda mer</string>
+    <string name="common_loading">Laddar…</string>
+    <string name="pp_visitor">Besökare</string>
+    <string name="pp_user_name">Användarnamn</string>
+    <string name="click_to_login">Klicka för att logga in för fler tjänster</string>
+    <string name="language_setting">Språkinställning</string>
+    <string name="switch_language_hint">Är du säker på att du vill byta språk till %s?</string>
+    <string name="pp_language">Språk</string>
+    <string name="remaining_chapters">Alla kvarvarande kapitel</string>
+    <string name="coins_all_chapters">%s Mynt debiteras för alla kapitel</string>
+    <string name="next_num_chapters">Nästa %s kapitel</string>
+    <string name="coins_for_num_chapters">%d Mynt debiteras för %d kapitel</string>
+    <string name="pp_off">AV</string>
+    <string name="pp_off_value">%d%% AV</string>
+    <string name="pp_email_phone_hint">E-post / Telefonnummer</string>
+    <string name="pp_email_null_hint">E-post / Telefonnummer kan inte vara tomt</string>
+    <string name="pp_contacts">Kontakter</string>
+    <string name="leave_feedback_hint">Beskriv problemet du upplever eller lämna din feedback.</string>
+    <string name="pp_problem_description">Problembeskrivning</string>
+    <string name="pp_problem_type">Problemetyp (Obligatoriskt)</string>
+    <string name="pp_about_book">Om denna bok</string>
+    <string name="pp_report">Rapportera</string>
+    <string name="sign_in_facebook">Logga in med Facebook</string>
+    <string name="sign_in_google">Logga in med Google</string>
+    <string name="sign_in_email">Logga in med E-post</string>
+    <string name="pp_first">Första</string>
+    <string name="writer_benefits">Författarfördelar</string>
+    <string name="writer_central">Författarcentral</string>
+    <string name="copy_address_tip">Tips: Klicka för att kopiera adressen och besök den med din datorwebbläsare.</string>
+    <string name="pp_all">Alla</string>
+    <string name="pp_rankings">Rankningar</string>
+    <string name="pp_flip">Vänd</string>
+    <string name="pp_swipe">Svep</string>
+    <string name="pp_scroll">Rulla</string>
+    <string name="pp_system_font">Systemfont</string>
+    <string name="pp_contents">Innehåll</string>
+    <string name="about_app">Om %s</string>
+    <string name="pp_overview">Översikt</string>
+    <string name="pp_swipe_up_read">Svep upp för att läsa</string>
+    <string name="pp_swipe_left_read">Svep vänster för att läsa</string>
+    <string name="book_detail_words">Ord</string>
+    <string name="most_popular">Mest populär</string>
+    <string name="read_now">Läs nu</string>
+    <string name="updated">UPPDATERAD</string>
+    <string name="pp_pay_restore">Återställ</string>
+    <string name="pp_restore_success">Återställning lyckades</string>
+    <string name="pp_continue">Fortsätt</string>
+    <string name="rewards">Belöningar</string>
+    <string name="pp_daily_check">Daglig incheckning</string>
+    <string name="pp_novice_tasks">Nybörjaruppgifter</string>
+    <string name="pp_daily_tasks">Dagliga uppgifter</string>
+    <string name="pp_congratulations">Grattis</string>
+    <string name="pp_go">Gå</string>
+    <string name="pp_claim">Kräv</string>
+    <string name="pp_rewards">Belöningar</string>
+    <string name="pp_expired">utgått</string>
+    <string name="pp_done">Klar</string>
+    <string name="pp_claim_failed">Krav misslyckades</string>
+    <string name="pp_recommend">REKOMMENDERA</string>
+    <string name="pp_free">GRATIS</string>
+    <string name="pp_exclusive">EXKLUSIV</string>
+    <string name="pp_exit_read_recommend_hint">Följande innehåll är mer intressant!</string>
+    <string name="pp_renew">Förnya</string>
+    <string name="pp_tell_found">Berätta för oss vad du har funnit</string>
+    <string name="feedback_details">Feedbackdetaljer</string>
+    <string name="pp_copyright_notice">Copyright-meddelande</string>
+    <string name="pp_copyright_notice_hint_line1">Om du anser att innehållet kränker din upphovsrätt, vänligen #rapportera# det till oss.</string>
+    <string name="pp_copyright_notice_hint_line2">Publicerad av %s med behörighet från %s.</string>
+    <string name="pp_copyright_notice_hint_line3">© Alla rättigheter förbehållna.</string>
+    <string name="pp_new">Ny</string>
+    <string name="pp_team">Team</string>
+    <string name="pp_connect_googleplay_fail">Det uppstod ett fel i Google Play-tjänster. Rensa Google Play-cacheminnet eller logga in på ditt Google-konto igen och försök igen!</string>
+    <string name="pp_close">Stäng</string>
+    <string name="start_reading">Börja läsa</string>
+    <string name="pp_skip">Hoppa över %d</string>
+    <string name="georgia">Georgien</string>
+    <string name="search_books">Sök böcker</string>
+    <string-array name="day_arr">
+        <item>SÖN</item>
+        <item>MÅN</item>
+        <item>TIS</item>
+        <item>ONS</item>
+        <item>TOR</item>
+        <item>FRE</item>
+        <item>LÖR</item>
+    </string-array>
+    <string name="app_wallet">Plånbok</string>
+
+    <string name="pp_pending_retry_tip">Om det fortfarande inte visas på ditt konto efter en stund, eller om du stöter på några problem, vänligen kontakta vår #kundtjänst# för hjälp.</string>
+    <string name="pp_reward_feedback_hint">Om du har några problem, vänligen lämna din #feedback# i Hjälpcenteret.</string>
+    <string name="pp_retry">Försök igen</string>
+    <string name="error_request_tip">Begäran misslyckades, vänligen försök igen senare.</string>
+    <string name="book_load_error">Bokladdningsfel, vänligen prova en annan bok.</string>
+    <string name="daily_check_disable_tip">Kom tillbaka imorgon för att checka in och kräva din bonus.</string>
+    <string name="pp_notice">Meddelande</string>
+    <string name="del_account_note">Åtgärden kan inte ångras. Vänligen bekräfta följande information innan du raderar kontot</string>
+    <string name="del_account_title1">1. Du kommer inte att kunna återaktivera ditt konto</string>
+
+    <string name="del_account_note1">När kontot väl är raderat kan du inte logga in eller använda detta konto igen. Det är omöjligt att återställa eller göra sig av med böcker, information eller tillgångar relaterade till det raderade kontot. Även om du registrerar dig igen, kommer endast ett helt nytt konto att skapas.</string>
+    <string name="del_account_title2">2. Egendom och information kommer att raderas</string>
+    <string name="del_account_note2">Radering av kontot kommer att betraktas som att du överger kontots rättigheter och tillgångar. Inklusive personlig information, Mynt, Bonus, Kupong, Top-up Kort och andra virtuella tillgångar. Vänligen hantera dina böcker, information och tillgångar på ett korrekt sätt.</string>
+    <string name="del_account_title3">3. Tvistlösning</string>
+    <string name="del_account_note3">Du kan inte radera ditt konto om det finns olösta tvister, inklusive men inte begränsat till klagomål, rapporter, etc.</string>
+    <string name="del_account_title4">4. Raderingens effektiva tid</string>
+    <string name="del_account_note4">Raderingsansökan kommer att automatiskt granskas och godkännas kl. 24:00 på den 30:e dagen. Men du kan logga in via ett tredjeparts konto för att avsluta processen innan den slutförs.</string>
+    <string name="read_del_account_notice_note">Jag har läst ovanstående information och förstår att denna åtgärd inte kan ångras.</string>
+    <string name="pp_del_account">Radera konto</string>
+    <string name="pp_cancel_del_account">Avbryt kontoradering</string>
+    <string name="pp_cancel_del_account2">Avbryt konto radering</string>
+    <string name="pp_cancel_del_account_hint">Kontot är under granskning för radering. Är du säker på att du vill avbryta raderingen?</string>
+    <string name="del_account_submitted">Kontoraderingsbegäran har skickats.</string>
+    <string name="del_account_confirm_time">Denna begäran kommer att automatiskt granskas och godkännas den %s.</string>
+    <string name="del_account_terms_read_hint">Vänligen bekräfta om kontoraderingsavtalet är valt.</string>
+    <string name="account_in_normal_state_hint">Kontot är i normalt tillstånd.</string>
+    <string name="account_deleted_hint">Kontot har raderats.</string>
+    <string name="account_deleting_hint">Kontoraderingen behandlas, vänligen försök inte igen.</string>
+    <string name="account_delete_action_confirm">Kontoradering har skickats framgångsrikt.</string>
+    <string name="pp_attention">Uppmärksamhet</string>
+    <string name="pp_account_deleted_hint">Ditt konto har registrerats som raderat. Ett nytt konto har tilldelats dig och applikationen kommer att starta om för att du ska kunna börja använda det.</string>
+    <string name="pp_think_again">Tänk om</string>
+
+    <string name="pp_confirm">Bekräfta</string>
+    <string name="del_account_cancel_success_hint">Du har framgångsrikt avbrytit kontoradering.</string>
+    <string name="chapter_not_exist">Kapitel finns inte.</string>
+    <string name="recharge_pedding_hint">Du har %d ofullständiga uppladdningar.</string>
+    <string name="pp_friendly_reminder">Vänlig Påminnelse</string>
+    <string name="pp_restore_reminder_content">Efter att ha klickat på \'Återställ\'-knappen, vänligen ha tålamod. Om uppladdningen fortfarande inte visas på ditt konto efter ett tag, eller om du stöter på några problem, tveka inte att kontakta vår kundtjänst. Vi finns här för att hjälpa dig!</string>
+    <string name="pp_report_immediately">Rapportera omedelbart</string>
+    <string name="pp_payment_error">Betalningsfel</string>
+    <string name="pp_payment_error_hint">Google Pay stöder för närvarande inte ditt köp. Försök att använda en alternativ betalningsmetod.</string>
+    <string name="pp_switch_payment">Välj en annan metod</string>
+    <string name="pp_operate_frequent_tip">Operationen är för frekvent, vänligen försök igen senare.</string>
+    <string name="pp_valid">Giltig</string>
+    <string name="pp_invalid">Ogiltig</string>
+    <string name="pp_received_time">Mottagningstid:</string>
+    <string name="pp_expired_date">Förfallodatum:</string>
+    <string name="pp_chapter">Kapitel</string>
+    <string name="pp_rules">Regler</string>
+    <string name="pp_rules_check_in_title">1. Incheckningsregler</string>
+    <string name="pp_rules_check_in_content">Du kan tjäna bonusar genom att checka in varje dag. Extra belöningar tilldelas vid den 3:e och 7:e påföljande incheckningen. Avbrutna incheckningar resulterar i att belöningar för den dagen går förlorade.</string>
+    <string name="pp_rules_novice_title">2. Nybörjaruppgifter</string>
+    <string name="pp_rules_novice_content">Slutför nybörjaruppgifter för att ta emot motsvarande bonus.</string>
+    <string name="pp_rules_daily_title">3. Dagliga uppgifter</string>
+    <string name="pp_rules_daily_content">När du slutför en daglig uppgift, klicka på "Kräv"-knappen för att ta emot bonus. Denna uppgift uppdateras från tid till annan. Om det finns problem med bonusutdelning på grund av uppdateringar, vänligen lämna din feedback på min sida.</string>
+    <string name="pp_rules_reward_rule_title">4. Belöningsregler</string>
+    <string name="pp_rules_reward_rule_content">Bonusen här är giltig i 7 dagar. 1 Bonus = 1 Mynt. Bonusar kommer att dras först när du låser upp kapitel.</string>
+    <string name="pp_day">Dag</string>
+    <string name="net_connect_tip">Nätverksfel, vänligen försök igen senare.</string>
+    <string name="pp_merge_assets_hint">Tillgångarna i din <Data><![CDATA[ <b>%s</b> ]]> </Data> applikation kommer att användas normalt i <Data><![CDATA[ <b>%s</b> ]]> </Data> applikationen. Vänligen uppmärksamma förändringar i dina tillgångar.</string>
+    <string name="pp_merge_assets_hint_coin">Tillgångarna i <Data><![CDATA[ <b>%s</b> ]]> </Data> inkluderar böcker i bokhyllan, %s mynt och %s bonusar.</string>
+    <string name="pp_merge_assets_hint_account">Kontot som motsvarar tillgångsammanslagningen är under %s-kontot i <Data><![CDATA[ <b>%s</b> ]]> </Data> applikationen.</string>
+    <string name="pp_merge_account_success">Konto sammanslaget framgångsrikt!</string>
+    <string name="pp_merge_account_fail">Konto sammanslagning misslyckades!</string>
+    <string name="pp_reward_signin_hint">Logga in och njut av fler gratis förmåner</string>
+    <string name="pp_sign_in">Logga in</string>
+    <string name="pp_pay_sign_hint">För att säkerställa maximal säkerhet för ditt konto och dina data, vänligen logga in på ditt konto; om du inte gör det kan du riskera potentiella förluster!</string>
+    <string name="pp_pay_sign_cancel">Ignorera &amp; Fortsätt</string>
+    <string name="pp_library_login_hint">Logga in nu och njut av exklusiva gratisförmåner för nybörjare</string>
+    <string name="pp_login_unlock_benefit">För att låsa upp fler funktioner och förmåner</string>
+    <string name="pp_login_earn_bonus">tjäna bonus</string>
+    <string name="pp_sign_in_continue">Logga in för att fortsätta</string>
+    <string name="pp_reader_sign_warning">Ditt konto är i riskzonen. Vänligen logga in omedelbart för konto- och datasekuritet.</string>
+    <string name="pp_verify_email">Verifiera e-post</string>
+    <string name="pp_link_email_hint">Koppla din e-postadress för att få en gratis bonus</string>
+    <string name="pp_email_address">E-postadress</string>
+    <string name="pp_verification_code">Verifieringskod</string>
+    <string name="pp_code_send_hint">Verifieringskod har skickats</string>
+    <string name="pp_resend_code">(%d)Skicka om</string>
+    <string name="pp_verification_code_send_successful">Verifieringskoden har skickats, vänligen kontrollera din e-post.</string>
+    <string name="pp_already_bind_hint">Kontot för denna applikation har redan kopplats till andra konton på #%s# plattformen.</string>
+    <string name="pp_more_login_methods">Fler inloggningsmetoder</string>
+    <string name="pp_switch_account">Byt konto</string>
+    <string name="pp_switch_account_hint">Denna inloggningsmetod har kopplats till ett annat konto, vill du byta konto och slå ihop dina tillgångar?</string>
+    <string name="pp_reminder">Påminnelse</string>
+    <string name="pp_email_code_expire">Verifieringskoden är ogiltig!</string>
+    <string name="pp_email_code_error">Verifieringskod fel!</string>
+    <string name="pp_preference_setting">Preferensinställningar</string>
+    <string name="pp_select_tag_hint">Välj taggar för att rekommendera böcker till dig mer exakt</string>
+    <string name="pp_skip2">Hoppa över</string>
+    <string name="pp_reading_preference">Läspreferenser</string>
+    <string-array name="ranking_left_tab">
+        <item>Bäst</item>
+        <item>Heta</item>
+        <item>Lova</item>
+        <item>Ny</item>
+        <item>Avslutad</item>
+    </string-array>
+    <string name="app_hot">Heta</string>
+    <string name="app_new">Ny</string>
+    <string name="app_read_guide_gesture_hint">Svep upp och ner i detta område för att bläddra</string>
+    <string name="unlock_now">Lås upp nu</string>
+    <string name="unlock_successful">Låsning lyckades</string>
+    <string name="unlock_fail">Låsning misslyckades</string>
+    <string name="top_up_failed">Top-up misslyckades</string>
+    <string name="top_up_cancel">Top-up avbröts</string>
+
+    <string name="payment_recharge_error">Vi hade ett problem med din betalning. För att snabbt åtgärda det:\n\n1. Öppna Google Play. \n2. Gå till Betalningar och prenumerationer. \n3. Välj Budget och Historik. \n4. Avbryt beställningen, ändra betalningsbeloppet eller välj en annan betalningsmetod.</string>
+    <string name="payment_recharge_error_other">Vi hade ett problem med din betalning. För att snabbt åtgärda det:\n1. Öppna %s. \n2. Avbryt beställningen. \n3. Ändra betalningsbeloppet eller använd en annan betalningsmetod.</string>
+
+    <string name="payment_window_bottom_tip">Om du stöter på några problem, vänligen kontakta vår #kundtjänst# för hjälp.</string>
+    <string name="payment_bottom_ignore">Ignorera</string>
+    <string name="payment_pending_title">Uppladdning pågår</string>
+    <string name="payment_pending_content">Din uppladdning behandlas och kan fördröjas med 5–10 minuter.</string>
+    <string name="payment_pending_button">Accelerera</string>
+    <string name="payment_pending_accelerating">Accelererar…</string>
+    <string name="payment_pending_keep">Fortsätt vänta</string>
+    <string name="payment_pending_shoose_other">Din beställning behandlas fortfarande. Det tar längre tid än vanligt. Vänligen håll ut lite längre. Om betalningen inte går igenom snart, kan du försöka med en annan metod.</string>
+    <string name="top_up_successful">Uppladdning lyckades</string>
+    <string name="have_incomplete_payment">Du har en ofullständig betalningsbeställning. Försök med ett annat betalningsbelopp eller välj en annan betalningsmetod.</string>
+
+    <string name="pending_clicking_frequently">För många försök, vänligen försök igen senare</string>
+    <string name="order_processing">Beställning bearbetas</string>
+    <string name="proceed_cancel_order_hint">Avbrytning avbeställer alla ofullständiga betalningar.</string>
+    <string name="cancel_order_feedback_title">Avbryter? Låt oss veta varför</string>
+    <string name="cancel_order_feedback_subtitle">Din feedback hjälper oss att förbättras.</string>
+    <string name="payment_not_working">Betalningsmetod fungerar inte</string>
+    <string name="price_too_high">Priset är för högt</string>
+    <string name="pick_wrong_product">Valde fel produkt</string>
+    <string name="payment_page_slow">Betalningssidan är för långsam</string>
+    <string name="change_mind">Jag har ändrat mig/Annat</string>
+    <string name="other_reason_share">(Valfritt) Andra skäl? Vänligen dela.</string>
+
+    <string name="load_failed">Laddning misslyckades, tryck för att försöka igen</string>
+    <string name="load_end">Inget mer ~</string>
+
+    <string name="other_payment_methods">Andra betalningsmetoder</string>
+    <string name="select_payment_method">Välj betalningsmetoder</string>
+    <string name="payment_unavailable_attention">Betalningsmetoden är inte tillgänglig. Vänligen försök med en alternativ betalningsmetod.</string>
+
+    <string name="login_welcome">Välkommen till %s</string>
+    <string name="login_other_methods">Andra inloggningsmetoder</string>
+
+    <string name="help_feedback">Hjälp &amp; Feedback</string>
+    <string name="faq">Vanliga frågor</string>
+    <string name="recharge_not_receive_q">Vad ska jag göra om uppladdningen är lyckad men jag inte fick några mynt?</string>
+    <string name="recharge_not_receive_a">
+        Vänligen bekräfta om banktransaktionen var framgångsrik och om betalningen har dragits. Om betalningen har dragits framgångsrikt, vänligen öppna appen igen för att kontrollera om din plånbok och transaktionshistorik har uppdaterats.
+        \n\n
+        Viktiga noteringar:
+        \n\n
+        · Se till att du är inloggad med samma konto som användes för uppladdningen. Ibland kan användare glömma sina inloggningsuppgifter och ladda upp som gäst.
+        \n\n
+        · Enligt transaktionsprocessen kan det ta lite tid för mynten att krediteras efter en lyckad betalning. Behandlingstiden kan variera beroende på betalningsmetoden. Vi rekommenderar att du väntar i 10 minuter efter en lyckad betalning innan du kollar om din plånbok och transaktionshistorik har uppdaterats.
+        \n\n
+        Om de ovanstående metoderna inte fungerar, vänligen kontakta oss via "Feedback" för att snabbt hjälpa oss att lösa ditt problem.
+    </string>
+    <string name="cannot_complete_payment_q">Jag kan inte slutföra min betalning?</string>
+    <string name="cannot_complete_payment_a">
+        · Om ett felmeddelande visas i butiken, kontrollera om ditt nätverk fungerar normalt. Du kan prova att byta nätverksmiljö, till exempel att använda ett annat WiFi.
+        \n\n
+        · Dessutom, om du inte har lyckats logga in på Google- och Apple-konton på din enhet, kan detta problem också uppstå.
+        \n\n
+        · Om ingen av ovanstående metoder löser ditt problem, vänligen ge oss feedback om det problem du stött på.
+    </string>
+    <string name="refund_payment_q">Kan jag begära en återbetalning efter att ha gjort betalningen?</string>
+    <string name="refund_payment_a">
+        Återbetalningar stöds för närvarande inte. Mynt och bonusar kan användas för att låsa upp kapitel.
+    </string>
+    <string name="disable_automatic_purchase_q">Hur avaktiverar jag automatisk köpfunktion?</string>
+    <string name="disable_automatic_purchase_a">Du kan avaktivera det genom "Min"/"Plånbok"/"Böcker på auto-lås".</string>
+    <string name="view_unlock_chapter_history_q">Hur kan jag visa historiken för mina upplåsta kapitel?</string>
+    <string name="view_unlock_chapter_history_a">Du kan kontrollera det genom "Min"/"Plånbok"/"Förbrukningshistorik".</string>
+    <string name="get_coins_bonus_q">Hur får jag mina mynt och bonusar?</string>
+    <string name="get_coins_bonus_a">Du kan få mynt och bonusar genom uppladdningsevenemang, och genom att delta i uppgifter i välfärdscentret kan du tjäna bonusar. Observera att mynt endast kan erhållas genom uppladdning.</string>
+    <string name="difference_coins_bonus_q">Vad är skillnaden mellan mynt och bonusar?</string>
+    <string name="difference_coins_bonus_a">
+        · Båda kan användas för att låsa upp kapitel.
+        \n\n
+        · Bonusar har en giltighetstid. Du kan kontrollera bonusens giltighetstid i "Bonushistorik" i "Plånbok".
+    </string>
+    <string name="check_user_id_q">Hur kan jag kontrollera mitt användar-ID?</string>
+    <string name="check_user_id_a">
+        Gästkonto
+        \n
+        1. Klicka på "Min sida".
+        \n
+        2. En serie siffror på höger sida av avataren.
+        \n\n\n
+        Redan bundet konto
+        \n
+        1. Klicka på "Min sida".
+        \n
+        2. Klicka på avataren högst upp för att öppna en ny sida.
+        \n
+        3. En serie siffror under avataren.
+    </string>
+    <string name="assets_synchronize_q">Kommer tillgångar att synkroniseras när jag loggar in på olika enheter?</string>
+    <string name="assets_synchronize_a">
+        Du kan snabbt synkronisera dina tillgångar genom att logga in med samma konto. Så här gör du:
+        \n\n
+        · Lokalisera din tidigare enhet och logga in med ett tredjepartskonto (som Google eller Facebook).
+        \n\n
+        · Kom ihåg ditt kontos användar-ID och lösenord.
+        \n\n
+        · Logga in med samma konto på din nya enhet.
+        \n\n
+        · Se till att användar-ID-numret stämmer överens med det du registrerat.
+        \n\n
+        För att säkerställa att din framsteg bevaras rekommenderar vi att du slutför din läsning på den gamla enheten innan du byter till den nya enheten.
+    </string>
+    <string name="categories">Kategorier</string>
+    <string name="recharge_issues">Uppladdningsproblem</string>
+    <string name="coin_bonus_issues">Mynt och bonusproblem</string>
+    <string name="chapter_unlock_issues">Kapitelupplåsningsproblem</string>
+    <string name="book_issues">Kapitelupplåsningsproblem</string>
+    <string name="account_issues">Kontoproblem</string>
+    <string name="other">Annat</string>
+
+    <string name="error_code3_a">För sådana felkoder rekommenderar vi att uppdatera Google Play-tjänster eller använda en alternativ betalningsmetod.</string>
+    <string name="coins_bonus_reduce_a">
+        · Du kan ha loggat in på ett annat konto. Kontrollera din bonusmottagning för att se om den har ett kontinuerligt register.
+        \n\n
+        · Det finns olika inloggningsmetoder, som Facebook, Google och e-postadress. Om du inte har loggat in på något av de nämnda kontona, kommer din enhet att ha ett besökarkonto. Du kan visa ditt konto på "Min" sida.
+        \n\n
+        · Om din bonus har minskat kan du först kontrollera dina bonusregister; en möjlighet är att en del av bonusen kan ha gått ut.
+        \n\n
+        · Du kan ha ställt in automatisk upplåsning. Kontrollera dina upplåsningshistorik för att se om du redan har spenderat några mynt eller bonusar.
+        \n\n
+        · Om de ovanstående metoderna inte löser ditt problem, vänligen skicka problemet till oss genom "Feedback".
+    </string>
+
+    <string name="check_bonus_usage_history">Du kan visa förbrukningshistoriken för bonusar eller mynt i "Min"/"Plånbok"/"Förbrukningshistorik".</string>
+
+    <string name="unlock_chapter_a">Vi stödjer både individuell kapitelupplåsning och bulkupplåsning. Du kan välja enligt dina behov. Upplåsning kommer att kräva användning av mynt eller bonusar. Om din mynt- eller bonusbalans är otillräcklig, måste du ladda upp igen.</string>
+
+    <string name="unable_next_chapter_a">
+        · Du måste se till att din nätverksanslutning är bra. Det rekommenderas att byta nätverk och sedan prova igen.
+        \n\n
+        · Se till att dina mynt eller bonusar är tillräckliga.
+    </string>
+
+    <string name="grammar_spell_error_a">Kontakta oss genom "Feedback" och ge bokens titel och kapitelbeteckningar för att hjälpa oss att lösa problemet snabbt.</string>
+    <string name="violent_insult_content_a">Kontakta oss genom "Feedback" och ge bokens titel och kapitelbeteckningar. Vi kommer att ta itu med det.</string>
+    <string name="paid_book_pay_again_a">De böcker du köper kommer alltid att vara dina tillgångar. Om du raderar någon köpt bok kan du återfå dem genom "Min"/"Visad".</string>
+    <string name="bookshelf_coin_assets_disappeared_a">Denna situation uppstår vanligtvis när du loggar in med olika konton eller enheter. Se till att du loggar in med ditt vanliga konto. Om problemet kvarstår, vänligen kontakta oss via "Feedback" för hjälp.</string>
+    <string name="login_del_account_a">
+        Logga in:
+        \n
+        1. Klicka på "Min sida"
+        \n
+        2. Klicka på "Avatar"
+        \n
+        3. Välj din föredragna "inloggningsmetod"
+        \n\n\n
+        Radera konto:
+        \n
+        1. Klicka på "Min sida"
+        \n
+        2. Klicka på "Inställningar"
+        \n
+        3. Klicka på "Radera konto"
+    </string>
+
+    <string-array name="issues_category_item">
+        <item>Uppladdningsproblem</item>
+        <item>Mynt och bonusproblem</item>
+        <item>Kapitelupplåsningsproblem</item>
+        <item>Kitapproblemen</item>
+        <item>Kontoproblem</item>
+        <item>Annat</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>Vad ska jag göra om uppladdningen är lyckad, men jag inte fick mynten?</item>
+        <item>Jag kan inte slutföra min betalning?</item>
+        <item>Felkod 3</item>
+        <item>Kan jag begära en återbetalning efter att ha gjort betalningen?</item>
+    </string-array>
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>Hur får jag mina mynt och bonusar?</item>
+        <item>Mine mynt eller bonusar saknas eller har minskat</item>
+        <item>Vad är skillnaden mellan mynt och bonusar?</item>
+        <item>Hur kollar jag användningshistoriken för mina bonusar?</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>Hur låser jag upp kapitel?</item>
+        <item>Hur kan jag se historiken för mina upplåsta kapitel?</item>
+        <item>Hur inaktiverar jag den automatiska köpfunktionen?</item>
+        <item>Kan inte läsa nästa kapitel?</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>Många innehåll är repetitiva, med grammatik- eller stavfel.</item>
+        <item>Innehåller våldsamt, nedsättande och olämpligt innehåll.</item>
+        <item>Om jag tar bort en betald bok från min bokhylla, måste jag betala igen?</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>Hur kan jag kolla mitt användar-ID?</item>
+        <item>Hur kan jag logga in/radera konto?</item>
+        <item>Kommer tillgångar att synkroniseras när jag loggar in på olika enheter?</item>
+        <item>Min bokhyllerecord och mina guldmynttillgångar har försvunnit?</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>Vänligen kontakta oss via "Feedback" för att hjälpa oss att snabbt lösa problemet.</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">Kan inte lösa problemet? Klicka på #Feedback#</string>
+
+    <string-array name="subscribe_tips">
+        <item>Hur får jag mina mynt och bonusar?</item>
+        <item>Mine mynt eller bonusar saknas eller har minskat</item>
+        <item>Vad är skillnaden mellan mynt och bonusar?</item>
+        <item>Hur kollar jag användningshistoriken för mina bonusar?</item>
+    </string-array>
+
+    <string name="total">Total: %d</string>
+    <string name="subscription_get_coins_bonus">Få %d mynt och %d bonusar</string>
+    <string name="subscription_login_bonus">Logga in i %d dagar för att få %d bonusar</string>
+    <string name="per_week">/vecka</string>
+    <string name="details">Detaljer</string>
+    <string name="subscription_in_effect">Giltigt</string>
+    <string name="subscription_date">Utgångsdatum: %s</string>
+    <string name="subscription_get_coins">Få %d mynt</string>
+
+    <string name="subscription_bonus">+%d bonus</string>
+    <string name="subscription">Min prenumeration</string>
+    <string name="subscription_rewards">Prenumerationsbelöningar</string>
+    <string name="subscription_claim_title">Kräv prenumerationsbelöningar</string>
+    <string name="claim_success">Krav lyckades</string>
+    <string name="claim_fail">Krav misslyckades</string>
+    <string name="days">Dag %d</string>
+
+    <string name="subscription_success">Prenumeration lyckades</string>
+    <string name="subscribe_success_tip">Du fick %d mynt och %d bonusar. Du kan kräva %d bonusar dagligen.</string>
+
+    <string name="subscribe_tips1">1. Köpkostnaden kommer att dras från ditt betalningskonto.</string>
+    <string name="subscribe_tips2">2. Din prenumeration kommer att förnyas automatiskt. Prenumerationer debiteras automatiskt varje faktureringsperiod, oavsett om den är månadsvis eller annan period. Du kan debiteras senast 24 timmar före början av varje faktureringsperiod tills du avbryter din prenumeration.</string>
+    <string name="subscribe_tips3">3. Du kan avbryta en prenumeration när som helst mer än 24 timmar innan din förnyelsedag.</string>
+    <string name="subscribe_tips4">4. Bonusens giltighetstid vid uppladdning är %d dagar.</string>
+    <string name="subscribe_tips5">5. Bonusen distribueras under sju dagar, och eventuella obekräftade bonusar efter utgången kan inte återställas.</string>
+    <string name="subscribe_tips6">6. Mynt och bonusar har lika värde, ogiltiga bonusar är virtuella objekt och vi stöder inte återbetalningar.</string>
+    <string name="subscribe_tips7">7. Behöver du hjälp? Titta gärna på vår #FAQ#.</string>
+
+    <string name="subscribe_rules">1. Du kommer att ta emot %s mynt och %s bonusar omedelbart vid prenumeration.\n2. Logga in i %s på varandra följande dagar för att ta emot %s bonusar, dvs. %s bonus per dag.\n3. Du kan kontrollera de extra belöningarna i din plånbok efter prenumeration.</string>
+
+    <string name="subscribe_pay_title">Prenumerationsavtal</string>
+    <string name="subscribe_pay_tip1_title">1. Betalning:</string>
+    <string name="subscribe_pay_tip1_content">Köpkostnaden kommer att dras från ditt betalningskonto.</string>
+    <string name="subscribe_pay_tip2_title">2. Förnyelse:</string>
+    <string name="subscribe_pay_tip2_content">Din prenumeration kommer att förnyas automatiskt. Prenumerationer debiteras automatiskt varje faktureringsperiod, oavsett om den är månadsvis eller annan period. Du kan debiteras senast 24 timmar före början av varje faktureringsperiod tills du avbryter din prenumeration.</string>
+    <string name="subscribe_pay_tip3_title">3. Avbokning:</string>
+    <string name="subscribe_pay_tip3_content">Du kan avbryta en prenumeration när som helst mer än 24 timmar innan din förnyelsedag. För att avbryta prenumerationen, vänligen gå till betalningsplattformen.</string>
+    <string name="subscribe_pay_tip4_title">4. Hantera dina prenumerationer:</string>
+    <string name="subscribe_pay_tip4_content">Du kan visa, ändra eller avbryta dina prenumerationer.</string>
+
+    <string name="subscribe_out_of_date">Prenumerationen har löpt ut!</string>
+
+    <string name="pp_got_it">Jag förstår</string>
+    <string name="got_it">Jag förstår</string>
+    <string name="pp_get">Jag förstår</string>
+
+    <string name="pp_submit">Skicka</string>
+    <string name="pp_submitted">Skickad</string>
+    <string name="pp_submit_fail">Skickandet misslyckades</string>
+
+    <string name="admob_watch_ad_add_tip">Titta på annonser +%s bonus</string>
+    <string name="admob_loading_tip">Annons laddas, vänligen försök att titta igen senare</string>
+    <string name="admob_waiting_count_down">Fortsätt titta på annonsen efter nedräkningen</string>
+
+    <string name="bonus_value">%d Bonus</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus_ad_claimed">Krävd %d bonusar</string>
+
+    <string name="admob_watch_tip">Titta på annonser för att tjäna bonusar</string>
+    <string name="admob_earn_bonus_tip">Tjäna %d bonusar för varje annons som visas</string>
+    <string name="admob_watch_count_tip">Titta på annons %d/%d</string>
+    <string name="admob_count_down_tip">Titta på annonsen senare vid %s</string>
+    <string name="admob_daily_desc">%d bonus per videoad som visas, slutfört %d/%d</string>
+
+    <string name="usa_ad_privacy">Reklampreferenser</string>
+
+    <string name="member_benefits">Förmåner för Premium-medlemmar</string>
+    <string name="unlimit_premium_books">Obegränsad gratis läsning av 10 000+ premiumböcker</string>
+    <string name="weekly_access_books">Veckovis tillgång till 200+ exklusiva toppböcker</string>
+    <string name="enjoy_add_free_experience">Njut av en reklamfri upplevelse</string>
+    <string name="premium_member_identity">Premium medlemskap</string>
+    <string name="subscribe">Prenumerera</string>
+    <string name="unlimit_reading">Obegränsad läsning!</string>
+    <string name="only_1499_price">Från $14,99</string>
+    <string name="premium">Premium</string>
+    <string name="premium_first_week_discount">%s för första veckan, sedan %s/vecka</string>
+    <string name="premium_expire_date">Utgångsdatum: %s</string>
+    <string name="discover_vip_price">Från $14,99</string>
+    <string name="premium_daily_active_text">Ditt dagliga medlemskap är aktivt</string>
+    <string name="premium_week_active_text">Ditt veckomedlemskap är aktivt.</string>
+    <string name="premium_month_active_text">Ditt månadsabonnemang är aktivt.</string>
+    <string name="premium_year_active_text">Ditt årsmedlemskap är nu aktivt.</string>
+    <string name="premium_expire_time">Utgår den %s</string>
+    <string name="vip_rules">
+        1. Användare som prenumererar på Premium får fri tillgång till alla exklusiva premiumböcker.\n2. Betalning: Kostnaden dras från ditt betalningskonto.\n3. Förnyelse: Prenumerationen förnyas automatiskt. Debitering sker upp till 24 timmar före varje faktureringsperiod, tills du avbryter prenumerationen.\n4. Avsluta: Du kan avsluta när som helst minst 24 timmar före förnyelsedatumet. Gå till betalplattformen för att avbryta.
+    </string>
+
+    <string name="unlock_watch_count">Titta på annons för att låsa upp (%d/%d)</string>
+    <string name="unlock_watch_title">Titta på annons för att låsa upp</string>
+    <string name="unlock_watch_desc">Du kan låsa upp detta kapitel genom att titta på en annons</string>
+    <string name="unlock_watch_now">Titta nu</string>
+    <string name="unlock_watch_chapter_count">Du kan låsa upp %d kapitel gratis idag (%d/%d) </string>
+
+    <string name="email_login_top">Ange e-postadressen du använde för ditt konto</string>
+    <string name="email_address_enter_tip">ange din e-postadress</string>
+    <string name="email_code_enter_tip">ange verifieringskod</string>
+    <string name="email_send_code">Skicka kod</string>
+
+    <string name="facebook_link_title">Länka Facebook-konto</string>
+    <string name="facebook_link_content">Länka ditt Facebook-konto för att få fler mynt. Oroa dig inte, du behåller all din nuvarande framgång och data kopplad till detta konto</string>
+
+    <string name="limit_time_title">Tidsbegränsat erbjudande</string>
+    <string name="limit_time_content">Slå till nu — lägsta pris någonsin, endast under en begränsad tid!</string>
+    <string name="limit_time_premium">premiumsektionens läsningar</string>
+
+    <string name="subscribe_now">Prenumerera nu</string>
+    <string name="transaction_ompleted">Transaktion slutförd</string>
+    <string name="transaction_content">Myntköpet lyckades. Bonusen är giltig i 7 dagar.</string>
+
+    <string name="send_again">Skicka igen</string>
+    <string name="ad_unlock">Lås upp annons</string>
+
+    <string name="top_up_history">Uppladdningshistorik</string>
+    <string name="not_activated">Ej aktiverad</string>
+    <string name="vip_feedback_rule">
+        6. Om du behöver hjälp eller har frågor, vänligen meddela oss via vår #Feedback#.
+    </string>
+
+    <string name="unlock_adv_used">Annonsupplåsning använd. Försök igen i morgon</string>
+    <string name="expiration_date">Utgångsdatum:</string>
+    <string name="select_gender">Välj ditt kön</string>
+    <string name="enter_nickname">Ange ditt smeknamn…</string>
+    <string name="enter_email">Ange din e-postadress här…</string>
+    <string name="select_birthday">Välj ditt födelsedatum</string>
+
+
+    <string name="pay_premium_weekly_membership">Veckomedlemskap</string>
+    <string name="pay_premium_monthly_membership">Månadsmedlemskap</string>
+    <string name="pay_save_value">Spara %s%%</string>
+    <string name="pay_unlock_chapter_count">Lås upp %s kapitel</string>
+    <string name="pay_coins">%s mynt</string>
+    <string name="pay_unlock_in_bulk">Lås upp i bulk</string>
+    <string name="top_up_now">Fyll på nu</string>
+    <string name="dont_waste_time">Slösa inte tid</string>
+    <string name="subscribe_unlock_tip">Prenumerera för att låsa upp direkt</string>
+    <string name="auto_renew_cancel_tip">Automatisk förnyelse · Avbryt när som helst</string>
+    <string name="week">vecka</string>
+    <string name="month">månad</string>
+    <string name="books_free_cycle">Alla böcker gratis i 1 %s</string>
+    <string name="unlock_all_story">Lås upp alla berättelser</string>
+    <string name="premium_benefits">Förmåner med Premium-medlemskap</string>
+    <string name="read_free">Läs gratis</string>
+    <string name="no_ads">Ingen reklam</string>
+    <string name="early_access">Tidig åtkomst</string>
+    <string name="pay_premium_yearly_membership">Årligt medlemskap</string>
+    <string name="year">år</string>
+    <string name="per_month">/månad</string>
+    <string name="per_year">/år</string>
+    <string name="pay_premium_daily_membership">Dagligt medlemskap</string>
+    <string name="day">dag</string>
+    <string name="per_day">/dag</string>
+    <string name="pay_premium_free_for">Alla böcker är gratis i %s</string>
+    <string name="top_up_more">Fyll på mer, spara mer</string>
+    <string name="premium_books_free">Alla böcker gratis att läsa</string>
+    <string name="join_premium">Bli medlem</string>
+
+    <string name="subscription_now">Prenumerera nu</string>
+    <string name="get_special_offer">Få ett specialerbjudande!</string>
+    <string name="sevel_month">/%d månad</string>
+
+    <string name="subscription_agreement">Prenumerationsavtal</string>
+    <string name="subscription_agreement_tips1">1. Användare som prenumererar på Premium kan njuta av gratis tillgång till alla böcker.</string>
+    <string name="subscription_agreement_tips2">2. Betalning: Köpkostnaden dras av från ditt betalningskonto.</string>
+    <string name="subscription_agreement_tips3">3. Förnyelse: Din prenumeration förnyas automatiskt. Prenumerationer debiteras automatiskt varje faktureringsperiod, oavsett om det är månatligt eller en annan period. Du kan debiteras högst 24 timmar före början av varje faktureringsperiod tills du säger upp din prenumeration.</string>
+    <string name="subscription_agreement_tips4">4. Avbokning: Du kan avboka en prenumeration när som helst mer än 24 timmar före ditt förnyelsedatum. För att avboka prenumerationen, gå till betalningsplattformen.</string>
+
+    <string name="enjoy_app_so_for">Gillar du appen?</string>
+    <string name="thank_for_support">Tack för ditt stöd!\nEtt snabbt betyg hjälper oss mycket.</string>
+    <string name="five_star">5 stjärnor</string>
+    <string name="maybe_later">Senare</string>
+    <string name="thank_help_improve">Tack för hjälpen!</string>
+    <string name="continue_bring_more_emotional">Tack vare dig kan vi fortsätta skapa inspirerande berättelser.</string>
+    <string name="continue_reading">Fortsätt läsa</string>
+    <string name="read_more">Läs mer, spara mer</string>
+    <string name="this_chapter">Det här kapitlet</string>
+    <string name="my_wallet">Min Plånbok</string>
+
+    <string name="featured_collection">Utvald Samling</string>
+    <string name="book_catalog">Bokkatalog</string>
+    <string name="fold_up">Vik ihop</string>
+    <string name="choose_your_plan">Välj ditt abonnemang</string>
+    <string name="select_payment_method_2">Välj betalningsmetod</string>
+    <string name="personalized_tip">Personliga rekommendationer baserade på dina preferenser</string>
+    <string name="money_back_tip">Pengar-tillbaka-garanti</string>
+    <string name="what_you_get">Det här får du</string>
+    <string name="premium_center_recharge_tip">Genom att fortsätta godkänner du att ditt abonnemang förnyas automatiskt. Abonnemang debiteras automatiskt varje faktureringsperiod, oavsett om det är månadsvis eller en annan cykel. Du kan debiteras upp till 24 timmar före början av varje faktureringsperiod tills du säger upp ditt abonnemang. Du kan läsa mer om vår policy för uppsägning och återbetalning i #abonnemangsvillkoren#.</string>
+    <string name="premium_pay_safe">Betala säkert &amp; skyddat</string>
+    <string name="premium_access">Premium-åtkomst</string>
+    <string name="unlock_unlimited_books">Lås upp obegränsat antal böcker</string>
+    <string name="limit_title_premium">Alla böcker gratis att läsa</string>
+    <string name="secure_payment">Säker betalning</string>
+    <string name="easy_cancellation">Enklare uppsägning</string>
+    <string name="money_back_guarantee">Pengar-tillbaka-garanti</string>
+    <string name="subscription_renews_tip">Efter introduktionsperioden förnyas ditt abonnemang automatiskt till det valda planens pris. Du kan säga upp när som helst.</string>
+    <string name="first_days">Första %d dagarna</string>
+    <string name="then_price">Därefter $%.2f</string>
+    <string name="only_price">Endast US$%.2f/dag</string>
+    <string name="full_story">Den fullständiga berättelsen väntar</string>
+    <string name="continue_read_unlock">Fortsätt läsa och lås upp slutet du har väntat på.</string>
+    <string name="trust_readers">Betrodd av 10M+ läsare</string>
+    <string name="keep_reading">Fortsätt läsa</string>
+    <string name="no_Interruptions">Inga avbrott</string>
+    <string name="stories_num">10 000+ berättelser</string>
+    <string name="read_full_story">Läs hela berättelsen</string>
+    <string name="without_limit">Utan gränser</string>
+    <string name="unlock_romance">Lås upp obegränsade romance-, fantasy- och varulvsberättelser med dagens läsarerbjudande.</string>
+    <string name="save_percent">SPARA %d%%</string>
+    <string name="daily">dagligen</string>
+    <string name="weekly">veckovis</string>
+    <string name="monthly">månadsvis</string>
+    <string name="yearly">årsvis</string>
+    <string name="cancel_anytime">Säg upp när som helst</string>
+    <string name="continue_story">Fortsätt min berättelse</string>
+    <string name="next_chapter_waiting">Ditt nästa kapitel väntar</string>
+    <string name="continue_read_long">Fortsätt berättelsen nu och lås upp tusentals fler som denna.</string>
+    <string name="read_full_stories">Läs hela berättelser</string>
+    <string name="start_short_reading">Börja obegränsat läsande</string>
+
+</resources>
+<!--
+    瑞典语
+!-->

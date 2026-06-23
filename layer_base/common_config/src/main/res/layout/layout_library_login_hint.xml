@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="15dp"
+    android:paddingVertical="9dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/pp_color_FFEFD3"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:text="@string/pp_library_login_hint"
+        android:layout_weight="1"
+        android:textSize="12.5sp"
+        android:textColor="@color/pp_color_754606"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/bt_sign_in"
+        android:gravity="center_vertical"
+        android:text="@string/pp_sign_in"
+        android:layout_marginStart="14dp"
+        android:paddingHorizontal="8dp"
+        android:textAllCaps="true"
+        android:textSize="10.5dp"
+        android:textColor="@color/color_login_earn_bonus_text"
+        android:background="@drawable/radius_accent_30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"/>
+    <ImageView
+        android:id="@+id/iv_close"
+        android:paddingStart="12dp"
+        android:src="@drawable/icon_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

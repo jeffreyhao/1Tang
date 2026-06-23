@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     方格水波纹。
+     水波纹适配方案，请参考 BaseResource类 的赋值
+-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/color_ripple"
+    ><!-- 水波纹颜色值 -->
+
+    <item>
+        <shape android:shape="rectangle">
+            <!--
+                设置成透明颜色后，水波纹不生效。
+                各马甲包请配置自己的颜色
+            -->
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+
+</ripple>

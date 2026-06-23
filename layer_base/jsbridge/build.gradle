@@ -1,0 +1,9 @@
+apply from:"../base.gradle"
+
+android {
+    namespace "com.github.lzyzsd.library"
+
+}
+
+dependencies {
+}

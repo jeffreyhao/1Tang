@@ -1,0 +1,36 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.common.config"
+
+    buildFeatures {
+        viewBinding true    // 会生成Binding布局类，轻度掉性能
+        dataBinding true    // viewBinding + 双向数据绑定，中度掉性能
+    }
+}
+
+dependencies {
+    implementation project(path: ':layer_base:base_res')
+    implementation project(path: ':layer_base:base_api')
+    implementation project(path: ':layer_base:base_util')
+    implementation project(path: ':layer_base:base_net')
+
+    implementation project(path: ':layer_base:common')
+    implementation project(path: ':layer_base:commonlibrary')
+    implementation project(path: ':layer_base:common_bean')
+
+    compileOnly Dep.material
+    compileOnly Dep.appcompat
+    compileOnly Dep.cardview
+    compileOnly Dep.recyclerview
+    compileOnly Dep.lottie
+    compileOnly Dep.refresh_layout
+    compileOnly Dep.constraintlayout
+    compileOnly Dep.magicIndicator
+
+    implementation Dep.banner
+    implementation Dep.count_down
+
+}

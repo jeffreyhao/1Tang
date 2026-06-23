@@ -1,0 +1,11 @@
+apply from:"../base.gradle"
+
+android {
+    namespace "com.third.ironsource"
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+
+
+}

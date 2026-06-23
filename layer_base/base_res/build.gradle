@@ -1,0 +1,16 @@
+import build.src.Dep
+
+
+apply from:"../base.gradle"
+
+
+android {
+    namespace "com.base.res"
+}
+
+
+dependencies {
+    compileOnly Dep.appcompat
+    compileOnly Dep.material
+
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/transparent"
+    tools:background="#fcc">
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:layout_marginHorizontal="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitCenter"
+        tools:src="@tools:sample/avatars"
+        tools:background="#333"
+        tools:layout_height="200dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_book"
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        tools:layout_gravity="center_horizontal"
+        tools:itemCount="1"
+        tools:listitem="@layout/item_activity_book"
+        tools:layout_height="360dp"
+        tools:background="#ccc"/>
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_activity_close"
+        />
+
+</LinearLayout>

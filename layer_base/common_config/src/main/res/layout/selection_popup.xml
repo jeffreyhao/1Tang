@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="76dp">
+
+
+        <ImageView
+            android:id="@+id/iv_top_triangle"
+            app:tint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/ic_think_triangle"/>
+
+        <com.tencent.common.widget.RoundLinearLayout
+            android:layout_below="@id/iv_top_triangle"
+            android:orientation="horizontal"
+            android:paddingStart="11dp"
+            android:paddingEnd="11dp"
+            app:rv_backgroundColor="@color/colorAccent"
+            app:rv_cornerRadius="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/btn_write_note"
+                android:textColor="@color/white"
+                android:text="@string/pp_xml_text_48"
+                android:gravity="center"
+                android:layout_width="76dp"
+                android:layout_height="46dp" />
+            <TextView
+                android:id="@+id/btn_copy"
+                android:textColor="@color/white"
+                android:text="@string/pp_xml_text_49"
+                android:gravity="center"
+                android:layout_width="76dp"
+                android:layout_height="46dp" />
+            <TextView
+                android:id="@+id/btn_share"
+                android:textColor="@color/white"
+                android:text="@string/pp_xml_text_50"
+                android:gravity="center"
+                android:layout_width="76dp"
+                android:layout_height="46dp" />
+        </com.tencent.common.widget.RoundLinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_bottom_triangle"
+            android:visibility="gone"
+            app:tint="@color/colorAccent"
+            android:layout_marginTop="42dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_think_triangle"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TriangleView">
+        <attr name="direction" format="string"/>
+        <attr name="arrow_color" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    法语
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">%s sélectionné</string>
+    <string name="mdtp_ok">Confirmer</string>
+    <string name="mdtp_cancel">Annuler</string>
+    <string name="mdtp_day_picker_description">Grille des jours du mois</string>
+    <string name="mdtp_year_picker_description">Liste des années</string>
+    <string name="mdtp_select_day">Sélectionner le mois et le jour</string>
+    <string name="mdtp_select_year">Sélectionner l\'année</string>
+    <string name="mdtp_next_month_arrow_description">Mois suivant</string>
+    <string name="mdtp_previous_month_arrow_description">Mois précédent</string>
+
+</resources>

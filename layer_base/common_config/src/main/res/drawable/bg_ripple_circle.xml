@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     圆形水波纹。
+     水波纹适配方案，请参考 BaseResource类 的赋值
+-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/color_ripple"
+    android:radius="21dp"
+    ><!-- 水波纹 颜色值 | 半径 -->
+
+
+</ripple>

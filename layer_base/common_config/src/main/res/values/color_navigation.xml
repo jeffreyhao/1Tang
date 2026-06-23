@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        导航栏和状态栏颜色。另外一级tab页面的状态栏字体风格，参考 bool.xml
+-->
+<resources>
+
+    <color name="color_status_bar_main_tab">@color/transparent</color>
+    <color name="color_navigation_main_tab">@color/main_tab_nav_color</color>
+
+    <color name="color_status_bar_view_all">@color/white</color>
+    <color name="color_navigation_view_all">@color/white</color>
+
+    <color name="color_status_bar_search">@color/transparent</color>
+    <color name="color_navigation_search">@color/white</color>
+
+    <color name="color_status_bar_viewed">@color/white</color>
+    <color name="color_navigation_viewed">@color/white</color>
+
+    <color name="color_status_bar_rewards">@color/transparent</color>
+    <color name="color_navigation_rewards">@color/white</color>
+
+    <color name="color_status_bar_preference">@color/white</color>
+    <color name="color_navigation_preference">@color/white</color>
+
+    <color name="color_status_bar_feedback">@color/white</color>
+    <color name="color_navigation_feedback">@color/white</color>
+
+    <color name="color_status_bar_feedback_detail">@color/white</color>
+    <color name="color_navigation_feedback_detail">@color/white</color>
+
+    <color name="color_status_bar_settings">@color/white</color>
+    <color name="color_navigation_settings">@color/white</color>
+
+    <color name="color_status_bar_wallet">@color/white</color>
+    <color name="color_navigation_wallet">@color/white</color>
+
+    <color name="color_status_bar_wallet_record">@color/white</color>
+    <color name="color_navigation_wallet_record">@color/white</color>
+
+    <color name="color_status_bar_pay_activity">@color/white</color>
+    <color name="color_navigation_pay_activity">@color/white</color>
+
+    <color name="color_status_bar_login">@color/transparent</color>
+    <color name="color_navigation_login">@color/white</color>
+
+    <color name="color_status_bar_login_email">@color/transparent</color>
+    <color name="color_navigation_login_email">@color/white</color>
+
+    <color name="color_status_bar_about">@color/white</color>
+    <color name="color_navigation_about">@color/pp_color_F8F8F8</color>
+
+    <color name="color_status_bar_del_account">@color/white</color>
+    <color name="color_navigation_del_account">@color/white</color>
+
+    <color name="color_status_bar_book_detail">@color/transparent</color>
+    <color name="color_navigation_book_detail">@color/white</color>
+
+
+    <color name="color_status_bar_subscribe_detail">@color/transparent</color>
+    <color name="color_navigation_subscribe_detail">@color/pp_color_F8F8F8</color>
+
+    <color name="color_status_bar_ranking">@color/transparent</color>
+    <color name="color_navigation_ranking">@color/white</color>
+
+
+</resources>

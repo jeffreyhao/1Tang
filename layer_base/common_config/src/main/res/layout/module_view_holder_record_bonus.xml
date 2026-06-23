@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingVertical="17dp"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/radius_white_10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/record_bonus_amount"
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#EB594C"
+        android:textSize="32sp"
+        tools:text="420"
+        />
+
+    <TextView
+        android:id="@+id/bonus_text"
+        android:text="@string/bonus"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toEndOf="@+id/record_bonus_amount"
+        android:layout_alignBottom="@+id/record_bonus_amount"
+        android:textSize="12sp"
+        android:textColor="@color/pp_color_999999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/record_bonus_type"
+        android:gravity="end"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/bonus_text"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/record_bonus_amount"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/pp_color_333333"
+        android:textSize="17sp"
+        tools:text="Add to Library"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/record_bonus_amount"
+        android:background="@drawable/dash_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/record_bonus_time_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pp_received_time"
+        android:textColor="@color/pp_color_666666"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/record_bonus_time"
+        android:textDirection="ltr"
+        android:gravity="center_vertical"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/record_bonus_time_text"
+        android:layout_alignTop="@+id/record_bonus_time_text"
+        android:layout_alignBottom="@+id/record_bonus_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pp_color_666666"
+        android:textSize="12sp"
+        tools:text="2024-01-07  08:30:20"
+        />
+
+    <TextView
+        android:id="@+id/record_bonus_expired_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/record_bonus_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pp_expired_date"
+        android:textColor="@color/pp_color_666666"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/record_expire_time"
+        android:textDirection="ltr"
+        android:gravity="center_vertical"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/record_bonus_expired_text"
+        android:layout_alignTop="@+id/record_bonus_expired_text"
+        android:layout_alignBottom="@+id/record_bonus_expired_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pp_color_666666"
+        android:textSize="12sp"
+        tools:text="2024-01-07  08:30:20"
+        />
+</RelativeLayout>

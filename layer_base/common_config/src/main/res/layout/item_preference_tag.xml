@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_tag_name"
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:paddingHorizontal="5dp"
+    android:gravity="center"
+    android:maxLines="1"
+    android:textSize="12dp"
+    android:background="@drawable/bg_preference_tag"
+    android:textColor="@color/color_preference_tag"
+    app:autoSizeTextType="uniform"
+    app:autoSizeMaxTextSize="12dp"
+    app:autoSizeMinTextSize="7dp"
+    tools:text="TAGTAGTAGTadfggghhhjjj"
+    tools:layout_width="100dp"
+    />

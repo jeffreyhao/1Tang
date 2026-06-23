@@ -1,0 +1,34 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.base.util"
+
+    // 单元测试配置
+    defaultConfig {
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    // 确保自动打包 jniLibs 目录
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+}
+
+
+dependencies {
+    compileOnly Dep.appcompat
+    compileOnly Dep.material
+    compileOnly Dep.gson
+    compileOnly Dep.utilcodex
+
+    implementation project(path: ':layer_base:base_api')
+
+    // 单元测试配置
+    testImplementation Dep.junit
+    androidTestImplementation Dep.androidx_junit
+    androidTestImplementation Dep.androidx_espresso
+}

@@ -1,0 +1,33 @@
+<!--
+    <network-security-config>
+    可包含：
+        0 或 1 个 <base-config>
+        任意数量的 <domain-config>
+        0 或 1 个 <debug-overrides>
+-->
+<network-security-config>
+
+
+    <!--Android P 限制了明文流量的网络请求，非加密的流量请求都会被系统禁止掉。-->
+    <base-config cleartextTrafficPermitted="true" />
+
+
+    <!--
+        可包含：0 或 1 个 <trust-anchors>
+        在 android:debuggable 为 "true" 时将应用的替换，IDE 和构建工具生成的非发布 build 通常属于此情况。
+        在 debug-overrides 中指定的信任锚会添加到所有其他配置，并且当服务器的证书链使用其中一个仅调试信任锚时不固定证书。
+        如果 android:debuggable 为 "false"，则完全忽略此部分。
+    -->
+    <debug-overrides>
+        <!--
+            <trust-anchors> 可包含：任意数量的 <certificates>
+            <certificates src=["system" | "user" | "raw resource"] overridePins=["true" | "false"] />
+        -->
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+
+
+</network-security-config>

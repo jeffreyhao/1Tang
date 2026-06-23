@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    俄语
+!-->
+<resources>
+    <string name="loading">Загрузка...</string>
+    <string name="close_and_go_back">Назад</string>
+    <string name="error_data_tip">Что-то пошло не так, коснитесь для повторной попытки</string>
+    <string name="error_empty_data_tip">Пока нет данных</string>
+    <string name="error_net_tip">Ошибка сети, коснитесь для повторной попытки</string>
+    <string name="permisions_essential_tip">Сначала получите разрешение на использование</string>
+    <string name="permisions_read_phone_tip">Сначала получите разрешение на операцию</string>
+    <string name="permission_setting">Настройка</string>
+    <string name="permission_cancel">Отмена</string>
+    <string name="collapse">Свернуть</string>
+    <string name="expand">Развернуть</string>
+    <string name="nb_mode_night">Ночной режим</string>
+    <string name="nb_mode_morning">Дневной режим</string>
+    <string name="nav_bookshelf">Библиотека</string>
+    <string name="nav_bookshelf2">Книжная полка</string>
+    <string name="nav_featured">Избранное</string>
+    <string name="nav_mine">Моё</string>
+    <string name="nav_discover">Открытия</string>
+    <string name="nav_reward">Награды</string>
+    <string name="nav_profile">Профиль</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="done">Готово</string>
+    <string name="delete">Удалить</string>
+    <string name="clear_cache">Очистить кэш</string>
+    <string name="check_update">Проверить обновления</string>
+    <string name="contact_us">Свяжитесь с нами</string>
+    <string name="privacy">Политика конфиденциальности</string>
+    <string name="agreement">Условия использования</string>
+    <string name="joinedBookShelf">Добавлено в библиотеку</string>
+    <string name="add_to_shelf_dlg_title">Добавить в библиотеку?</string>
+    <string name="add_to_shelf_dlg_content">Добавьте эту книгу в свою библиотеку и читайте ее в любое время.</string>
+    <string name="add_to_shelf_dlg_cancel">Отменить</string>
+    <string name="add_to_shelf_dlg_confirm">Добавить в библиотеку</string>
+    <string name="hint_search_bookstore">Поиск в библиотеке</string>
+    <string name="become_author">Стать писателем</string>
+    <string name="buy_sale">Скидки на покупку</string>
+    <string name="free_start_read">Начать чтение</string>
+    <string name="pp_sex_boy_brief">Мужской</string>
+    <string name="pp_sex_girl_brief">Женский</string>
+    <string name="pp_tip_none_photo">Отсутствуют фотографии в альбоме</string>
+    <string name="pp_history_search">История</string>
+    <string name="pp_tip_input_search_key">Введите ключевое слово здесь</string>
+    <string name="pp_clear_success">Очищено</string>
+    <string name="pp_me">Я</string>
+    <string name="pp_build_fail">Сборка не удалась</string>
+    <string name="pp_author">Автор</string>
+    <string name="pp_note_id_null">Идентификатор заметки отсутствует</string>
+    <string name="pp_login_fail">Ошибка входа</string>
+    <string name="pp_collection_success">Добавлено в библиотеку</string>
+    <string name="pp_please_check_network">Проверьте подключение к сети</string>
+    <string name="pp_add_success">Книга добавлена в вашу библиотеку</string>
+    <string name="pp_remove_success">Книга удалена из вашей библиотеки</string>
+    <string name="pp_please_chose_one_book">Сначала выберите книгу</string>
+    <string name="pp_login_first">Пожалуйста, войдите сначала</string>
+    <string name="pp_pay_success">Платеж успешен</string>
+    <string name="pp_pay_cancel">Платеж отменен</string>
+    <string name="pp_pay_error">Ошибка платежа</string>
+    <string name="pp_check_pay_fail">Не удалось проверить покупку</string>
+    <string name="pp_tip">Сначала установите приложение Gallery или браузер</string>
+    <string name="pp_copy_success">Скопировано</string>
+    <string name="pp_save_fail">Не удалось сохранить</string>
+    <string name="pp_saved">Сохранено</string>
+    <string name="pp_exit_app">Вы уверены, что хотите выйти?</string>
+    <string name="pp_exit">Выйти</string>
+    <string name="pp_sure">Подтвердить</string>
+    <string name="pp_today_read">Чтение сегодня</string>
+    <string name="pp_second_red_packet"> минут до получения красного пакета</string>
+    <string name="pp_after_ad_bye">После рекламы интереснее.</string>
+    <string name="pp_time_error">Слишком большое отклонение времени между системой и сервером. Пожалуйста, отрегулируйте системное время</string>
+    <string name="pp_about">О приложении</string>
+    <string name="pp_notiy">Советы</string>
+    <string name="pp_get_photo">Выбрать фото</string>
+    <string name="pp_affirm">Подтвердить</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">Моменты</string>
+    <string name="pp_xml_qq_space">QQ-зона</string>
+    <string name="pp_xml_text_11">Выйти</string>
+    <string name="pp_xml_text_22">Уведомления</string>
+    <string name="pp_xml_text_24">Помощь и обратная связь</string>
+    <string name="pp_xml_text_35">Горячий поиск</string>
+    <string name="pp_xml_text_350">Тренды</string>
+    <string name="pp_xml_text_39">Открыть</string>
+    <string name="pp_xml_text_40">Закрыть</string>
+    <string name="pp_xml_text_45">Еще</string>
+    <string name="pp_xml_text_48">Просмотреть</string>
+    <string name="pp_xml_text_49">Копировать</string>
+    <string name="pp_xml_text_50">Поделиться</string>
+    <string name="pp_xml_remove">Удалить</string>
+    <string name="pp_xml_find_novel">Найти книгу</string>
+    <string name="pp_xml_no_book">Вы еще не добавили ни одной книги в вашу библиотеку</string>
+    <string name="pp_remove_book_title">Удалить?</string>
+    <string name="pp_remove_book_content">Вы уверены, что хотите удалить книгу из вашей библиотеки?</string>
+    <string name="pp_search_default_text">Поиск книг</string>
+    <string name="pp_search_no_data">Результаты не найдены</string>
+    <string name="book_detail_start_reading">Начать чтение</string>
+    <string name="book_detail_adds">Добавления</string>
+    <string name="book_detail_views">Просмотры</string>
+    <string name="book_detail_rating">Рейтинг</string>
+    <string name="book_detail_report_msg">Содержимое и изображения отражают личные взгляды авторов и не имеют отношения к %s. Если у вас есть вопросы, пожалуйста, #сообщите# нам.</string>
+    <string name="login_view_tip">Продолжая, вы соглашаетесь с #Условиями использования# и #Политикой конфиденциальности#</string>
+    <string name="pp_string_profile">Профиль</string>
+    <string name="pp_string_gender">ПОЛ</string>
+    <string name="pp_string_birthday">ДАТА РОЖДЕНИЯ</string>
+    <string name="pp_string_nickname">ПСЕВДОНИМ</string>
+    <string name="pp_string_email_address">АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ</string>
+    <string name="pp_new_chapter">Новая глава</string>
+    <string name="pp_coming_soon">Скоро</string>
+    <string name="pp_this_is_the">Это</string>
+    <string name="pp_last_chapter">Последняя глава</string>
+    <string name="pp_book_completed">Завершено</string>
+    <string name="pp_book_ongoing">В процессе</string>
+    <string name="pp_you_may_also_like">Вам может понравиться</string>
+    <string name="pp_view_all">Больше</string>
+    <string name="pp_to_explore_more">Для дальнейшего изучения</string>
+    <string name="pp_rather_not_say">Предпочитаю не указывать</string>
+    <string name="pp_read">Читать</string>
+    <string name="pp_you_might_like">Вам может понравиться</string>
+    <string name="pp_writer_about_des">%s стремится предоставить сцену для писателей, чтобы они могли осуществить свои мечты и поделиться своими историями с мировой аудиторией. Наша миссия - дать вам возможность быть услышанным. Если у вас есть история, которую вы хотите рассказать, %s - это место для вас!</string>
+    <string name="pp_writer_benefits">Мы предлагаем различные вознаграждения для авторов, которые подписывают свои истории с %s, включая гонорар за подпись, бонус за завершение истории, ежедневные награды за обновление и бонус за рекомендацию. Для получения дополнительных преимуществ нажмите #здесь#.</string>
+    <string name="pp_writer_tip0">Отправьте свое произведение по адресу электронной почты:</string>
+    <string name="pp_writer_email">Электронная почта: #leo@i%s.com#</string>
+    <string name="pp_writer_author">Центр автора: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">Вы можете стать следующим бестселлером.</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">Скопировано</string>
+    <string name="pp_problem_null_tip">Описание проблемы не может быть пустым</string>
+    <string name="pp_update_title">Доступно обновление</string>
+    <string name="pp_update_content">Доступна новая версия: исправлены известные ошибки и оптимизировано чтение</string>
+    <string name="pp_update_button">Обновить сейчас</string>
+    <string name="pp_download">Загрузить</string>
+    <string name="pp_purchase">Приобрести</string>
+    <string name="pp_purchase_tip">Начиная с текущей главы</string>
+    <string name="pp_download_auto_pay_tip">Загрузить локально одновременно</string>
+    <string name="pp_price">Цена:</string>
+    <string name="pp_purchase_now">Приобрести сейчас</string>
+    <string name="pp_download_bottom_tip">Вам не будет начислено платы за главы, которые вы уже разблокировали</string>
+    <string name="pp_top_up">Пополнить</string>
+    <string name="pp_pay_now">Оплатить сейчас</string>
+    <string name="payment_method">Способ оплаты</string>
+    <string name="top_up_amount">Сумма пополнения</string>
+    <string name="pp_pay_tip1">1. бонус = 1 монета. Бонусы будут списаны в первую очередь, когда вы разблокируете главы.</string>
+    <string name="pp_pay_tips1">Советы:</string>
+    <string name="pp_pay_tip2">2. Ваш идентификатор пользователя: #%s#. Если перезарядка не удалась или перезарядка не удалась в течение длительного времени, вы можете нажать «Восстановить», чтобы решить проблему (перезарядка не требуется). Или задайте нам #вопросы обратной связи#.</string>
+    <string name="pp_pay_tip3">4. Нужна помощь? Пожалуйста, ознакомьтесь с нашими #FAQ#</string>
+    <string name="pp_pay_tip4">3. Нашим основным способом оплаты является платформа Google Play. Google Play поддерживает оплату через оператора, кредитные карты, подарочные карты, PayPal и счета Wallet.</string>
+    <string name="pp_pay_tip5">5. Срок действия полученных бонусов при пополнении составляет 7 дней.</string>
+    <string name="pp_pay_tip6">6. Монеты и бонусы имеют одинаковую ценность, непросроченные бонусы являются виртуальными предметами, и мы не поддерживаем возвраты.</string>
+    <string name="pp_pay_tip7">7. Чтобы обеспечить безопасность цифровых активов на вашем аккаунте, рекомендуем покупать монеты с помощью стороннего аккаунта: аккаунта в Facebook или Google.</string>
+    <string name="thank_you">Спасибо!</string>
+    <string name="pp_read_pay_tip">Поддержите автора в создании большего количества и лучших историй</string>
+    <string name="read_pay_tip1">Автоматическая разблокировка следующей главы</string>
+    <string name="more_top_up_amounts">Больше сумм для пополнения</string>
+    <string name="get_free_coins">Получить бесплатные монеты</string>
+    <string name="purchase_now">Приобрести сейчас</string>
+    <string name="unlock_chapter">Разблокировать эту главу %s монет</string>
+    <string name="purchase_successful">Покупка успешна</string>
+    <string name="purchase_failed">Покупка не удалась</string>
+    <string name="coins">Монет</string>
+    <string name="top_up">Пополнить</string>
+    <string name="about">О приложении</string>
+    <string name="top_up_record">История пополнений</string>
+    <string name="bonus_record">История бонусов</string>
+    <string name="consumption_record">История расходов</string>
+    <string name="pp_viewed">Просмотрено</string>
+    <string name="pp_rating">Рейтинг</string>
+    <string name="pp_settings">Настройки</string>
+    <string name="pp_wallet">Кошелек</string>
+    <string name="google_play_not_available">Сервис Google Play недоступен</string>
+    <string name="pp_turn_off">Отключить?</string>
+    <string name="pp_turn_off_content">Отключение повлияет на качество чтения. Подтвердите, хотите ли вы его отключить.</string>
+    <string name="pp_no_purchase">Нет больше глав, доступных для покупки</string>
+    <string name="purchase_more_coins">Приобрести больше монет</string>
+    <string name="top_up_and_purchase">Пополните и откройте эту главу</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="genres">Жанры</string>
+    <string name="font_merriweather">Merriweather</string>
+    <string name="no_longer_remind_upgrade">Больше не напоминать об обновлении</string>
+    <string name="pp_version">Версия </string>
+    <string name="terms_service">Условия использования</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="chapters">%d глав</string>
+    <string name="chapters_count">Главы (%d)</string>
+    <string name="last_read_chapter">Последнее чтение: глава %d</string>
+    <string name="last_read_chapter2">Последнее чтение: %s</string>
+    <string name="balance_bonus">Баланс: %d монет + %d бонусов</string>
+    <string name="insufficient_balance">Недостаточно средств, пожалуйста, купите больше монет</string>
+    <string name="price_coin">%d монет</string>
+    <string name="common_warning">Внимание</string>
+    <string name="total_coins_bonus">Всего: %d монет + %d бонусов</string>
+    <string name="total_coins">Всего: %d монет</string>
+    <string name="send_feedback">Отправить отзыв</string>
+    <string name="pp_expiring_soon">%d скоро истекут</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">Подтвердить</string>
+    <string name="common_no_data">Нет данных</string>
+    <string name="common_no_more">Больше нет</string>
+    <string name="common_loadmore">Подгрузить еще, пролистните вверх</string>
+    <string name="common_loading">Загрузка...</string>
+    <string name="pp_visitor">Посетитель</string>
+    <string name="pp_user_name">Имя пользователя</string>
+    <string name="click_to_login">Нажмите кнопку входа, чтобы получить больше услуг</string>
+    <string name="language_setting">Настройка языка</string>
+    <string name="switch_language_hint">Вы уверены, что хотите сменить язык на %s?</string>
+    <string name="pp_language">Язык</string>
+    <string name="remaining_chapters">Все оставшиеся главы</string>
+    <string name="coins_all_chapters">%s монет за все главы</string>
+    <string name="next_num_chapters">Следующие %s глав</string>
+    <string name="coins_for_num_chapters">%d монет за %d глав</string>
+    <string name="pp_off">ВЫКЛ</string>
+    <string name="pp_off_value">%d%% ВЫКЛ</string>
+    <string name="pp_email_phone_hint">E-mail / Номер телефона</string>
+    <string name="pp_email_null_hint">E-mail / Номер телефона не может быть пустым</string>
+    <string name="pp_contacts">Контакты</string>
+    <string name="leave_feedback_hint">Опишите проблему, с которой вы столкнулись, или оставьте свой отзыв.</string>
+    <string name="pp_problem_description">Описание проблемы</string>
+    <string name="pp_problem_type">Тип проблемы (Обязательно)</string>
+    <string name="pp_about_book">Об этой книге</string>
+    <string name="pp_report">Сообщить о проблеме</string>
+    <string name="sign_in_facebook">Войти через Facebook</string>
+    <string name="sign_in_google">Войти через Google</string>
+    <string name="sign_in_email">Войти с помощью электронной почты</string>
+    <string name="pp_first">Первая</string>
+    <string name="writer_benefits">Преимущества для авторов</string>
+    <string name="writer_central">Авторский центр</string>
+    <string name="copy_address_tip">Совет: Щелкните, чтобы скопировать адрес и открыть его в веб-браузере на компьютере.</string>
+    <string name="pp_all">Все</string>
+    <string name="pp_rankings">Рейтинги</string>
+    <string name="pp_flip">Перевернуть</string>
+    <string name="pp_swipe">Смахнуть</string>
+    <string name="pp_scroll">Прокрутить</string>
+    <string name="pp_system_font">Системный шрифт</string>
+    <string name="pp_contents">Содержание</string>
+    <string name="about_app">О %s</string>
+    <string name="pp_overview">Обзор</string>
+    <string name="pp_swipe_up_read">Смахните вверх, чтобы читать</string>
+    <string name="pp_swipe_left_read">Смахните влево, чтобы читать</string>
+    <string name="book_detail_words">Слова</string>
+    <string name="most_popular">Самые популярные</string>
+    <string name="read_now">Читать сейчас</string>
+    <string name="updated">ОБНОВЛЕНО</string>
+    <string name="pp_pay_restore">Восстановить</string>
+    <string name="pp_restore_success">Восстановление успешно</string>
+    <string name="pp_continue">Продолжить</string>
+    <string name="rewards">Награды</string>
+    <string name="pp_daily_check">Ежедневная проверка</string>
+    <string name="pp_novice_tasks">Задания для новичков</string>
+    <string name="pp_daily_tasks">Ежедневные задания</string>
+    <string name="pp_congratulations">Поздравляем</string>
+    <string name="pp_go">Перейти</string>
+    <string name="pp_claim">Получить</string>
+    <string name="pp_rewards">Награды</string>
+    <string name="pp_expired">истекший</string>
+    <string name="pp_done">Готово</string>
+    <string name="pp_claim_failed">Не удалось забрать</string>
+    <string name="pp_recommend">РЕКОМЕНДУЕМ</string>
+    <string name="pp_free">БЕСПЛАТНО</string>
+    <string name="pp_exclusive">ЭКСКЛЮЗИВНО</string>
+    <string name="pp_exit_read_recommend_hint">Следующий контент будет еще интереснее!</string>
+    <string name="pp_renew">Обновить</string>
+    <string name="pp_tell_found">Расскажите нам, что вы обнаружили</string>
+    <string name="feedback_details">Детали отзыва</string>
+    <string name="pp_copyright_notice">Уведомление о авторском праве</string>
+    <string name="pp_copyright_notice_hint_line1">Если вы считаете, что контент нарушает ваши авторские права, #сообщите# нам об этом.</string>
+    <string name="pp_copyright_notice_hint_line2">Опубликовано %s с полномочиями %s.</string>
+    <string name="pp_copyright_notice_hint_line3">© Все права защищены.</string>
+    <string name="pp_new">Новое</string>
+    <string name="pp_team">Команда</string>
+    <string name="pp_connect_googleplay_fail">Произошла ошибка в сервисах Google Play. Пожалуйста, очистите кеш Google Play или войдите в свою учетную запись Google и повторите попытку!</string>
+    <string name="pp_close">Закрыть</string>
+    <string name="start_reading">Начать чтение ></string>
+    <string name="pp_skip">Пропустить %d</string>
+    <string name="georgia">Грузия</string>
+    <string name="search_books">Поиск книг</string>
+    <string-array name="day_arr">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string name="app_wallet">Кошелек</string>
+
+    <string name="pp_pending_retry_tip">Если через некоторое время он по-прежнему не отображается в вашей учетной записи или у вас возникли какие-либо проблемы, обратитесь за помощью в нашу #службу поддержки#.</string>
+    <string name="pp_reward_feedback_hint">Если у вас возникли проблемы, оставьте свой #обратная связь# в Справочном центре.</string>
+    <string name="pp_retry">Повторить</string>
+    <string name="error_request_tip">Запрос не выполнен, повторите попытку позже.</string>
+    <string name="book_load_error">Ошибка загрузки книги. Попробуйте другую книгу.</string>
+    <string name="daily_check_disable_tip">Приходите завтра, чтобы зарегистрироваться и получить бонус.</string>
+    <string name="pp_notice">Уведомление</string>
+    <string name="del_account_note">Действие невозможно отменить. Прежде чем удалить учетную запись, подтвердите следующую информацию</string>
+    <string name="del_account_title1">1. Вы не сможете повторно активировать свою учетную запись</string>
+    <string name="del_account_note1">После его удаления вы не сможете войти в систему или снова использовать эту учетную запись. Невозможно получить или избавиться от каких-либо книг, информации или активов, связанных с удаленной учетной записью. Даже если вы перерегистрируетесь, будет создана только новая учетная запись.</string>
+    <string name="del_account_title2">2. Свойство и информация будут удалены</string>
+    <string name="del_account_note2">Удаление учетной записи будет рассматриваться как отказ от прав и активов учетной записи. В том числе личной информации, монет, бонусов, купонов, карт пополнения и других виртуальных активов. Пожалуйста, обращайтесь со своими книгами надлежащим образом. информация и активы.</string>
+    <string name="del_account_title3">3. Разрешение споров</string>
+    <string name="del_account_note3">Вы не сможете успешно удалить свою учетную запись, если с ней имеются неразрешенные споры, включая, помимо прочего, жалобы, отчеты и т. д.</string>
+    <string name="del_account_title4">4. Удаление эффективного времени</string>
+    <string name="del_account_note4">Заявление на удаление будет автоматически рассмотрено и принято в 24:00 30-го дня. Но вы можете войти в систему через стороннюю учетную запись, чтобы завершить процесс перед его завершением.</string>
+    <string name="read_del_account_notice_note">Я прочитал приведенную выше информацию и понимаю, что это действие невозможно отменить.</string>
+    <string name="pp_del_account">Удалить аккаунт</string>
+    <string name="pp_cancel_del_account">Отменить удаление аккаунта</string>
+    <string name="pp_cancel_del_account2">Отменить удаление аккаунта</string>
+    <string name="pp_cancel_del_account_hint">Учетная запись находится на рассмотрении на предмет удаления. Вы уверены, что хотите отменить удаление?</string>
+    <string name="del_account_submitted">Запрос на удаление учетной записи отправлен.</string>
+    <string name="del_account_confirm_time">Этот запрос будет автоматически рассмотрен и одобрен %s.</string>
+    <string name="del_account_terms_read_hint">Подтвердите, выбрано ли соглашение об удалении учетной записи.</string>
+    <string name="account_in_normal_state_hint">Аккаунт в нормальном состоянии.</string>
+    <string name="account_deleted_hint">Учетная запись удалена.</string>
+    <string name="account_deleting_hint">Удаление учетной записи обрабатывается, не повторяйте попытку.</string>
+    <string name="account_delete_action_confirm">Удаление аккаунта успешно отправлено.</string>
+    <string name="pp_attention">Внимание</string>
+    <string name="pp_account_deleted_hint">Ваша учетная запись была обнаружена как удаленная. Вам была назначена новая учетная запись, и приложение автоматически перезапустится, чтобы вы могли начать ее использовать.</string>
+    <string name="pp_think_again">Подумайте еще раз</string>
+
+    <string name="pp_confirm">Подтвердить</string>
+    <string name="del_account_cancel_success_hint">Вы успешно отменили удаление учетной записи.</string>
+    <string name="chapter_not_exist">Глава не существует.</string>
+    <string name="recharge_pedding_hint">У вас %d незавершенное пополнение.</string>
+    <string name="pp_friendly_reminder">Дружеское напоминание</string>
+    <string name="pp_restore_reminder_content">После нажатия кнопки «Восстановить» проявите терпение. Если пополнение счета по-прежнему не отображается в вашей учетной записи через некоторое время или у вас возникли какие-либо проблемы, свяжитесь с нашей службой поддержки клиентов. Мы всегда здесь, чтобы помочь вам!</string>
+    <string name="pp_report_immediately">Немедленно сообщить</string>
+    <string name="pp_payment_error">Ошибка платежа</string>
+    <string name="pp_payment_error_hint">Google Pay в настоящее время не поддерживает вашу покупку. Пожалуйста, попробуйте использовать другой способ оплаты.</string>
+    <string name="pp_switch_payment">Выберите другой метод</string>
+    <string name="pp_operate_frequent_tip">Операция выполняется слишком часто, повторите попытку позже.</string>
+    <string name="pp_valid">Действительно</string>
+    <string name="pp_invalid">Неверно</string>
+    <string name="pp_received_time">Время получения:</string>
+    <string name="pp_expired_date">Время истечения:</string>
+    <string name="pp_chapter">Глава</string>
+    <string name="pp_rules">Правила</string>
+    <string name="pp_rules_check_in_title">1. Правила регистрации</string>
+    <string name="pp_rules_check_in_content">Вы можете зарабатывать бонусы, регистрируясь каждый день. Дополнительные награды предоставляются при 3-м и 7-м последовательных заходах. Прерванная регистрация приведет к потере наград за этот день.</string>
+    <string name="pp_rules_novice_title">2. Задачи для новичков</string>
+    <string name="pp_rules_novice_content">Выполните задания новичка, чтобы получить соответствующий бонус.</string>
+    <string name="pp_rules_daily_title">3. Ежедневные задачи</string>
+    <string name="pp_rules_daily_content">Когда вы выполняете ежедневные задания, нажмите кнопку «Получить», чтобы получить бонус. Это задание время от времени обновляется. Если из-за обновлений возникли проблемы с раздачей бонусов, оставьте, пожалуйста, свой отзыв на моей странице.</string>
+    <string name="pp_rules_reward_rule_title">4. Правила вознаграждения </string>
+    <string name="pp_rules_reward_rule_content">Бонус здесь действителен в течение 7 дней. 1 бонус = 1 монета. Бонусы будут списаны в первую очередь, когда вы откроете главы.</string>
+    <string name="pp_day">День</string>
+    <string name="net_connect_tip">Ошибка сети. Повторите попытку позже.</string>
+    <string name="pp_merge_assets_hint">Активы в вашем приложении <Data><![CDATA[ <b>%s</b> ]]> </Data> будут использоваться нормально в приложении <Data><![CDATA[ <b>%s</b> ]]> </Data>. Пожалуйста, о��ратите внимание на изменения в ваших активах.</string>
+    <string name="pp_merge_assets_hint_coin">Активы в <Data><![CDATA[ <b>%s</b> ]]> </Data> включают книги на полке, %s монет и %s бонусов.</string>
+    <string name="pp_merge_assets_hint_account">Аккаунт, соответствующий слиянию активов, находится под аккаунтом %s в приложении <Data><![CDATA[ <b>%s</b> ]]> </Data>.</string>
+    <string name="pp_merge_account_success">Аккаунт успешно объединён!</string>
+    <string name="pp_merge_account_fail">Не удалось объединить аккаунт!</string>
+    <string name="pp_reward_signin_hint">Войдите и наслаждайтесь дополнительными бесплатными преимуществами</string>
+    <string name="pp_sign_in">Войти</string>
+    <string name="pp_pay_sign_hint">Для безопасности вашего аккаунта и данных войдите в систему, иначе возможны потери! </string>
+    <string name="pp_pay_sign_cancel">Пропустить</string>
+    <string name="pp_library_login_hint">Войдите сейчас и получите эксклюзивные бесплатные преимущества для новичков</string>
+    <string name="pp_login_unlock_benefit">Чтобы разблокировать больше функций и преимуществ</string>
+    <string name="pp_login_earn_bonus">получите бонус</string>
+    <string name="pp_sign_in_continue">Войдите, чтобы продолжить</string>
+    <string name="pp_reader_sign_warning">Ваша учетная запись находится под угрозой. Пожалуйста, войдите в систему как можно скорее для обеспечения безопасности учетной записи и данных.</string>
+    <string name="pp_verify_email">Подтвердить email</string>
+    <string name="pp_link_email_hint">Свяжите почту для бонуса</string>
+    <string name="pp_email_address">Адрес электронной почты</string>
+    <string name="pp_verification_code">Код подтверждения</string>
+    <string name="pp_code_send_hint">Код подтверждения отправлен</string>
+    <string name="pp_resend_code">(%d)Отправить повторно</string>
+    <string name="pp_verification_code_send_successful">Код подтверждения отправлен, проверьте свою электронную почту.</string>
+    <string name="pp_already_bind_hint">Учетная запись этого приложения привязана к другим учетным записям на платформе #%s#.</string>
+    <string name="pp_more_login_methods">Дополнительные методы входа</string>
+    <string name="pp_switch_account">Сменить аккаунт</string>
+    <string name="pp_switch_account_hint">Этот метод входа привязан к другой учетной записи. Хотите сменить учетную запись и объединить свои активы?</string>
+    <string name="pp_reminder">Напоминание</string>
+    <string name="pp_email_code_expire">Код подтверждения недействителен!</string>
+    <string name="pp_email_code_error">Ошибка кода подтверждения!</string>
+    <string name="pp_preference_setting">Настройки предпочтений</string>
+    <string name="pp_select_tag_hint">Выберите теги, чтобы точнее рекомендовать вам книги</string>
+    <string name="pp_skip2">Пропустить</string>
+    <string name="pp_reading_preference">Настройки чтения</string>
+    <string-array name="ranking_left_tab">
+        <item>Лучший</item>
+        <item>Горячо</item>
+        <item>Многообещающе</item>
+        <item>Новый</item>
+        <item>Завершено</item>
+    </string-array>
+    <string name="app_hot">Горячий</string>
+    <string name="app_new">Новый</string>
+    <string name="app_read_guide_gesture_hint">Проведите по этой области вверх и вниз, чтобы перелистывать страницы</string>
+    <string name="unlock_now">Разблокировать сейчас</string>
+    <string name="books_on_auto_purchase">Книги с авторазблокировкой</string>
+    <string name="unlock_successful">Разблокировка прошла успешно</string>
+    <string name="unlock_fail">Не удалось разблокировать</string>
+    <string name="top_up_failed">Не удалось пополнить</string>
+    <string name="top_up_cancel">платеж был отменен</string>
+    <string name="payment_recharge_error">У нас возникла проблема с вашим платежом. Чтобы быстро это исправить:\n1. Откройте Google Play. \n2. Перейдите в раздел Платежи &#038; Подписки. \n3. Выберите Бюджет &#038; История. \n4. Отмените заказ, измените сумму платежа или выберите другой способ оплаты.</string>
+    <string name="payment_recharge_error_other">У нас возникла проблема с вашим платежом. Чтобы быстро это исправить:\n1. Откройте %s. \n2. Отменить заказ. \n3. Измените сумму платежа или используйте другой способ оплаты.</string>
+    <string name="payment_window_bottom_tip">Если у вас возникнут какие-либо проблемы, обратитесь за помощью в нашу #службу поддержки#.</string>
+    <string name="payment_bottom_ignore">Игнорировать</string>
+    <string name="payment_pending_title">Пополнение в процессе</string>
+    <string name="payment_pending_content">Ваше пополнение обрабатывается и может быть задержано на 5–10 минут.</string>
+    <string name="payment_pending_button">Ускорить</string>
+    <string name="payment_pending_accelerating">Ускорение…</string>
+    <string name="payment_pending_keep">Все жду</string>
+    <string name="payment_pending_shoose_other">Ваш заказ все еще обрабатывается. Это занимает больше времени, чем обычно. Пожалуйста, подождите немного дольше. Если платеж не проходит в ближайшее врем��, вы можете попробовать другой способ.</string>
+    <string name="top_up_successful">платеж прошел успешно</string>
+    <string name="have_incomplete_payment">У вас неполное платежное поручение. Попробуйте указать другую сумму платежа или выберите другой способ оплаты.</string>
+    <string name="pending_clicking_frequently">Слишком много попыток, пожалуйста, попробуйте позже.</string>
+    <string name="order_processing">Обработка заказа</string>
+    <string name="proceed_cancel_order_hint">Отмена прервет все незавершенные платежи.</string>
+    <string name="cancel_order_feedback_title">Отменяете? Расскажите нам почему</string>
+    <string name="cancel_order_feedback_subtitle">Ваш отзыв помогает нам стать лучше.</string>
+    <string name="payment_not_working">Метод оплаты не работает</string>
+    <string name="price_too_high">Цена слишком высока</string>
+    <string name="pick_wrong_product">Выбрал неправильный товар</string>
+    <string name="payment_page_slow">Страница оплаты слишком медленная</string>
+    <string name="change_mind">Я передумал/Другое</string>
+    <string name="other_reason_share">(По желанию) Другие причины? Пожалуйста, поделитесь.</string>
+
+
+    <string name="load_failed">Ошибка загрузки, нажмите для повтора</string>
+    <string name="load_end">Больше нет~</string>
+
+    <string name="other_payment_methods">Другие способы оплаты</string>
+    <string name="select_payment_method">Выберите способы оплаты</string>
+    <string name="payment_unavailable_attention">Способ оплаты недоступен. Пожалуйста, попробуйте использовать альтернативный способ оплаты.</string>
+    <string name="login_welcome">Добро пожаловать в %s</string>
+    <string name="login_other_methods">Другие методы входа</string>
+
+    <string name="help_feedback">Помощь и обратная связь</string>
+    <string name="faq">FAQ</string>
+    <string name="recharge_not_receive_q">Что делать, если пополнение прошло успешно, но я не получил монеты?</string>
+    <string name="recharge_not_receive_a">
+        Пожалуйста, убедитесь, что банковская транзакция прошла успешно и что оплата была списана. Если оплата была успешно списана, попробуйте перезапустить приложение, чтобы проверить, обновились ли кошелек и история транзакций.
+        \n\n
+        Важные примечания:
+        \n\n
+        · Убедитесь, что вы вошли в систему с тем же аккаунтом, который использовался для пополнения. Иногда пользователи могут забывать свои учетные данные и пополнять баланс как гости.
+        \n\n
+        · Согласно процессу транзакции, может потребоваться некоторое время для зачисления монет после успешной оплаты. Время обработки может варьироваться в зависимости от метода оплаты. Мы рекомендуем подождать 10 минут после успешной оплаты, прежде чем проверить, обновились ли кошелек и история транзакций.
+        \n\n
+        Если вышеуказанные методы не помогли, пожалуйста, свяжитесь с нами через "Обратная связь", чтобы мы могли быстро решить вашу проблему.
+    </string>
+    <string name="cannot_complete_payment_q">Не могу завершить оплату?</string>
+    <string name="cannot_complete_payment_a">
+        · Если на экране появляется сообщение об ошибке, проверьте, нормально ли работает ваше соединение с сетью. Попробуйте изменить вашу сеть, например, подключиться к другому Wi-Fi.
+        \n\n
+        · Также возможно, что вы не вошли в свою учетную запись Google или Apple на устройстве, что может вызвать эту проблему.
+        \n\n
+        · Если вышеуказанные методы не решают вашу проблему, пожалуйста, сообщите нам об этом через обратную связь.
+    </string>
+    <string name="refund_payment_q">Могу ли я запросить возврат после оплаты?</string>
+    <string name="refund_payment_a">
+        Возвраты в настоящее время не поддерживаются. Монеты и бонусы можно использовать для разблокировки глав.
+    </string>
+    <string name="disable_automatic_purchase_q">Как отключить функцию автоматической покупки?</string>
+    <string name="disable_automatic_purchase_a">Вы можете отключить ее через «Мой»/«Кошелек»/«Книги на автоматической разблокировке».</string>
+    <string name="view_unlock_chapter_history_q">Как я могу просмотреть историю разблокировки глав?</string>
+    <string name="view_unlock_chapter_history_a">Вы можете проверить это через «Мой»/«Кошелек»/«История расходов».</string>
+    <string name="get_coins_bonus_q">Как получить монеты и бонусы?</string>
+    <string name="get_coins_bonus_a">Вы можете получить монеты и бонусы через акции пополнений, а также выполняя задания в центре благосостояния, чтобы заработать бонусы. Обратите внимание, что монеты можно получить только через пополнение.</string>
+    <string name="difference_coins_bonus_q">В чем разница между монетами и бонусами?</string>
+    <string name="difference_coins_bonus_a">
+        · Обе валюты можно использовать для разблокировки глав.
+        \n\n
+        · Бонусы имеют срок действия. Вы можете проверить срок действия бонуса в «Истории бонусов» в «Кошельке».
+    </string>
+    <string name="check_user_id_q">Как проверить свой пользовательский ID?</string>
+    <string name="check_user_id_a">
+        Гостевая учетная запись
+        \n
+        1. Нажмите на «Моя страница».
+        \n
+        2. На правой стороне аватара будет отображаться ряд цифр.
+        \n\n\n
+        Уже привязанная учетная запись
+        \n
+        1. Нажмите на «Моя страница».
+        \n
+        2. Нажмите на аватар в верхней части экрана, чтобы открыть новую страницу.
+        \n
+        3. Под аватаром будет отображаться ряд цифр.
+    </string>
+    <string name="assets_synchronize_q">Будут ли синхронизированы активы при входе на разных устройствах?</string>
+    <string name="assets_synchronize_a">
+        Вы можете быстро синхронизировать свои активы, войдя в систему с тем же аккаунтом. Вот как:
+        \n\n
+        · Найдите свое предыдущее устройство и войдите с помощью учетной записи третьей стороны (например, Google или Facebook).
+        \n\n
+        · Запомните свой ID пользователя и пароль.
+        \n\n
+        · Войдите с тем же аккаунтом на новом устройстве.
+        \n\n
+        · Убедитесь, что ID пользователя совпадает с тем, который вы записали.
+        \n\n
+        Для сохранения вашего прогресса мы рекомендуем завершить чтение на старом устройстве перед переходом на новое.
+    </string>
+    <string name="categories">Категории</string>
+    <string name="recharge_issues">Проблемы с пополнением</string>
+    <string name="coin_bonus_issues">Проблемы с монетами и бонусами</string>
+    <string name="chapter_unlock_issues">Проблемы с разблокировкой глав</string>
+    <string name="book_issues">Проблемы с книгами</string>
+    <string name="account_issues">Проблемы с аккаунтом</string>
+    <string name="other">Прочее</string>
+
+    <string name="error_code3_a">Для таких кодов ошибок мы рекомендуем обновить сервисы Google Play или использовать альтернативный метод оплаты.</string>
+    <string name="coins_bonus_reduce_a">
+        · Возможно, вы вошли в другую учетную запись. Пожалуйста, проверьте историю получения бонусов, чтобы увидеть, есть ли в ней непрерывная запись.
+        \n\n
+        · Существуют различные способы входа, такие как Facebook, Google и адрес электронной почты. Если вы не вошли в какую-либо из упомянутых учетных записей, ваше устройство будет использовать учетную запись гостя. Вы можете просмотреть свою учетную запись на странице «Мой».
+        \n\n
+        · Если ваши бонусы уменьшились, сначала проверьте свою историю бонусов; возможно, часть бонусов могла истечь.
+        \n\n
+        · Возможно, у вас настроено автоматическое разблокирование. Пожалуйста, проверьте свою историю разблокировки глав, чтобы увидеть, были ли потрачены монеты или бонусы.
+        \n\n
+        · Если вышеуказанные методы не решат вашу проблему, отправьте запрос через «Обратную связь».
+    </string>
+
+    <string name="check_bonus_usage_history">Вы можете просмотреть историю расходования бонусов или монет в «Мой»/«Кошелек»/«История расходов».</string>
+
+    <string name="unlock_chapter_a">Мы поддерживаем как разблокировку отдельных глав, так и массовую разблокировку. Вы можете выбрать в зависимости от ваших потребностей. Для разблокировки требуется использование монет или бонусов. Если баланс монет или бонусов недостаточен, вам нужно будет пополнить счет.</string>
+
+    <string name="unable_next_chapter_a">
+        · Убедитесь, что ваше подключение к сети стабильно. Рекомендуем сменить сеть и попробовать снова.
+        \n\n
+        · Убедитесь, что у вас достаточно монет или бонусов.
+    </string>
+
+    <string name="grammar_spell_error_a">Свяжитесь с нами через «Обратную связь» и предоставьте название книги и главы, чтобы мы могли оперативно решить вашу проблему.</string>
+    <string name="violent_insult_content_a">Свяжитесь с нами через «Обратную связь» и предоставьте название книги и главы. Мы примем меры.</string>
+    <string name="paid_book_pay_again_a">Книги, которые вы приобрели, всегда будут вашими активами. Если вы удалите любую из приобретенных книг, вы сможете вернуть ее через «Мой»/«Просмотренные».</string>
+    <string name="bookshelf_coin_assets_disappeared_a">Эта ситуация обычно возникает, когда вы входите в систему с разными аккаунтами или устройствами. Пожалуйста, убедитесь, что вы вошли в свою обычную учетную запись. Если проблема не исчезает, пожалуйста, свяжитесь с нами для помощи через «Обратную связь».</string>
+    <string name="login_del_account_a">
+        Войти:
+        \n
+        1. Нажмите на «Моя страница»
+        \n
+        2. Нажмите на «Аватар»
+        \n
+        3. Выберите предпочитаемый «метод входа»
+        \n\n\n
+        Удалить аккаунт:
+        \n
+        1. Нажмите на «Моя страница»
+        \n
+        2. Нажмите на «Настройки»
+        \n
+        3. Нажмите на «Удалить аккаунт»
+    </string>
+
+    <string-array name="issues_category_item">
+        <item>Проблемы с пополнением</item>
+        <item>Проблемы с монетами и бонусами</item>
+        <item>Проблемы с разблокировкой глав</item>
+        <item>Проблемы с книгами</item>
+        <item>Проблемы с аккаунтом</item>
+        <item>Прочее</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>Что делать, если пополнение прошло успешно, но я не получил монеты?</item>
+        <item>Не могу завершить оплату?</item>
+        <item>Код ошибки 3</item>
+        <item>Могу ли я запросить возврат после оплаты?</item>
+    </string-array>
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>Как получить монеты и бонусы?</item>
+        <item>Мои монеты или бонусы исчезли или уменьшились</item>
+        <item>В чем разница между монетами и бонусами?</item>
+        <item>Как проверить историю использования моих бонусов?</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>Как разблокировать главы?</item>
+        <item>Как просмотреть историю разблокированных глав?</item>
+        <item>Как отключить функцию автоматической покупки?</item>
+        <item>Не могу читать следующую главу?</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>Много повторяющихся материалов, с ошибками в грамматике или орфографии.</item>
+        <item>Содержит насилие, оскорбления и неприемлемый контент.</item>
+        <item>Если я удалю платную книгу с полки, нужно ли будет платить снова?</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>Как я могу проверить свой пользовательский ID?</item>
+        <item>Как войти в систему/удалить аккаунт?</item>
+        <item>Будут ли синхронизированы активы при входе на разных устройствах?</item>
+        <item>Мои записи на полке и активы в монетах исчезли?</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>Пожалуйста, свяжитесь с нами через «Обратную связь», чтобы помочь нам быстро решить вашу проблему.</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">Не можете решить проблему? Нажмите на #Обратная связь#</string>
+
+
+    <!-- 俄语 -->
+    <string name="total">Всего: %d</string>
+    <string name="subscription_get_coins_bonus">Получите %d монет и %d бонусов</string>
+    <string name="subscription_login_bonus">Войдите в систему %d дней, чтобы получить %d бонусов</string>
+    <string name="per_week">/неделя</string>
+    <string name="details">Подробности</string>
+    <string name="subscription_in_effect">В действии</string>
+    <string name="subscription_date">Дата окончания: %s</string>
+    <string name="subscription_get_coins">Получите %d монет</string>
+
+    <string name="subscription">Моя подписка</string>
+    <string name="subscription_rewards">Награды за подписку</string>
+    <string name="subscription_bonus">+%d бонус</string>
+
+    <string name="subscription_claim_title">Получить награды по подписке</string>
+    <string name="days">День %d</string>
+    <string name="claim_success">Успешно получено</string>
+    <string name="claim_fail">Ошибка получения</string>
+
+    <string name="subscription_success">Подписка успешно оформлена</string>
+    <string name="subscribe_success_tip">Вы получили %d монет и %d бонусов. Вы можете получать %d бонусов ежедневно.</string>
+
+    <string name="subscribe_tips1">1. Стоимость покупки будет списана с вашего платежного счета.</string>
+    <string name="subscribe_tips2">2. Ваша подписка будет автоматически продлеваться. Подписки автоматически списываются в каждом платежном периоде, будь то ежемесячный или иной. Списание может произойти не ранее чем за 24 часа до начала каждого расчетного периода, пока вы не отмените подписку.</string>
+    <string name="subscribe_tips3">3. Вы можете отменить подписку в любое время, но не позднее чем за 24 часа до даты продления.</string>
+    <string name="subscribe_tips4">4. Срок действия бонуса, подаренного при пополнении, составляет %d дней.</string>
+    <string name="subscribe_tips5">5. Бонус распределяется в течение семи дней, и невостребованные бонусы после истечения срока не подлежат восстановлению.</string>
+    <string name="subscribe_tips6">6. Монеты и бонусы имеют равную ценность. Неиспользованные бонусы являются виртуальными предметами, и возврат средств невозможен.</string>
+    <string name="subscribe_tips7">7. Нужна помощь? Ознакомьтесь с нашим разделом часто задаваемых вопросов #FAQ#.</string>
+
+    <string name="subscribe_rules">1. Вы получите %s монет и %s бонусов сразу после подписки.\n2. Входите в систему %s дней подряд, чтобы получить %s бонусов, то есть %s бонус в день.\n3. Вы можете проверить дополнительные награды в своем Кошельке после подписки.</string>
+
+    <string name="subscribe_pay_title">Соглашение о подписке</string>
+    <string name="subscribe_pay_tip1_title">1. Оплата:</string>
+    <string name="subscribe_pay_tip1_content">Стоимость покупки будет списана с вашего платежного счета.</string>
+    <string name="subscribe_pay_tip2_title">2. Продление:</string>
+    <string name="subscribe_pay_tip2_content">Ваше абонемент будет автоматически продлён. Абонементы автоматически списываются каждый расчётный период, будь то ежемесячно или другой период. С вас может быть списана сумма не более чем за 24 часа до начала каждого расчётного периода, пока вы не отмените абонемент.</string>
+    <string name="subscribe_pay_tip3_title">3. Отмена:</string>
+    <string name="subscribe_pay_tip3_content">Вы можете отменить абонемент в любое время, если сделаете это более чем за 24 часа до даты продления. Чтобы отменить абонемент, пожалуйста, перейдите на платёжную платформу.</string>
+    <string name="subscribe_pay_tip4_title">4. Управление подписками:</string>
+    <string name="subscribe_pay_tip4_content">Вы можете просматривать, изменять или отменять свои подписки.</string>
+
+    <string name="subscribe_out_of_date">Подписка истекла!</string>
+
+    <string name="pp_got_it">Понял</string>
+    <string name="got_it">Понял</string>
+    <string name="pp_get">Понял</string>
+
+    <string name="pp_submit">Отправить</string>
+    <string name="pp_submitted">Отправлено</string>
+    <string name="pp_submit_fail">Ошибка отправки</string>
+
+
+
+
+    <string name="admob_watch_ad_add_tip">Смотрите рекламу +%s бонусов</string>
+    <string name="admob_loading_tip">Загрузка рекламы, попробуйте посмотреть позже.</string>
+    <string name="admob_waiting_count_down">Продолжайте смотреть рекламу после обратного отсчёта</string>
+
+    <string name="bonus">Бонус</string>
+    <string name="bonus_value">%dБонус </string>
+    <string name="bonus_ad_claimed">%d бонусов получено</string>
+
+
+    <string name="admob_watch_tip">Смотрите рекламу, чтобы заработать бонусы</string>
+    <string name="admob_earn_bonus_tip">Зарабатывайте %d бонусов за каждый просмотр рекламы</string>
+    <string name="admob_watch_count_tip">Смотреть рекламу %d/%d</string>
+    <string name="admob_count_down_tip">Посмотрите рекламу позже в %s</string>
+    <string name="admob_daily_desc">%d бонусов за просмотр рекламы, выполнено %d/%d</string>
+
+    <string name="usa_ad_privacy">Настройки рекламы</string>
+
+    <string name="member_benefits">Преимущества для участников Premium</string>
+    <string name="unlimit_premium_books">Неограниченный бесплатный доступ к 10 000+ премиум-книгам</string>
+    <string name="weekly_access_books">Еженедельный доступ к более чем 200 эксклюзивным книгам</string>
+    <string name="enjoy_add_free_experience">Наслаждайтесь просмотром без рекламы</string>
+    <string name="premium_member_identity">Статус участника Premium</string>
+    <string name="subscribe">Подписаться</string>
+    <string name="unlimit_reading">Безлимитное чтение!</string>
+    <string name="only_1499_price">Всего $14.99</string>
+    <string name="premium">Premium</string>
+    <string name="premium_first_week_discount">%s за первую неделю, затем %s/неделя</string>
+    <string name="premium_expire_date">Дата окончания: %s</string>
+    <string name="discover_vip_price">Всего $14.99</string>
+    <string name="premium_daily_active_text">Ваша ежедневная подписка активна</string>
+    <string name="premium_week_active_text">Ваша недельная подписка активна.</string>
+    <string name="premium_month_active_text">Ваша ежемесячная подписка активна.</string>
+    <string name="premium_year_active_text">Ваша годовая подписка активирована.</string>
+    <string name="premium_expire_time">Истекает %s</string>
+    <string name="vip_rules">
+        1. Подписчики Premium получают бесплатный доступ ко всем эксклюзивным книгам.\n2. Оплата: Стоимость будет списана с вашего платежного аккаунта.\n3. Автопродление: Подписка автоматически продлевается. Списание происходит максимум за 24 часа до начала нового периода.\n4. Отмена: Подписку можно отменить не менее чем за 24 часа до даты продления через платёжную платформу.
+    </string>
+
+    <string name="unlock_watch_count">Смотреть рекламу, чтобы разблокировать (%d/%d)</string>
+    <string name="unlock_watch_title">Смотреть рекламу для разблокировки</string>
+    <string name="unlock_watch_desc">Вы можете разблокировать эту главу, посмотрев рекламу</string>
+    <string name="unlock_watch_now">Смотреть сейчас</string>
+    <string name="unlock_watch_chapter_count">Вы можете бесплатно разблокировать %d глав сегодня (%d/%d) </string>
+
+    <string name="email_login_top">Введите адрес электронной почты, который вы использовали для своей учетной записи</string>
+    <string name="email_address_enter_tip">введите ваш адрес электронной почты</string>
+    <string name="email_code_enter_tip">введите код подтверждения</string>
+    <string name="email_send_code">Отправить код</string>
+
+    <string name="facebook_link_title">Привязать аккаунт Facebook</string>
+    <string name="facebook_link_content">Привяжите свой аккаунт Facebook, чтобы получить больше монет. Не переживайте, весь ваш текущий прогресс и данные, привязанные к этому аккаунту, сохранятся</string>
+
+    <string name="limit_time_title">Предложение с ограниченным сроком</string>
+    <string name="limit_time_content">Успейте сейчас — самая низкая цена за всё время, только ограниченное время!</string>
+    <string name="limit_time_premium">чтение премиум-раздела</string>
+
+    <string name="subscribe_now">Подписаться сейчас</string>
+    <string name="transaction_ompleted">Операция завершена</string>
+    <string name="transaction_content">Покупка монет прошла успешно. Бонус действителен в течение 7 дней.</string>
+
+    <string name="send_again">Отправить снова</string>
+    <string name="ad_unlock">Разблокировать рекламу</string>
+
+    <string name="top_up_history">История пополнений</string>
+    <string name="not_activated">Не активировано</string>
+
+    <string name="vip_feedback_rule">
+        6. Если вам нужна помощь или у вас есть вопросы, сообщите нам через наш #Feedback#.
+    </string>
+
+    <string name="unlock_adv_used">Разблокировка за рекламу использована. Попробуйте снова завтра</string>
+    <string name="expiration_date">Срок действия:</string>
+    <string name="select_gender">Выберите ваш пол</string>
+    <string name="enter_nickname">Введите свой никнейм…</string>
+    <string name="enter_email">Введите ваш адрес электронной почты здесь…</string>
+    <string name="select_birthday">Выберите дату рождения</string>
+    <string name="enjoy_app_so_for">Нравится приложение?</string>
+    <string name="thank_for_support">Спасибо за поддержку!\nБыстрая оценка очень поможет нам.</string>
+    <string name="five_star">5 звёзд</string>
+    <string name="maybe_later">Позже</string>
+    <string name="thank_help_improve">Спасибо за помощь!</string>
+    <string name="continue_bring_more_emotional">Благодаря вам мы продолжаем создавать вдохновляющие истории.</string>
+    <string name="continue_reading">Продолжить чтение</string>
+
+    <string name="pay_premium_weekly_membership">Недельная подписка</string>
+    <string name="pay_premium_monthly_membership">Месячная подписка</string>
+    <string name="pay_save_value">Скидка %s%%</string>
+    <string name="pay_unlock_chapter_count">Разблокировать %s глав</string>
+    <string name="pay_coins">%s монет</string>
+    <string name="pay_unlock_in_bulk">Массовая разблокировка</string>
+    <string name="top_up_now">Пополнить сейчас</string>
+    <string name="dont_waste_time">Не тратьте время</string>
+    <string name="subscribe_unlock_tip">Подпишитесь для мгновенной разблокировки</string>
+    <string name="auto_renew_cancel_tip">Автопродление · Отмена в любое время</string>
+
+    <string name="books_free_cycle">Все книги бесплатны на 1 %s</string>
+    <string name="unlock_all_story">Разблокировать все истории</string>
+    <string name="premium_benefits">Преимущества Premium-подписки</string>
+    <string name="read_free">Читать бесплатно</string>
+    <string name="no_ads">Без рекламы</string>
+    <string name="early_access">Ранний доступ</string>
+    <string name="pay_premium_yearly_membership">Годовое членство</string>
+
+    <string name="pay_premium_daily_membership">Дневное членство</string>
+
+
+    <string name="pay_premium_free_for">Все книги бесплатны в течение %s</string>
+    <string name="top_up_more">Пополните больше, сэкономьте больше</string>
+    <string name="premium_books_free">Все книги бесплатны для чтения</string>
+    <string name="join_premium">Стать участником</string>
+
+    <string name="subscription_now">Подписаться сейчас</string>
+    <string name="get_special_offer">Получите специальное предложение!</string>
+
+
+    <string name="subscription_agreement">Соглашение о подписке</string>
+    <string name="subscription_agreement_tips1">1. Пользователи, подписавшиеся на Premium, получают бесплатный доступ ко всем книгам.</string>
+    <string name="subscription_agreement_tips2">2. Оплата: Стоимость покупки будет списана с вашего платежного аккаунта.</string>
+    <string name="subscription_agreement_tips3">3. Продление: Ваша подписка продлевается автоматически. Подписки автоматически списываются каждый расчетный период, будь то ежемесячно или другой период. Списание может произойти не более чем за 24 часа до начала каждого расчетного периода до отмены подписки.</string>
+    <string name="subscription_agreement_tips4">4. Отмена: Вы можете отменить подписку в любое время за 24 часа до даты продления. Чтобы отменить подписку, перейдите на платежную платформу.</string>
+    <string name="read_more">Читайте больше, экономьте больше</string>
+    <string name="this_chapter">Эта глава</string>
+    <string name="my_wallet">Мой кошелек</string>
+
+    <string name="featured_collection">Избранная коллекция</string>
+    <string name="book_catalog">Каталог книг</string>
+    <string name="fold_up">Свернуть</string>
+    <string name="choose_your_plan">Выберите свой план</string>
+    <string name="select_payment_method_2">Выберите способ оплаты</string>
+    <string name="personalized_tip">Персонализированные рекомендации на основе предпочтений</string>
+    <string name="money_back_tip">Гарантия возврата денег</string>
+    <string name="what_you_get">Что вы получаете</string>
+    <string name="premium_center_recharge_tip">Продолжая, вы соглашаетесь на автоматическое продление подписки. Подписки автоматически списываются каждый расчётный период, будь то ежемесячный или другой цикл. Списание может происходить не позднее чем за 24 часа до начала каждого расчётного периода до отмены подписки. Подробнее о политике отмены и возврата средств можно узнать в #Условиях подписки#.</string>
+    <string name="premium_pay_safe">Безопасная и надёжная оплата</string>
+    <string name="premium_access">Премиум-доступ</string>
+    <string name="unlock_unlimited_books">Разблокируйте неограниченное количество книг</string>
+
+    <string name="coins_with_bonus">%1$s %2$s \u200E+ \u200E%3$s %4$s</string>
+
+
+    <string name="sevel_month">/%d месяц</string>
+
+    <string name="day">день</string>
+    <string name="week">неделя</string>
+    <string name="month">месяц</string>
+    <string name="year">год</string>
+
+    <string name="per_day">/день</string>
+    <string name="per_month">/месяц</string>
+    <string name="per_year">/год</string>
+    <string name="limit_title_premium">Все книги доступны бесплатно</string>
+    <string name="secure_payment">Безопасная оплата</string>
+    <string name="easy_cancellation">Простая отмена</string>
+    <string name="money_back_guarantee">Гарантия возврата денег</string>
+    <string name="subscription_renews_tip">После вводного периода подписка автоматически продлевается по цене выбранного плана. Вы можете отменить ее в любое время.</string>
+    <string name="first_days">Первые %d дней</string>
+    <string name="then_price">Затем $%.2f</string>
+    <string name="only_price">Всего US$%.2f/день</string>
+
+    <string name="full_story">Полная история ждет</string>
+    <string name="continue_read_unlock">Продолжайте читать и откройте финал, которого вы ждали.</string>
+
+    <string name="trust_readers">Нам доверяют более 10 млн читателей</string>
+    <string name="keep_reading">Продолжить чтение</string>
+    <string name="no_Interruptions">Без перерывов</string>
+    <string name="stories_num">Более 10 000 историй</string>
+    <string name="read_full_story">Читать полную историю</string>
+    <string name="without_limit">Без ограничений</string>
+    <string name="unlock_romance">Откройте неограниченный доступ к романтическим, фэнтезийным историям и историям об оборотнях с сегодняшним предложением для читателей.</string>
+
+    <string name="save_percent">СЭКОНОМЬТЕ %d%%</string>
+
+    <string name="daily">ежедневно</string>
+    <string name="weekly">еженедельно</string>
+    <string name="monthly">ежемесячно</string>
+    <string name="yearly">ежегодно</string>
+
+    <string name="cancel_anytime">Отмена в любое время</string>
+    <string name="continue_story">Продолжить мою историю</string>
+    <string name="next_chapter_waiting">Вас ждет следующая глава</string>
+
+    <string name="continue_read_long">Продолжите историю сейчас и откройте еще тысячи похожих.</string>
+
+    <string name="read_full_stories">Читать полные истории</string>
+    <string name="start_short_reading">Начать неограниченное чтение</string>
+
+</resources>
+<!--
+    俄语
+!-->

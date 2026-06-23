@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:background="@drawable/radius_white_10dp"
+    android:layout_width="261dp"
+    android:layout_height="379dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="@string/most_popular"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="18dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/iv_cover"
+        android:scaleType="fitXY"
+        android:layout_width="168dp"
+        android:layout_height="224dp"
+        android:src="@drawable/default_bg_vertical"/>
+    <TextView
+        android:id="@+id/tv_read"
+        android:text="@string/read_now"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:background="@drawable/common_button_background"
+        android:layout_width="198dp"
+        android:layout_height="39dp"/>
+</LinearLayout>

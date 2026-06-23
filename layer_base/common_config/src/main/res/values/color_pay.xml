@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- PendingView-背景颜色 -->
+    <color name="color_bg_pending_view">@color/pp_color_fcf0ff</color>
+
+    <!-- PendingView-笑脸颜色 -->
+    <color name="color_cry_pending_view">@color/pp_base_color</color>
+
+    <!-- PendingView-按钮字体颜色 -->
+    <color name="text_color_pending_view_btn">@color/white</color>
+
+
+    <!-- 钱包页面 coins颜色 -->
+    <color name="color_wallet_unit">@color/pp_color_333333</color>
+
+    <!-- 钱包页面 50%颜色 -->
+    <color name="color_wallet_promote">@color/colorPrimaryDark</color>
+
+    <!-- 钱包页面 右上角角标字体色 -->
+    <color name="color_top_up_pay">@color/white</color>
+    <color name="color_top_up_pay_night">#DADADA</color>
+
+    <!-- 下载页面Price字体颜色-->
+    <color name="color_download_price">@color/colorAccent</color>
+
+    <!-- bonus-record页面-bonus数值颜色-->
+    <color name="color_bonus_record">@color/colorAccent</color>
+
+
+    <!-- Bonus页-tab选中色-->
+    <color name="color_bonus_record_selected">@color/color_bookstore_selected</color>
+    <!-- Bonus页-tab未选中色-->
+    <color name="color_bonus_record_unselect">@color/color_bookstore_unselect</color>
+
+
+    <color name="color_pay_activity">@color/pp_color_F8F8F8</color>
+
+    <color name="color_cancel_order_btn_unable">@color/accent_bg_contrast_color</color>
+    <color name="color_cancel_order_btn_enable">@color/accent_bg_contrast_color</color>
+    <color name="color_pay_amount_tip_night_color">@color/pp_color_dadada</color>
+    <color name="color_subscribe_premium_night">@color/pp_color_dadada</color>
+
+    <color name="color_read_pay_view_off_dark">#D3AEB2</color>
+    <color name="color_read_pay_view_off_light">@color/colorAccent</color>
+
+
+
+</resources>

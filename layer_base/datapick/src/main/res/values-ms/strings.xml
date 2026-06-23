@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    马来语
+-->
+<resources>
+
+    <string name="mdtp_item_is_selected">%s dipilih</string>
+    <string name="mdtp_ok">Sahkan</string>
+    <string name="mdtp_cancel">Batal</string>
+    <string name="mdtp_day_picker_description">Grid hari bulan</string>
+    <string name="mdtp_year_picker_description">Senarai tahun</string>
+    <string name="mdtp_select_day">Pilih bulan dan hari</string>
+    <string name="mdtp_select_year">Pilih tahun</string>
+    <string name="mdtp_next_month_arrow_description">Bulan seterusnya</string>
+    <string name="mdtp_previous_month_arrow_description">Bulan sebelumnya</string>
+
+</resources>
+<!--
+    马来语
+!-->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/search_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <com.baidu.baselibrary.widget.EditText_Clear
+        android:id="@+id/et_search"
+        android:textAlignment="viewStart"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:background="@drawable/box_search"
+        android:drawableStart="@drawable/ic_search_grey"
+        android:drawablePadding="6dp"
+        android:hint="@string/pp_search_default_text"
+        android:imeOptions="actionSearch"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:singleLine="true"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor5"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/search_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/pp_color_333333"
+        android:text="@string/permission_cancel"
+        android:background="@drawable/bg_transparent_press"
+        />
+
+</LinearLayout>

@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    西班牙语
+!-->
+<resources>
+    <string name="loading">Cargando...</string>
+    <string name="close_and_go_back">Regresar</string>
+    <string name="error_data_tip">Algo salió mal, toca para intentarlo de nuevo</string>
+    <string name="error_empty_data_tip">Aún no hay datos</string>
+    <string name="error_net_tip">Error de red, toca para intentarlo de nuevo</string>
+    <string name="permisions_essential_tip">Obtener permiso primero para usar</string>
+    <string name="permisions_read_phone_tip">Obtener permiso para operar primero</string>
+    <string name="permission_setting">Configuración</string>
+    <string name="permission_cancel">Cancelar</string>
+    <string name="collapse">Plegar</string>
+    <string name="expand">Desplegar</string>
+    <string name="nb_mode_night">Modo Noche</string>
+    <string name="nb_mode_morning">Modo Día</string>
+    <string name="nav_bookshelf">Biblioteca</string>
+    <string name="nav_bookshelf2">Biblioteca</string>
+    <string name="nav_discover">Descubrir</string>
+    <string name="nav_featured">Descubrir</string>
+    <string name="nav_reward">Recompensas</string>
+    <string name="nav_profile">Yo</string>
+    <string name="nav_mine">Yo</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="done">Hecho</string>
+    <string name="delete">Eliminar</string>
+    <string name="clear_cache">Borrar caché</string>
+    <string name="check_update">Verificar actualización</string>
+    <string name="contact_us">Contáctanos</string>
+    <string name="privacy">Política de privacidad</string>
+    <string name="agreement">Términos del servicio</string>
+    <string name="joinedBookShelf">Añadido a la biblioteca</string>
+    <string name="add_to_shelf_dlg_title">¿Agregar a la biblioteca?</string>
+    <string name="add_to_shelf_dlg_content">Agrega este libro a tu biblioteca y léelo en cualquier momento.</string>
+    <string name="add_to_shelf_dlg_cancel">Cancelar</string>
+    <string name="add_to_shelf_dlg_confirm">Agregar</string>
+    <string name="hint_search_bookstore">Buscar</string>
+    <string name="become_author">Convertirse en escritor</string>
+    <string name="buy_sale">Compra con descuento</string>
+    <string name="free_start_read">Comenzar a leer</string>
+    <string name="pp_sex_boy_brief">Masculino</string>
+    <string name="pp_sex_girl_brief">Femenino</string>
+    <string name="pp_tip_none_photo">No se obtuvieron fotos del álbum</string>
+    <string name="pp_history_search">Historial</string>
+    <string name="pp_tip_input_search_key">Ingrese la palabra clave aquí</string>
+    <string name="pp_clear_success">Borrado</string>
+    <string name="pp_me">Yo</string>
+    <string name="pp_build_fail">La construcción falló</string>
+    <string name="pp_author">Autor</string>
+    <string name="pp_note_id_null">El ID de la nota es nulo</string>
+    <string name="pp_login_fail">Inicio de sesión fallido</string>
+    <string name="pp_collection_success">Añadido a la biblioteca</string>
+    <string name="pp_please_check_network">Comprueba la conexión de red</string>
+    <string name="pp_add_success">Se ha añadido este libro a tu biblioteca</string>
+    <string name="pp_remove_success">Se ha eliminado este libro de tu biblioteca</string>
+    <string name="pp_please_chose_one_book">Selecciona un libro primero</string>
+    <string name="pp_login_first">Inicia sesión primero</string>
+    <string name="pp_pay_success">Pago realizado con éxito</string>
+    <string name="pp_pay_cancel">Pago cancelado</string>
+    <string name="pp_pay_error">Error de pago</string>
+    <string name="pp_check_pay_fail">Falló la verificación de compra</string>
+    <string name="pp_tip">Instala la galería de aplicaciones o el navegador primero</string>
+    <string name="pp_copy_success">Copiado</string>
+    <string name="pp_save_fail">Error al guardar</string>
+    <string name="pp_saved">Guardado</string>
+    <string name="pp_exit_app">¿Estás seguro de que quieres salir?</string>
+    <string name="pp_exit">Salir</string>
+    <string name="pp_sure">Confirmar</string>
+    <string name="pp_today_read">Leído hoy</string>
+    <string name="pp_second_red_packet"> minutos para obtener un sobre rojo</string>
+    <string name="pp_after_ad_bye">Más emocionante después del anuncio. </string>
+    <string name="pp_time_error">La desviación de tiempo entre el sistema y el servidor es demasiado grande. Por favor, calibra la hora del sistema</string>
+    <string name="pp_about">Acerca de</string>
+    <string name="pp_notiy">Consejos</string>
+    <string name="pp_get_photo">Elegir foto</string>
+    <string name="pp_affirm">Confirmar</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">Momentos</string>
+    <string name="pp_xml_qq_space">Zona QQ</string>
+    <string name="pp_xml_text_11">Cerrar sesión</string>
+    <string name="pp_xml_text_22">Notificaciones</string>
+    <string name="pp_xml_text_24">Ayuda y comentarios</string>
+    <string name="pp_xml_text_35">Búsqueda caliente</string>
+    <string name="pp_xml_text_350">Tendencias</string>
+    <string name="pp_xml_text_39">Abrir</string>
+    <string name="pp_xml_text_40">Cerrar</string>
+    <string name="pp_xml_text_45">Más</string>
+    <string name="pp_xml_text_48">Ver</string>
+    <string name="pp_xml_text_49">Copiar</string>
+    <string name="pp_xml_text_50">Compartir</string>
+    <string name="pp_xml_remove">Eliminar</string>
+    <string name="pp_xml_find_novel">Encontrar un libro</string>
+    <string name="pp_xml_no_book">Aún no has agregado ningún libro a tu biblioteca</string>
+    <string name="pp_remove_book_title">¿Eliminar?</string>
+    <string name="pp_remove_book_content">¿Estás seguro de que deseas eliminar el libro de tu biblioteca?</string>
+    <string name="pp_search_default_text">Buscar libros</string>
+    <string name="pp_search_no_data">No se encontraron resultados</string>
+    <string name="book_detail_start_reading">Comenzar a leer</string>
+    <string name="book_detail_adds">Agregados</string>
+    <string name="book_detail_views">Vistas</string>
+    <string name="book_detail_rating">Calificación</string>
+    <string name="book_detail_report_msg">El contenido e imágenes representan las opiniones personales de los autores, y no están relacionados con %s. Si tienes alguna pregunta, por favor #informa# a nuestro equipo.</string>
+    <string name="login_view_tip">Al continuar, aceptas los #Términos de servicio# y la #Política de privacidad#</string>
+    <string name="pp_string_profile">Perfil</string>
+    <string name="pp_string_gender">GÉNERO</string>
+    <string name="pp_string_birthday">FECHA DE NACIMIENTO</string>
+    <string name="pp_string_nickname">NOMBRE DE USUARIO</string>
+    <string name="pp_string_email_address">DIRECCIÓN DE CORREO ELECTRÓNICO</string>
+    <string name="pp_new_chapter">Nuevo capítulo</string>
+    <string name="pp_coming_soon">Próximamente</string>
+    <string name="pp_this_is_the">Este es el</string>
+    <string name="pp_last_chapter">Último capítulo</string>
+    <string name="pp_book_completed">Completado</string>
+    <string name="pp_book_ongoing">En proceso</string>
+    <string name="pp_you_may_also_like">También te puede gustar</string>
+    <string name="pp_view_all">Ver todo</string>
+    <string name="pp_to_explore_more">Para explorar más</string>
+    <string name="pp_rather_not_say">Prefiero no decirlo</string>
+    <string name="pp_read">Leer</string>
+    <string name="pp_you_might_like">Tal vez te guste</string>
+    <string name="pp_writer_about_des">%s tiene como objetivo proporcionar un escenario para que los escritores persigan sus sueños y un lugar para compartir sus historias con una audiencia mundial. Nuestra misión es hacer que tu voz sea escuchada. Si tienes una historia que contar, ¡%s es el lugar para ti!</string>
+    <string name="pp_writer_benefits">Ofrecemos una variedad de recompensas para los autores que publican sus historias con %s, incluyendo una tarifa de firma, bonificaciones por completar historias, recompensas diarias por actualizaciones y bonificaciones por referidos. Para obtener más beneficios, haz clic #aquí#.</string>
+    <string name="pp_writer_tip0">Envía tu escritura a nuestro correo electrónico:</string>
+    <string name="pp_writer_email">Correo electrónico: #leo@i%s.com#</string>
+    <string name="pp_writer_author">Centro de autores: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">Podrías ser el próximo autor más vendido.</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">Copiado</string>
+    <string name="pp_problem_null_tip">La descripción del problema no puede estar en blanco</string>
+    <string name="pp_update_title">Actualización disponible</string>
+    <string name="pp_update_content">Hay una versión más reciente disponible: se solucionaron errores conocidos y se optimizó la experiencia de lectura</string>
+    <string name="pp_update_button">Actualizar ahora</string>
+    <string name="pp_download">Descargar</string>
+    <string name="pp_purchase">Comprar</string>
+    <string name="pp_purchase_tip">A partir del capítulo actual</string>
+    <string name="pp_download_auto_pay_tip">Descargar localmente al mismo tiempo</string>
+    <string name="pp_price">Precio:</string>
+    <string name="pp_purchase_now">Comprar ahora</string>
+    <string name="pp_download_bottom_tip">No se te cobrará por los capítulos que ya hayas desbloqueado</string>
+    <string name="pp_top_up">RECARGAR</string>
+    <string name="pp_pay_now">Pagar ahora</string>
+    <string name="payment_method">Método de pago</string>
+    <string name="top_up_amount">Monto de recarga</string>
+    <string name="pp_pay_tip1">1. Bono = 1 Moneda. Las bonificaciones se deducirán primero cuando desbloquees capítulos.</string>
+    <string name="pp_pay_tips1">Consejos:</string>
+    <string name="pp_pay_tip2">2. Su ID de usuario: #%s#. Si la recarga falla o la recarga falla durante mucho tiempo, puede hacer clic en Restaurar para resolver (no es necesario recargar). O envíenos sus #preguntas de comentarios#.</string>
+    <string name="pp_pay_tip3">4. ¿Necesitas ayuda? Por favor, revisa nuestras #FAQ#</string>
+    <string name="pp_pay_tip4">3. Nuestro método de pago predeterminado es la plataforma de pago de Google Play. Google Play admite pagos mediante factura de operador, tarjeta de crédito, tarjeta de regalo, Paypal y saldos de Wallet.</string>
+    <string name="pp_pay_tip5">5. El período de validez de la bonificación regalada al recargar es de 7 días.</string>
+    <string name="pp_pay_tip6">6. Las monedas y las bonificaciones tienen el mismo valor, las bonificaciones no caducadas son artículos virtuales y no admitimos reembolsos.</string>
+    <string name="pp_pay_tip7">7. Para garantizar la seguridad de los activos digitales en tu cuenta, recomendamos comprar Monedas con una cuenta de terceros: cuenta de FB o Google.</string>
+    <string name="thank_you">¡Gracias!</string>
+    <string name="pp_read_pay_tip">Apoya al autor para crear historias más y mejores</string>
+    <string name="read_pay_tip1">Desbloqueo automático del próximo capítulo</string>
+    <string name="more_top_up_amounts">Más montos de recarga</string>
+    <string name="get_free_coins">Obtener Monedas gratis</string>
+    <string name="purchase_now">Comprar ahora</string>
+    <string name="unlock_chapter">Desbloquea este capítulo %s monedas</string>
+    <string name="purchase_successful">Compra exitosa</string>
+    <string name="purchase_failed">Compra fallida</string>
+    <string name="coins">Monedas</string>
+    <string name="top_up">RECARGAR</string>
+    <string name="about">Acerca de</string>
+    <string name="top_up_record">Historial de recarga</string>
+    <string name="bonus_record">Historial de bonificación</string>
+    <string name="consumption_record">Historial de consumo</string>
+    <string name="pp_viewed">Visto</string>
+    <string name="pp_rating">Calificación</string>
+    <string name="pp_settings">Configuración</string>
+    <string name="pp_wallet">Billetera</string>
+    <string name="google_play_not_available">El servicio de Google Play no está disponible</string>
+    <string name="pp_turn_off">¿Apagar?</string>
+    <string name="pp_turn_off_content">Apagar afectará tu experiencia de lectura, asegúrate de apagarlo o no.</string>
+    <string name="pp_no_purchase">No hay más capítulos disponibles para comprar</string>
+    <string name="purchase_more_coins">Comprar más monedas</string>
+    <string name="top_up_and_purchase">Recarga y desbloquea este capítulo</string>
+    <string name="feedback">Comentarios</string>
+    <string name="genres">Géneros</string>
+    <string name="font_merriweather">Merriweather</string>
+    <string name="no_longer_remind_upgrade">no volver a recordar la actualización</string>
+    <string name="pp_version">Versión</string>
+    <string name="terms_service">Términos de servicio</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="chapters">%d capítulos</string>
+    <string name="chapters_count">Capítulos (%d)</string>
+    <string name="last_read_chapter">Última lectura: Capítulo %d</string>
+    <string name="last_read_chapter2">Última lectura: %s</string>
+    <string name="balance_bonus">Saldo: %d Monedas + %d Bonificación</string>
+    <string name="insufficient_balance">Saldo insuficiente, compra más Monedas</string>
+    <string name="price_coin">%d Monedas</string>
+    <string name="common_warning">Advertencia</string>
+    <string name="total_coins_bonus">Total: %d Monedas + %d Bonificación</string>
+    <string name="total_coins">Total: %d Monedas</string>
+    <string name="send_feedback">Enviar comentarios</string>
+    <string name="pp_expiring_soon">%d venciendo pronto</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Confirmar</string>
+    <string name="common_no_data">Aún no hay datos</string>
+    <string name="common_no_more">No hay más</string>
+    <string name="common_loadmore">Desliza hacia arriba para cargar más</string>
+    <string name="common_loading">cargando…</string>
+    <string name="pp_visitor">Visitante</string>
+    <string name="pp_user_name">Nombre de usuario</string>
+    <string name="click_to_login">Haz clic para iniciar sesión y obtener más servicios</string>
+    <string name="language_setting">Configuración de idioma</string>
+    <string name="switch_language_hint">¿Estás seguro de cambiar el idioma a %s?</string>
+    <string name="pp_language">Idioma</string>
+    <string name="remaining_chapters">Todos los capítulos restantes</string>
+    <string name="coins_all_chapters">%s Monedas cobradas por todos los capítulos</string>
+    <string name="next_num_chapters">Siguientes %s capítulos</string>
+    <string name="coins_for_num_chapters">%d Monedas cobradas por %d capítulos</string>
+    <string name="pp_off">Dto.</string>
+    <string name="pp_off_value">%d%% Dto.</string>
+    <string name="pp_email_phone_hint">Correo electrónico / Número de teléfono</string>
+    <string name="pp_email_null_hint">El correo electrónico / número de teléfono no puede estar en blanco</string>
+    <string name="pp_contacts">Contactos</string>
+    <string name="leave_feedback_hint">Describe el problema que estás experimentando o deja tus comentarios.</string>
+    <string name="pp_problem_description">Descripción del problema</string>
+    <string name="pp_problem_type">Tipo de problema (requerido)</string>
+    <string name="pp_about_book">Acerca de este libro</string>
+    <string name="pp_report">Informar</string>
+    <string name="sign_in_facebook">Iniciar sesión con Facebook</string>
+    <string name="sign_in_google">Iniciar sesión con Google</string>
+    <string name="sign_in_email">Iniciar sesión correo electrónico</string>
+    <string name="pp_first">Primero</string>
+    <string name="writer_benefits">Beneficios del escritor</string>
+    <string name="writer_central">Centro del escritor</string>
+    <string name="copy_address_tip">Consejos: Haz clic para copiar la dirección y visitarla con el navegador de tu computadora.</string>
+    <string name="pp_all">Todo</string>
+    <string name="pp_rankings">Rankings</string>
+    <string name="pp_flip">Voltear</string>
+    <string name="pp_swipe">Deslizar</string>
+    <string name="pp_scroll">Desplazar</string>
+    <string name="pp_system_font">Fuente del sistema</string>
+    <string name="pp_contents">Contenidos</string>
+    <string name="about_app">Acerca de %s</string>
+    <string name="pp_overview">Resumen</string>
+    <string name="pp_swipe_up_read">Desliza hacia arriba para leer</string>
+    <string name="pp_swipe_left_read">Desliza hacia la izquierda para leer</string>
+    <string name="book_detail_words">Palabras</string>
+    <string name="most_popular">Más populares</string>
+    <string name="read_now">Leer ahora</string>
+    <string name="updated">ACTUALIZADO</string>
+    <string name="pp_pay_restore">Restaurar</string>
+    <string name="pp_restore_success">Restauración exitosa</string>
+    <string name="pp_continue">Continuar</string>
+    <string name="rewards">Recompensas</string>
+    <string name="pp_daily_check">Registro diario</string>
+    <string name="pp_novice_tasks">Tareas para novatos</string>
+    <string name="pp_daily_tasks">Tareas diarias</string>
+    <string name="pp_congratulations">¡Felicitaciones!</string>
+    <string name="pp_go">Ir</string>
+    <string name="pp_claim">Reclamar</string>
+    <string name="pp_rewards">Recompensas</string>
+    <string name="pp_expired">caducado</string>
+    <string name="pp_done">Listo</string>
+    <string name="pp_claim_failed">Reclamo fallido</string>
+    <string name="pp_recommend">RECOMENDAR</string>
+    <string name="pp_free">GRATIS</string>
+    <string name="pp_exclusive">EXCLUSIVO</string>
+    <string name="pp_exit_read_recommend_hint">¡El contenido siguiente es más interesante!</string>
+    <string name="pp_renew">Renovar</string>
+    <string name="pp_tell_found">Dinos lo que has encontrado</string>
+    <string name="feedback_details">Detalles del feedback</string>
+    <string name="pp_copyright_notice">Aviso de derechos de autor</string>
+    <string name="pp_copyright_notice_hint_line1">Si cree que el contenido infringe sus derechos de autor, #infórmenos#.</string>
+    <string name="pp_copyright_notice_hint_line2">Publicado por %s con autoridad de %s.</string>
+    <string name="pp_copyright_notice_hint_line3">© Todos los derechos reservados.</string>
+    <string name="pp_new">Nuevo</string>
+    <string name="pp_team">Equipo</string>
+    <string name="pp_connect_googleplay_fail">Hubo un error en los servicios de Google Play. Borre el caché de Google Play o vuelva a iniciar sesión en su cuenta de Google e inténtelo de nuevo.</string>
+    <string name="pp_close">Cerrar</string>
+    <string name="start_reading">Comenzar a leer ></string>
+    <string name="pp_skip">Saltar %d</string>
+    <string name="georgia">Georgia</string>
+    <string name="search_books">Buscar Libros</string>
+    <string-array name="day_arr">
+        <item>DOM</item>
+        <item>LUN</item>
+        <item>MAR</item>
+        <item>MIE</item>
+        <item>JUE</item>
+        <item>VIE</item>
+        <item>SAB</item>
+    </string-array>
+    <string name="app_wallet">Billetera</string>
+
+    <string name="pp_pending_retry_tip">Si aún no aparece en su cuenta después de un tiempo, o si tiene algún problema, comuníquese con nuestro #servicio al cliente# para obtener ayuda.</string>
+    <string name="pp_reward_feedback_hint">Si tiene algún problema, deje su #comentario# en el Centro de ayuda.</string>
+    <string name="pp_retry">Reintentar</string>
+    <string name="error_request_tip">La solicitud falló, inténtalo de nuevo más tarde.</string>
+    <string name="book_load_error">Error al cargar el libro. Intente probar con otro libro.</string>
+    <string name="daily_check_disable_tip">Vuelve mañana para registrarte y reclamar tu bono.</string>
+    <string name="pp_notice">Aviso</string>
+    <string name="del_account_note">La acción no se puede deshacer. Confirme la siguiente información antes de eliminar la cuenta</string>
+    <string name="del_account_title1">1. No podrás reactivar tu cuenta</string>
+    <string name="del_account_note1">Una vez eliminada, no podrá iniciar sesión ni utilizar esta cuenta nuevamente. Es imposible recuperar o deshacerse de libros, información o activos relacionados con la cuenta eliminada. Incluso si vuelve a registrarse, sólo se creará una cuenta nueva.</string>
+    <string name="del_account_title2">2. La propiedad y la información se borrarán</string>
+    <string name="del_account_note2">La eliminación de la cuenta se considerará como si usted abandonara los derechos y activos de la cuenta. Incluyendo información personal, monedas, bonos, cupones, tarjetas de recarga y otros activos virtuales. Maneje adecuadamente sus libros. información y activos.</string>
+    <string name="del_account_title3">3. Solución de disputas</string>
+    <string name="del_account_note3">No puedes eliminar exitosamente tu cuenta si tiene disputas sin resolver, incluidas, entre otras, quejas, informes, etc.</string>
+    <string name="del_account_title4">4. Hora efectiva de eliminación</string>
+    <string name="del_account_note4">La solicitud de eliminación se revisará y aprobará automáticamente a las 24:00 del día 30. Pero puede iniciar sesión a través de una cuenta de terceros para finalizar el proceso antes de finalizar.</string>
+    <string name="read_del_account_notice_note">He leído la información anterior y entiendo que esta acción no se puede deshacer.</string>
+    <string name="pp_del_account">Eliminar cuenta</string>
+    <string name="pp_cancel_del_account">Cancelar eliminación de cuenta</string>
+    <string name="pp_cancel_del_account2">Cancelar eliminación de cuenta</string>
+    <string name="pp_cancel_del_account_hint">La cuenta está bajo revisión para su eliminación. ¿Está seguro de que desea cancelar la eliminación?</string>
+    <string name="del_account_submitted">La solicitud de eliminación de cuenta ha sido enviada.</string>
+    <string name="del_account_confirm_time">Esta solicitud será revisada y aprobada automáticamente el %s.</string>
+    <string name="del_account_terms_read_hint">Confirme si el acuerdo de eliminación de cuenta está seleccionado.</string>
+    <string name="account_in_normal_state_hint">La cuenta está en condiciones normales.</string>
+    <string name="account_deleted_hint">La cuenta ha sido eliminada.</string>
+    <string name="account_deleting_hint">La eliminación de la cuenta se está procesando, no vuelva a intentarlo.</string>
+    <string name="account_delete_action_confirm">La eliminación de la cuenta se realizó correctamente.</string>
+    <string name="pp_attention">Atención</string>
+    <string name="pp_account_deleted_hint">Su cuenta ha sido detectada como eliminada. Se le ha asignado una nueva cuenta y la aplicación se reiniciará automáticamente para que pueda comenzar a usarla.</string>
+    <string name="pp_think_again">Piensa de nuevo</string>
+
+    <string name="pp_confirm">Confirmar</string>
+    <string name="del_account_cancel_success_hint">Has cancelado exitosamente la eliminación de la cuenta.</string>
+    <string name="chapter_not_exist">El capítulo no existe.</string>
+    <string name="recharge_pedding_hint">Tienes %d recarga incompleta.</string>
+    <string name="pp_friendly_reminder">Recordatorio amistoso</string>
+    <string name="pp_restore_reminder_content">Después de hacer clic en el botón \'Restaurar\', tenga paciencia. Si la recarga aún no aparece en su cuenta después de un tiempo, o si tiene algún problema, no dude en comunicarse con nuestro servicio de atención al cliente. ¡Siempre estamos aquí para ayudarte!</string>
+    <string name="pp_report_immediately">Informe inmediatamente</string>
+    <string name="pp_payment_error">Error de pago</string>
+    <string name="pp_payment_error_hint">Google Pay actualmente no admite tu compra. Por favor, intenta usar un método de pago alternativo.</string>
+    <string name="pp_switch_payment">Elige otro método</string>
+    <string name="pp_operate_frequent_tip">La operación es demasiado frecuente, inténtelo de nuevo más tarde.</string>
+    <string name="pp_valid">Válido</string>
+    <string name="pp_invalid">No válido</string>
+    <string name="pp_received_time">Hora de recepción:</string>
+    <string name="pp_expired_date">Fecha de caducidad:</string>
+    <string name="pp_chapter">Capítulo</string>
+    <string name="pp_rules">Reglas</string>
+    <string name="pp_rules_check_in_title">1. Reglas de check-in</string>
+    <string name="pp_rules_check_in_content">Puedes ganar bonificaciones registrándote todos los días. Se otorgan recompensas adicionales en el tercer y séptimo check-in consecutivo. Los registros interrumpidos resultarán en la pérdida de las recompensas de ese día.</string>
+    <string name="pp_rules_novice_title">2. Tareas para principiantes</string>
+    <string name="pp_rules_novice_content">Completa las tareas de principiante para recibir el bono correspondiente.</string>
+    <string name="pp_rules_daily_title">3. Tareas Diarias</string>
+    <string name="pp_rules_daily_content">Cuando completes una tarea diaria, haz clic en el botón "Reclamar" para reclamar la bonificación. Esta tarea se actualiza de vez en cuando. Si hay problemas con la distribución de bonos debido a actualizaciones, deje sus comentarios en mi página.</string>
+    <string name="pp_rules_reward_rule_title">4. Reglas de recompensa </string>
+    <string name="pp_rules_reward_rule_content">El bono aquí es válido por 7 días. 1 Bono = 1 Moneda. Las bonificaciones se deducirán primero cuando desbloquees capítulos.</string>
+    <string name="pp_day">Día</string>
+    <string name="net_connect_tip">Error de red. Vuelve a intentarlo más tarde.</string>
+    <string name="pp_reward_signin_hint">Inicie sesión y disfrute de más beneficios gratuitos</string>
+    <string name="pp_merge_assets_hint">Los activos en su aplicación <Data><![CDATA[ <b>%s</b> ]]></Data> se usarán normalmente en la aplicación <Data><![CDATA[ <b>%s</b> ]]></Data>. Por favor, preste atención a los cambios en sus activos.</string>
+    <string name="pp_merge_assets_hint_coin">Los activos en <Data><![CDATA[ <b>%s</b> ]]></Data> incluyen libros en la estantería, %s monedas y %s bonificaciones.</string>
+    <string name="pp_merge_assets_hint_account">La cuenta correspondiente a la fusión de activos está bajo la cuenta %s en la aplicación <Data><![CDATA[ <b>%s</b> ]]></Data>.</string>
+    <string name="pp_merge_account_success">¡Cuenta fusionada con éxito!</string>
+    <string name="pp_merge_account_fail">¡Fusión de cuenta fallida!</string>
+    <string name="pp_sign_in">Iniciar sesión</string>
+    <string name="pp_pay_sign_hint">Para garantizar la máxima seguridad de su cuenta y datos, inicie sesión en su cuenta; de lo contrario, puede resultar en pérdidas potenciales.</string>
+    <string name="pp_pay_sign_cancel">Ignorar y continuar</string>
+    <string name="pp_library_login_hint">Inicie sesión ahora y disfrute de beneficios exclusivos y gratuitos para recién llegados</string>
+    <string name="pp_login_unlock_benefit">Para desbloquear más funciones y beneficios</string>
+    <string name="pp_login_earn_bonus">ganar bonificación</string>
+    <string name="pp_sign_in_continue">Inicia sesión para continuar</string>
+    <string name="pp_reader_sign_warning">Su cuenta está en riesgo. Inicie sesión lo antes posible para garantizar la seguridad de la cuenta y los datos.</string>
+    <string name="pp_verify_email">Verificar correo electrónico</string>
+    <string name="pp_link_email_hint">Vincula tu correo electrónico para obtener un bono gratis</string>
+    <string name="pp_email_address">Dirección de correo electrónico</string>
+    <string name="pp_verification_code">Código de verificación</string>
+    <string name="pp_code_send_hint">Se ha enviado el código de verificación</string>
+    <string name="pp_resend_code">(%d)Reenviar</string>
+    <string name="pp_verification_code_send_successful">Se ha enviado el código de verificación, consulte su correo electrónico.</string>
+    <string name="pp_already_bind_hint">La cuenta de esta aplicación ha sido vinculada a otras cuentas en la plataforma #%s#.</string>
+    <string name="pp_more_login_methods">Más métodos de inicio de sesión</string>
+    <string name="pp_switch_account">Cambiar de cuenta</string>
+    <string name="pp_switch_account_hint">Este método de inicio de sesión se ha vinculado a otra cuenta, ¿quieres cambiar de cuenta y fusionar tus activos?</string>
+    <string name="pp_reminder">Recordatorio</string>
+    <string name="pp_email_code_expire">¡Código de verificación no válido!</string>
+    <string name="pp_email_code_error">¡Error del código de verificación!</string>
+    <string name="pp_preference_setting">Configuración de preferencias</string>
+    <string name="pp_select_tag_hint">Seleccione etiquetas para recomendarle libros con mayor precisión</string>
+    <string name="pp_skip2">Omitir</string>
+    <string name="pp_reading_preference">Preferencias de lectura</string>
+    <string-array name="ranking_left_tab">
+        <item>Mejor</item>
+        <item>Caliente</item>
+        <item>Prometedor</item>
+        <item>Nuevo</item>
+        <item>Completado</item>
+    </string-array>
+    <string name="app_hot">Caliente</string>
+    <string name="app_new">Nuevo</string>
+    <string name="app_read_guide_gesture_hint">Deslice hacia arriba y hacia abajo en esta área para cambiar de página</string>
+    <string name="unlock_now">Desbloquear ahora</string>
+    <string name="books_on_auto_purchase">Libros en Desbloqueo automático</string>
+    <string name="unlock_successful">Desbloqueo exitoso</string>
+    <string name="unlock_fail">Fallo en el desbloqueo</string>
+    <string name="top_up_failed">Falló la recarga</string>
+    <string name="top_up_cancel">Recarga cancelada</string>
+    <string name="payment_recharge_error">Tuvimos un problema con su pago. Para solucionarlo rápidamente:\n1. Abre Google Play. \n2. Vaya a Pagos &#038; Suscripciones. \n3. Seleccione Presupuesto &#038; Historia. \n4. Cancele el pedido, cambie el monto del pago o elija un método de pago diferente.</string>
+    <string name="payment_recharge_error_other">Tuvimos un problema con su pago. Para solucionarlo rápidamente:\n1. Abre %s. \n2. Cancelar el pedido. \n3. Cambie el monto del pago o utilice un método de pago diferente.</string>
+    <string name="payment_window_bottom_tip">Si tiene algún problema, comuníquese con nuestro #servicio al cliente# para obtener ayuda.</string>
+    <string name="payment_bottom_ignore">Ignorar</string>
+    <string name="payment_pending_title">Recarga en progreso</string>
+    <string name="payment_pending_content">Tu recarga está siendo procesada y puede retrasarse de 5 a 10 minutos.</string>
+    <string name="payment_pending_button">Acelerar</string>
+    <string name="payment_pending_accelerating">Acelerador…</string>
+    <string name="payment_pending_keep">Seguir esperando</string>
+    <string name="payment_pending_shoose_other">Tu pedido aún se está procesando. Está tardando más de lo habitual. Por favor, espera un poco más. Si el pago no se realiza pronto, puedes probar otro método.</string>
+    <string name="top_up_successful">Recarga exitosa</string>
+    <string name="have_incomplete_payment">Tiene una orden de pago incompleta. Pruebe con un monto de pago diferente o elija otro método de pago.</string>
+    <string name="pending_clicking_frequently">Demasiados intentos, por favor intenta de nuevo más tarde.</string>
+    <string name="order_processing">Procesamiento de pedidos</string>
+    <string name="proceed_cancel_order_hint">Cancelar interrumpirá cualquier pago incompleto.</string>
+    <string name="cancel_order_feedback_title">¿Cancelando? Háganos saber por qué</string>
+    <string name="cancel_order_feedback_subtitle">Tus comentarios nos ayudan a mejorar.</string>
+    <string name="payment_not_working">Método de pago no funciona</string>
+    <string name="price_too_high">El precio es demasiado alto</string>
+    <string name="pick_wrong_product">Elegí el producto equivocado</string>
+    <string name="payment_page_slow">Página de pago demasiado lenta</string>
+    <string name="change_mind">Cambié de opinión / Otros</string>
+    <string name="other_reason_share">(Opcional) ¿Otros motivos? Por favor comparte.</string>
+    <string name="load_failed">Carga fallida, toca para reintentar</string>
+    <string name="load_end">No hay más~</string>
+    <string name="other_payment_methods">Otros métodos de pago</string>
+    <string name="select_payment_method">Seleccionar métodos de pago</string>
+    <string name="payment_unavailable_attention">El método de pago no está disponible. Por favor, intente usar un método de pago alternativo.</string>
+    <string name="login_welcome">Bienvenido a %s</string>
+    <string name="login_other_methods">Otros métodos de inicio de sesión</string>
+
+    <string name="help_feedback">Ayuda y Comentarios</string>
+    <string name="faq">FAQ</string>
+    <string name="recharge_not_receive_q">¿Qué debo hacer si el recargo fue exitoso, pero no recibí los créditos?</string>
+    <string name="recharge_not_receive_a">
+        Por favor, confirma si la transacción bancaria fue exitosa y si el pago ha sido deducido. Si el pago se ha deducido con éxito, por favor vuelve a abrir la aplicación para verificar si el monedero y el historial de transacciones se han actualizado.
+        \n\n
+        Notas importantes:
+        \n\n
+        · Asegúrate de estar logueado con la misma cuenta utilizada para el recargo. A veces, los usuarios olvidan sus credenciales y recargan como invitados.
+        \n\n
+        · Según el proceso de transacción, puede tomar un poco de tiempo que los créditos se acrediten después de un pago exitoso. El tiempo de procesamiento puede variar dependiendo del método de pago. Recomendamos esperar 10 minutos después de un pago exitoso antes de verificar si el monedero y el historial de transacciones se han actualizado.
+        \n\n
+        Si los métodos anteriores no funcionan, por favor contáctanos a través de \"Comentarios\" para ayudarnos a resolver tu problema rápidamente.
+    </string>
+    <string name="cannot_complete_payment_q">¿No puedo completar mi pago?</string>
+    <string name="cannot_complete_payment_a">
+        · Si aparece un mensaje de error en la tienda, por favor verifica si tu red está funcionando normalmente. Puedes intentar cambiar el entorno de red, por ejemplo, usar un WiFi diferente.
+        \n\n
+        · Además, si no has iniciado sesión correctamente en tu cuenta de Google o Apple en tu dispositivo, este problema también puede ocurrir.
+        \n\n
+        · Si ninguno de los métodos anteriores soluciona tu problema, por favor danos retroalimentación sobre el problema encontrado.
+    </string>
+    <string name="refund_payment_q">¿Puedo solicitar un reembolso después de realizar el pago?</string>
+    <string name="refund_payment_a">
+        Actualmente, no se admiten reembolsos. Los créditos y bonificaciones pueden usarse para desbloquear capítulos.
+    </string>
+    <string name="disable_automatic_purchase_q">¿Cómo desactivar la función de compra automática?</string>
+    <string name="disable_automatic_purchase_a">Puedes desactivarla a través de \"Mi\"/\"Monedero\"/\"Libros en desbloqueo automático\".</string>
+    <string name="view_unlock_chapter_history_q">¿Cómo puedo ver el historial de mis desbloqueos de capítulos?</string>
+    <string name="view_unlock_chapter_history_a">Puedes revisarlo en \"Mi\"/\"Monedero\"/\"Historial de Consumo\".</string>
+    <string name="get_coins_bonus_q">¿Cómo obtener mis créditos y bonificaciones?</string>
+    <string name="get_coins_bonus_a">Puedes obtener créditos y bonificaciones a través de eventos de recarga, y participando en tareas en el centro de beneficios puedes ganar bonificaciones. Ten en cuenta que los créditos solo se pueden obtener mediante recargas.</string>
+    <string name="difference_coins_bonus_q">¿Cuál es la diferencia entre créditos y bonificaciones?</string>
+    <string name="difference_coins_bonus_a">
+        · Ambos se pueden usar para desbloquear capítulos.
+        \n\n
+        · Las bonificaciones tienen un período de validez. Puedes verificar el período de validez de la bonificación en el \"Historial de Bonificaciones\" de \"Monedero\".
+    </string>
+    <string name="check_user_id_q">¿Cómo puedo verificar mi ID de usuario?</string>
+    <string name="check_user_id_a">
+        Cuenta de invitado:
+        \n
+        1. Haz clic en \"Mi Página\".
+        \n
+        2. Verás una serie de números al lado derecho del avatar.
+        \n\n\n
+        Cuenta vinculada:
+        \n
+        1. Haz clic en \"Mi Página\".
+        \n
+        2. Haz clic en el avatar en la parte superior para abrir una nueva página.
+        \n
+        3. Verás una serie de números debajo del avatar.
+    </string>
+    <string name="assets_synchronize_q">¿Se sincronizarán los activos al iniciar sesión en diferentes dispositivos?</string>
+    <string name="assets_synchronize_a">
+        Puedes sincronizar rápidamente tus activos iniciando sesión con la misma cuenta. Así es como:
+        \n\n
+        · Localiza tu dispositivo anterior e ingresa con una cuenta de terceros (como Google o Facebook).
+        \n\n
+        · Recuerda el ID de usuario y la contraseña de tu cuenta.
+        \n\n
+        · Inicia sesión con la misma cuenta en tu nuevo dispositivo.
+        \n\n
+        · Asegúrate de que el número de ID de usuario coincida con el que registraste.
+        \n\n
+        Para garantizar la conservación de tu progreso, recomendamos que completes tu lectura en el dispositivo anterior antes de cambiar al nuevo.
+    </string>
+    <string name="categories">Categorías</string>
+    <string name="recharge_issues">Problemas de recarga</string>
+    <string name="coin_bonus_issues">Problemas con créditos y bonificaciones</string>
+    <string name="chapter_unlock_issues">Problemas con el desbloqueo de capítulos</string>
+    <string name="book_issues">Problemas con capítulos</string>
+    <string name="account_issues">Problemas de cuenta</string>
+    <string name="other">Otro</string>
+
+    <string name="error_code3_a">Para tales códigos de error, recomendamos actualizar los servicios de Google Play o utilizar un método de pago alternativo.</string>
+    <string name="coins_bonus_reduce_a">
+        · Es posible que hayas iniciado sesión con una cuenta diferente. Por favor, revisa tu historial de recepción de bonificaciones para ver si tiene un registro continuo.
+        \n\n
+        · Existen diferentes métodos de inicio de sesión, como Facebook, Google y correo electrónico. Si no has iniciado sesión en ninguna de las cuentas mencionadas, tu dispositivo tendrá una cuenta de invitado. Puedes ver tu cuenta en la página \"Mi\".
+        \n\n
+        · Si tu bonificación ha disminuido, primero revisa tus registros de bonificación; una posibilidad es que parte de la bonificación haya caducado.
+        \n\n
+        · Puede que hayas configurado desbloqueo automático. Revisa tus registros de desbloqueo de capítulos para ver si ya has gastado algunos créditos o bonificaciones.
+        \n\n
+        · Si los métodos anteriores no resuelven tu problema, por favor envíanos el problema a través de \"Comentarios\".
+    </string>
+
+    <string name="check_bonus_usage_history">Puedes ver el historial de consumo de bonificaciones o créditos en \"Mi\"/\"Monedero\"/\"Historial de Consumo\".</string>
+
+    <string name="unlock_chapter_a">Soportamos tanto el desbloqueo de capítulos individuales como el desbloqueo masivo. Puedes elegir según tus necesidades. El desbloqueo requerirá el uso de créditos o bonificaciones. Si tu saldo de créditos o bonificaciones es insuficiente, necesitarás recargar.</string>
+
+    <string name="unable_next_chapter_a">
+        · Necesitas asegurarte de que tu conexión de red sea buena. Se recomienda cambiar de red y luego intentarlo nuevamente.
+        \n\n
+        · Asegúrate de que tienes suficientes créditos o bonificaciones.
+    </string>
+
+    <string name="grammar_spell_error_a">Contáctanos a través de \"Comentarios\" y proporciona el título del libro y los nombres de los capítulos para ayudarnos a resolver el problema rápidamente.</string>
+    <string name="violent_insult_content_a">Contáctanos a través de \"Comentarios\" y proporciona el título del libro y los nombres de los capítulos. Lo resolveremos.</string>
+    <string name="paid_book_pay_again_a">Los libros que compras siempre serán tus activos. Si eliminas algún libro comprado, puedes recuperarlo a través de \"Mi\"/\"Vistos\".</string>
+    <string name="bookshelf_coin_assets_disappeared_a">Esta situación generalmente ocurre cuando inicias sesión con cuentas o dispositivos diferentes. Por favor, asegúrate de estar iniciando sesión con tu cuenta habitual. Si el problema persiste, contáctanos para asistencia a través de \"Comentarios\".</string>
+    <string name="login_del_account_a">
+        Iniciar sesión:
+        \n
+        1. Haz clic en \"Mi Página\"
+        \n
+        2. Haz clic en el \"avatar\"
+        \n
+        3. Selecciona tu \"método de inicio de sesión\" preferido
+        \n\n\n
+        Eliminar cuenta:
+        \n
+        1. Haz clic en \"Mi Página\"
+        \n
+        2. Haz clic en \"Configuraciones\"
+        \n
+        3. Haz clic en \"Eliminar Cuenta\"
+    </string>
+
+    <string-array name="issues_category_item">
+        <item>Problemas de recarga</item>
+        <item>Problemas con créditos y bonificaciones</item>
+        <item>Problemas con el desbloqueo de capítulos</item>
+        <item>Problemas con libros</item>
+        <item>Problemas de cuenta</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>¿Qué debo hacer si el recargo fue exitoso, pero no recibí los créditos?</item>
+        <item>¿No puedo completar mi pago?</item>
+        <item>Código de error 3</item>
+        <item>¿Puedo solicitar un reembolso después de realizar el pago?</item>
+    </string-array>
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>¿Cómo obtener mis créditos y bonificaciones?</item>
+        <item>Mis créditos o bonificaciones están desapareciendo o se han reducido</item>
+        <item>¿Cuál es la diferencia entre créditos y bonificaciones?</item>
+        <item>¿Cómo puedo revisar el historial de uso de mis bonificaciones?</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>¿Cómo desbloquear capítulos?</item>
+        <item>¿Cómo puedo ver el historial de mis desbloqueos de capítulos?</item>
+        <item>¿Cómo desactivar la función de compra automática?</item>
+        <item>¿No puedo leer el siguiente capítulo?</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>Muchos contenidos son repetitivos, con errores gramaticales o de ortografía.</item>
+        <item>Contiene contenido violento, insultante o inapropiado.</item>
+        <item>Si elimino un libro de pago de mi estantería, ¿debo pagar nuevamente?</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>¿Cómo puedo verificar mi ID de usuario?</item>
+        <item>¿Cómo puedo iniciar sesión/eliminar mi cuenta?</item>
+        <item>¿Se sincronizarán los activos al iniciar sesión en diferentes dispositivos?</item>
+        <item>¿Mis registros de estantería y activos de créditos desaparecieron?</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>Por favor, contáctanos a través de \"Comentarios\" para ayudarnos a resolver el problema rápidamente.</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">¿Aún no puedes resolver el problema? Haz clic en #Comentarios#</string>
+
+
+    <!-- 西班牙语 -->
+    <string name="total">Total: %d</string>
+    <string name="subscription_get_coins_bonus">Obtén %d monedas y %d de bono</string>
+    <string name="subscription_login_bonus">Conéctate durante %d días para obtener %d de bono</string>
+    <string name="details">Detalles</string>
+    <string name="per_week">/semana</string>
+    <string name="subscription_in_effect">En vigor</string>
+    <string name="subscription_date">Fecha de expiración: %s</string>
+    <string name="subscription_get_coins">Obtén %d monedas</string>
+
+    <string name="subscription">Mi suscripción</string>
+    <string name="subscription_rewards">Recompensas de suscripción</string>
+    <string name="subscription_bonus">+%d bonificación</string>
+    <string name="subscription_success">Suscripción exitosa</string>
+
+    <string name="subscription_claim_title">Reclamar recompensas de suscripción</string>
+    <string name="days">Día %d</string>
+    <string name="claim_fail">Error al reclamar</string>
+
+    <string name="claim_success">Reclamación exitosa</string>
+    <string name="subscribe_success_tip">Has recibido %d monedas y %d bonos. Puedes reclamar %d bonos por día.</string>
+
+    <string name="subscribe_tips1">1. El costo de la compra se descontará de tu cuenta de pago.</string>
+    <string name="subscribe_tips2">2. Tu suscripción se renovará automáticamente. Las suscripciones se cobran automáticamente en cada período de facturación, ya sea mensual u otro período. Se te puede cobrar hasta 24 horas antes del inicio de cada período de facturación hasta que canceles la suscripción.</string>
+    <string name="subscribe_tips3">3. Puedes cancelar tu suscripción en cualquier momento con más de 24 horas de anticipación a la fecha de renovación.</string>
+    <string name="subscribe_tips4">4. El período de validez del bono otorgado al recargar es de %d días.</string>
+    <string name="subscribe_tips5">5. El bono se distribuye durante siete días, y cualquier bonificación no reclamada después de la expiración no se podrá recuperar.</string>
+    <string name="subscribe_tips6">6. Las monedas y los bonos tienen el mismo valor, los bonos no vencidos son artículos virtuales y no admitimos reembolsos.</string>
+    <string name="subscribe_tips7">7. ¿Necesitas ayuda? Consulta nuestro #FAQ#.</string>
+
+    <string name="subscribe_rules">1. Recibirás %s monedas y %s bonificaciones inmediatamente tras la suscripción.\n2. Inicia sesión durante %s días consecutivos para recibir %s bonificaciones, es decir, %s bonificación por día.\n3. Puedes verificar las recompensas adicionales en tu billetera después de la suscripción.</string>
+
+    <string name="subscribe_pay_title">Acuerdo de suscripción</string>
+    <string name="subscribe_pay_tip1_title">1. Pago:</string>
+    <string name="subscribe_pay_tip1_content">El costo de la compra se deducirá de su cuenta de pago.</string>
+    <string name="subscribe_pay_tip2_title">2. Renovación:</string>
+    <string name="subscribe_pay_tip2_content">Su suscripción se renovará automáticamente. Las suscripciones se cobran automáticamente en cada período de facturación, ya sea mensual u otro período. Se le podrá cobrar hasta 24 horas antes del comienzo de cada período de facturación hasta que cancele su suscripción.</string>
+    <string name="subscribe_pay_tip3_title">3. Cancelación:</string>
+    <string name="subscribe_pay_tip3_content">Puedes cancelar una suscripción en cualquier momento, siempre que lo hagas con más de 24 horas de antelación a la fecha de renovación. Para cancelar la suscripción, accede a la plataforma de pago.</string>
+    <string name="subscribe_pay_tip4_title">4. Gestionar tus suscripciones:</string>
+    <string name="subscribe_pay_tip4_content">Puedes ver, modificar o cancelar tus suscripciones.</string>
+
+    <string name="subscribe_out_of_date">¡Suscripción expirada!</string>
+
+
+    <string name="pp_got_it">Entendido</string>
+    <string name="got_it">Entendido</string>
+    <string name="pp_get">Entendido</string>
+
+    <string name="pp_submit">Enviar</string>
+    <string name="pp_submitted">Enviado</string>
+    <string name="pp_submit_fail">Envío fallido</string>
+
+
+    <string name="admob_watch_ad_add_tip">Ver anuncios +%s bono</string>
+    <string name="admob_loading_tip">Cargando anuncio, intenta verlo nuevamente más tarde.</string>
+    <string name="admob_waiting_count_down">Continúa viendo el anuncio después de la cuenta regresiva</string>
+
+    <string name="bonus">Bonificación</string>
+    <string name="bonus_value">%d Bonificación</string>
+    <string name="bonus_ad_claimed">%d bonos reclamados</string>
+
+    <string name="admob_watch_tip">Mira anuncios para ganar bonos</string>
+    <string name="admob_earn_bonus_tip">Gana %d bonos por cada anuncio visto</string>
+    <string name="admob_watch_count_tip">Ver anuncio %d/%d</string>
+    <string name="admob_count_down_tip">Mira el anuncio más tarde a las %s</string>
+    <string name="admob_daily_desc">%d bonos por anuncio de video visto, completado %d/%d</string>
+
+    <string name="usa_ad_privacy">Preferencias de anuncios</string>
+
+    <string name="member_benefits">Beneficios para miembros Premium</string>
+    <string name="unlimit_premium_books">Lectura ilimitada de más de 10,000 libros Premium</string>
+    <string name="weekly_access_books">Acceso semanal a más de 200 libros exclusivos</string>
+    <string name="enjoy_add_free_experience">Disfruta de una experiencia sin anuncios</string>
+    <string name="premium_member_identity">Identidad de miembro Premium</string>
+    <string name="subscribe">Suscribirse</string>
+    <string name="unlimit_reading">¡Lectura ilimitada!</string>
+    <string name="only_1499_price">Solo $14.99</string>
+    <string name="premium">Premium</string>
+    <string name="premium_first_week_discount">%s la primera semana, luego %s/semana</string>
+    <string name="premium_expire_date">Fecha de vencimiento: %s</string>
+    <string name="discover_vip_price">Solo $14.99</string>
+    <string name="premium_daily_active_text">Tu membresía diaria está activa</string>
+    <string name="premium_week_active_text">Tu suscripción semanal está activa.</string>
+    <string name="premium_month_active_text">Tu suscripción mensual está activa.</string>
+    <string name="premium_year_active_text">Tu suscripción anual ya está activa.</string>
+    <string name="premium_expire_time">Expira el %s</string>
+    <string name="vip_rules">1. Los usuarios suscritos a Premium tienen acceso gratuito a todos los libros exclusivos.\n2. Pago: El coste se descontará de tu cuenta de pago.\n3. Renovación: Se renueva automáticamente en cada periodo de facturación. Puedes ser cobrado hasta 24 horas antes del inicio del nuevo periodo.\n4. Cancelación: Puedes cancelar al menos 24 horas antes del próximo cobro en la plataforma de pago.</string>
+
+    <string name="unlock_watch_count">Ver anuncio para desbloquear (%d/%d)</string>
+    <string name="unlock_watch_title">Ver anuncio para desbloquear</string>
+    <string name="unlock_watch_desc">Puedes desbloquear este capítulo viendo un anuncio</string>
+    <string name="unlock_watch_now">Ver ahora</string>
+    <string name="unlock_watch_chapter_count">Puedes desbloquear %d capítulos gratis hoy (%d/%d) </string>
+
+    <string name="email_login_top">Introduce el correo electrónico que usaste para tu cuenta</string>
+    <string name="email_address_enter_tip">Introduce tu dirección de correo electrónico</string>
+    <string name="email_code_enter_tip">Introduce el código de verificación</string>
+    <string name="email_send_code">Enviar código</string>
+
+    <string name="facebook_link_title">Vincular cuenta de Facebook</string>
+    <string name="facebook_link_content">Vincula tu cuenta de Facebook para obtener más monedas. No te preocupes, conservarás todo tu progreso y datos actuales vinculados a esta cuenta</string>
+
+    <string name="limit_time_title">Oferta por tiempo limitado</string>
+    <string name="limit_time_content">¡Aprovecha ahora — el precio más bajo de la historia, solo por tiempo limitado!</string>
+    <string name="limit_time_premium">lecturas de la sección premium</string>
+
+    <string name="subscribe_now">Suscribirse ahora</string>
+    <string name="transaction_ompleted">Transacción completada</string>
+    <string name="transaction_content">La compra de monedas se realizó con éxito. El bono es válido por 7 días.</string>
+
+    <string name="send_again">Enviar de nuevo</string>
+    <string name="ad_unlock">Desbloquear anuncio</string>
+
+    <string name="top_up_history">Historial de recargas</string>
+    <string name="not_activated">No activado</string>
+    <string name="vip_feedback_rule">
+        6. Si necesita ayuda o tiene alguna pregunta, infórmenos a través de nuestro #Feedback#.
+    </string>
+
+    <string name="unlock_adv_used">Desbloqueo por anuncio agotado. Inténtalo de nuevo mañana</string>
+    <string name="expiration_date">Fecha de vencimiento:</string>
+    <string name="select_gender">Selecciona tu género</string>
+    <string name="enter_nickname">Introduce tu apodo…</string>
+    <string name="enter_email">Introduce tu correo electrónico aquí…</string>
+    <string name="select_birthday">Selecciona tu fecha de nacimiento</string>
+
+    <string name="featured_collection">Colección destacada</string>
+    <string name="book_catalog">Catálogo de libros</string>
+    <string name="fold_up">Plegar</string>
+    <string name="choose_your_plan">Elige tu plan</string>
+    <string name="select_payment_method_2">Seleccionar método de pago</string>
+    <string name="personalized_tip">Recomendaciones personalizadas basadas en tus preferencias</string>
+    <string name="money_back_tip">Garantía de devolución de dinero</string>
+    <string name="what_you_get">Lo que obtienes</string>
+    <string name="premium_center_recharge_tip">Al continuar, aceptas que tu suscripción se renovará automáticamente. Las suscripciones se cobran automáticamente en cada período de facturación, ya sea mensual u otro ciclo. Se te puede cobrar hasta 24 horas antes del inicio de cada período de facturación hasta que canceles tu suscripción. Puedes obtener más información sobre nuestra política de cancelación y reembolso en los #Términos de suscripción#.</string>
+    <string name="premium_pay_safe">Pago seguro y protegido</string>
+    <string name="premium_access">Acceso Premium</string>
+    <string name="unlock_unlimited_books">Desbloquea libros ilimitados</string>
+
+    <string name="coins_with_bonus">%1$s %2$s \u200E+ \u200E%3$s %4$s</string>
+
+    <string name="sevel_month">/%d meses</string>
+
+    <string name="day">día</string>
+    <string name="week">semana</string>
+    <string name="month">mes</string>
+    <string name="year">año</string>
+
+    <string name="per_day">/día</string>
+    <string name="per_month">/mes</string>
+    <string name="per_year">/año</string>
+    <string name="limit_title_premium">Todos los libros gratis para leer</string>
+    <string name="secure_payment">Pago seguro</string>
+    <string name="easy_cancellation">Cancelación fácil</string>
+    <string name="money_back_guarantee">Garantía de devolución de dinero</string>
+    <string name="subscription_renews_tip">Después del período introductorio, tu suscripción se renovará automáticamente al precio del plan seleccionado. Puedes cancelar en cualquier momento.</string>
+    <string name="first_days">Primeros %d días</string>
+    <string name="then_price">Luego $%.2f</string>
+    <string name="only_price">Solo US$%.2f/día</string>
+
+    <string name="full_story">La historia completa te espera</string>
+    <string name="continue_read_unlock">Sigue leyendo y desbloquea el final que estabas esperando.</string>
+
+    <string name="trust_readers">Con la confianza de más de 10M de lectores</string>
+    <string name="keep_reading">Seguir leyendo</string>
+    <string name="no_Interruptions">Sin interrupciones</string>
+    <string name="stories_num">Más de 10,000 historias</string>
+    <string name="read_full_story">Lee la historia completa</string>
+    <string name="without_limit">Sin límites</string>
+    <string name="unlock_romance">Desbloquea historias ilimitadas de romance, fantasía y hombres lobo con la oferta de hoy para lectores.</string>
+
+    <string name="save_percent">AHORRA %d%%</string>
+
+    <string name="daily">diario</string>
+    <string name="weekly">semanal</string>
+    <string name="monthly">mensual</string>
+    <string name="yearly">anual</string>
+
+    <string name="cancel_anytime">Cancela en cualquier momento</string>
+    <string name="continue_story">Continuar mi historia</string>
+    <string name="next_chapter_waiting">Tu próximo capítulo te espera</string>
+
+    <string name="continue_read_long">Continúa la historia ahora y desbloquea miles más como esta.</string>
+
+    <string name="read_full_stories">Leer historias completas</string>
+    <string name="start_short_reading">Empezar lectura ilimitada</string>
+
+    <string name="pay_premium_weekly_membership">Membresía semanal</string>
+    <string name="pay_premium_monthly_membership">Membresía mensual</string>
+    <string name="pay_save_value">Ahorra %s%%</string>
+    <string name="pay_unlock_chapter_count">Desbloquea %s capítulos</string>
+    <string name="pay_coins">%s monedas</string>
+    <string name="pay_unlock_in_bulk">Desbloqueo masivo</string>
+    <string name="top_up_now">Recargar ahora</string>
+    <string name="dont_waste_time">No pierdas tiempo</string>
+    <string name="subscribe_unlock_tip">Suscríbete para desbloquear al instante</string>
+    <string name="auto_renew_cancel_tip">Renovación automática · Cancela en cualquier momento</string>
+
+    <string name="books_free_cycle">Todos los libros gratis por 1 %s</string>
+    <string name="unlock_all_story">Desbloquea todas las historias</string>
+    <string name="premium_benefits">Beneficios de membresía Premium</string>
+    <string name="read_free">Leer gratis</string>
+    <string name="no_ads">Sin anuncios</string>
+    <string name="early_access">Acceso anticipado</string>
+    <string name="pay_premium_yearly_membership">Membresía Anual</string>
+
+    <string name="pay_premium_daily_membership">Membresía Diaria</string>
+
+    <string name="pay_premium_free_for">Todos los libros son gratis durante %s</string>
+    <string name="top_up_more">Recarga más, ahorra más</string>
+    <string name="premium_books_free">Todos los libros gratis para leer</string>
+    <string name="join_premium">Únete a la membresía</string>
+
+    <string name="subscription_now">Suscríbete ahora</string>
+    <string name="get_special_offer">Obtén una oferta especial!</string>
+
+    <string name="subscription_agreement">Acuerdo de suscripción</string>
+    <string name="subscription_agreement_tips1">1. Los usuarios que se suscriban a Premium pueden disfrutar de acceso gratuito a todos los libros.</string>
+    <string name="subscription_agreement_tips2">2. Pago: El costo de la compra se deducirá de su cuenta de pago.</string>
+    <string name="subscription_agreement_tips3">3. Renovación: Su suscripción se renovará automáticamente. Las suscripciones se cobran automáticamente en cada período de facturación, ya sea mensual u otro período. Se le puede cobrar con no más de 24 horas de anticipación al comienzo de cada período de facturación hasta que cancele su suscripción.</string>
+    <string name="subscription_agreement_tips4">4. Cancelación: Puede cancelar una suscripción en cualquier momento con más de 24 horas de anticipación a su fecha de renovación. Para cancelar la suscripción, vaya a la plataforma de pago.</string>
+    <string name="enjoy_app_so_for">¿Te gusta la app?</string>
+    <string name="thank_for_support">¡Gracias por apoyarnos!\nUna valoración rápida nos ayuda mucho.</string>
+    <string name="five_star">5 estrellas</string>
+    <string name="maybe_later">Quizá después</string>
+    <string name="thank_help_improve">¡Gracias por ayudarnos!</string>
+    <string name="continue_bring_more_emotional">Gracias a ti seguimos creando historias emocionantes.</string>
+    <string name="continue_reading">Seguir leyendo</string>
+    <string name="read_more">Lee más, ahorra más</string>
+    <string name="this_chapter">Este capítulo</string>
+    <string name="my_wallet">Mi Billetera</string>
+
+</resources>
+<!--
+    西班牙语
+!-->

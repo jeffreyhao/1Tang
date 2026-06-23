@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    马来语
+-->
+<resources>
+    <string name="loading">Memuatkan…</string>
+    <string name="close_and_go_back">Kembali</string>
+    <string name="error_data_tip">Sesuatunya tidak kena, ketik untuk cuba lagi</string>
+    <string name="error_empty_data_tip">Tiada data lagi</string>
+    <string name="error_net_tip">Ralat rangkaian, ketik untuk cuba lagi</string>
+    <string name="permisions_essential_tip">Dapatkan kebenaran terlebih dahulu untuk menggunakan</string>
+    <string name="permisions_read_phone_tip">Dapatkan kebenaran untuk beroperasi terlebih dahulu</string>
+    <string name="permission_setting">Tetapan</string>
+    <string name="permission_cancel">Batal</string>
+    <string name="collapse">Lipatan</string>
+    <string name="expand">Buka</string>
+    <string name="nb_mode_night">Mod Malam</string>
+    <string name="nb_mode_morning">Mod Siang</string>
+    <string name="nav_bookshelf">Rak</string>
+    <string name="nav_bookshelf2">Rak Buku</string>
+    <string name="nav_discover">Penemuan</string>
+    <string name="nav_featured">Terpilih</string>
+    <string name="nav_reward">Ganjaran</string>
+    <string name="nav_profile">Saya</string>
+    <string name="nav_mine">Saya</string>
+    <string name="select_all">Pilih Semua</string>
+    <string name="done">Selesai</string>
+    <string name="delete">Padam</string>
+    <string name="clear_cache">Kosongkan cache</string>
+    <string name="check_update">Periksa Kemas Kini</string>
+    <string name="contact_us">Hubungi kami</string>
+    <string name="privacy">Dasar Privasi</string>
+    <string name="agreement">Terma Perkhidmatan</string>
+    <string name="joinedBookShelf">Ditambah ke Perpustakaan</string>
+    <string name="add_to_shelf_dlg_title">Tambah ke Perpustakaan?</string>
+    <string name="add_to_shelf_dlg_content">Tambah buku ini ke perpustakaan anda dan baca pada bila-bila masa.</string>
+    <string name="add_to_shelf_dlg_cancel">Batal</string>
+    <string name="add_to_shelf_dlg_confirm">Tambah</string>
+    <string name="hint_search_bookstore">Cari</string>
+    <string name="become_author">Jadi Penulis</string>
+    <string name="buy_sale">Pembelian Diskaun</string>
+    <string name="free_start_read">Mula Membaca</string>
+    <string name="pp_sex_boy_brief">Lelaki</string>
+    <string name="pp_sex_girl_brief">Perempuan</string>
+    <string name="pp_tip_none_photo">Tiada gambar album diperoleh</string>
+    <string name="pp_history_search">Sejarah</string>
+    <string name="pp_tip_input_search_key">Masukkan Kata Kunci Di Sini</string>
+    <string name="pp_clear_success">Dikosongkan</string>
+    <string name="pp_me">Saya</string>
+    <string name="pp_build_fail">Pembinaan gagal</string>
+    <string name="pp_author">Penulis</string>
+    <string name="pp_note_id_null">ID Nota adalah kosong</string>
+    <string name="pp_login_fail">Log masuk gagal</string>
+    <string name="pp_collection_success">Ditambah ke perpustakaan</string>
+    <string name="pp_please_check_network">Semak sambungan rangkaian</string>
+    <string name="pp_add_success">Buku ini telah ditambah ke Perpustakaan anda</string>
+    <string name="pp_remove_success">Buku ini telah dipadam dari Perpustakaan anda</string>
+    <string name="pp_please_chose_one_book">Pilih sebuah buku terlebih dahulu</string>
+    <string name="pp_login_first">Log masuk terlebih dahulu</string>
+    <string name="pp_pay_success">Pembayaran berjaya</string>
+    <string name="pp_pay_cancel">Pembayaran dibatalkan</string>
+    <string name="pp_pay_error">Ralat pembayaran</string>
+    <string name="pp_check_pay_fail">Semak pembelian gagal</string>
+    <string name="pp_tip">Pasang galeri aplikasi atau pelayar terlebih dahulu</string>
+    <string name="pp_copy_success">Disalin</string>
+    <string name="pp_save_fail">Penyimpanan gagal</string>
+    <string name="pp_saved">Disimpan</string>
+    <string name="pp_exit_app">Adakah anda pasti mahu keluar?</string>
+    <string name="pp_exit">Keluar</string>
+    <string name="pp_sure">Sahkan</string>
+    <string name="pp_today_read">Baca Hari Ini</string>
+    <string name="pp_second_red_packet"> minit untuk mendapatkan paket merah</string>
+    <string name="pp_after_ad_bye">Lebih menarik selepas iklan.</string>
+    <string name="pp_time_error">Waktu antara sistem dan pelayan terlalu besar. Sila kalibrasi masa sistem</string>
+    <string name="pp_about">Mengenai</string>
+    <string name="pp_notiy">Tips</string>
+    <string name="pp_get_photo">Pilih foto</string>
+    <string name="pp_affirm">Sahkan</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">Momen</string>
+    <string name="pp_xml_qq_space">Zona QQ</string>
+    <string name="pp_xml_text_11">Log keluar</string>
+    <string name="pp_xml_text_22">Pemberitahuan</string>
+    <string name="pp_xml_text_24">Bantuan &amp; Maklum Balas</string>
+    <string name="pp_xml_text_35">Carian Panas</string>
+    <string name="pp_xml_text_350">Tren</string>
+    <string name="pp_xml_text_39">Buka</string>
+    <string name="pp_xml_text_40">Tutup</string>
+    <string name="pp_xml_text_45">Lebih</string>
+    <string name="pp_xml_text_48">Lihat</string>
+    <string name="pp_xml_text_49">Salin</string>
+    <string name="pp_xml_text_50">Kongsi</string>
+    <string name="pp_xml_remove">Padam</string>
+    <string name="pp_xml_find_novel">Cari buku</string>
+    <string name="pp_xml_no_book">Anda belum menambah buku ke Perpustakaan anda</string>
+    <string name="pp_remove_book_title">Padam?</string>
+    <string name="pp_remove_book_content">Adakah anda pasti untuk memadam buku ini dari Perpustakaan anda</string>
+    <string name="pp_search_default_text">Cari Buku</string>
+    <string name="pp_search_no_data">Tiada hasil ditemui</string>
+    <string name="book_detail_start_reading">Mula Membaca</string>
+    <string name="book_detail_adds">Tambah</string>
+    <string name="book_detail_views">Paparan</string>
+    <string name="book_detail_rating">Penarafan</string>
+    <string name="book_detail_report_msg">Kandungan dan gambar adalah pendapat peribadi penulis yang tidak berkaitan dengan %s. Jika anda mempunyai sebarang soalan, sila #Laporkan# kepada kami.</string>
+    <string name="login_view_tip">Dengan meneruskan, anda bersetuju dengan #Terma Perkhidmatan# dan #Dasar Privasi#</string>
+    <string name="pp_string_profile">Profil</string>
+    <string name="pp_string_gender">JANTINA</string>
+    <string name="pp_string_birthday">TARIKH LAHIR</string>
+    <string name="pp_string_nickname">NAMA PANGGILAN</string>
+    <string name="pp_string_email_address">ALAMAT E-MEL</string>
+    <string name="pp_new_chapter">Bab Baru</string>
+    <string name="pp_coming_soon">Akan Datang</string>
+    <string name="pp_this_is_the">Ini adalah</string>
+    <string name="pp_last_chapter">Bab Terakhir</string>
+    <string name="pp_book_completed">Selesai</string>
+    <string name="pp_book_ongoing">Sedang Berjalan</string>
+    <string name="pp_you_may_also_like">Anda mungkin suka</string>
+    <string name="pp_view_all">Lihat Semua</string>
+    <string name="pp_to_explore_more">Untuk menjelajah lebih</string>
+    <string name="pp_rather_not_say">Lebih baik tidak menyebut</string>
+    <string name="pp_read">Baca</string>
+    <string name="pp_you_might_like">Anda mungkin suka</string>
+    <string name="pp_writer_about_des">%s bertujuan untuk menyediakan pentas bagi penulis untuk mengejar impian mereka, dan tempat untuk berkongsi cerita mereka dengan audiens global. Misi kami adalah untuk membuat suara anda didengar. Jika anda mempunyai cerita untuk diberitahu, %s adalah tempat untuk anda!</string>
+    <string name="pp_writer_benefits">Kami menawarkan pelbagai ganjaran untuk penulis yang menandatangani cerita mereka dengan %s, termasuk bayaran tandatangan, bonus penyiapan cerita, ganjaran kemaskini harian, dan bonus rujukan. Untuk lebih banyak faedah, klik #di sini#.</string>
+    <string name="pp_writer_tip0">Hantar penulisan anda ke emel kami:</string>
+    <string name="pp_writer_email">E-mel: #leo@i%s.com#</string>
+    <string name="pp_writer_author">Pusat Penulis: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">Anda boleh menjadi penulis paling laris seterusnya.</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">Disalin</string>
+    <string name="pp_problem_null_tip">Penerangan masalah tidak boleh kosong</string>
+    <string name="pp_update_title">Kemas Kini Tersedia</string>
+    <string name="pp_update_content">Versi yang lebih baru tersedia: memperbaiki pepijat yang dikenali &amp; mengoptimumkan pengalaman membaca</string>
+    <string name="pp_update_button">Kemas Kini Sekarang</string>
+    <string name="pp_download">Muat Turun</string>
+    <string name="pp_purchase">Beli</string>
+    <string name="pp_purchase_tip">Mula dari bab semasa</string>
+    <string name="pp_download_auto_pay_tip">Muat turun secara tempatan pada masa yang sama</string>
+    <string name="pp_price">Harga:</string>
+    <string name="pp_purchase_now">Beli Sekarang</string>
+    <string name="pp_download_bottom_tip">Anda tidak akan dikenakan bayaran untuk bab yang telah anda buka</string>
+    <string name="pp_top_up">TOP UP</string>
+    <string name="pp_pay_now">Bayar Sekarang</string>
+    <string name="payment_method">Kaedah Pembayaran</string>
+    <string name="top_up_amount">Jumlah Top-up</string>
+    <string name="pp_pay_tip1">1. Bonus = 1 Coin. Bonus akan ditolak terlebih dahulu apabila anda membuka kunci bab.</string>
+    <string name="pp_pay_tips1">Tips:</string>
+    <string name="pp_pay_tip2">2. ID pengguna anda: #%s#. Jika pengisian gagal atau pengisian gagal untuk jangka masa panjang, anda boleh klik Pulihkan untuk menyelesaikan (tidak perlu isi semula). Atau teruskan #soalan maklum balas# kepada kami.</string>
+    <string name="pp_pay_tip3">4. Perlukan bantuan? Sila lihat melalui #FAQ# kami</string>
+    <string name="pp_pay_tip4">3. Kaedah pembayaran lalai kami adalah platform pembayaran Google Play. Google Play menyokong bil pembawa, kad kredit, kad hadiah, Paypal dan baki Dompet.</string>
+    <string name="pp_pay_tip5">5. Tempoh sah Bonus yang diberikan selepas top-up adalah 7 hari.</string>
+    <string name="pp_pay_tip6">6. Mynt dan bonus mempunyai nilai yang sama, bonus yang belum tamat tempoh adalah item maya dan kami tidak menyokong bayaran balik.</string>
+    <string name="pp_pay_tip7">7. Untuk memastikan keselamatan aset digital dalam akaun anda, kami mengesyorkan membeli Coins dengan akaun pihak ketiga: akaun FB atau Google.</string>
+    <string name="thank_you">Terima kasih!</string>
+    <string name="pp_read_pay_tip">Sokong penulis untuk mencipta lebih banyak dan cerita yang lebih baik</string>
+    <string name="read_pay_tip1">Buka kunci bab seterusnya secara automatik</string>
+    <string name="more_top_up_amounts">Lebih banyak jumlah top-up</string>
+    <string name="get_free_coins">Dapatkan Mynt Percuma</string>
+    <string name="purchase_now">Beli Sekarang</string>
+    <string name="unlock_chapter">Buka kunci bab ini %s Mynt</string>
+    <string name="purchase_successful">Pembelian berjaya</string>
+    <string name="purchase_failed">Pembelian gagal</string>
+    <string name="coins">Mynt</string>
+    <string name="top_up">TOP UP</string>
+    <string name="about">Mengenai</string>
+    <string name="top_up_record">Sejarah Top-up</string>
+    <string name="bonus_record">Sejarah Bonus</string>
+    <string name="consumption_record">Sejarah Penggunaan</string>
+    <string name="books_on_auto_purchase">Buku pada Auto-unlock</string>
+    <string name="pp_viewed">Dilihat</string>
+    <string name="pp_rating">Penarafan</string>
+    <string name="pp_settings">Tetapan</string>
+    <string name="pp_wallet">Dompet</string>
+    <string name="google_play_not_available">Perkhidmatan Google Play tidak tersedia</string>
+    <string name="pp_turn_off">Matikan?</string>
+    <string name="pp_turn_off_content">Mematikannya akan mempengaruhi pengalaman membaca anda, pastikan untuk mematikannya atau tidak.</string>
+    <string name="pp_no_purchase">Tiada lagi bab yang tersedia untuk pembelian</string>
+    <string name="purchase_more_coins">Beli lebih banyak Mynt</string>
+    <string name="top_up_and_purchase">Top-up dan Buka kunci bab ini</string>
+    <string name="feedback">Maklum Balas</string>
+    <string name="genres">Genre</string>
+    <string name="font_merriweather">Merriweather</string>
+    <string name="no_longer_remind_upgrade">Tidak lagi mengingatkan untuk kemas kini</string>
+    <string name="pp_version">Versi </string>
+    <string name="terms_service">Terma Perkhidmatan</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="chapters">%d Bab</string>
+    <string name="chapters_count">Bab (%d)</string>
+    <string name="last_read_chapter">Bab terakhir dibaca: Bab %d</string>
+    <string name="last_read_chapter2">Bab terakhir dibaca: %s</string>
+    <string name="balance_bonus">Baki: %d Mynt + %d Bonus</string>
+    <string name="insufficient_balance">Baki Tidak Mencukupi, Beli lebih banyak Mynt</string>
+    <string name="price_coin">%d Mynt</string>
+    <string name="common_warning">Amaran</string>
+    <string name="total_coins_bonus">Jumlah: %d Mynt + %d Bonus</string>
+    <string name="total_coins">Jumlah: %dMynt</string>
+    <string name="send_feedback">Hantar Maklum Balas</string>
+    <string name="pp_expiring_soon">%d akan tamat tempoh tidak lama lagi</string>
+    <string name="cancel">Batal</string>
+    <string name="ok">Sahkan</string>
+    <string name="common_no_data">Tiada data lagi</string>
+    <string name="common_no_more">Tiada lagi</string>
+    <string name="common_loadmore">Geser ke atas untuk muat lebih</string>
+    <string name="common_loading">memuatkan…</string>
+    <string name="pp_visitor">Pelawat</string>
+    <string name="pp_user_name">Nama Pengguna</string>
+    <string name="click_to_login">Klik untuk log masuk untuk perkhidmatan lebih lanjut</string>
+    <string name="language_setting">Tetapan Bahasa</string>
+    <string name="switch_language_hint">Adakah anda pasti ingin menukar bahasa ke %s?</string>
+    <string name="pp_language">Bahasa</string>
+    <string name="remaining_chapters">Semua bab yang tinggal</string>
+    <string name="coins_all_chapters">%s Mynt dikenakan untuk semua bab</string>
+    <string name="next_num_chapters">Bab seterusnya %s</string>
+    <string name="coins_for_num_chapters">%d Mynt dikenakan untuk %d bab</string>
+    <string name="pp_off">MATI</string>
+    <string name="pp_off_value">%d%% MATI</string>
+    <string name="pp_email_phone_hint">E-mel / Nombor Telefon</string>
+    <string name="pp_email_null_hint">E-mel / Nombor telefon tidak boleh kosong</string>
+    <string name="pp_contacts">Kontak</string>
+    <string name="leave_feedback_hint">Huraikan masalah yang anda hadapi atau tinggalkan maklum balas anda.</string>
+    <string name="pp_problem_description">Penerangan Masalah</string>
+    <string name="pp_problem_type">Jenis Masalah (Wajib)</string>
+    <string name="pp_about_book">Mengenai buku ini</string>
+    <string name="pp_report">Laporkan</string>
+    <string name="sign_in_facebook">Log masuk dengan Facebook</string>
+    <string name="sign_in_google">Log masuk dengan Google</string>
+    <string name="sign_in_email">Log masuk menggunakan E-mel</string>
+    <string name="pp_first">Pertama</string>
+    <string name="writer_benefits">Manfaat Penulis</string>
+    <string name="writer_central">Pusat Penulis</string>
+    <string name="copy_address_tip">Tips: Klik untuk salin alamat dan lawati dengan pelayar komputer anda.</string>
+    <string name="pp_all">Semua</string>
+    <string name="pp_rankings">Peringkat</string>
+    <string name="pp_flip">Tukar</string>
+    <string name="pp_swipe">Geser</string>
+    <string name="pp_scroll">Tatal</string>
+    <string name="pp_system_font">Font sistem</string>
+    <string name="pp_contents">Kandungan</string>
+    <string name="about_app">Mengenai %s</string>
+    <string name="pp_overview">Tinjauan</string>
+    <string name="pp_swipe_up_read">Geser ke atas untuk membaca</string>
+    <string name="pp_swipe_left_read">Geser ke kiri untuk membaca</string>
+    <string name="book_detail_words">Kata-kata</string>
+    <string name="most_popular">Paling Popular</string>
+    <string name="read_now">Baca Sekarang</string>
+    <string name="updated">DIKEMAS KINI</string>
+    <string name="pp_pay_restore">Pulihkan</string>
+    <string name="pp_restore_success">Pemulihan Berjaya</string>
+    <string name="pp_continue">Teruskan</string>
+    <string name="rewards">Ganjaran</string>
+    <string name="pp_daily_check">Pemeriksaan Harian</string>
+    <string name="pp_novice_tasks">Tugas Pemula</string>
+    <string name="pp_daily_tasks">Tugas Harian</string>
+    <string name="pp_congratulations">Tahniah</string>
+    <string name="pp_go">Pergi</string>
+    <string name="pp_claim">Tuntut</string>
+    <string name="pp_rewards">Ganjaran</string>
+    <string name="pp_expired">telah tamat tempoh</string>
+    <string name="pp_done">Selesai</string>
+    <string name="pp_claim_failed">Tuntutan gagal</string>
+    <string name="pp_recommend">REKOMENDASI</string>
+    <string name="pp_free">PERCUMA</string>
+    <string name="pp_exclusive">EKSKLUSIF</string>
+    <string name="pp_exit_read_recommend_hint">Kandungan seterusnya lebih menarik!</string>
+    <string name="pp_renew">Perbaharui</string>
+    <string name="pp_tell_found">Kongsi apa yang anda temui</string>
+    <string name="feedback_details">Butiran Maklum Balas</string>
+    <string name="pp_copyright_notice">Notis Hak Cipta</string>
+    <string name="pp_copyright_notice_hint_line1">Jika anda percaya kandungan ini melanggar hak cipta anda, sila #laporkan# kepada kami.</string>
+    <string name="pp_copyright_notice_hint_line2">Diterbitkan oleh %s dengan kuasa dari %s.</string>
+    <string name="pp_copyright_notice_hint_line3">© Semua Hak Cipta Terpelihara.</string>
+    <string name="pp_new">Baru</string>
+    <string name="pp_team">Pasukan</string>
+    <string name="pp_connect_googleplay_fail">Terdapat ralat dalam perkhidmatan Google Play. Sila kosongkan cache Google Play atau log masuk kembali ke akaun Google anda dan cuba lagi!</string>
+    <string name="pp_close">Tutup</string>
+    <string name="start_reading">Mula Membaca</string>
+    <string name="pp_skip">Lompat %d</string>
+    <string name="georgia">Georgia</string>
+    <string name="search_books">Cari Buku</string>
+    <string-array name="day_arr">
+        <item>AHAD</item>
+        <item>ISNIN</item>
+        <item>SELASA</item>
+        <item>RABU</item>
+        <item>KHAMIS</item>
+        <item>JUMAAT</item>
+        <item>SABTU</item>
+    </string-array>
+    <string name="app_wallet">Dompet</string>
+
+    <string name="pp_pending_retry_tip">Jika ia masih tidak muncul di akaun anda selepas beberapa waktu, atau jika anda menghadapi masalah, sila hubungi #perkhidmatan pelanggan# kami untuk mendapatkan bantuan.</string>
+    <string name="pp_reward_feedback_hint">Jika anda menghadapi masalah, sila tinggalkan #maklum balas# anda di Pusat Bantuan.</string>
+    <string name="pp_retry">Cuba lagi</string>
+    <string name="error_request_tip">Permintaan gagal, sila cuba lagi kemudian.</string>
+    <string name="book_load_error">Ralat pemuatan buku, Sila cuba buku lain.</string>
+    <string name="daily_check_disable_tip">Kembali esok untuk mendaftar masuk dan tuntut ganjaran anda.</string>
+    <string name="pp_notice">Pemberitahuan</string>
+    <string name="del_account_note">Tindakan ini tidak boleh dipulihkan. Sila sahkan maklumat berikut sebelum memadamkan akaun</string>
+
+    <string name="del_account_title1">1. Anda tidak akan dapat mengaktifkan semula akaun anda</string>
+    <string name="del_account_note1">Setelah ia dipadam, anda tidak akan dapat log masuk atau menggunakan akaun ini lagi. Tidak mungkin untuk mendapatkan semula atau menguruskan sebarang buku, maklumat, atau aset yang berkaitan dengan akaun yang dipadam. Walaupun anda mendaftar semula, hanya akaun yang baru akan dicipta.</string>
+    <string name="del_account_title2">2. Harta dan maklumat akan dipadamkan</string>
+    <string name="del_account_note2">Pemadaman akaun akan dianggap sebagai anda meninggalkan hak dan aset akaun. Termasuk maklumat peribadi, Mynt, Bonus, Kupon, Kad Top-up, dan aset maya lain. Sila uruskan buku, maklumat, dan Aset anda dengan betul.</string>
+    <string name="del_account_title3">3. Penyelesaian pertikaian</string>
+    <string name="del_account_note3">Anda tidak dapat memadamkan akaun dengan berjaya jika terdapat sebarang pertikaian yang belum selesai, termasuk tetapi tidak terhad kepada aduan, laporan, dll.</string>
+    <string name="del_account_title4">4. Masa berkuatkuasa pemadaman</string>
+    <string name="del_account_note4">Permohonan Pemadaman akan disemak secara automatik dan diluluskan pada pukul 24:00 pada hari ke-30. Tetapi anda boleh log masuk melalui akaun pihak ketiga untuk menghentikan proses sebelum ia diselesaikan.</string>
+    <string name="read_del_account_notice_note">Saya telah membaca maklumat di atas dan faham bahawa tindakan ini tidak boleh dipulihkan.</string>
+    <string name="pp_del_account">Padam akaun</string>
+    <string name="pp_cancel_del_account">Batalkan Pemadaman Akaun</string>
+    <string name="pp_cancel_del_account2">Batalkan pemadaman akaun</string>
+    <string name="pp_cancel_del_account_hint">Akaun sedang disemak untuk pemadaman. Adakah anda pasti ingin membatalkan pemadaman?</string>
+    <string name="del_account_submitted">Permohonan pemadaman akaun telah dihantar.</string>
+    <string name="del_account_confirm_time">Permohonan ini akan disemak dan diluluskan secara automatik pada %s.</string>
+    <string name="del_account_terms_read_hint">Sila sahkan sama ada perjanjian pemadaman akaun telah dipilih.</string>
+    <string name="account_in_normal_state_hint">Akaun berada dalam keadaan normal.</string>
+    <string name="account_deleted_hint">Akaun telah dipadamkan.</string>
+    <string name="account_deleting_hint">Pemadaman akaun sedang diproses, sila jangan cuba lagi.</string>
+    <string name="account_delete_action_confirm">Pemadaman akaun telah berjaya dihantar.</string>
+    <string name="pp_attention">Perhatian</string>
+    <string name="pp_account_deleted_hint">Akaun anda telah dikesan sebagai dipadam. Akaun baru telah diberikan kepada anda, dan aplikasi akan dimulakan semula secara automatik untuk anda mula menggunakannya.</string>
+    <string name="pp_think_again">Fikirkan semula</string>
+
+    <string name="pp_confirm">Sahkan</string>
+    <string name="del_account_cancel_success_hint">Anda telah berjaya membatalkan pemadaman akaun.</string>
+    <string name="chapter_not_exist">Bab tidak wujud.</string>
+    <string name="recharge_pedding_hint">Anda mempunyai %d top-up yang belum selesai.</string>
+    <string name="pp_friendly_reminder">Peringatan Mesra</string>
+    <string name="pp_restore_reminder_content">Selepas mengklik butang \'Pulihkan\', sila bersabar. Jika top-up masih tidak muncul di akaun anda selepas beberapa ketika, atau jika anda menghadapi masalah, sila hubungi perkhidmatan pelanggan kami. Kami sentiasa ada untuk membantu anda!</string>
+    <string name="pp_report_immediately">Laporkan segera</string>
+    <string name="pp_payment_error">Ralat Pembayaran</string>
+    <string name="pp_payment_error_hint">Google Pay kini tidak menyokong pembelian anda. Sila cuba gunakan kaedah pembayaran alternatif.</string>
+    <string name="pp_switch_payment">Pilih kaedah lain</string>
+    <string name="pp_operate_frequent_tip">Operasi terlalu kerap, sila cuba lagi kemudian.</string>
+    <string name="pp_valid">Sah</string>
+    <string name="pp_invalid">Tidak sah</string>
+    <string name="pp_received_time">Masa diterima:</string>
+    <string name="pp_expired_date">Tarikh luput:</string>
+    <string name="pp_chapter">Bab</string>
+    <string name="pp_rules">Peraturan</string>
+    <string name="pp_rules_check_in_title">1. Peraturan Daftar Masuk</string>
+    <string name="pp_rules_check_in_content">Anda boleh memperoleh bonus dengan mendaftar masuk setiap hari. Ganjaran tambahan diberikan pada daftar masuk berturut-turut yang ke-3 dan ke-7. Daftar masuk yang terganggu akan menyebabkan kehilangan ganjaran untuk hari tersebut.</string>
+    <string name="pp_rules_novice_title">2. Tugas Pemula</string>
+    <string name="pp_rules_novice_content">Lengkapkan tugas pemula untuk menerima bonus yang sesuai.</string>
+    <string name="pp_rules_daily_title">3. Tugas Harian</string>
+    <string name="pp_rules_daily_content">Apabila anda menyelesaikan Tugas Harian, klik butang "Tuntut" untuk menuntut Bonus. Tugas ini dikemas kini dari semasa ke semasa. Jika terdapat masalah dengan pengagihan bonus kerana kemas kini, sila tinggalkan maklum balas anda di halaman saya.</string>
+    <string name="pp_rules_reward_rule_title">4. Peraturan ganjaran </string>
+    <string name="pp_rules_reward_rule_content">Bonus di sini sah untuk 7 hari. 1 Bonus = 1 Mynt. Bonus akan ditolak terlebih dahulu apabila anda membuka kunci bab.</string>
+    <string name="pp_day">Hari</string>
+    <string name="net_connect_tip">Ralat rangkaian, Sila cuba lagi kemudian.</string>
+    <string name="pp_merge_assets_hint">Aset dalam aplikasi <Data><![CDATA[ <b>%s</b> ]]> </Data> akan digunakan secara normal dalam aplikasi <Data><![CDATA[ <b>%s</b> ]]> </Data>. Sila beri perhatian kepada perubahan dalam aset anda.</string>
+    <string name="pp_merge_assets_hint_coin">Aset dalam <Data><![CDATA[ <b>%s</b> ]]> </Data> termasuk buku dalam rak buku, %s mynt dan %s bonus.</string>
+    <string name="pp_merge_assets_hint_account">Akaun yang sepadan dengan penggabungan aset berada di bawah akaun %s dalam aplikasi <Data><![CDATA[ <b>%s</b> ]]> </Data>.</string>
+    <string name="pp_merge_account_success">Penggabungan akaun berjaya!</string>
+    <string name="pp_merge_account_fail">Penggabungan akaun gagal!</string>
+    <string name="pp_reward_signin_hint">Log masuk dan nikmati lebih banyak faedah percuma</string>
+    <string name="pp_sign_in">Log masuk</string>
+    <string name="pp_pay_sign_hint">Untuk memastikan keselamatan akaun dan data anda, sila log masuk ke akaun anda; jika tidak, anda mungkin menghadapi kerugian yang berpotensi!</string>
+    <string name="pp_pay_sign_cancel">Abaikan &amp; Teruskan</string>
+    <string name="pp_library_login_hint">Log masuk sekarang dan nikmati faedah percuma eksklusif untuk pendatang baru</string>
+    <string name="pp_login_unlock_benefit">Untuk membuka lebih banyak ciri dan faedah</string>
+    <string name="pp_login_earn_bonus">dapatkan bonus</string>
+    <string name="pp_sign_in_continue">Log masuk untuk meneruskan</string>
+    <string name="pp_reader_sign_warning">Akaun anda berisiko. Sila log masuk dengan segera untuk keselamatan akaun dan data.</string>
+    <string name="pp_verify_email">Sahkan E-mel</string>
+    <string name="pp_link_email_hint">Sambungkan e-mel anda untuk mendapatkan bonus percuma</string>
+    <string name="pp_email_address">Alamat E-mel</string>
+    <string name="pp_verification_code">Kod pengesahan</string>
+    <string name="pp_code_send_hint">Kod pengesahan telah dihantar</string>
+    <string name="pp_resend_code">(%d)Hantar semula</string>
+    <string name="pp_verification_code_send_successful">Kod pengesahan telah dihantar, sila semak e-mel anda.</string>
+    <string name="pp_already_bind_hint">Akaun aplikasi ini telah disambungkan ke akaun lain di platform #%s#.</string>
+    <string name="pp_more_login_methods">Lebih banyak kaedah log masuk</string>
+    <string name="pp_switch_account">Tukar Akaun</string>
+    <string name="pp_switch_account_hint">Kaedah log masuk ini telah disambungkan ke akaun lain, adakah anda ingin menukar akaun dan menggabungkan aset anda?</string>
+    <string name="pp_reminder">Peringatan</string>
+    <string name="pp_email_code_expire">Kod pengesahan tidak sah!</string>
+    <string name="pp_email_code_error">Ralat kod pengesahan!</string>
+    <string name="pp_preference_setting">Tetapan Pilihan</string>
+    <string name="pp_select_tag_hint">Pilih tag untuk mencadangkan buku dengan lebih tepat</string>
+    <string name="pp_skip2">Lompat</string>
+    <string name="pp_reading_preference">Keutamaan membaca</string>
+    <string-array name="ranking_left_tab">
+        <item>Terbaik</item>
+        <item>Popular</item>
+        <item>Menjanjikan</item>
+        <item>Baru</item>
+        <item>Selesai</item>
+    </string-array>
+    <string name="app_hot">Popular</string>
+    <string name="app_new">Baru</string>
+    <string name="app_read_guide_gesture_hint">Geser kawasan ini ke atas dan ke bawah untuk menukar halaman</string>
+    <string name="unlock_now">Buka Kunci Sekarang</string>
+    <string name="unlock_successful">Pembukaan kunci berjaya</string>
+    <string name="unlock_fail">Gagal membuka kunci</string>
+    <string name="top_up_failed">Top-up gagal</string>
+    <string name="top_up_cancel">Top-up dibatalkan</string>
+
+    <string name="payment_recharge_error">Kami mengalami masalah dengan pembayaran anda. Untuk membetulkannya dengan cepat:\n\n1. Buka Google Play. \n2. Pergi ke Pembayaran &amp; Langganan. \n3. Pilih Bajet &amp; Sejarah. \n4. Batalkan pesanan, ubah jumlah pembayaran, atau pilih kaedah pembayaran lain.</string>
+    <string name="payment_recharge_error_other">Kami mengalami masalah dengan pembayaran anda. Untuk membetulkannya dengan cepat:\n1. Buka %s. \n2. Batalkan pesanan. \n3. Ubah jumlah pembayaran atau gunakan kaedah pembayaran lain.</string>
+    <string name="payment_window_bottom_tip">Jika anda menghadapi sebarang masalah, sila hubungi #perkhidmatan pelanggan# kami untuk mendapatkan bantuan.</string>
+    <string name="payment_bottom_ignore">Abaikan</string>
+    <string name="payment_pending_title">Top-up Sedang Diproses</string>
+    <string name="payment_pending_content">Top-up anda sedang diproses dan mungkin akan tertangguh 5–10 minit.</string>
+    <string name="payment_pending_button">Percepatkan</string>
+    <string name="payment_pending_accelerating">Mempercepatkan…</string>
+    <string name="payment_pending_keep">Teruskan Menunggu</string>
+    <string name="payment_pending_shoose_other">Pesanan anda masih diproses. Ia mengambil masa lebih lama daripada biasa. Sila bersabar sedikit lagi. Jika pembayaran tidak berjaya, anda boleh cuba kaedah lain.</string>
+    <string name="top_up_successful">Top-up berjaya</string>
+    <string name="have_incomplete_payment">Anda mempunyai pesanan top-up yang tidak lengkap. Sila cuba jumlah pembayaran yang berbeza atau pilih kaedah pembayaran lain.</string>
+
+    <string name="pending_clicking_frequently">Terlalu banyak percubaan, sila cuba lagi nanti</string>
+    <string name="order_processing">Pesanan sedang diproses</string>
+    <string name="proceed_cancel_order_hint">Membatalkan akan mengganggu sebarang pembayaran yang belum lengkap.</string>
+    <string name="cancel_order_feedback_title">Batalkan? Beritahu Kami Kenapa</string>
+    <string name="cancel_order_feedback_subtitle">Maklum balas anda membantu kami memperbaiki.</string>
+    <string name="payment_not_working">Kaedah pembayaran tidak berfungsi</string>
+    <string name="price_too_high">Harga terlalu tinggi</string>
+    <string name="pick_wrong_product">Memilih produk yang salah</string>
+    <string name="payment_page_slow">Halaman pembayaran terlalu perlahan</string>
+    <string name="change_mind">Menukar fikiran/Lain-lain</string>
+    <string name="other_reason_share">(Pilihan) Sebab lain? Sila kongsi.</string>
+
+    <string name="load_failed">Muat turun gagal, ketik untuk cuba lagi</string>
+    <string name="load_end">Tiada lagi ~</string>
+
+    <string name="other_payment_methods">Kaedah pembayaran lain</string>
+    <string name="select_payment_method">Pilih kaedah pembayaran</string>
+    <string name="payment_unavailable_attention">Kaedah pembayaran tidak tersedia. Sila cuba menggunakan kaedah pembayaran alternatif.</string>
+
+    <string name="login_welcome">Selamat datang ke %s</string>
+    <string name="login_other_methods">Kaedah log masuk lain</string>
+
+    <string name="help_feedback">Bantuan &amp; Maklum Balas</string>
+    <string name="faq">Soalan Lazim</string>
+    <string name="recharge_not_receive_q">Apa yang perlu saya lakukan jika top-up berjaya, tetapi saya tidak menerima syiling?</string>
+    <string name="recharge_not_receive_a">
+        Sila sahkan sama ada transaksi bank berjaya dan jika pembayaran telah ditolak. Jika pembayaran telah berjaya ditolak, sila buka semula aplikasi untuk memeriksa sama ada dompet dan sejarah transaksi telah dikemas kini.
+        \n\n
+        Nota penting:
+        \n\n
+        · Pastikan anda log masuk dengan akaun yang sama digunakan untuk top-up. Kadangkala,
+        pengguna mungkin terlupa kelayakan log masuk mereka dan membuat top-up sebagai tetamu.
+        \n\n
+        · Mengikut proses transaksi, mungkin memerlukan sedikit masa untuk syiling dimasukkan
+        selepas pembayaran berjaya. Masa pemprosesan mungkin berbeza bergantung pada kaedah pembayaran.
+        Kami mengesyorkan menunggu selama 10 minit selepas pembayaran berjaya sebelum memeriksa jika dompet
+        dan sejarah transaksi telah dikemas kini.
+        \n\n
+        Jika kaedah di atas tidak berfungsi, sila hubungi kami melalui "Maklum Balas" untuk membantu kami menyelesaikan masalah anda dengan cepat.
+    </string>
+    <string name="cannot_complete_payment_q">Saya tidak dapat menyelesaikan pembayaran saya?</string>
+    <string name="cannot_complete_payment_a">
+        · Jika mesej ralat muncul di kedai, sila semak jika rangkaian anda berfungsi dengan normal. Anda boleh cuba menukar persekitaran rangkaian, contohnya menggunakan WiFi yang berbeza.
+        \n\n
+        · Di samping itu, jika anda tidak berjaya log masuk ke akaun Google dan Apple pada peranti anda, masalah ini juga boleh berlaku.
+        \n\n
+        · Jika tiada kaedah di atas menyelesaikan masalah anda, sila beri maklum balas mengenai masalah yang anda hadapi.
+    </string>
+    <string name="refund_payment_q">Bolehkah saya meminta bayaran balik selepas membuat pembayaran?</string>
+    <string name="refund_payment_a">
+        Bayaran balik tidak disokong pada masa ini. Syiling dan bonus boleh digunakan untuk membuka bab.
+    </string>
+    <string name="disable_automatic_purchase_q">Bagaimana untuk mematikan fungsi pembelian automatik?</string>
+    <string name="disable_automatic_purchase_a">Anda boleh mematikannya melalui "Saya"/"Dompet"/"Buku pada Auto-unlock".</string>
+    <string name="view_unlock_chapter_history_q">Bagaimana saya boleh melihat sejarah pembukaan bab saya?</string>
+    <string name="view_unlock_chapter_history_a">Anda boleh memeriksanya melalui "Saya"/"Dompet"/"Sejarah Penggunaan".</string>
+    <string name="get_coins_bonus_q">Bagaimana untuk mendapatkan syiling dan bonus saya?</string>
+    <string name="get_coins_bonus_a">Anda boleh mendapatkan syiling dan bonus melalui acara top-up, dan menyertai tugas di pusat kebajikan boleh memperoleh bonus. Sila ambil perhatian bahawa syiling hanya boleh diperoleh melalui top-up.</string>
+    <string name="difference_coins_bonus_q">Apakah perbezaan antara syiling dan bonus?</string>
+    <string name="difference_coins_bonus_a">
+        · Kedua-duanya boleh digunakan untuk membuka bab.
+        \n\n
+        · Bonus mempunyai tempoh sah. Anda boleh menyemak tempoh sah bonus dalam "Sejarah Bonus" di "Dompet".
+    </string>
+    <string name="check_user_id_q">Bagaimana saya boleh menyemak ID pengguna saya?</string>
+    <string name="check_user_id_a">
+        Akaun tetamu
+        \n
+        1. Klik pada "Halaman Saya".
+        \n
+        2. Satu siri nombor di sebelah kanan avatar.
+        \n\n\n
+        Akaun yang telah diikat
+        \n
+        1.Klik pada "Halaman Saya".
+        \n
+        2.Klik pada avatar di atas untuk membuka halaman baru.
+        \n
+        3.Satu siri nombor di bawah avatar.
+    </string>
+    <string name="assets_synchronize_q">Adakah aset akan diselaraskan apabila log masuk pada peranti yang berbeza?</string>
+    <string name="assets_synchronize_a">
+        Anda boleh menyegerakkan aset anda dengan cepat dengan log masuk menggunakan akaun yang sama. Berikut adalah cara:
+        \n\n
+        · Cari peranti lama anda dan log masuk menggunakan akaun pihak ketiga (seperti Google atau Facebook).
+        \n\n
+        · Ingat ID pengguna dan kata laluan akaun anda.
+        \n\n
+        · Log masuk menggunakan akaun yang sama pada peranti baru anda.
+        \n\n
+        · Pastikan nombor ID pengguna yang dirakam sepadan.
+        \n\n
+        Untuk memastikan kemajuan anda terpelihara, kami mengesyorkan menamatkan pembacaan anda pada peranti lama sebelum menukar ke peranti baru.
+    </string>
+    <string name="categories">Kategori</string>
+    <string name="recharge_issues">Isu Top-up</string>
+    <string name="coin_bonus_issues">Isu Syiling dan Bonus</string>
+    <string name="chapter_unlock_issues">Isu Pembukaan Bab</string>
+    <string name="book_issues">Isu Buku</string>
+    <string name="account_issues">Isu Akaun</string>
+    <string name="other">Lain-lain</string>
+
+    <string name="error_code3_a">Untuk kod ralat seperti ini, kami mengesyorkan untuk mengemas kini perkhidmatan Google Play atau menggunakan kaedah pembayaran alternatif.</string>
+    <string name="coins_bonus_reduce_a">
+        · Anda mungkin telah log masuk dengan akaun yang berbeza. Sila semak sejarah penerimaan bonus anda untuk melihat jika ia mempunyai rekod berterusan.
+        \n\n
+        · Terdapat pelbagai kaedah log masuk, seperti Facebook, Google, dan alamat e-mel. Jika anda tidak log masuk ke mana-mana akaun yang disebutkan, peranti anda akan menggunakan akaun pelawat. Anda boleh melihat akaun anda pada halaman "Saya".
+        \n\n
+        · Jika bonus anda berkurang, anda boleh memeriksa rekod bonus anda terlebih dahulu; satu kemungkinan adalah sebahagian bonus tersebut mungkin telah tamat tempoh.
+        \n\n
+        · Anda mungkin telah menetapkan pembukaan automatik. Sila semak rekod pembukaan bab anda untuk melihat jika anda telah membelanjakan beberapa syiling atau bonus.
+        \n\n
+        · Jika kaedah di atas tidak menyelesaikan masalah anda, sila hantar masalah tersebut kepada kami melalui "Maklum Balas".
+    </string>
+
+    <string name="check_bonus_usage_history">Anda boleh melihat sejarah penggunaan bonus atau syiling dalam "Saya"/"Dompet"/"Sejarah Penggunaan".</string>
+
+    <string name="unlock_chapter_a">Kami menyokong pembukaan bab individu dan pembukaan bab secara pukal. Anda boleh memilih mengikut keperluan. Pembukaan akan memerlukan penggunaan syiling atau bonus. Jika baki syiling atau bonus anda tidak mencukupi, anda perlu menambah nilai.</string>
+
+    <string name="unable_next_chapter_a">
+    · Anda perlu memastikan sambungan rangkaian anda baik. Disarankan untuk menukar rangkaian dan mencuba semula.
+    \n\n
+    · Sila pastikan syiling atau bonus anda mencukupi.
+</string>
+
+    <string name="grammar_spell_error_a">Hubungi kami melalui "Maklum Balas" dan berikan tajuk buku dan nama bab untuk membantu kami menyelesaikan masalah dengan segera.</string>
+    <string name="violent_insult_content_a">Hubungi kami melalui "Maklum Balas" dan berikan tajuk buku dan nama bab. Kami akan menangani perkara ini.</string>
+    <string name="paid_book_pay_again_a">Buku yang anda beli akan sentiasa menjadi aset anda. Jika anda memadam mana-mana buku yang dibeli, anda boleh mengambilnya semula melalui "Saya"/"Dilihat".</string>
+    <string name="bookshelf_coin_assets_disappeared_a">Keadaan ini biasanya berlaku apabila anda log masuk dengan akaun atau peranti yang berbeza. Sila pastikan anda log masuk dengan akaun biasa anda. Jika masalah berterusan, sila hubungi kami untuk mendapatkan bantuan melalui "Maklum Balas".</string>
+    <string name="login_del_account_a">
+        log masuk:
+        \n
+        1. Klik pada "Halaman Saya"
+        \n
+        2. Klik pada "avatar"
+        \n
+        3. Pilih "kaedah log masuk" pilihan anda
+        \n\n\n
+        Padam Akaun:
+        \n
+        1. Klik pada "Halaman Saya"
+        \n
+        2. Klik pada "Tetapan"
+        \n
+        3. Klik pada "Padam Akaun"
+    </string>
+
+    <string-array name="issues_category_item">
+        <item>Isu Top-up</item>
+        <item>Isu Syiling dan Bonus</item>
+        <item>Isu Pembukaan Bab</item>
+        <item>Isu Buku</item>
+        <item>Isu Akaun</item>
+        <item>Lain-lain</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>Apa yang perlu saya lakukan jika top-up berjaya, tetapi saya tidak menerima syiling?</item>
+        <item>Saya tidak dapat menyelesaikan pembayaran saya?</item>
+        <item>Kod Ralat 3</item>
+        <item>Bolehkah saya meminta bayaran balik selepas membuat pembayaran?</item>
+    </string-array>
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>Bagaimana untuk mendapatkan syiling dan bonus saya?</item>
+        <item>Syiling atau bonus saya hilang atau berkurang</item>
+        <item>Apa perbezaan antara syiling dan bonus?</item>
+        <item>Bagaimana saya boleh semak sejarah penggunaan bonus saya?</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>Bagaimana untuk membuka bab?</item>
+        <item>Bagaimana saya boleh melihat sejarah pembukaan bab saya?</item>
+        <item>Bagaimana untuk mematikan fungsi pembelian automatik?</item>
+        <item>Tak dapat baca bab seterusnya?</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>Ramai kandungan yang berulang, dengan kesalahan tatabahasa atau ejaan.</item>
+        <item>Mengandungi kandungan yang ganas, menghina, dan tidak sesuai.</item>
+        <item>Jika saya memadamkan buku yang dibayar dari rak saya, adakah saya perlu membayar lagi?</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>Bagaimana saya boleh semak ID pengguna saya?</item>
+        <item>Bagaimana saya boleh log masuk/Padam Akaun?</item>
+        <item>Adakah aset akan diselaraskan apabila log masuk pada peranti yang berbeza?</item>
+        <item>Rekod rak buku saya dan aset syiling emas hilang?</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>Sila hubungi kami melalui "Maklum Balas" untuk membantu kami menyelesaikan masalah dengan cepat.</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">Masih tidak dapat menyelesaikan masalah? Klik pada #Maklum Balas#</string>
+
+    <string-array name="subscribe_tips">
+        <item>Bagaimana untuk mendapatkan syiling dan bonus saya?</item>
+        <item>Syiling atau bonus saya hilang atau berkurang</item>
+        <item>Apa perbezaan antara syiling dan bonus?</item>
+        <item>Bagaimana saya boleh semak sejarah penggunaan bonus saya?</item>
+    </string-array>
+
+    <string name="total">Jumlah: %d</string>
+    <string name="subscription_get_coins_bonus">Dapatkan %d syiling dan %d bonus</string>
+    <string name="subscription_login_bonus">Log masuk untuk %d hari untuk mendapatkan %d bonus</string>
+    <string name="per_week">/minggu</string>
+    <string name="details">Butiran</string>
+    <string name="subscription_in_effect">Berkuat kuasa</string>
+    <string name="subscription_date">Tarikh Tamat: %s</string>
+    <string name="subscription_get_coins">Dapatkan %d syiling</string>
+
+    <string name="subscription_bonus">+%d bonus</string>
+    <string name="subscription">Langganan Saya</string>
+    <string name="subscription_rewards">ganjaran langganan</string>
+    <string name="subscription_claim_title">Tuntut ganjaran langganan</string>
+    <string name="claim_success">Tuntutan Berjaya</string>
+    <string name="claim_fail">Tuntutan Gagal</string>
+    <string name="days">Hari%d</string>
+
+    <string name="subscription_success">Langganan Berjaya</string>
+    <string name="subscribe_success_tip">Anda mendapat %d syiling dan %d bonus. Anda boleh menuntut %d bonus setiap hari.</string>
+
+    <string name="subscribe_tips1">1. Kos pembelian akan ditolak dari akaun pembayaran anda.</string>
+    <string name="subscribe_tips2">2. Langganan anda akan diperbaharui secara automatik. Langganan akan dikenakan caj secara automatik setiap tempoh pengebilan, sama ada bulanan atau tempoh lain. Anda mungkin akan dikenakan caj tidak lebih dari 24 jam sebelum permulaan setiap tempoh pengebilan sehingga anda membatalkan langganan.</string>
+    <string name="subscribe_tips3">3. Anda boleh membatalkan langganan pada bila-bila masa lebih daripada 24 jam sebelum tarikh pembaharuan anda.</string>
+    <string name="subscribe_tips4">4. Tempoh sah Bonus yang diberikan selepas menambah nilai adalah %d hari.</string>
+    <string name="subscribe_tips5">5. Bonus diedarkan selama tujuh hari, dan sebarang bonus yang tidak dituntut selepas tamat tempoh tidak boleh dikembalikan.</string>
+    <string name="subscribe_tips6">6. Syiling dan bonus mempunyai nilai yang sama, bonus yang tidak tamat tempoh adalah item maya dan kami tidak menyokong bayaran balik.</string>
+    <string name="subscribe_tips7">7. Perlukan bantuan? Sila semak #Soalan Lazim# kami.</string>
+
+    <string name="subscribe_rules">1. Anda akan menerima %s Syiling dan %s Bonus serta merta selepas langganan.\n2. Log masuk selama %s hari berturut-turut untuk menerima %s bonus, iaitu %s Bonus setiap hari.\n3. Anda boleh menyemak ganjaran tambahan dalam Dompet anda selepas langganan.</string>
+
+    <string name="subscribe_pay_title">Perjanjian Langganan</string>
+    <string name="subscribe_pay_tip1_title">1. Pembayaran:</string>
+    <string name="subscribe_pay_tip1_content">Kos pembelian akan ditolak dari akaun pembayaran anda.</string>
+    <string name="subscribe_pay_tip2_title">2. Pembaharuan:</string>
+    <string name="subscribe_pay_tip2_content">Langganan anda akan diperbaharui secara automatik. Langganan akan dikenakan caj secara automatik setiap tempoh pengebilan, sama ada bulanan atau tempoh lain. Anda mungkin akan dikenakan caj tidak lebih dari 24 jam sebelum permulaan setiap tempoh pengebilan sehingga anda membatalkan langganan.</string>
+    <string name="subscribe_pay_tip3_title">3. Pembatalan:</string>
+    <string name="subscribe_pay_tip3_content">Anda boleh membatalkan langganan pada bila-bila masa lebih daripada 24 jam sebelum tarikh pembaharuan anda. Untuk membatalkan langganan, sila pergi ke platform pembayaran.</string>
+    <string name="subscribe_pay_tip4_title">4. Urus langganan anda:</string>
+    <string name="subscribe_pay_tip4_content">Anda boleh melihat, mengubah, atau membatalkan langganan anda.</string>
+
+    <string name="subscribe_out_of_date">Langganan Tamat Tempoh!</string>
+
+    <string name="pp_got_it">Faham</string>
+    <string name="got_it">Faham</string>
+    <string name="pp_get">Faham</string>
+
+    <string name="pp_submit">Hantar</string>
+    <string name="pp_submitted">Dihantar</string>
+    <string name="pp_submit_fail">Penghantaran Gagal</string>
+
+    <string name="admob_watch_ad_add_tip">Tonton iklan +%s bonus</string>
+    <string name="admob_loading_tip">Iklan sedang dimuatkan, sila cuba tonton lagi nanti</string>
+    <string name="admob_waiting_count_down">Teruskan menonton iklan selepas kiraan detik</string>
+
+    <string name="bonus_value">%d Bonus</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus_ad_claimed">telah dituntut %d bonus</string>
+
+    <string name="admob_watch_tip">Tonton iklan untuk mendapatkan bonus</string>
+    <string name="admob_earn_bonus_tip">Dapatkan %d bonus untuk setiap iklan yang ditonton</string>
+    <string name="admob_watch_count_tip">Tonton Iklan %d/%d</string>
+    <string name="admob_count_down_tip">tonton iklan kemudian pada %s</string>
+    <string name="admob_daily_desc">%d bonus setiap iklan video yang ditonton, selesai %d/%d</string>
+
+    <string name="usa_ad_privacy">Keutamaan Iklan</string>
+
+    <string name="member_benefits">Faedah Ahli Premium</string>
+    <string name="unlimit_premium_books">Baca lebih 10,000 buku premium secara percuma tanpa had</string>
+    <string name="weekly_access_books">Akses mingguan kepada 200+ buku eksklusif terbaik</string>
+    <string name="enjoy_add_free_experience">Nikmati pengalaman tanpa iklan</string>
+    <string name="premium_member_identity">Identiti ahli premium</string>
+    <string name="subscribe">Langgan</string>
+    <string name="unlimit_reading">Bacaan tanpa had!</string>
+    <string name="only_1499_price">Hanya $14.99</string>
+    <string name="premium">Premium</string>
+    <string name="premium_first_week_discount">%s untuk minggu pertama, kemudian %s/minggu</string>
+    <string name="premium_expire_date">Tarikh luput: %s</string>
+    <string name="discover_vip_price">Hanya $14.99</string>
+    <string name="premium_daily_active_text">Keahlian harian anda aktif</string>
+    <string name="premium_week_active_text">Keahlian mingguan anda kini aktif.</string>
+    <string name="premium_month_active_text">Keahlian bulanan anda sedang aktif.</string>
+    <string name="premium_year_active_text">Keahlian tahunan anda kini aktif.</string>
+    <string name="premium_expire_time">Tamat pada %s</string>
+    <string name="vip_rules">
+        1. Pengguna yang melanggan Premium boleh membaca semua buku eksklusif Premium secara percuma.\n2. Pembayaran: Kos akan ditolak daripada akaun pembayaran anda.\n3. Pembaharuan: Langganan akan diperbaharui secara automatik. Caj dikenakan sehingga 24 jam sebelum permulaan tempoh pengebilan baru.\n4. Pembatalan: Anda boleh membatalkan pada bila-bila masa sekurang-kurangnya 24 jam sebelum tarikh pembaharuan. Sila ke platform pembayaran untuk membatalkan.
+    </string>
+
+
+    <string name="unlock_watch_count">Tonton iklan untuk buka (%d/%d)</string>
+    <string name="unlock_watch_title">Tonton iklan untuk buka</string>
+    <string name="unlock_watch_desc">Anda boleh membuka bab ini dengan menonton iklan</string>
+    <string name="unlock_watch_now">Tonton sekarang</string>
+    <string name="unlock_watch_chapter_count">Anda boleh membuka %d bab secara percuma hari ini (%d/%d) </string>
+
+    <string name="email_login_top">Masukkan e-mel yang anda gunakan untuk akaun anda</string>
+    <string name="email_address_enter_tip">masukkan alamat e-mel anda</string>
+    <string name="email_code_enter_tip">masukkan kod pengesahan</string>
+    <string name="email_send_code">Hantar kod</string>
+
+    <string name="facebook_link_title">Pautkan akaun Facebook</string>
+    <string name="facebook_link_content">Pautkan akaun Facebook anda untuk mendapatkan lebih banyak syiling. Jangan risau, semua kemajuan dan data semasa anda akan dikekalkan</string>
+
+    <string name="limit_time_title">Tawaran terhad</string>
+    <string name="limit_time_content">Dapatkan sekarang — harga terendah sepanjang masa, hanya untuk masa terhad!</string>
+    <string name="limit_time_premium">bacaan bahagian premium</string>
+
+    <string name="subscribe_now">Langgan sekarang</string>
+    <string name="transaction_ompleted">Transaksi Selesai</string>
+    <string name="transaction_content">Pembelian syiling berjaya. Bonus sah selama 7 hari.</string>
+
+    <string name="send_again">Hantar Semula</string>
+    <string name="ad_unlock">Buka Kunci Iklan</string>
+
+    <string name="top_up_history">Sejarah Tambah Nilai</string>
+    <string name="not_activated">Belum diaktifkan</string>
+    <string name="vip_feedback_rule">
+        6. Jika anda memerlukan bantuan atau mempunyai sebarang soalan, sila maklumkan kepada kami melalui #Feedback# kami.
+    </string>
+
+    <string name="unlock_adv_used">Buka kunci iklan telah digunakan. Cuba lagi esok</string>
+    <string name="expiration_date">Tarikh Luput:</string>
+    <string name="select_gender">Pilih jantina anda</string>
+    <string name="enter_nickname">Masukkan nama samaran anda…</string>
+    <string name="enter_email">Masukkan e-mel anda di sini…</string>
+    <string name="select_birthday">Pilih tarikh lahir anda</string>
+
+    <string name="pay_premium_weekly_membership">Keahlian Mingguan</string>
+    <string name="pay_premium_monthly_membership">Keahlian Bulanan</string>
+    <string name="pay_save_value">Jimat %s%%</string>
+    <string name="pay_unlock_chapter_count">Buka %s bab</string>
+    <string name="pay_coins">%s syiling</string>
+    <string name="pay_unlock_in_bulk">Buka pukal</string>
+    <string name="top_up_now">Tolak sekarang</string>
+    <string name="dont_waste_time">Jangan buang masa</string>
+    <string name="subscribe_unlock_tip">Langgan untuk membuka serta-merta</string>
+    <string name="auto_renew_cancel_tip">Auto-diperbaharui · Batal bila-bila masa</string>
+    <string name="week">minggu</string>
+    <string name="month">bulan</string>
+    <string name="books_free_cycle">Semua buku percuma selama 1 %s</string>
+    <string name="unlock_all_story">Buka semua cerita</string>
+    <string name="premium_benefits">Faedah Keahlian Premium</string>
+    <string name="read_free">Baca Percuma</string>
+    <string name="no_ads">Tiada Iklan</string>
+    <string name="early_access">Akses Awal</string>
+    <string name="pay_premium_yearly_membership">Keahlian Tahunan</string>
+    <string name="year">tahun</string>
+    <string name="per_month">/bulan</string>
+    <string name="per_year">/tahun</string>
+    <string name="pay_premium_daily_membership">Keahlian Harian</string>
+    <string name="day">hari</string>
+    <string name="per_day">/hari</string>
+    <string name="pay_premium_free_for">Semua buku gratis selama %s</string>
+    <string name="top_up_more">Tambah nilai lebih banyak, jimat lebih banyak</string>
+    <string name="premium_books_free">Semua buku percuma untuk dibaca</string>
+    <string name="join_premium">Sertai keahlian</string>
+
+    <string name="subscription_now">Langgan Sekarang</string>
+    <string name="get_special_offer">Dapatkan tawaran istimewa!</string>
+    <string name="sevel_month">/%d bulan</string>
+
+    <string name="subscription_agreement">Perjanjian Langganan</string>
+    <string name="subscription_agreement_tips1">1. Pengguna yang melanggan Premium boleh menikmati akses percuma ke semua buku.</string>
+    <string name="subscription_agreement_tips2">2. Pembayaran: Kos pembelian akan ditolak daripada akaun pembayaran anda.</string>
+    <string name="subscription_agreement_tips3">3. Pembaharuan: Langganan anda akan dibaharui secara automatik. Langganan dikenakan bayaran secara automatik setiap tempoh pengebilan, sama ada bulanan atau tempoh lain. Anda mungkin dikenakan bayaran tidak lebih dari 24 jam sebelum permulaan setiap tempoh pengebilan sehingga anda membatalkan langganan anda.</string>
+    <string name="subscription_agreement_tips4">4. Pembatalan: Anda boleh membatalkan langganan bila-bila masa lebih dari 24 jam sebelum tarikh pembaharuan. Untuk membatalkan langganan, sila pergi ke platform pembayaran.</string>
+
+    <string name="enjoy_app_so_for">Suka aplikasi ini?</string>
+    <string name="thank_for_support">Terima kasih atas sokongan anda!\nPenilaian ringkas sangat membantu kami.</string>
+    <string name="five_star">5 bintang</string>
+    <string name="maybe_later">Nanti</string>
+    <string name="thank_help_improve">Terima kasih atas bantuan anda!</string>
+    <string name="continue_bring_more_emotional">Kerana anda, kami terus membawa kisah yang menginspirasi.</string>
+    <string name="continue_reading">Teruskan Membaca</string>
+    <string name="read_more">Baca Lagi, Jimat Lagi</string>
+    <string name="this_chapter">Bab Ini</string>
+    <string name="my_wallet">Dompet Saya</string>
+
+    <string name="featured_collection">Koleksi Pilihan</string>
+    <string name="book_catalog">Katalog Buku</string>
+    <string name="fold_up">Lipat</string>
+    <string name="choose_your_plan">Pilih pelan anda</string>
+    <string name="select_payment_method_2">Pilih kaedah pembayaran</string>
+    <string name="personalized_tip">Cadangan peribadi berdasarkan keutamaan</string>
+    <string name="money_back_tip">Jaminan Wang Dikembalikan</string>
+    <string name="what_you_get">Apa yang anda dapat</string>
+    <string name="premium_center_recharge_tip">Dengan meneruskan, anda bersetuju bahawa langganan anda akan diperbaharui secara automatik. Langganan akan dikenakan bayaran secara automatik setiap tempoh pengebilan, sama ada bulanan atau kitaran lain. Anda mungkin dikenakan bayaran sehingga 24 jam sebelum permulaan setiap tempoh pengebilan sehingga anda membatalkan langganan. Anda boleh ketahui lebih lanjut tentang polisi pembatalan dan bayaran balik kami dalam #Terma Langganan#.</string>
+    <string name="premium_pay_safe">Bayar dengan selamat &amp; terlindung</string>
+    <string name="premium_access">Akses Premium</string>
+    <string name="unlock_unlimited_books">Buka Kunci Buku Tanpa Had</string>
+    <string name="limit_title_premium">Semua Buku Percuma untuk Dibaca</string>
+    <string name="secure_payment">Pembayaran selamat</string>
+    <string name="easy_cancellation">Pembatalan Mudah</string>
+    <string name="money_back_guarantee">Jaminan Wang Dikembalikan</string>
+    <string name="subscription_renews_tip">Selepas tempoh pengenalan, langganan anda diperbaharui secara automatik pada harga pelan yang dipilih. Anda boleh membatalkan pada bila-bila masa.</string>
+    <string name="first_days">%d hari pertama</string>
+    <string name="then_price">Kemudian $%.2f</string>
+    <string name="only_price">Hanya US$%.2f/hari</string>
+    <string name="full_story">Keseluruhan Cerita Menanti</string>
+    <string name="continue_read_unlock">Teruskan membaca dan buka pengakhiran yang anda nantikan.</string>
+    <string name="trust_readers">Dipercayai oleh 10J+ pembaca</string>
+    <string name="keep_reading">Teruskan Membaca</string>
+    <string name="no_Interruptions">Tiada Gangguan</string>
+    <string name="stories_num">10,000+ Cerita</string>
+    <string name="read_full_story">Baca Cerita Penuh</string>
+    <string name="without_limit">Tanpa Had</string>
+    <string name="unlock_romance">Buka kunci cerita romance, fantasi dan serigala jadian tanpa had dengan tawaran pembaca hari ini.</string>
+    <string name="save_percent">JIMAT %d%%</string>
+    <string name="daily">harian</string>
+    <string name="weekly">mingguan</string>
+    <string name="monthly">bulanan</string>
+    <string name="yearly">tahunan</string>
+    <string name="cancel_anytime">Batalkan pada bila-bila masa</string>
+    <string name="continue_story">Teruskan Cerita Saya</string>
+    <string name="next_chapter_waiting">Bab seterusnya menanti anda</string>
+    <string name="continue_read_long">Teruskan cerita sekarang dan buka kunci beribu lagi yang serupa.</string>
+    <string name="read_full_stories">Baca Cerita Penuh</string>
+    <string name="start_short_reading">Mula Membaca Tanpa Had</string>
+
+</resources>
+<!--
+    马来语
+!-->

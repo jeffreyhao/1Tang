@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        福利页颜色
+-->
+<resources>
+
+    <color name="color_miss_checked_in_day">@color/Cr_CE</color>
+    <color name="color_miss_checked_in_coin">@color/Cr_CE</color>
+
+    <color name="color_checked_in_day">#E6CBCB</color>
+    <color name="color_checked_in_coin">#E6CBCB</color>
+
+    <color name="color_unchecked_in_day">@color/pp_color_999999</color>
+    <color name="color_unchecked_in_coin">@color/colorAccent</color>
+
+
+    <color name="color_text_task_go">@color/pp_color_333333</color>
+    <color name="color_text_task_claim">@color/white</color>
+    <color name="color_text_task_done">@color/pp_color_666666</color>
+
+
+</resources>

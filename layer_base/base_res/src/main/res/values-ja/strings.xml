@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    日语
+-->
+<resources>
+    <string name="loading">読み込み中…</string>
+    <string name="close_and_go_back">戻る</string>
+    <string name="error_data_tip">問題が発生しました。タップして再試行してください</string>
+    <string name="error_empty_data_tip">データがありません</string>
+    <string name="error_net_tip">ネットワークエラーです。タップして再試行してください</string>
+    <string name="permisions_essential_tip">使用するには、まず権限を取得してください</string>
+    <string name="permisions_read_phone_tip">操作するには、まず権限を取得してください</string>
+    <string name="permission_setting">設定</string>
+    <string name="permission_cancel">キャンセル</string>
+    <string name="collapse">折りたたむ</string>
+    <string name="expand">展開する</string>
+    <string name="nb_mode_night">ナイトモード</string>
+    <string name="nb_mode_morning">デイモード</string>
+    <string name="nav_bookshelf">ライブラリ</string>
+    <string name="nav_bookshelf2">本棚</string>
+    <string name="nav_discover">発見</string>
+    <string name="nav_featured">特集</string>
+    <string name="nav_reward">報酬</string>
+    <string name="nav_profile">マイページ</string>
+    <string name="nav_mine">マイページ</string>
+    <string name="select_all">すべて選択</string>
+    <string name="done">完了</string>
+    <string name="delete">削除</string>
+    <string name="clear_cache">キャッシュをクリア</string>
+    <string name="check_update">アップデートを確認</string>
+    <string name="contact_us">お問い合わせ</string>
+    <string name="privacy">プライバシーポリシー</string>
+    <string name="agreement">利用規約</string>
+    <string name="joinedBookShelf">ライブラリに追加されました</string>
+    <string name="add_to_shelf_dlg_title">ライブラリに追加しますか？</string>
+    <string name="add_to_shelf_dlg_content">この本をライブラリに追加して、いつでも読めるようにしましょう。</string>
+    <string name="add_to_shelf_dlg_cancel">キャンセル</string>
+    <string name="add_to_shelf_dlg_confirm">追加</string>
+    <string name="hint_search_bookstore">検索</string>
+    <string name="become_author">作家になる</string>
+    <string name="buy_sale">割引購入</string>
+    <string name="free_start_read">読み始める</string>
+    <string name="pp_sex_boy_brief">男性</string>
+    <string name="pp_sex_girl_brief">女性</string>
+    <string name="pp_tip_none_photo">アルバムの写真が取得できませんでした</string>
+    <string name="pp_history_search">履歴</string>
+    <string name="pp_tip_input_search_key">キーワードを入力してください</string>
+    <string name="pp_clear_success">クリアしました</string>
+    <string name="pp_me">マイページ</string>
+    <string name="pp_build_fail">ビルドに失敗しました</string>
+    <string name="pp_author">著者</string>
+    <string name="pp_note_id_null">ノートIDが空です</string>
+    <string name="pp_login_fail">ログインに失敗しました</string>
+    <string name="pp_collection_success">ライブラリに追加されました</string>
+    <string name="pp_please_check_network">ネットワーク接続を確認してください</string>
+    <string name="pp_add_success">この本をライブラリに追加しました</string>
+    <string name="pp_remove_success">この本をライブラリから削除しました</string>
+    <string name="pp_please_chose_one_book">まず本を選択してください</string>
+    <string name="pp_login_first">まずログインしてください</string>
+    <string name="pp_pay_success">支払いが成功しました</string>
+    <string name="pp_pay_cancel">支払いがキャンセルされました</string>
+    <string name="pp_pay_error">支払いエラー</string>
+    <string name="pp_check_pay_fail">購入の確認に失敗しました</string>
+    <string name="pp_tip">まずアプリギャラリーまたはブラウザをインストールしてください</string>
+    <string name="pp_copy_success">コピーしました</string>
+    <string name="pp_save_fail">保存に失敗しました</string>
+    <string name="pp_saved">保存しました</string>
+    <string name="pp_exit_app">終了してもよろしいですか？</string>
+    <string name="pp_exit">終了</string>
+    <string name="pp_sure">確認</string>
+    <string name="pp_today_read">今日読む</string>
+    <string name="pp_second_red_packet">分後に赤いパケットを取得</string>
+    <string name="pp_after_ad_bye">広告の後にもっと面白い内容があります。</string>
+    <string name="pp_time_error">システムとサーバーの時間のずれが大きすぎます。システム時間を調整してください</string>
+    <string name="pp_about">アプリについて</string>
+    <string name="pp_notiy">ヒント</string>
+    <string name="pp_get_photo">写真を選択</string>
+    <string name="pp_affirm">確認</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">モーメンツ</string>
+    <string name="pp_xml_qq_space">QQゾーン</string>
+    <string name="pp_xml_text_11">ログアウト</string>
+    <string name="pp_xml_text_22">通知</string>
+    <string name="pp_xml_text_24">ヘルプとフィードバック</string>
+    <string name="pp_xml_text_35">人気検索</string>
+    <string name="pp_xml_text_350">トレンド</string>
+    <string name="pp_xml_text_39">開く</string>
+    <string name="pp_xml_text_40">閉じる</string>
+    <string name="pp_xml_text_45">もっと見る</string>
+    <string name="pp_xml_text_48">表示</string>
+    <string name="pp_xml_text_49">コピー</string>
+    <string name="pp_xml_text_50">共有</string>
+    <string name="pp_xml_remove">削除</string>
+    <string name="pp_xml_find_novel">本を探す</string>
+    <string name="pp_xml_no_book">まだライブラリに本が追加されていません</string>
+    <string name="pp_remove_book_title">削除しますか？</string>
+    <string name="pp_remove_book_content">この本をライブラリから削除してもよろしいですか？</string>
+    <string name="pp_search_default_text">本を検索</string>
+    <string name="pp_search_no_data">結果が見つかりませんでした</string>
+    <string name="book_detail_start_reading">読み始める</string>
+    <string name="book_detail_adds">追加数</string>
+    <string name="book_detail_views">閲覧数</string>
+    <string name="book_detail_rating">評価</string>
+    <string name="book_detail_report_msg">%s は著者個人の見解であり、当社とは関係ありません。ご不明な点があれば #報告# してください。</string>
+    <string name="login_view_tip">続行することで、#利用規約# および #プライバシーポリシー# に同意したものとみなされます</string>
+    <string name="pp_string_profile">プロフィール</string>
+    <string name="pp_string_gender">性別</string>
+    <string name="pp_string_birthday">誕生日</string>
+    <string name="pp_string_nickname">ニックネーム</string>
+    <string name="pp_string_email_address">メールアドレス</string>
+    <string name="pp_new_chapter">新しい章</string>
+    <string name="pp_coming_soon">近日公開</string>
+    <string name="pp_this_is_the">これは</string>
+    <string name="pp_last_chapter">最終章</string>
+    <string name="pp_book_completed">完結</string>
+    <string name="pp_book_ongoing">連載中</string>
+    <string name="pp_you_may_also_like">おすすめ</string>
+    <string name="pp_view_all">すべて表示</string>
+    <string name="pp_to_explore_more">さらに探す</string>
+    <string name="pp_rather_not_say">無回答</string>
+    <string name="pp_read">読む</string>
+    <string name="pp_you_might_like">おすすめ</string>
+    <string name="pp_writer_about_des">%s は作家の夢を応援し、世界中の読者と物語を共有する舞台を提供します。あなたの声を届けることが私たちの使命です。物語をお持ちなら、%s が最適な場所です！</string>
+    <string name="pp_writer_benefits">%s と契約した作家には、契約金、完結ボーナス、更新報酬、紹介ボーナスなど多彩な特典があります。詳細は #こちら# をご覧ください。</string>
+    <string name="pp_writer_tip0">作品を以下のメールに送信してください：</string>
+    <string name="pp_writer_email">メール: #leo@i%s.com#</string>
+    <string name="pp_writer_author">作家ページ: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">次のベストセラー作家はあなたかもしれません。</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">コピーしました</string>
+    <string name="pp_problem_null_tip">問題の内容を入力してください</string>
+    <string name="pp_update_title">アップデート可能</string>
+    <string name="pp_update_content">新バージョンがあります：既知のバグ修正と読書体験の最適化</string>
+    <string name="pp_update_button">今すぐ更新</string>
+    <string name="pp_download">ダウンロード</string>
+    <string name="pp_purchase">購入</string>
+    <string name="pp_purchase_tip">現在の章から開始</string>
+    <string name="pp_download_auto_pay_tip">同時にローカルにダウンロード</string>
+    <string name="pp_price">価格：</string>
+    <string name="pp_purchase_now">今すぐ購入</string>
+    <string name="pp_download_bottom_tip">既にアンロックされた章には課金されません</string>
+    <string name="pp_top_up">チャージ</string>
+    <string name="pp_pay_now">今すぐ支払う</string>
+    <string name="payment_method">支払い方法</string>
+    <string name="top_up_amount">チャージ金額</string>
+    <string name="pp_pay_tip1">1. ボーナス＝1コイン。章をアンロックする際、ボーナスが優先的に使用されます。</string>
+    <string name="pp_pay_tips1">ヒント：</string>
+    <string name="pp_pay_tip2">2. ユーザーID：#%s#。チャージ失敗時は[復元]を押してください（再チャージ不要）。または #お問い合わせ# ください。</string>
+    <string name="pp_pay_tip3">4. お困りですか？ #FAQ# をご覧ください</string>
+    <string name="pp_pay_tip4">3. デフォルトの支払い方法はGoogle Playです。携帯料金決済、クレジットカード、ギフトカード、PayPal、Walletが利用可能です。</string>
+    <string name="pp_pay_tip5">5. チャージによるボーナスの有効期限は7日です。</string>
+    <string name="pp_pay_tip6">6. コインとボーナスは等価であり、有効なボーナスは仮想アイテムのため返金できません。</string>
+    <string name="pp_pay_tip7">7. デジタル資産保護のため、FacebookやGoogleアカウントでの購入を推奨します。</string>
+    <string name="thank_you">ありがとうございます！</string>
+    <string name="pp_read_pay_tip">作者の創作活動を応援しましょう</string>
+    <string name="read_pay_tip1">次章を自動アンロック</string>
+    <string name="more_top_up_amounts">他のチャージ金額</string>
+    <string name="get_free_coins">無料コインをゲット</string>
+    <string name="purchase_now">今すぐ購入</string>
+    <string name="unlock_chapter">この章をアンロック（%s コイン）</string>
+    <string name="purchase_successful">購入成功</string>
+    <string name="purchase_failed">購入失敗</string>
+    <string name="coins">コイン</string>
+    <string name="top_up">チャージ</string>
+    <string name="about">アバウト</string>
+    <string name="top_up_record">チャージ履歴</string>
+    <string name="bonus_record">ボーナス履歴</string>
+    <string name="consumption_record">消費履歴</string>
+    <string name="books_on_auto_purchase">自動購入中の本</string>
+    <string name="pp_viewed">閲覧済み</string>
+    <string name="pp_rating">評価</string>
+    <string name="pp_settings">設定</string>
+    <string name="pp_wallet">ウォレット</string>
+    <string name="google_play_not_available">Google Play サービスが利用できません</string>
+    <string name="pp_turn_off">オフにしますか？</string>
+    <string name="pp_turn_off_content">オフにすると読書体験に影響する可能性があります。本当にオフにしますか？</string>
+    <string name="pp_no_purchase">これ以上購入できる章がありません</string>
+    <string name="purchase_more_coins">コインをさらに購入</string>
+    <string name="top_up_and_purchase">チャージしてこの章をアンロック</string>
+    <string name="feedback">フィードバック</string>
+    <string name="genres">ジャンル</string>
+    <string name="font_merriweather">Merriweather</string>
+    <string name="no_longer_remind_upgrade">今後このアップデートを表示しない</string>
+    <string name="pp_version">バージョン</string>
+    <string name="terms_service">利用規約</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="chapters">%d 章</string>
+    <string name="chapters_count">章（%d）</string>
+    <string name="last_read_chapter">最後に読んだ章：第%d章</string>
+    <string name="last_read_chapter2">最後に読んだ章：%s</string>
+    <string name="balance_bonus">残高：%dコイン + %dボーナス</string>
+    <string name="insufficient_balance">残高不足、コインを購入してください</string>
+    <string name="price_coin">%d コイン</string>
+    <string name="common_warning">警告</string>
+    <string name="total_coins_bonus">合計：%d コイン + %d ボーナス</string>
+    <string name="total_coins">合計：%dコイン</string>
+    <string name="send_feedback">フィードバックを送信</string>
+    <string name="pp_expiring_soon">%d 件がまもなく失効</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ok">確認</string>
+    <string name="common_no_data">まだデータがありません</string>
+    <string name="common_no_more">これ以上ありません</string>
+    <string name="common_loadmore">上にスライドしてもっと読み込む</string>
+    <string name="common_loading">読み込み中…</string>
+    <string name="pp_visitor">ゲスト</string>
+    <string name="pp_user_name">ユーザー名</string>
+    <string name="click_to_login">ログインしてさらにサービスを利用</string>
+    <string name="language_setting">言語設定</string>
+    <string name="switch_language_hint">言語を「%s」に切り替えてもよろしいですか？</string>
+    <string name="pp_language">言語</string>
+    <string name="remaining_chapters">残りすべての章</string>
+    <string name="coins_all_chapters">すべての章に %s コインが必要</string>
+    <string name="next_num_chapters">次の %s 章</string>
+    <string name="coins_for_num_chapters">%d 章に対して %d コインが必要</string>
+    <string name="pp_off">オフ</string>
+    <string name="pp_off_value">%d%% オフ</string>
+    <string name="pp_email_phone_hint">メール / 電話番号</string>
+    <string name="pp_email_null_hint">メール / 電話番号を入力してください</string>
+    <string name="pp_contacts">連絡先</string>
+    <string name="leave_feedback_hint">問題の詳細やご意見をお聞かせください。</string>
+    <string name="pp_problem_description">問題の詳細</string>
+    <string name="pp_problem_type">問題の種類（必須）</string>
+    <string name="pp_about_book">この本について</string>
+    <string name="pp_report">報告</string>
+    <string name="sign_in_facebook">Facebookでログイン</string>
+    <string name="sign_in_google">Googleでログイン</string>
+    <string name="sign_in_email">メールでログイン</string>
+    <string name="pp_first">最初</string>
+    <string name="writer_benefits">作家特典</string>
+    <string name="writer_central">作家センター</string>
+    <string name="copy_address_tip">ヒント：クリックしてアドレスをコピーし、PCブラウザでアクセスしてください。</string>
+    <string name="pp_all">すべて</string>
+    <string name="pp_rankings">ランキング</string>
+    <string name="pp_flip">フリップ</string>
+    <string name="pp_swipe">スワイプ</string>
+    <string name="pp_scroll">スクロール</string>
+    <string name="pp_system_font">システムフォント</string>
+    <string name="pp_contents">目次</string>
+    <string name="about_app">%s について</string>
+    <string name="pp_overview">概要</string>
+    <string name="pp_swipe_up_read">上にスワイプして読む</string>
+    <string name="pp_swipe_left_read">左にスワイプして読む</string>
+    <string name="book_detail_words">語数</string>
+    <string name="most_popular">人気作品</string>
+    <string name="read_now">今すぐ読む</string>
+    <string name="updated">更新済み</string>
+    <string name="pp_pay_restore">復元</string>
+    <string name="pp_restore_success">復元に成功しました</string>
+    <string name="pp_continue">続ける</string>
+    <string name="rewards">報酬</string>
+    <string name="pp_daily_check">毎日チェックイン</string>
+    <string name="pp_novice_tasks">初心者タスク</string>
+    <string name="pp_daily_tasks">デイリータスク</string>
+    <string name="pp_congratulations">おめでとうございます</string>
+    <string name="pp_go">進む</string>
+    <string name="pp_claim">受け取る</string>
+    <string name="pp_rewards">報酬</string>
+    <string name="pp_expired">期限切れ</string>
+    <string name="pp_done">完了</string>
+    <string name="pp_claim_failed">受け取りに失敗しました</string>
+    <string name="pp_recommend">おすすめ</string>
+    <string name="pp_free">無料</string>
+    <string name="pp_exclusive">限定</string>
+    <string name="pp_exit_read_recommend_hint">この先の内容はもっと面白いですよ！</string>
+    <string name="pp_renew">更新</string>
+    <string name="pp_tell_found">気づいたことを教えてください</string>
+    <string name="feedback_details">フィードバックの詳細</string>
+    <string name="pp_copyright_notice">著作権について</string>
+    <string name="pp_copyright_notice_hint_line1">このコンテンツが著作権を侵害していると思われる場合は、#報告#してください。</string>
+    <string name="pp_copyright_notice_hint_line2">%s が %s の許可を得て公開しています。</string>
+    <string name="pp_copyright_notice_hint_line3">© All Rights Reserved.</string>
+    <string name="pp_new">新着</string>
+    <string name="pp_team">チーム</string>
+    <string name="pp_connect_googleplay_fail">Google Play サービスにエラーが発生しました。キャッシュをクリアするか、Googleアカウントから再ログインして再試行してください。</string>
+    <string name="pp_close">閉じる</string>
+    <string name="start_reading">読み始める</string>
+    <string name="pp_skip">%d スキップ</string>
+    <string name="georgia">Georgia</string>
+    <string name="search_books">本を検索</string>
+    <string-array name="day_arr">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </string-array>
+    <string name="app_wallet">ウォレット</string>
+    <string name="pp_pending_retry_tip">しばらく経っても反映されない場合や問題が発生した場合は、#カスタマーサービス#までご連絡ください。</string>
+    <string name="pp_reward_feedback_hint">ご不明な点があれば、ヘルプセンターの #フィードバック# をご利用ください。</string>
+    <string name="pp_retry">再試行</string>
+    <string name="error_request_tip">リクエストに失敗しました。しばらくしてから再試行してください。</string>
+    <string name="book_load_error">本の読み込みに失敗しました。別の本をお試しください。</string>
+    <string name="daily_check_disable_tip">明日またチェックインしてボーナスを受け取りましょう。</string>
+    <string name="pp_notice">お知らせ</string>
+    <string name="del_account_note">この操作は取り消せません。アカウント削除の前に以下の情報を確認してください。</string>
+    <string name="del_account_title1">1. アカウントを再開することはできません</string>
+    <string name="del_account_note1">削除すると、このアカウントに再度ログインしたり使用したりすることはできません。削除されたアカウントに関連する書籍、情報、資産を復元または処分することは不可能です。再登録しても、新しいアカウントが作成されるだけです。</string>
+    <string name="del_account_title2">2. 財産と情報は削除されます</string>
+    <string name="del_account_note2">アカウントの削除は、アカウントの権利および資産を放棄したと見なされます。これには、個人情報、コイン、ボーナス、クーポン、チャージカード、その他の仮想資産が含まれます。書籍、情報、資産は適切に処理してください。</string>
+    <string name="del_account_title3">3. 紛争の解決</string>
+    <string name="del_account_note3">苦情や通報などの未解決の紛争がある場合、アカウントを削除することはできません。</string>
+    <string name="del_account_title4">4. 削除の有効時間</string>
+    <string name="del_account_note4">削除申請は30日目の24:00に自動で審査・承認されます。ただし、最終確定前にサードパーティアカウントでログインすることでプロセスを中止できます。</string>
+    <string name="read_del_account_notice_note">上記の情報を読み、この操作が元に戻せないことを理解しました。</string>
+    <string name="pp_del_account">アカウントを削除</string>
+    <string name="pp_cancel_del_account">削除をキャンセル</string>
+    <string name="pp_cancel_del_account2">アカウント削除をキャンセル</string>
+    <string name="pp_cancel_del_account_hint">アカウントは現在削除審査中です。本当に削除をキャンセルしますか？</string>
+    <string name="del_account_submitted">アカウント削除申請が提出されました。</string>
+    <string name="del_account_confirm_time">この申請は %s に自動で審査・承認されます。</string>
+    <string name="del_account_terms_read_hint">アカウント削除に関する同意事項を確認してください。</string>
+    <string name="account_in_normal_state_hint">アカウントは正常な状態です。</string>
+    <string name="account_deleted_hint">アカウントは削除されました。</string>
+    <string name="account_deleting_hint">アカウント削除が処理中です。再度お試しにならないでください。</string>
+    <string name="account_delete_action_confirm">アカウント削除が正常に提出されました。</string>
+    <string name="pp_attention">ご注意</string>
+    <string name="pp_account_deleted_hint">アカウントが削除されたことが検出されました。新しいアカウントが割り当てられ、アプリが再起動します。</string>
+    <string name="pp_think_again">もう一度考える</string>
+
+    <string name="pp_confirm">確認</string>
+    <string name="del_account_cancel_success_hint">アカウント削除を正常にキャンセルしました。</string>
+    <string name="chapter_not_exist">該当する章が存在しません。</string>
+    <string name="recharge_pedding_hint">%d 件の未完了チャージがあります。</string>
+    <string name="pp_friendly_reminder">ご案内</string>
+    <string name="pp_restore_reminder_content">「復元」ボタンをクリックした後、しばらくお待ちください。チャージがアカウントに反映されない場合やその他の問題が発生した場合は、いつでもカスタマーサポートにご連絡ください！</string>
+    <string name="pp_report_immediately">今すぐ報告</string>
+    <string name="pp_payment_error">決済エラー</string>
+    <string name="pp_payment_error_hint">現在、Google Pay はご購入をサポートしていません。他のお支払い方法をお試しください。</string>
+    <string name="pp_switch_payment">別の方法を選ぶ</string>
+    <string name="pp_operate_frequent_tip">操作が多すぎます。しばらくしてから再試行してください。</string>
+    <string name="pp_valid">有効</string>
+    <string name="pp_invalid">無効</string>
+    <string name="pp_received_time">受取時間：</string>
+    <string name="pp_expired_date">有効期限：</string>
+    <string name="pp_chapter">章</string>
+    <string name="pp_rules">ルール</string>
+    <string name="pp_rules_check_in_title">1. チェックインルール</string>
+    <string name="pp_rules_check_in_content">毎日のチェックインでボーナスを獲得できます。3日目と7日目の連続チェックインで追加報酬がもらえます。チェックインが途切れると、その日の報酬は失われます。</string>
+    <string name="pp_rules_novice_title">2. 初心者タスク</string>
+    <string name="pp_rules_novice_content">初心者タスクを完了すると、対応するボーナスが受け取れます。</string>
+    <string name="pp_rules_daily_title">3. デイリータスク</string>
+    <string name="pp_rules_daily_content">デイリータスクを完了したら、「受け取る」ボタンをクリックしてボーナスを受け取ってください。タスクは随時更新されます。更新による配布の問題がある場合は、「マイページ」からフィードバックをお寄せください。</string>
+    <string name="pp_rules_reward_rule_title">4. 報酬ルール</string>
+    <string name="pp_rules_reward_rule_content">ここでのボーナスは7日間有効です。1ボーナス＝1コイン。チャプターをアンロックする際、ボーナスが優先的に使用されます。</string>
+    <string name="pp_day">日</string>
+    <string name="net_connect_tip">ネットワークエラー。後でもう一度お試しください。</string>
+    <string name="pp_merge_assets_hint"><Data><![CDATA[ <b>%s</b> ]]></Data> アプリの資産は、<Data><![CDATA[ <b>%s</b> ]]></Data> アプリでも引き続き利用できます。資産の変動にご注意ください。</string>
+    <string name="pp_merge_assets_hint_coin"><Data><![CDATA[ <b>%s</b> ]]></Data> に含まれる資産には、本棚の書籍、%s コイン、および %s ボーナスが含まれます。</string>
+    <string name="pp_merge_assets_hint_account">資産統合に対応するアカウントは、<Data><![CDATA[ <b>%s</b> ]]></Data> アプリ内の %s アカウントです。</string>
+    <string name="pp_merge_account_success">アカウントの統合が成功しました！</string>
+    <string name="pp_merge_account_fail">アカウントの統合に失敗しました！</string>
+    <string name="pp_reward_signin_hint">サインインして、もっと無料特典を楽しみましょう</string>
+    <string name="pp_sign_in">サインイン</string>
+    <string name="pp_pay_sign_hint">アカウントとデータの安全を確保するために、ログインをお願いします。ログインしない場合、損失が生じる可能性があります！</string>
+    <string name="pp_pay_sign_cancel">無視して続行</string>
+    <string name="pp_library_login_hint">今すぐサインインして、初回限定の無料特典をお楽しみください</string>
+    <string name="pp_login_unlock_benefit">より多くの機能と特典を利用するには</string>
+    <string name="pp_login_earn_bonus">ボーナスを獲得</string>
+    <string name="pp_sign_in_continue">続けるにはサインインしてください</string>
+    <string name="pp_reader_sign_warning">アカウントの安全が危険にさらされています。すぐにログインして、アカウントとデータを保護してください。</string>
+    <string name="pp_verify_email">メール認証</string>
+    <string name="pp_link_email_hint">メールを連携して無料ボーナスを獲得しましょう</string>
+    <string name="pp_email_address">メールアドレス</string>
+    <string name="pp_verification_code">認証コード</string>
+    <string name="pp_code_send_hint">認証コードを送信しました</string>
+    <string name="pp_resend_code">(%d)再送信</string>
+    <string name="pp_verification_code_send_successful">認証コードを送信しました。メールをご確認ください。</string>
+    <string name="pp_already_bind_hint">このアプリのアカウントは #%s# プラットフォームの他のアカウントにすでに連携されています。</string>
+    <string name="pp_more_login_methods">他のログイン方法</string>
+    <string name="pp_switch_account">アカウントを切り替える</string>
+    <string name="pp_switch_account_hint">このログイン方法は別のアカウントに連携されています。アカウントを切り替えて資産を統合しますか？</string>
+    <string name="pp_reminder">リマインダー</string>
+    <string name="pp_email_code_expire">認証コードの有効期限が切れています！</string>
+    <string name="pp_email_code_error">認証コードが間違っています！</string>
+    <string name="pp_preference_setting">好みの設定</string>
+    <string name="pp_select_tag_hint">あなたに最適な本をおすすめするため、タグを選んでください</string>
+    <string name="pp_skip2">スキップ</string>
+    <string name="pp_reading_preference">読書の好み</string>
+    <string-array name="ranking_left_tab">
+        <item>ベスト</item>
+        <item>人気</item>
+        <item>期待</item>
+        <item>新着</item>
+        <item>完結</item>
+    </string-array>
+    <string name="app_hot">人気</string>
+    <string name="app_new">新着</string>
+    <string name="app_read_guide_gesture_hint">このエリアを上下にスワイプしてページをめくります</string>
+    <string name="unlock_now">今すぐアンロック</string>
+    <string name="unlock_successful">アンロック成功</string>
+    <string name="unlock_fail">アンロック失敗</string>
+    <string name="top_up_failed">チャージ失敗</string>
+    <string name="top_up_cancel">チャージをキャンセルしました</string>
+
+    <string name="payment_recharge_error">お支払いに問題が発生しました。次の手順で解決してください：\n\n1. Google Play を開く\n2. [お支払いと定期購入] に移動\n3. [予算と履歴] を選択\n4. 注文をキャンセルして、支払い金額を変更するか別の支払い方法を選んでください。</string>
+    <string name="payment_recharge_error_other">お支払いに問題が発生しました。次の手順で解決してください：\n1. %s を開く\n2. 注文をキャンセルする\n3. 支払い金額を変更するか、別の支払い方法を使用してください。</string>
+    <string name="payment_window_bottom_tip">ご不明な点がございましたら、#カスタマーサービス#までお問い合わせください。</string>
+    <string name="payment_bottom_ignore">無視する</string>
+    <string name="payment_pending_title">チャージ処理中</string>
+    <string name="payment_pending_content">チャージの処理中です。5〜10分ほど遅れる場合があります。</string>
+    <string name="payment_pending_button">加速する</string>
+    <string name="payment_pending_accelerating">加速中…</string>
+    <string name="payment_pending_keep">待機を続ける</string>
+    <string name="payment_pending_shoose_other">ご注文はまだ処理中です。通常より時間がかかっています。もう少しお待ちいただき、支払いが完了しない場合は別の方法をお試しください。</string>
+    <string name="top_up_successful">チャージ成功</string>
+    <string name="have_incomplete_payment">未完了の支払い注文があります。別の金額または支払い方法をお試しください。</string>
+
+    <string name="pending_clicking_frequently">操作が多すぎます。しばらくしてからお試しください。</string>
+    <string name="order_processing">注文処理中</string>
+    <string name="proceed_cancel_order_hint">キャンセルすると未完了の支払いが中断されます。</string>
+    <string name="cancel_order_feedback_title">キャンセルの理由をお聞かせください</string>
+    <string name="cancel_order_feedback_subtitle">ご意見はサービス改善に役立ちます。</string>
+    <string name="payment_not_working">支払い方法が機能しない</string>
+    <string name="price_too_high">価格が高すぎる</string>
+    <string name="pick_wrong_product">誤った商品を選択した</string>
+    <string name="payment_page_slow">支払いページの表示が遅い</string>
+    <string name="change_mind">気が変わった／その他</string>
+    <string name="other_reason_share">（任意）その他の理由があればご記入ください。</string>
+
+    <string name="load_failed">読み込みに失敗しました。タップして再試行してください。</string>
+    <string name="load_end">これ以上ありません〜</string>
+
+    <string name="other_payment_methods">他の支払い方法</string>
+    <string name="select_payment_method">支払い方法を選択</string>
+    <string name="payment_unavailable_attention">この支払い方法はご利用いただけません。別の方法をお試しください。</string>
+
+    <string name="login_welcome">%sへようこそ</string>
+    <string name="login_other_methods">他のログイン方法</string>
+
+    <string name="help_feedback">ヘルプ＆フィードバック</string>
+    <string name="faq">よくある質問</string>
+
+    <string name="recharge_not_receive_q">チャージが成功したのにコインが届かない場合はどうすればいいですか？</string>
+    <string name="recharge_not_receive_a">
+        銀行取引が成功しており、支払いが引き落とされているかをご確認ください。支払いが完了している場合は、アプリを再起動してウォレットや取引履歴が更新されているかをご確認ください。
+        \n\n
+        重要な注意点：
+        \n\n
+        ・チャージに使用したアカウントでログインしていることをご確認ください。時には、ゲストとしてチャージしてしまうケースもあります。
+        \n\n
+        ・取引の処理に時間がかかる場合があります。支払い方法によって異なりますが、支払い後10分ほどお待ちいただき、ウォレットや履歴の更新をご確認ください。
+        \n\n
+        上記の方法でも解決しない場合は、「フィードバック」よりお問い合わせください。
+    </string>
+
+    <string name="cannot_complete_payment_q">支払いが完了できません。</string>
+    <string name="cannot_complete_payment_a">
+        ・ストアでエラーメッセージが表示された場合、ネットワークが正常に機能しているか確認してください。別のWiFiなどネットワーク環境の変更をお試しください。
+        \n\n
+        ・また、GoogleまたはAppleアカウントにログインしていない場合も問題が発生することがあります。
+        \n\n
+        ・上記のいずれでも解決しない場合は、問題の詳細をフィードバックしてください。
+    </string>
+
+    <string name="refund_payment_q">支払い後に返金を申請できますか？</string>
+    <string name="refund_payment_a">
+        現在、返金は対応しておりません。コインとボーナスはチャプターのアンロックにご利用いただけます。
+    </string>
+
+    <string name="disable_automatic_purchase_q">自動購入機能をオフにするには？</string>
+    <string name="disable_automatic_purchase_a">「マイ」＞「ウォレット」＞「自動アンロック中の本」から無効にできます。</string>
+
+    <string name="view_unlock_chapter_history_q">チャプターのアンロック履歴を確認するには？</string>
+    <string name="view_unlock_chapter_history_a">「マイ」＞「ウォレット」＞「消費履歴」から確認できます。</string>
+
+    <string name="get_coins_bonus_q">コインとボーナスはどうやって取得しますか？</string>
+    <string name="get_coins_bonus_a">チャージイベントや、福祉センターのタスクを完了することでボーナスがもらえます。コインはチャージによってのみ取得可能です。</string>
+
+    <string name="difference_coins_bonus_q">コインとボーナスの違いは何ですか？</string>
+    <string name="difference_coins_bonus_a">
+        ・どちらもチャプターのアンロックに使用できます。
+        \n\n
+        ・ボーナスには有効期限があります。「ウォレット」＞「ボーナス履歴」でご確認ください。
+    </string>
+
+    <string name="check_user_id_q">ユーザーIDの確認方法は？</string>
+    <string name="check_user_id_a">
+        ゲストアカウント：
+        \n
+        1.「マイページ」をタップ。
+        \n
+        2.アバターの右側に表示される数字がユーザーIDです。
+        \n\n\n
+        アカウント連携済み：
+        \n
+        1.「マイページ」をタップ。
+        \n
+        2.上部のアバターをタップして新しいページを開く。
+        \n
+        3.アバター下の数字がユーザーIDです。
+    </string>
+    <string name="assets_synchronize_q">別の端末でログインした場合、資産は同期されますか？</string>
+    <string name="assets_synchronize_a">
+        同じアカウントでログインすることで、資産はすぐに同期されます。手順は以下の通りです：
+        \n\n
+        ・以前の端末で、GoogleやFacebookなどのサードパーティアカウントでログインしてください。
+        \n\n
+        ・アカウントのユーザーIDとパスワードを控えておいてください。
+        \n\n
+        ・新しい端末で同じアカウントでログインします。
+        \n\n
+        ・ユーザーIDが記録したものと一致しているかご確認ください。
+        \n\n
+        進行状況の保存を確実にするため、新端末への切り替え前に旧端末での読書を完了することをおすすめします。
+    </string>
+
+    <string name="categories">カテゴリ</string>
+    <string name="recharge_issues">チャージに関する問題</string>
+    <string name="coin_bonus_issues">コイン・ボーナスに関する問題</string>
+    <string name="chapter_unlock_issues">チャプターのアンロックに関する問題</string>
+    <string name="book_issues">チャプターのアンロックに関する問題</string> <!-- 「Book issues」が同じ訳にされているようですが、必要なら別訳に変更可能です -->
+    <string name="account_issues">アカウントに関する問題</string>
+    <string name="other">その他</string>
+
+    <string name="error_code3_a">このようなエラーコードの場合は、Google Playサービスを更新するか、別の支払い方法をご利用ください。</string>
+
+    <string name="coins_bonus_reduce_a">
+        ・別のアカウントにログインしている可能性があります。ボーナス受取履歴を確認し、継続的な記録があるかを確認してください。
+        \n\n
+        ・ログイン方法にはFacebook、Google、メールアドレスなど複数あります。いずれも使用していない場合は、端末にはゲストアカウントが作成されます。「マイ」ページで確認できます。
+        \n\n
+        ・ボーナスが減少している場合は、まずボーナス履歴をご確認ください。一部のボーナスが有効期限切れになっている可能性があります。
+        \n\n
+        ・自動アンロック機能を有効にしている可能性があります。チャプターのアンロック履歴を確認し、コインやボーナスが消費されていないか確認してください。
+        \n\n
+        ・上記の方法で解決しない場合は、「フィードバック」からお問い合わせください。
+    </string>
+
+    <string name="check_bonus_usage_history">「マイ」＞「ウォレット」＞「消費履歴」で、コインやボーナスの使用履歴をご確認いただけます。</string>
+
+    <string name="unlock_chapter_a">チャプターは個別または一括でアンロックできます。ご希望に応じて選択可能です。アンロックにはコインまたはボーナスが必要です。残高が不足している場合はチャージが必要です。</string>
+
+    <string name="unable_next_chapter_a">
+        ・ネットワーク接続が正常であることをご確認ください。ネットワークの切り替えをお試しください。
+        \n\n
+        ・コインやボーナスの残高が十分であることをご確認ください。
+    </string>
+
+    <string name="grammar_spell_error_a">「フィードバック」から書籍名と該当チャプターをお知らせください。迅速に対応いたします。</string>
+    <string name="violent_insult_content_a">「フィードバック」から書籍名と該当チャプターをお知らせください。対応いたします。</string>
+    <string name="paid_book_pay_again_a">購入された書籍はお客様の資産として保持されます。削除してしまった場合は、「マイ」＞「閲覧履歴」から再度取得可能です。</string>
+    <string name="bookshelf_coin_assets_disappeared_a">このような状況は、異なるアカウントまたは端末でログインした場合によく発生します。通常ご使用のアカウントでログインしているかご確認ください。解決しない場合は、「フィードバック」よりご連絡ください。</string>
+
+    <string name="login_del_account_a">
+        ログイン方法：
+        \n
+        1.「マイページ」をタップ
+        \n
+        2.「アバター」をタップ
+        \n
+        3.「ログイン方法」を選択
+        \n\n\n
+        アカウント削除：
+        \n
+        1.「マイページ」をタップ
+        \n
+        2.「設定」をタップ
+        \n
+        3.「アカウント削除」をタップ
+    </string>
+
+    <string-array name="issues_category_item">
+        <item>チャージに関する問題</item>
+        <item>コイン・ボーナスに関する問題</item>
+        <item>チャプターのアンロックに関する問題</item>
+        <item>書籍に関する問題</item>
+        <item>アカウントに関する問題</item>
+        <item>その他</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>チャージが成功したのにコインが届かない場合は？</item>
+        <item>支払いが完了できません</item>
+        <item>エラーコード3</item>
+        <item>支払い後に返金を申請できますか？</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>コインとボーナスはどうやって取得しますか？</item>
+        <item>コインやボーナスが消失または減少しました</item>
+        <item>コインとボーナスの違いは何ですか？</item>
+        <item>ボーナスの使用履歴を確認するには？</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>チャプターのアンロック方法は？</item>
+        <item>チャプターのアンロック履歴を確認するには？</item>
+        <item>自動購入機能をオフにするには？</item>
+        <item>次のチャプターが読めません</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>内容が繰り返されていたり、文法やスペルの誤りがあります。</item>
+        <item>暴力的、侮辱的、不適切な内容が含まれています。</item>
+        <item>有料書籍を本棚から削除した場合、再度支払いが必要ですか？</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>ユーザーIDの確認方法は？</item>
+        <item>ログイン/アカウント削除の方法は？</item>
+        <item>異なるデバイスでログインすると資産は同期されますか？</item>
+        <item>本棚の記録やコイン資産が消えてしまいました</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>問題を迅速に解決するために、「フィードバック」からご連絡ください。</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">まだ問題が解決しない場合は、#フィードバック# をクリックしてください</string>
+
+    <string-array name="subscribe_tips">
+        <item>コインとボーナスの取得方法は？</item>
+        <item>コインやボーナスが消えた/減った</item>
+        <item>コインとボーナスの違いは？</item>
+        <item>ボーナスの使用履歴を確認する方法は？</item>
+    </string-array>
+
+    <string name="total">合計：%d</string>
+    <string name="subscription_get_coins_bonus">%dコインと%dボーナスを獲得</string>
+    <string name="subscription_login_bonus">%d日連続ログインで%dボーナス獲得</string>
+    <string name="per_week">/週</string>
+    <string name="details">詳細</string>
+    <string name="subscription_in_effect">有効中</string>
+    <string name="subscription_date">有効期限：%s</string>
+    <string name="subscription_get_coins">%dコインを獲得</string>
+
+    <string name="subscription_bonus">+%d ボーナス</string>
+    <string name="subscription">マイサブスクリプション</string>
+    <string name="subscription_rewards">サブスクリプション特典</string>
+    <string name="subscription_claim_title">サブスクリプション特典を受け取る</string>
+    <string name="claim_success">受け取り成功</string>
+    <string name="claim_fail">受け取り失敗</string>
+    <string name="days">第%d日</string>
+
+    <string name="subscription_success">サブスクリプション登録完了</string>
+    <string name="subscribe_success_tip">%dコインと%dボーナスを獲得しました。毎日%dボーナスを受け取れます。</string>
+
+    <string name="subscribe_tips1">1. 購入金額はお支払いアカウントから引き落とされます。</string>
+    <string name="subscribe_tips2">2. サブスクリプションは自動更新されます。毎月などの請求期間ごとに自動的に課金されます。更新日の24時間前以内に請求される場合があります。</string>
+    <string name="subscribe_tips3">3. サブスクリプションは、更新日の24時間以上前であればいつでもキャンセルできます。</string>
+    <string name="subscribe_tips4">4. チャージにより贈られたボーナスの有効期間は%d日です。</string>
+    <string name="subscribe_tips5">5. ボーナスは7日間に分けて配布され、期限切れ後に未受領分は回収できません。</string>
+    <string name="subscribe_tips6">6. コインとボーナスは同等の価値があります。未失効のボーナスは仮想アイテムであり、返金には対応しておりません。</string>
+    <string name="subscribe_tips7">7. お困りですか？#FAQ#をご覧ください。</string>
+
+    <string name="subscribe_rules">1. サブスクリプションにより、%sコインと%sボーナスを即時獲得できます。\n2. %s日連続ログインで%sボーナスを受け取れます（1日あたり%sボーナス）。\n3. サブスクリプション後はウォレットで追加特典を確認できます。</string>
+
+    <string name="subscribe_pay_title">サブスクリプション契約</string>
+    <string name="subscribe_pay_tip1_title">1. 支払い：</string>
+    <string name="subscribe_pay_tip1_content">購入金額はお支払いアカウントから引き落とされます。</string>
+    <string name="subscribe_pay_tip2_title">2. 自動更新：</string>
+    <string name="subscribe_pay_tip2_content">サブスクリプションは自動的に更新されます。毎月または別の請求期間ごとに自動課金され、更新日の24時間以内に請求されることがあります。</string>
+    <string name="subscribe_pay_tip3_title">3. 解約：</string>
+    <string name="subscribe_pay_tip3_content">サブスクリプションは、更新日の24時間以上前であればいつでも解約できます。解約は支払いプラットフォームから行ってください。</string>
+    <string name="subscribe_pay_tip4_title">4. サブスクリプションの管理：</string>
+    <string name="subscribe_pay_tip4_content">サブスクリプションの確認、変更、解約が可能です。</string>
+
+    <string name="subscribe_out_of_date">サブスクリプションの有効期限が切れました！</string>
+
+    <string name="pp_got_it">了解しました</string>
+    <string name="got_it">了解しました</string>
+    <string name="pp_get">了解しました</string>
+
+    <string name="pp_submit">送信</string>
+    <string name="pp_submitted">送信済み</string>
+    <string name="pp_submit_fail">送信失敗</string>
+
+    <string name="admob_watch_ad_add_tip">広告視聴で +%s ボーナス</string>
+    <string name="admob_loading_tip">広告を読み込み中です。後でもう一度お試しください。</string>
+    <string name="admob_waiting_count_down">カウントダウン後に広告の視聴を続けてください</string>
+
+    <string name="bonus_value">%d ボーナス</string>
+    <string name="bonus">ボーナス</string>
+    <string name="bonus_ad_claimed">%d ボーナスを受け取りました</string>
+
+    <string name="admob_watch_tip">広告を見てボーナスを獲得しよう</string>
+    <string name="admob_earn_bonus_tip">広告を1本見るごとに%dボーナスを獲得</string>
+    <string name="admob_watch_count_tip">広告視聴 %d/%d</string>
+    <string name="admob_count_down_tip">%s に広告を再度視聴できます</string>
+    <string name="admob_daily_desc">動画広告1本につき %d ボーナス、完了数 %d/%d</string>
+
+    <string name="usa_ad_privacy">広告設定</string>
+
+    <string name="unlock_watch_count">広告を見てアンロック (%d/%d)</string>
+    <string name="unlock_watch_title">広告を見てアンロック</string>
+    <string name="unlock_watch_desc">広告を見ることでこの章をアンロックできます</string>
+    <string name="unlock_watch_now">今すぐ見る</string>
+    <string name="unlock_watch_chapter_count">本日%d章を無料でアンロックできます (%d/%d) </string>
+
+    <string name="email_login_top">アカウントで使用したメールアドレスを入力してください</string>
+    <string name="email_address_enter_tip">メールアドレスを入力</string>
+    <string name="email_code_enter_tip">認証コードを入力</string>
+    <string name="email_send_code">コードを送信</string>
+
+    <string name="facebook_link_title">Facebookアカウントをリンク</string>
+    <string name="facebook_link_content">Facebookアカウントをリンクしてコインをもっと獲得しましょう。心配いりません、このアカウントにリンクされた現在の進行状況とデータはそのまま残ります</string>
+
+    <string name="limit_time_title">期間限定オファー</string>
+    <string name="limit_time_content">今すぐゲット — 史上最安値、期間限定！</string>
+    <string name="limit_time_premium">プレミアムセクションの閲覧</string>
+
+    <string name="subscribe_now">今すぐ購読</string>
+    <string name="transaction_ompleted">取引が完了しました</string>
+    <string name="transaction_content">コインの購入が成功しました。ボーナスは7日間有効です。</string>
+
+    <string name="send_again">再送信</string>
+    <string name="ad_unlock">広告を解除</string>
+
+    <string name="member_benefits">プレミアム会員特典</string>
+    <string name="unlimit_premium_books">10,000冊以上のプレミアム書籍が読み放題</string>
+    <string name="weekly_access_books">毎週200冊以上の厳選書籍にアクセス</string>
+    <string name="enjoy_add_free_experience">広告なしで快適な読書体験を</string>
+    <string name="premium_member_identity">プレミアム会員ステータス</string>
+    <string name="subscribe">購読する</string>
+    <string name="unlimit_reading">読み放題！</string>
+    <string name="only_1499_price">わずか$14.99</string>
+    <string name="premium">プレミアム</string>
+    <string name="premium_first_week_discount">最初の1週間は%s、その後は毎週%s</string>
+    <string name="premium_expire_date">有効期限：%s</string>
+    <string name="discover_vip_price">わずか$14.99</string>
+    <string name="premium_daily_active_text">あなたのデイリーメンバーシップは有効です</string>
+    <string name="premium_week_active_text">週単位の会員登録が有効です。</string>
+    <string name="premium_year_active_text">年間会員登録が有効になりました。</string>
+    <string name="premium_expire_time">%sに有効期限が切れます</string>
+
+    <string name="vip_rules">1. プレミアムを購読すると、プレミアム限定のすべての書籍を無料でご利用いただけます。\n2. 支払い：購入代金はお支払いアカウントから差し引かれます。\n3. 自動更新：サブスクリプションは自動的に更新されます。月単位またはその他の期間ごとに、各請求期間の24時間以内に課金される場合があります。キャンセルするまで自動的に請求され続けます。\n4. キャンセル：更新日の24時間以上前であれば、いつでもサブスクリプションをキャンセルできます。キャンセルするには、支払いプラットフォームにアクセスしてください。
+    </string>
+
+    <string name="premium_month_active_text">あなたのマンスリーメンバーシップは有効です</string>
+
+    <string name="top_up_history">チャージ履歴</string>
+    <string name="not_activated">未アクティブ</string>
+    <string name="vip_feedback_rule">
+        6. サポートが必要な場合やご質問がある場合は、#Feedback# にてご連絡ください。
+    </string>
+
+    <string name="unlock_adv_used">広告による解除は使い切りました。明日もう一度お試しください</string>
+    <string name="expiration_date">有効期限：</string>
+    <string name="select_gender">性別を選択してください</string>
+    <string name="enter_nickname">ニックネームを入力してください…</string>
+    <string name="enter_email">ここにメールアドレスを入力してください…</string>
+    <string name="select_birthday">生年月日を選択してください</string>
+
+
+    <string name="pay_premium_weekly_membership">週間メンバーシップ</string>
+    <string name="pay_premium_monthly_membership">月間メンバーシップ</string>
+    <string name="pay_save_value">%s%%お得</string>
+    <string name="pay_unlock_chapter_count">%s章をアンロック</string>
+    <string name="pay_coins">%sコイン</string>
+    <string name="pay_unlock_in_bulk">一括アンロック</string>
+    <string name="top_up_now">今すぐチャージ</string>
+    <string name="dont_waste_time">時間を無駄にしないで</string>
+    <string name="subscribe_unlock_tip">購読してすぐにアンロック</string>
+    <string name="auto_renew_cancel_tip">自動更新 · いつでもキャンセル可能</string>
+    <string name="week">週</string>
+    <string name="month">月</string>
+    <string name="books_free_cycle">すべての本が1%s無料</string>
+    <string name="unlock_all_story">すべてのストーリーをアンロック</string>
+    <string name="premium_benefits">プレミアムメンバーシップ特典</string>
+    <string name="read_free">無料で読む</string>
+    <string name="no_ads">広告なし</string>
+    <string name="early_access">早期アクセス</string>
+    <string name="pay_premium_yearly_membership">年間メンバーシップ</string>
+    <string name="year">年</string>
+    <string name="per_month">/月</string>
+    <string name="per_year">/年</string>
+    <string name="pay_premium_daily_membership">デイリーメンバーシップ</string>
+    <string name="day">日</string>
+    <string name="per_day">/日</string>
+    <string name="pay_premium_free_for">すべての本が%s間無料</string>
+    <string name="top_up_more">もっとチャージして、もっとお得に</string>
+    <string name="premium_books_free">すべての本が無料で読み放題</string>
+    <string name="join_premium">メンバーシップに参加</string>
+
+    <string name="subscription_now">今すぐサブスクライブ</string>
+    <string name="get_special_offer">特別オファーを入手！</string>
+    <string name="sevel_month">/%dヶ月</string>
+
+    <string name="subscription_agreement">サブスクリプション契約</string>
+    <string name="subscription_agreement_tips1">1. Premiumにサブスクライブすると、すべての本に無料でアクセスできます。</string>
+    <string name="subscription_agreement_tips2">2. お支払い：購入料金はお支払いアカウントから引き落とされます。</string>
+    <string name="subscription_agreement_tips3">3. 更新：サブスクリプションは自動的に更新されます。サブスクリプションは、月次またはその他の期間に関係なく、各請求期間に自動的に課金されます。サブスクリプションをキャンセルするまで、各請求期間の開始24時間前までに課金される場合があります。</string>
+    <string name="subscription_agreement_tips4">4. キャンセル：更新日の24時間以上前であれば、いつでもサブスクリプションをキャンセルできます。サブスクリプションをキャンセルするには、決済プラットフォームにアクセスしてください。</string>
+
+    <string name="enjoy_app_so_for">アプリを楽しんでいますか？</string>
+    <string name="thank_for_support">ご利用ありがとうございます！\n評価で応援していただけると嬉しいです。</string>
+    <string name="five_star">星5</string>
+    <string name="maybe_later">あとで</string>
+    <string name="thank_help_improve">ご協力ありがとうございます！</string>
+    <string name="continue_bring_more_emotional">皆さまのおかげで感動的な物語を届け続けられます。</string>
+    <string name="continue_reading">読み続ける</string>
+    <string name="read_more">もっと読んで、もっとお得に</string>
+    <string name="this_chapter">この章</string>
+    <string name="my_wallet">マイウォレット</string>
+
+    <string name="featured_collection">おすすめコレクション</string>
+    <string name="book_catalog">書籍カタログ</string>
+    <string name="fold_up">折りたたむ</string>
+    <string name="choose_your_plan">プランを選択</string>
+    <string name="select_payment_method_2">お支払い方法を選択</string>
+    <string name="personalized_tip">お好みに基づくパーソナライズされたおすすめ</string>
+    <string name="money_back_tip">返金保証</string>
+    <string name="what_you_get">受け取れる特典</string>
+    <string name="premium_center_recharge_tip">続行することで、サブスクリプションが自動更新されることに同意したことになります。サブスクリプションは、月額またはその他のサイクルにかかわらず、各請求期間ごとに自動的に課金されます。サブスクリプションをキャンセルするまで、各請求期間の開始24時間前までに課金される場合があります。キャンセルおよび返金ポリシーの詳細は、#サブスクリプション規約#でご確認いただけます。</string>
+    <string name="premium_pay_safe">安全・安心な支払い</string>
+    <string name="premium_access">プレミアムアクセス</string>
+    <string name="unlock_unlimited_books">無制限の本のロックを解除</string>
+    <string name="limit_title_premium">すべての本が無料で読み放題</string>
+    <string name="secure_payment">安全なお支払い</string>
+    <string name="easy_cancellation">簡単キャンセル</string>
+    <string name="money_back_guarantee">返金保証</string>
+    <string name="subscription_renews_tip">導入期間終了後、サブスクリプションは選択したプラン価格で自動更新されます。いつでもキャンセルできます。</string>
+    <string name="first_days">最初の%d日間</string>
+    <string name="then_price">その後$%.2f</string>
+    <string name="only_price">わずかUS$%.2f/日</string>
+    <string name="full_story">物語の続きが待っています</string>
+    <string name="continue_read_unlock">読み続けて、待ち望んだ結末のロックを解除しましょう。</string>
+    <string name="trust_readers">1,000万人以上の読者が信頼</string>
+    <string name="keep_reading">読み続ける</string>
+    <string name="no_Interruptions">邪魔はなし</string>
+    <string name="stories_num">10,000以上の物語</string>
+    <string name="read_full_story">物語をすべて読む</string>
+    <string name="without_limit">制限なし</string>
+    <string name="unlock_romance">本日の読者向け特典で、無制限のロマンス・ファンタジー・ワーウルフの物語のロックを解除しましょう。</string>
+    <string name="save_percent">%d%%割引</string>
+    <string name="daily">日額</string>
+    <string name="weekly">週額</string>
+    <string name="monthly">月額</string>
+    <string name="yearly">年額</string>
+    <string name="cancel_anytime">いつでもキャンセル可能</string>
+    <string name="continue_story">物語を続ける</string>
+    <string name="next_chapter_waiting">次の章が待っています</string>
+    <string name="continue_read_long">今すぐ物語を続き、同じような物語を何千も読もう。</string>
+    <string name="read_full_stories">物語をすべて読む</string>
+    <string name="start_short_reading">無制限の読書を始める</string>
+
+</resources>
+<!--
+    日语
+!-->

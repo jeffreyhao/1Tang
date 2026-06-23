@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme.SplashActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_launch</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+    </style>
+
+
+
+    <style name="Theme.TimePicker" parent="android:Theme.Holo.Light">
+        <item name="android:editTextStyle">@style/Widget.EditText.White</item>
+    </style>
+
+    <style name="Widget.EditText.White" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/pp_color_666666</item>
+    </style>
+
+
+    <style name="WidgetMaterialTimePicker"
+        parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="materialCalendarStyle">@style/Widget.MaterialComponents.MaterialCalendar</item>
+        <item name="materialCalendarFullscreenTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar</item>
+
+        <item name="colorSurface">@color/gray_ce</item> <!-- 设置您想要的颜色 -->
+
+        <item name="android:layout_gravity">bottom|center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+
+    </style>
+
+
+
+
+
+<!--    <style name="Divider">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/divider_height</item>-->
+<!--        <item name="android:background">?android:listDivider</item>-->
+<!--    </style>-->
+
+<!--    <style name="DatePicker" />-->
+
+<!--    <style name="DatePicker.CurrentMonth">-->
+<!--        <item name="android:textColor">?android:textColorSecondary</item>-->
+<!--        <item name="android:gravity">center</item>-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">@dimen/current_month_header_height</item>-->
+<!--        <item name="android:background">?selectableItemBackground</item>-->
+<!--        <item name="android:paddingLeft">@dimen/current_month_header_padding_sides</item>-->
+<!--        <item name="android:paddingRight">@dimen/current_month_header_padding_sides</item>-->
+<!--    </style>-->
+
+<!--    <style name="DatePicker.EditModeToggle">-->
+<!--        <item name="android:layout_width">@dimen/edit_mode_toggle_size</item>-->
+<!--        <item name="android:layout_height">@dimen/edit_mode_toggle_size</item>-->
+<!--        <item name="android:padding">@dimen/edit_mode_toggle_padding</item>-->
+<!--        <item name="android:scaleType">fitXY</item>-->
+<!--        <item name="android:src">@drawable/ic_edit</item>-->
+<!--    </style>-->
+
+<!--    <style name="DatePicker.EditInputLayout" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">-->
+<!--        <item name="android:hint">@string/enter_date</item>-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:visibility">gone</item>-->
+<!--    </style>-->
+
+<!--    <style name="DatePicker.Chevron">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">@dimen/current_month_header_height</item>-->
+<!--        <item name="android:scaleType">center</item>-->
+<!--        <item name="android:layout_marginTop">1dp</item>-->
+<!--    </style>-->
+
+<!--    <style name="DatePicker.Chevron.Start" parent="DatePicker.Chevron">-->
+<!--        <item name="android:src">@drawable/ic_chevron_left</item>-->
+<!--        <item name="android:contentDescription">@string/previous_month</item>-->
+<!--    </style>-->
+
+<!--    <style name="DatePicker.Chevron.End" parent="DatePicker.Chevron">-->
+<!--        <item name="android:src">@drawable/ic_chevron_right</item>-->
+<!--        <item name="android:contentDescription">@string/next_month</item>-->
+<!--    </style>-->
+
+<!--    <style name="DatePicker.HeaderTitle">-->
+<!--        <item name="android:paddingTop">@dimen/header_main_title_margin_top</item>-->
+<!--        <item name="android:paddingLeft">@dimen/header_main_padding_horizontal</item>-->
+<!--        <item name="android:paddingRight">@dimen/header_main_padding_horizontal</item>-->
+<!--        <item name="android:textSize">@dimen/header_main_text_size_title</item>-->
+<!--        <item name="android:textColor">?android:textColorPrimaryInverse</item>-->
+<!--        <item name="android:maxLines">1</item>-->
+<!--        <item name="android:textAllCaps">true</item>-->
+<!--    </style>-->
+
+<!--    <style name="DatePicker.HeaderDate">-->
+<!--        <item name="android:paddingTop">@dimen/header_main_title_margin_bottom</item>-->
+<!--        <item name="android:paddingBottom">@dimen/header_main_date_margin_bottom</item>-->
+<!--        <item name="android:paddingLeft">@dimen/header_main_padding_horizontal</item>-->
+<!--        <item name="android:paddingRight">@dimen/header_main_padding_horizontal</item>-->
+<!--        <item name="android:textSize">@dimen/header_main_text_size_date</item>-->
+<!--        <item name="android:textColor">?android:textColorPrimaryInverse</item>-->
+<!--        <item name="android:maxLines">2</item>-->
+<!--    </style>-->
+
+<!--    <style name="DayOfMonthList">-->
+<!--        <item name="android:scrollbars">vertical</item>-->
+<!--        <item name="android:layout_width">0dp</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:clipToPadding">false</item>-->
+<!--    </style>-->
+
+<!--    <style name="DayOfMonthList.Item">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:gravity">center</item>-->
+<!--        <item name="android:layout_gravity">center</item>-->
+<!--        <item name="android:minHeight">@dimen/week_day_row_height</item>-->
+<!--        <item name="android:textSize">@dimen/week_day_row_column_text_size</item>-->
+<!--    </style>-->
+
+<!--    <style name="YearList">-->
+<!--        <item name="android:scrollbars">vertical</item>-->
+<!--        <item name="android:layout_width">0dp</item>-->
+<!--        <item name="android:layout_height">0dp</item>-->
+<!--        <item name="android:visibility">invisible</item>-->
+<!--        <item name="android:clipToPadding">false</item>-->
+<!--        <item name="android:paddingTop">@dimen/year_list_top_padding</item>-->
+<!--    </style>-->
+
+<!--    <style name="YearList.Row">-->
+<!--        <item name="android:scrollbars">none</item>-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:visibility">visible</item>-->
+<!--    </style>-->
+
+<!--    <style name="YearList.RowText">-->
+<!--        <item name="android:scrollbars">none</item>-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">match_parent</item>-->
+<!--        <item name="android:gravity">center</item>-->
+<!--        <item name="android:layout_gravity">center</item>-->
+<!--        <item name="android:textSize">@dimen/year_list_text_size</item>-->
+<!--        <item name="android:textColor">@color/year_list_row_text_color</item>-->
+<!--        <item name="android:paddingLeft">@dimen/year_list_text_padding_horizontal</item>-->
+<!--        <item name="android:paddingRight">@dimen/year_list_text_padding_horizontal</item>-->
+<!--        <item name="android:paddingTop">@dimen/year_list_text_padding_vertical</item>-->
+<!--        <item name="android:paddingBottom">@dimen/year_list_text_padding_vertical</item>-->
+<!--        <item name="android:visibility">visible</item>-->
+<!--    </style>-->
+
+
+</resources>

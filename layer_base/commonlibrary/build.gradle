@@ -1,0 +1,57 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.jess.baselibrary"
+
+    buildFeatures {
+        viewBinding true    // 会生成Binding布局类，轻度掉性能
+        dataBinding true    // viewBinding + 双向数据绑定，中度掉性能
+    }
+}
+
+dependencies {
+    implementation project(path: ':layer_base:base_res')
+    implementation project(path: ':layer_base:base_api')
+    implementation project(path: ':layer_base:base_util')
+    implementation project(path: ':layer_base:base_net')
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation Dep.appcompat
+    implementation Dep.constraintlayout
+    implementation Dep.recyclerview
+    implementation Dep.material
+
+    implementation Dep.retrofit
+    implementation Dep.retrofit2_conv_gson
+    implementation Dep.retrofit2_adapter_rx
+    implementation Dep.retrofit2_adapter_3rd
+    implementation Dep.oaid_cn
+    implementation Dep.utilcodex
+    implementation Dep.lottie
+
+    implementation Dep.eventbus
+
+    implementation Dep.glide
+    implementation Dep.glide_okhttp3
+
+    implementation Dep.rxandroid
+    implementation Dep.rxjava
+    implementation Dep.rxjava2_android
+    implementation Dep.okhttp3
+
+    implementation Dep.refresh_layout
+    implementation Dep.refresh_header
+    implementation Dep.legacy
+
+    implementation Dep.palette
+
+
+    annotationProcessor Dep.glide_compiler
+
+    //解决Glide找不到Android声明库问题
+    annotationProcessor Dep.annotaton
+
+}

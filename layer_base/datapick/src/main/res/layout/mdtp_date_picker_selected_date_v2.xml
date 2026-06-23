@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mdtp_day_picker_selected_date_layout"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_weight="1"
+    android:background="#FF6979"
+    android:gravity="top"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:orientation="vertical" >
+
+    <com.wdullaer.materialdatetimepicker.AccessibleTextView
+        android:id="@+id/mdtp_date_picker_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:background="@color/transparent"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        tools:text="2015" />
+
+    <com.wdullaer.materialdatetimepicker.AccessibleLinearLayout
+        android:id="@+id/mdtp_date_picker_month_and_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:background="@color/transparent"
+        android:textColor="@color/mdtp_date_picker_selector" >
+        <TextView
+            android:id="@+id/mdtp_date_picker_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:background="@color/transparent"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            tools:text="Fri, May 15"/>
+    </com.wdullaer.materialdatetimepicker.AccessibleLinearLayout>
+
+</LinearLayout>

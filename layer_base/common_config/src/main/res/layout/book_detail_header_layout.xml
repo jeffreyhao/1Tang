@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_header_bg_cover"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@color/pp_color_999999" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rf_stroke"
+        android:layout_width="140dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <com.tencent.common.widget.RoundedImageView
+            android:id="@+id/iv_book_cover"
+            android:layout_width="140dp"
+            android:layout_height="186dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_bg_vertical"/>
+
+        <ImageView
+            android:id="@+id/iv_premium"
+            android:visibility="gone"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_book_premium"
+            android:layout_width="35dp"
+            android:layout_height="13dp"
+            tools:visibility="visible"
+            />
+        <TextView
+            android:id="@+id/tv_short_corner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="2dp"
+            android:background="@drawable/bg_short_corner"
+            android:textColor="#654008"
+            android:textSize="10dp"
+            android:text="Short"
+            android:visibility="gone"
+            tools:visibility="visible"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/fl_book_content_bg"
+        android:background="@drawable/radius_background_top_right_12"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintTop_toBottomOf="@+id/rf_stroke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_book_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textColor="@color/color_title_black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fl_book_content_bg"
+        tools:text="Reborn To Pamper My Fragile Prince Regent" />
+
+    <ImageView
+        android:id="@+id/iv_write"
+        android:background="@drawable/icon_book_detail_author"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_book_title"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/pp_color_4d000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_write"
+        app:layout_constraintTop_toTopOf="@+id/iv_write"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_write"
+        tools:text="Writer South Phoenix"/>
+
+    <TextView
+        android:id="@+id/tv_book_adds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/pp_color_222222"
+        app:layout_constraintTop_toBottomOf="@+id/iv_write"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_book_adds_line"
+        android:text="2.2k"/>
+
+    <TextView
+        android:id="@+id/tv_add_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_mix_black_030"
+        android:textSize="11dp"
+        android:text="@string/book_detail_adds"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_book_adds"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_book_adds_line"/>
+
+    <View
+        android:id="@+id/tv_book_adds_line"
+        android:background="@color/pp_color_4d000000"
+        android:layout_width="1dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="72dp"
+        app:layout_constraintTop_toBottomOf="@+id/iv_write"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_book_views"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/color_title_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/tv_book_adds"
+        app:layout_constraintStart_toStartOf="@+id/tv_book_adds_line"
+        app:layout_constraintEnd_toEndOf="@+id/tv_book_views_line"
+        android:text="2.2k"/>
+
+    <TextView
+        android:textColor="@color/color_mix_black_030"
+        android:textSize="11dp"
+        android:text="@string/book_detail_views"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_book_views"
+        app:layout_constraintStart_toStartOf="@+id/tv_book_adds_line"
+        app:layout_constraintEnd_toEndOf="@+id/tv_book_views_line"/>
+
+    <View
+        android:id="@+id/tv_book_views_line"
+        android:background="@color/pp_color_4d000000"
+        android:layout_width="1dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="93dp"
+        app:layout_constraintTop_toTopOf="@+id/tv_book_adds_line"
+        app:layout_constraintStart_toStartOf="@+id/tv_book_adds_line"/>
+
+    <TextView
+        android:id="@+id/tv_book_rating"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/color_title_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/tv_book_adds"
+        app:layout_constraintStart_toStartOf="@+id/tv_book_views_line"
+        app:layout_constraintEnd_toEndOf="@+id/tv_book_rating_line"
+        android:text="2.2k"/>
+
+    <TextView
+        android:textColor="@color/color_mix_black_030"
+        android:textSize="11dp"
+        android:text="@string/book_detail_rating"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_book_rating"
+        app:layout_constraintStart_toStartOf="@+id/tv_book_views_line"
+        app:layout_constraintEnd_toEndOf="@+id/tv_book_rating_line"/>
+
+    <View
+        android:id="@+id/tv_book_rating_line"
+        android:background="@color/transparent"
+        android:layout_width="1dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="93dp"
+        app:layout_constraintTop_toTopOf="@+id/tv_book_views_line"
+        app:layout_constraintStart_toStartOf="@+id/tv_book_views_line"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_add_text">
+        <TextView
+            android:text="@string/pp_about_book"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textColor="@color/color_title_black"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_serial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintEnd_toStartOf="@id/tv_word_cout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_author_name"
+        tools:text="tv_serial" />
+
+    <TextView
+        android:id="@+id/tv_word_cout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="@color/bookdetail_light_white"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_read_count"
+        app:layout_constraintStart_toEndOf="@+id/tv_serial"
+        app:layout_constraintTop_toTopOf="@id/tv_serial"
+        tools:textColor="@color/colorAccent"
+        tools:text="tv_word_cout" />
+
+    <TextView
+        android:id="@+id/tv_read_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bookdetail_light_white"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_word_cout"
+        app:layout_constraintTop_toTopOf="@id/tv_word_cout"
+        tools:textColor="@color/colorAccent"
+        tools:text="tv_read_count" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

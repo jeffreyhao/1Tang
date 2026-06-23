@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_white_12dp"
+    tools:layout_gravity="center"
+    tools:elevation="6dp"
+    >
+
+    <TextView
+        android:id="@+id/module_dialog_app_tip_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/pp_color_333333"
+        android:textSize="17sp"
+        tools:text="Title"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/layout_tip_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_centerHorizontal="true"
+        android:minHeight="200dp"
+        tools:listitem="@layout/layout_common_text_item"
+        tools:itemCount="5"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/line"
+        android:layout_width="280dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/layout_tip_recycler_view"
+        android:layout_marginTop="10dp"
+        android:background="@color/pp_color_0d000000"
+        />
+
+    <TextView
+        android:id="@+id/module_dialog_app_tip_cancel"
+        android:layout_width="140dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/line"
+        android:background="@drawable/bg_dialog_btn_cancel"
+        android:gravity="center"
+        android:text="@string/permission_cancel"
+        android:textColor="@color/pp_color_333333"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/module_dialog_app_tip_sure"
+        android:layout_width="140dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/line"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/bg_dialog_btn_submit"
+        android:gravity="center"
+        android:text="@string/pp_sure"
+        android:textColor="@color/color_dialog_btn_confirm"
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="12dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:textAlignment="center"
+    android:text=""
+    android:maxLines="1"
+    android:background="@drawable/item_search_hot_single_background"
+    android:paddingHorizontal="10dp"
+    android:drawablePadding="7dp"
+    android:gravity="center"
+    android:textSize="13sp"
+    android:textColor="@color/pp_color_333333"
+    android:id="@+id/special_literal_view_holder_text"
+    app:drawableStartCompat="@drawable/ic_search_hot"
+    tools:text="hot"
+    >
+</TextView>

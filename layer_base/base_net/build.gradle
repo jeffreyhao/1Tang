@@ -1,0 +1,39 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.base.net"
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':layer_base:base_res')
+    implementation project(path: ':layer_base:base_api')
+    implementation project(path: ':layer_base:base_util')
+
+
+    implementation Dep.appcompat
+
+    implementation Dep.retrofit
+    implementation Dep.retrofit2_conv_gson
+    implementation Dep.retrofit2_adapter_rx
+    implementation Dep.retrofit2_adapter_3rd
+
+    implementation Dep.rxjava
+    implementation Dep.rxjava2_android
+
+
+    implementation Dep.glide_okhttp3
+    implementation Dep.glide
+
+    implementation Dep.okhttp3
+
+
+    annotationProcessor Dep.glide_compiler
+
+    //解决Glide找不到Android声明库问题
+    annotationProcessor Dep.annotaton
+
+
+}

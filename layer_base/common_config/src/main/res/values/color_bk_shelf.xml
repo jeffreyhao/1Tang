@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        书架颜色
+-->
+<resources>
+
+
+    <!-- 书架页背景色 -->
+    <color name="color_bg_bookshelf">@color/white</color>
+
+    <!-- 书架页title字体颜色 -->
+    <color name="color_bk_shelf_title">@color/color_title_black</color>
+
+    <!-- 书架页书名颜色 -->
+    <color name="color_shelf_book_name">@color/color_title_black</color>
+
+    <!-- 书架页-最近阅读title颜色 -->
+    <color name="shelf_history_title">@color/color_title_black</color>
+
+    <!-- 书架页-Remove背景色 -->
+    <color name="color_bg_remove">@color/colorAccent</color>
+
+    <!-- 书架页-Remove文字颜色 -->
+    <color name="color_text_remove">@color/white</color>
+
+    <!-- 书架页面Recommend字体颜色-->
+    <color name="color_book_shelf_recommend">@color/white</color>
+
+    <!-- exclusive标签字体颜色 -->
+    <color name="color_exclusive_tag">#CD9867</color>
+
+    <color name="color_exclusive_start">#FFB966</color>
+    <color name="color_exclusive_end">#FF7B36</color>
+    <color name="color_exclusive_text">@color/white</color>
+
+
+
+
+</resources>

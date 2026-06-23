@@ -1,0 +1,14 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.fold.dialog"
+}
+
+dependencies {
+    implementation project(':layer_base:common')
+
+    compileOnly Dep.legacy
+    compileOnly Dep.palette
+}

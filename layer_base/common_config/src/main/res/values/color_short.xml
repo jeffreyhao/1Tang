@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_bg_short_read_day">#FAFAFA</color>
+    <color name="color_bg_short_read_night">#222222</color>
+
+    <color name="color_title_short_read_day">@color/color_mix_black_080</color>
+    <color name="color_title_short_read_night">#A3A3A3</color>
+
+    <color name="color_content_short_read_day">@color/color_mix_black_080</color>
+    <color name="color_content_short_read_night">#888888</color>
+
+    <color name="color_content_short_title_day">@color/color_mix_black_080</color>
+    <color name="color_content_short_title_night">#999999</color>
+
+    <color name="color_bg_short_menu_day">@color/white</color>
+    <color name="color_bg_short_menu_night">#333333</color>
+
+    <color name="color_text_short_menu_day">#333333</color>
+    <color name="color_text_short_menu_night">#D5D5D5</color>
+
+    <color name="color_line_short_list_day">#DEDEDE</color>
+    <color name="color_line_short_list_night">#0E0E0E</color>
+
+    <color name="color_text_short_more_day">#333333</color>
+    <color name="color_text_short_more_night">#C0C0C0</color>
+
+
+
+    <!-- 目录root背景 -->
+    <color name="color_bg_short_catalog_day">#FFFFFF</color>
+    <color name="color_bg_short_catalog_night">#333333</color>
+
+    <!-- 目录底部tab背景 -->
+    <color name="color_bottom_short_catalog_day">#FFFFFF</color>
+    <color name="color_bottom_short_catalog_night">#444444</color>
+
+    <!-- 目录底部tab文字-已选中 -->
+    <color name="color_tab_short_catalog_tab_selected_day">#333333</color>
+    <color name="color_tab_short_catalog_tab_selected_night">#EEEEEE</color>
+
+    <!-- 目录底部tab文字-未选中 -->
+    <color name="color_tab_short_catalog_tab_unselect_day">#999999</color>
+    <color name="color_tab_short_catalog_tab_unselect_night">#999999</color>
+
+    <!-- 目录底竖线 -->
+    <color name="color_divider_short_catalog_day">#D8D8D8</color>
+    <color name="color_divider_short_catalog_night">#666666</color>
+
+    <!-- 目录底横线 -->
+    <color name="color_line_short_catalog_day">#E2E2E2</color>
+    <color name="color_line_short_catalog_night">#666666</color>
+
+    <!-- 目录书籍列表-标签 -->
+    <color name="color_text_short_book_tag_day">#D550F4</color>
+    <color name="color_text_short_book_tag_night">#E675FF</color>
+
+
+
+    <color name="color_text_short_catalog_chapter_day">#333333</color>
+    <color name="color_text_short_catalog_chapter_night">#E2E2E2</color>
+
+    <color name="color_text_short_catalog_chapter_current_day">@color/colorAccent</color>
+    <color name="color_text_short_catalog_chapter_current_night">#E54FC2</color>
+
+
+
+    <color name="color_text_short_catalog_header_day">#333333</color>
+    <color name="color_text_short_catalog_header_night">#E2E2E2</color>
+
+    <color name="color_sub_text_short_catalog_header_day">#999999</color>
+    <color name="color_sub_text_short_catalog_header_night">#9A9A9A</color>
+
+    <color name="color_bg_short_catalog_header_day">#FDF5FF</color>
+    <color name="color_bg_short_catalog_header_night">#424242</color>
+
+    <color name="color_text_short_paywall_title_start_day">@color/colorAccent</color>
+    <color name="color_text_short_paywall_title_start_night">#DDDDDD</color>
+
+    <color name="color_text_short_paywall_title_center_day">@color/colorAccent</color>
+    <color name="color_text_short_paywall_title_center_night">#DDDDDD</color>
+
+    <color name="color_text_short_paywall_title_end_day">@color/colorAccent</color>
+    <color name="color_text_short_paywall_title_end_night">#DDDDDD</color>
+
+
+    <color name="color_text_short_paywall_benefit_day">#333333</color>
+    <color name="color_text_short_paywall_benefit_night">#A3A3A3</color>
+
+    <color name="color_text_short_paywall_tip_day">#333333</color>
+    <color name="color_text_short_paywall_tip_night">#B3B3B3</color>
+
+    <color name="color_text_short_paywall_rating_day">#999999</color>
+    <color name="color_text_short_paywall_rating_night">#999999</color>
+
+    <color name="color_text_short_paywall_value_day">#333333</color>
+    <color name="color_text_short_paywall_value_night">#999999</color>
+
+    <color name="color_text_short_paywall_unlock_day">@color/color_mix_black_080</color>
+    <color name="color_text_short_paywall_unlock_night">#888888</color>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/book_cover_card"
+        android:layout_width="70dp"
+        android:layout_height="93dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <ImageView
+            android:id="@+id/iv_book_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_bg_vertical"
+            />
+        <View
+            android:background="@drawable/book_cover_radius_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <com.common.config.view.BookTypeView
+        android:id="@+id/bookTypeView"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="-3dp"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tv_book_name"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/book_cover_card"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="@color/color_text_title_press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Mr. Black Is not really a Gentleman!"
+        />
+    <TextView
+        android:id="@+id/tv_book_type"
+        android:layout_alignStart="@+id/tv_book_name"
+        android:layout_below="@+id/tv_book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/color_999999_press"
+        android:textSize="12dp"
+        tools:text="Romance · Completed"
+        />
+
+    <ImageView
+        android:id="@+id/iv_view_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/book_cover_card"
+        android:layout_alignStart="@+id/tv_book_name"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/exit_reader_num_tag"
+        />
+    <TextView
+        android:id="@+id/tv_view_num"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@+id/iv_view_num"
+        android:layout_alignBottom="@+id/book_cover_card"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="4dp"
+        android:textStyle="bold"
+        android:textSize="11dp"
+        android:textColor="@color/color_999999_press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="33.7K"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/book_cover_radius_2dp"
+        />
+</RelativeLayout>

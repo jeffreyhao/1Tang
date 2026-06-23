@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="main_tab_bookshelf_dark">false</bool>
+    <bool name="main_tab_bookstore_dark">false</bool>
+    <bool name="main_tab_reward_dark">false</bool>
+    <bool name="main_tab_mine_dark">false</bool>
+    <bool name="main_tab_genres_dark">false</bool>
+    <bool name="main_tab_ranking_dark">false</bool>
+    <bool name="main_tab_premium_dark">false</bool>
+<!--    <bool name="main_tab_bookshelf_dark">false</bool>-->
+<!--    <bool name="main_tab_bookstore_dark">false</bool>-->
+<!--    <bool name="main_tab_reward_dark">false</bool>-->
+<!--    <bool name="main_tab_mine_dark">false</bool>-->
+<!--    <bool name="main_tab_genres_dark">false</bool>-->
+<!--    <bool name="main_tab_ranking_dark">false</bool>-->
+
+    <bool name="status_bar_bookshelf_dark">false</bool>
+    <bool name="navigation_bookshelf_dark">false</bool>
+
+    <bool name="status_bar_bookstore_dark">false</bool>
+    <bool name="navigation_bookstore_dark">false</bool>
+
+    <bool name="status_bar_reward_dark">false</bool>
+    <bool name="navigation_reward_dark">false</bool>
+
+    <bool name="status_bar_mine_dark">false</bool>
+    <bool name="navigation_mine_dark">false</bool>
+
+    <bool name="status_bar_genres_dark">false</bool>
+    <bool name="navigation_genres_dark">false</bool>
+
+    <bool name="status_bar_ranking_dark">false</bool>
+    <bool name="navigation_ranking_dark">false</bool>
+
+
+    <bool name="global_show_ripple">false</bool>
+    <bool name="bookshelf_show_progress">false</bool>
+    <bool name="wallet_page_show_bonus_tip">true</bool>
+
+    <bool name="is_bold_login_privacy">false</bool>
+
+</resources>

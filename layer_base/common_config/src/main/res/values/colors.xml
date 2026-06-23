@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingDefaultResource">
+
+    <!-- app基础色 -->
+    <color name="pp_base_color">@color/pp_color_FF6979</color>
+    <color name="base_page_color">@color/pp_color_F8F8F8</color>
+
+
+    <color name="color_text_common_button">@color/pp_color_222222</color>
+
+    <!-- MainTab页-底部tab栏背景色 -->
+    <color name="main_tab_nav_color">@color/white</color>
+
+    <!-- MainTab页-底部tab栏line背景色 -->
+    <color name="main_tab_nav_line_color">@color/main_tab_nav_color</color>
+
+    <!-- MainTab页-还有**时间颜色值 -->
+    <color name="color_shelf_rest_time">@color/white</color>
+
+    <!-- MainTab页-最近阅读content颜色 -->
+    <color name="shelf_history_content">@color/pp_color_999999</color>
+
+    <!-- MainTab页-最近阅读btn字体颜色 -->
+    <color name="shelf_history_btn_text_color">@color/pp_color_FFFFFF</color>
+
+
+    <color name="recommend_book_start_read">@color/white</color>
+
+
+    <!-- 搜索页-tag颜色 -->
+    <color name="text_search_result_book_tag">@color/pp_base_color</color>
+
+
+    <color name="accent_bg_contrast_color">@color/white</color>
+
+    <color name="divider_line_color">#F5F6F8</color>
+    <color name="color_reward_line">#F5F6F8</color>
+
+    <color name="bookdetail_light_white">#c0ffffff</color>
+
+    <color name="red">#fd554f</color>
+    <color name="toolbar_text">#263036</color>
+
+    <color name="light_pink">#fb9090</color>
+
+    <color name="black_444444">#E4E4E4</color>
+
+    <color name="rimColor">#0D000000</color>
+    <color name="translunt_snackbar_bg">#66000000</color>
+
+
+    <!--star colors -->
+    <color name="brown_star_color">#66e2a639</color>
+    <color name="blue_star_color">#66e2a639</color>
+    <color name="night_star_color">#33e2a639</color>
+    <color name="green_star_color">#e2a639</color>
+    <color name="yellow_star_color">#e2a639</color>
+    <color name="gray_star_color">#e2a639</color>
+
+    <color name="night_underline">#182A27</color>
+
+
+    <color name="my_note_list_divider">#26ffffff</color>
+
+    <color name="color_private_right">@color/colorAccent</color>
+
+    <color name="payment_tip_start_color">#EE8F21</color>
+    <color name="payment_tip_end_color">#ED5B11</color>
+
+    <!-- 选择支付方式-选中drawable颜色 -->
+    <color name="payment_check_img_color">@color/colorAccent</color>
+    <!-- 分类二级页面tab选中文案颜色 -->
+    <color name="category_top_tab_select_text_color">@color/white</color>
+
+    <color name="transparent_press">@color/transparent</color>
+    <color name="color_cover_press">@color/transparent</color>
+    <color name="color_ripple">@color/transparent</color>
+    <color name="color_mine_subscribe_bg">@color/Cr_5F3B24</color>
+    <color name="color_mine_subscribe_text">#F1D9A7</color>
+    <color name="color_discover_vip_text">#762C08</color>
+    <color name="color_premium_pay_night_select">#FE8700</color>
+    <color name="color_wallet_claim_bg">#F5E2B0</color>
+
+    <color name="color_premium_name_active">@color/Cr_9B562B</color>
+    <color name="color_premium_name_unactive">#727A8D</color>
+    <color name="color_profile_premium_benefit">#9B562B</color>
+
+
+</resources>

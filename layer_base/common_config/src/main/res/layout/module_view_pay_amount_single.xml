@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PayActivity 和 PayDialog 中的 item
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="152dp"
+    android:layout_height="110dp"
+    android:orientation="horizontal"
+    tools:layout_gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/pay_amount_single_left"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/bg_purchase_price_item"
+        android:layout_width="match_parent"
+        android:layout_height="94dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pay_amount_single_left_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_pay_amount_item_coins"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:text="500 COINS" />
+
+            <TextView
+                android:id="@+id/pay_amount_single_left_amount1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3sp"
+                android:textColor="@color/color_pay_amount_item_bonus"
+                android:textSize="12dp"
+                tools:ignore="SmallSp"
+                tools:text="+100 BONUS" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/pay_amount_single_divider"
+            android:layout_marginTop="62dp"
+            android:background="@color/pp_color_0d000000"
+            android:layout_width="match_parent"
+            android:layout_height="0.67dp"/>
+
+        <TextView
+            android:id="@+id/pay_amount_single_left_amount2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pay_amount_single_divider"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:textColor="@color/color_pay_amount_item_price"
+            android:textSize="13dp"
+            tools:text="US$ 4.99"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/pay_amount_single_left_tag"
+        android:drawableStart="@drawable/ic_hot_white"
+        app:layout_constraintTop_toTopOf="@+id/pay_amount_single_left"
+        app:layout_constraintEnd_toEndOf="@+id/pay_amount_single_left"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="4dp"
+        android:paddingVertical="2dp"
+        android:paddingHorizontal="6dp"
+        android:textColor="@color/pp_color_FFFFFF"
+        android:textSize="10sp"
+        android:background="@drawable/pay_amount_tip_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:ignore="SmallSp"
+        tools:text=" +100"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

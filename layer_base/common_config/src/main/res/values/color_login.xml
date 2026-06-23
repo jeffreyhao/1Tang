@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        登录页颜色
+-->
+<resources>
+
+    <!-- 登录页面渐变色startColor -->
+    <color name="color_login_top_start">#FFA865</color>
+
+    <!-- 登录页面渐变色centerColor -->
+    <color name="color_login_top_center">#FF605D</color>
+
+    <!-- 登录页面渐变色endColor -->
+    <color name="color_login_top_end">#FF6D9A</color>
+
+    <!-- 登录页面unlock benefit文案颜色 -->
+    <color name="color_login_unlock_benefit">#FFE6E6</color>
+
+    <!-- 登录页面earn bonus文案背景颜色 -->
+    <color name="color_login_earn_bonus">#FF5B75</color>
+
+    <!-- 登录页面earn bonus 文案颜色 -->
+    <color name="color_login_earn_bonus_text">@color/white</color>
+
+
+    <!-- 邮箱登录页面登录按钮背景色 -->
+    <color name="color_email_login_bg">@color/colorPrimaryDark</color>
+
+    <!-- old登录页背景 -->
+    <color name="bg_login_page">@color/transparent</color>
+
+    <color name="color_login_facebook_btn">@color/pp_color_222222</color>
+    <color name="color_login_google_btn">@color/pp_color_222222</color>
+    <color name="color_login_btn_email">@color/white</color>
+
+    <color name="color_login_tip_email">#3B74E9</color>
+    <color name="color_login_verify_code">@color/pp_color_333333</color>
+    <color name="color_login_verify_accent">#FF503D</color>
+
+
+</resources>

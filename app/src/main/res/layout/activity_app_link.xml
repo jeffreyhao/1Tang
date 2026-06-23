@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="20dp"
+            >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="App Links - path bookId"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_link_0"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:textSize="10dp"
+                android:text="https://app1.storynester.com/android_deeplink/noveldaily?deep_link_value=utm_ad_id%3D%257B%257Bad.id%257D%257D%26cookie_id%3Dc4b85f96-8c58-481d-a96f-4e1a32c33521%26utm_publisher_platform%3DFacebook-W2A-Android%26package%3Dcom.yhxc.storynest%26short_link%3Di6Vz6zR3UZzq%26utm_campaign_id%3D%257B%257Bcampaign.id%257D%257D%26platform%3D1%26app_link%3Dhttps%253A%252F%252Fplay.google.com%252Fstore%252Fapps%252Fdetails%253Fid%253Dcom.yhxc.storynest%26utm_act_id%3D1392870435337410%26utm_ad_name%3D%257B%257Bad.name%257D%257D%26utm_adset_id%3D%257B%257Badset.id%257D%257D%26utm_adset_name%3D%257B%257Badset.name%257D%257D%26utm_campaign%3D%257B%257Bcampaign.name%257D%257D%26book%3D1U21347%26link_id%3D13966%26time_zone%3DAsia%252FShanghai%26language%3Dzh-CN%26pixel_id%3D3847275645504436%26h5_url%3Dhttps%253A%252F%252Fwww.novelsbd.com%252Ffs%252Fi6Vz6zR3UZzq%26screen%3D393x851%26fbp%3Dfb.1.1760149083475.723850390%26fbc%3Dfb.1.1760149083475.1153986135%26unqi_visitor%3D0%26utm_source%3D%257B%257Bsite_source_name%257D%257D"
+                android:textAllCaps="false"
+                android:autoSizeMaxTextSize="12dp"
+                android:autoSizeMinTextSize="6dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="App Links - path bookId"
+                />
+            <Button
+                android:id="@+id/app_link_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com/6383800"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/app_link_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com/android_deeplink/noveldaily/1U6383800"
+                android:textAllCaps="false"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="App Links - params bookId"/>
+            <Button
+                android:id="@+id/app_link_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com/android_deeplink/noveldaily/1U30220?bookId=1U6383800"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/app_link_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com/android_deeplink/noveldaily/1U30220?bookid=1U6383800"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/app_link_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com/android_deeplink/noveldaily/1U30220?bid=1U6383800"
+                android:textAllCaps="false"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="App Links - no bookId"
+                />
+            <Button
+                android:id="@+id/app_link_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/app_link_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com/android_deeplink/"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/app_link_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com?p=xxx"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/app_link_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com/android_deeplink/noveldaily"
+                android:textAllCaps="false"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="App Links - other"
+                />
+            <Button
+                android:id="@+id/app_link_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://app1.storynester.com/android_deeplink/noveldaily?t=novel"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/app_link_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://romanficapps1.inovelplant.com/android_deeplink/romanfic?book=1U32756&amp;cookie_id=0c328d9c-e13c-424b-82df-cfa8213231b5&amp;fbc=fb.1.1763605761345.IwZXh0bgNhZW0BMABhZGlkAasvI6KKZrRzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR6r-wmIIvYoAZAu2-fyuriTdJ-wxz3Lj2iJgaJKPTw2NqyUY1phBc8EKmoyUA_aem_eGxxHG6tfnsGnuacwgXXpQ&amp;fbclid=IwZXh0bgNhZW0BMABhZGlkAasvI6KKZrRzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR6r-wmIIvYoAZAu2-fyuriTdJ-wxz3Lj2iJgaJKPTw2NqyUY1phBc8EKmoyUA_aem_eGxxHG6tfnsGnuacwgXXpQ&amp;fbp=fb.1.1763551178030.914340223311694595&amp;language=en-US&amp;link_id=15380&amp;package=com.bjz.romanfic&amp;pixel_id=376105271946656&amp;platform=1&amp;screen=376x835&amp;time_zone=Asia\/Shanghai&amp;uniq_visitor=0&amp;utm_act_id=2135727410192801&amp;utm_ad_id=120241637662690196&amp;utm_ad_name=设计素材01-DE_andr_H5_aeo_1U32756_Die ungewollten Bully-Kumpel von Luna_1025-1-3&amp;utm_adset_id=120241637662680196&amp;utm_adset_name=新销量广告组&amp;utm_campaign=新文案-lal--DE_andr_H5_aeo_1U32756_Die ungewollten Bully-Kumpel von Luna_1120-1&amp;utm_campaign_id=120241637662670196&amp;utm_source=fb"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/app_link_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://romanficapps1.inovelplant.com/web_pay_result/romanfic?recharge_platform=7&amp;tradeToken=T2026020409395377087459&amp;status=SUCCESS"
+                android:textAllCaps="false"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:orientation="vertical"
+                >
+                <EditText
+                    android:id="@+id/edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:minLines="3"
+                    android:hint="自定义App-Links"
+                    />
+                <Button
+                    android:id="@+id/edit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发送 App-Links"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

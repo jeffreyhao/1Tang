@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    荷兰语
+-->
+<resources>
+    <string name="loading">Laden…</string>
+    <string name="close_and_go_back">Terug</string>
+    <string name="error_data_tip">Er is iets misgegaan, tik om het opnieuw te proberen</string>
+    <string name="error_empty_data_tip">Nog geen gegevens</string>
+    <string name="error_net_tip">Netwerkfout, tik om het opnieuw te proberen</string>
+    <string name="permisions_essential_tip">Vraag eerst toestemming aan om te gebruiken</string>
+    <string name="permisions_read_phone_tip">Vraag eerst toestemming aan om te gebruiken</string>
+    <string name="permission_setting">Instellingen</string>
+    <string name="permission_cancel">Annuleren</string>
+    <string name="collapse">Inklappen</string>
+    <string name="expand">Uitklappen</string>
+    <string name="nb_mode_night">Nachtmodus</string>
+    <string name="nb_mode_morning">Dagmodus</string>
+    <string name="nav_bookshelf">Bibliotheek</string>
+    <string name="nav_bookshelf2">Boekenplank</string>
+    <string name="nav_discover">Ontdekken</string>
+    <string name="nav_featured">Uitgelicht</string>
+    <string name="nav_reward">Beloningen</string>
+    <string name="nav_profile">Ik</string>
+    <string name="nav_mine">Mijn</string>
+    <string name="select_all">Alles selecteren</string>
+    <string name="done">Klaar</string>
+    <string name="delete">Verwijderen</string>
+    <string name="clear_cache">Cache wissen</string>
+    <string name="check_update">Controleren op updates</string>
+    <string name="contact_us">Contact opnemen</string>
+    <string name="privacy">Privacybeleid</string>
+    <string name="agreement">Servicevoorwaarden</string>
+    <string name="joinedBookShelf">Toegevoegd aan bibliotheek</string>
+    <string name="add_to_shelf_dlg_title">Toevoegen aan bibliotheek?</string>
+    <string name="add_to_shelf_dlg_content">Voeg dit boek toe aan je bibliotheek om het altijd te kunnen lezen.</string>
+    <string name="add_to_shelf_dlg_cancel">Annuleren</string>
+    <string name="add_to_shelf_dlg_confirm">Toevoegen</string>
+    <string name="hint_search_bookstore">Zoeken</string>
+    <string name="become_author">Word schrijver</string>
+    <string name="buy_sale">Aankoop met korting</string>
+    <string name="free_start_read">Begin met lezen</string>
+    <string name="pp_sex_boy_brief">Man</string>
+    <string name="pp_sex_girl_brief">Vrouw</string>
+    <string name="pp_tip_none_photo">Geen albumpfoto’s gevonden</string>
+    <string name="pp_history_search">Geschiedenis</string>
+    <string name="pp_tip_input_search_key">Voer hier trefwoord in</string>
+    <string name="pp_clear_success">Gewist</string>
+    <string name="pp_me">Ik</string>
+    <string name="pp_build_fail">Opbouw mislukt</string>
+    <string name="pp_author">Auteur</string>
+    <string name="pp_note_id_null">Notitie-ID is leeg</string>
+    <string name="pp_login_fail">Inloggen mislukt</string>
+    <string name="pp_collection_success">Toegevoegd aan bibliotheek</string>
+    <string name="pp_please_check_network">Controleer de netwerkverbinding</string>
+    <string name="pp_add_success">Boek toegevoegd aan je bibliotheek</string>
+    <string name="pp_remove_success">Boek verwijderd uit je bibliotheek</string>
+    <string name="pp_please_chose_one_book">Selecteer eerst een boek</string>
+    <string name="pp_login_first">Log eerst in</string>
+    <string name="pp_pay_success">Betaling geslaagd</string>
+    <string name="pp_pay_cancel">Betaling geannuleerd</string>
+    <string name="pp_pay_error">Betalingsfout</string>
+    <string name="pp_check_pay_fail">Controle van aankoop mislukt</string>
+    <string name="pp_tip">Installeer eerst de app-galerij of browser</string>
+    <string name="pp_copy_success">Gekopieerd</string>
+    <string name="pp_save_fail">Opslaan mislukt</string>
+    <string name="pp_saved">Opgeslagen</string>
+    <string name="pp_exit_app">Weet je zeker dat je wilt afsluiten?</string>
+    <string name="pp_exit">Afsluiten</string>
+    <string name="pp_sure">Bevestigen</string>
+    <string name="pp_today_read">Vandaag gelezen</string>
+    <string name="pp_second_red_packet"> minuten om een rode envelop te ontvangen</string>
+    <string name="pp_after_ad_bye">Meer spannend na de advertentie.</string>
+    <string name="pp_time_error">Tijdafwijking tussen systeem en server is te groot. Kalibreer de systeemtijd</string>
+    <string name="pp_about">Over</string>
+    <string name="pp_notiy">Tips</string>
+    <string name="pp_get_photo">Kies foto</string>
+    <string name="pp_affirm">Bevestigen</string>
+    <string name="pp_xml_wechat">WeChat</string>
+    <string name="pp_xml_pyq">Momenten</string>
+    <string name="pp_xml_qq_space">QQ Zone</string>
+    <string name="pp_xml_text_11">Uitloggen</string>
+    <string name="pp_xml_text_22">Meldingen</string>
+    <string name="pp_xml_text_24">Hulp &amp; Feedback</string>
+    <string name="pp_xml_text_35">Populaire zoekopdrachten</string>
+    <string name="pp_xml_text_350">Trending</string>
+    <string name="pp_xml_text_39">Openen</string>
+    <string name="pp_xml_text_40">Sluiten</string>
+    <string name="pp_xml_text_45">Meer</string>
+    <string name="pp_xml_text_48">Bekijken</string>
+    <string name="pp_xml_text_49">Kopiëren</string>
+    <string name="pp_xml_text_50">Delen</string>
+    <string name="pp_xml_remove">Verwijderen</string>
+    <string name="pp_xml_find_novel">Vind een boek</string>
+    <string name="pp_xml_no_book">Je hebt nog geen boeken aan je bibliotheek toegevoegd</string>
+    <string name="pp_remove_book_title">Verwijderen?</string>
+    <string name="pp_remove_book_content">Weet je zeker dat je dit boek uit je bibliotheek wilt verwijderen?</string>
+    <string name="pp_search_default_text">Boeken zoeken</string>
+    <string name="pp_search_no_data">Geen resultaten gevonden</string>
+    <string name="book_detail_start_reading">Begin met lezen</string>
+    <string name="book_detail_adds">Toevoegingen</string>
+    <string name="book_detail_views">Weergaven</string>
+    <string name="book_detail_rating">Beoordeling</string>
+    <string name="book_detail_report_msg">De inhoud en afbeeldingen zijn op persoonlijke titel van de auteurs en niet gerelateerd aan %s. Als u vragen heeft, kunt u deze #Rapporteren# aan ons.</string>
+    <string name="login_view_tip">Door door te gaan, gaat u akkoord met onze #Servicevoorwaarden# en #Privacybeleid#</string>
+    <string name="pp_string_profile">Profiel</string>
+    <string name="pp_string_gender">GESLACHT</string>
+    <string name="pp_string_birthday">GEBOORTEDATUM</string>
+    <string name="pp_string_nickname">BIJNAAM</string>
+    <string name="pp_string_email_address">E-MAILADRES</string>
+    <string name="pp_new_chapter">Nieuw Hoofdstuk</string>
+    <string name="pp_coming_soon">Binnenkort Beschikbaar</string>
+    <string name="pp_this_is_the">Dit is het</string>
+    <string name="pp_last_chapter">Laatste Hoofdstuk</string>
+    <string name="pp_book_completed">Voltooid</string>
+    <string name="pp_book_ongoing">Lopend</string>
+    <string name="pp_you_may_also_like">Misschien ook interessant</string>
+    <string name="pp_view_all">Alles Bekijken</string>
+    <string name="pp_to_explore_more">Ontdek meer</string>
+    <string name="pp_rather_not_say">Liever niet zeggen</string>
+    <string name="pp_read">Lezen</string>
+    <string name="pp_you_might_like">Misschien vind je dit leuk</string>
+    <string name="pp_writer_about_des">%s wil schrijvers een podium bieden om hun dromen na te jagen en hun verhalen te delen met een wereldwijd publiek. Het is onze missie om je stem te laten horen. Heb je een verhaal te vertellen? Dan is %s de plek voor jou!</string>
+    <string name="pp_writer_benefits">Wij bieden verschillende beloningen aan auteurs die hun verhalen ondertekenen met %s, waaronder een ondertekeningsvergoeding, bonus bij voltooiing van het verhaal, dagelijkse updatebeloningen en een verwijzingsbonus. Klik #hier# voor meer voordelen.</string>
+    <string name="pp_writer_tip0">Stuur je schrijfwerk naar ons e-mailadres:</string>
+    <string name="pp_writer_email">E-mail: #leo@i%s.com#</string>
+    <string name="pp_writer_author">Auteur Centrum: #https://writer.i%s.com/#</string>
+    <string name="pp_writer_tip1">Jij zou wel eens de volgende bestsellerauteur kunnen zijn.</string>
+    <string name="pp_writer_web_writer">https://writer.i%s.com/</string>
+    <string name="pp_writer_web">https://www.i%s.com/</string>
+    <string name="pp_writer_copied">Gekopieerd</string>
+    <string name="pp_problem_null_tip">Probleembeschrijving mag niet leeg zijn</string>
+    <string name="pp_update_title">Update Beschikbaar</string>
+    <string name="pp_update_content">Nieuwere versie beschikbaar: bekende bugs opgelost &amp; leeservaring geoptimaliseerd</string>
+    <string name="pp_update_button">Nu Updaten</string>
+    <string name="pp_download">Downloaden</string>
+    <string name="pp_purchase">Aankopen</string>
+    <string name="pp_purchase_tip">Vanaf het huidige hoofdstuk</string>
+    <string name="pp_download_auto_pay_tip">Download gelijktijdig lokaal</string>
+    <string name="pp_price">Prijs:</string>
+    <string name="pp_purchase_now">Nu Aankopen</string>
+    <string name="pp_download_bottom_tip">Je betaalt niet opnieuw voor hoofdstukken die je al hebt ontgrendeld</string>
+    <string name="pp_top_up">OPWAARDEREN</string>
+    <string name="pp_pay_now">Nu Betalen</string>
+    <string name="payment_method">Betaalmethode</string>
+    <string name="top_up_amount">Opwaardeerbedrag</string>
+    <string name="pp_pay_tip1">1. Bonus = 1 Munt. Bonussen worden eerst afgetrokken wanneer je hoofdstukken ontgrendelt.</string>
+    <string name="pp_pay_tips1">Tips:</string>
+    <string name="pp_pay_tip2">2. Je gebruikers-ID: #%s#. Als opwaarderen mislukt of lang duurt, klik dan op Herstellen om op te lossen (opnieuw opwaarderen is niet nodig). Of stuur direct #vragen via feedback# naar ons.</string>
+    <string name="pp_pay_tip3">4. Hulp nodig? Bekijk onze #FAQ#</string>
+    <string name="pp_pay_tip4">3. Onze standaard betaalmethode is het Google Play-betalingsplatform. Google Play ondersteunt betalen via provider, creditcards, cadeaukaarten, Paypal en Wallet-saldo.</string>
+    <string name="pp_pay_tip5">5. De geldigheidsduur van de Bonus bij opwaardering is 7 dagen.</string>
+    <string name="pp_pay_tip6">6. Munten en bonussen hebben dezelfde waarde. Niet-verlopen bonussen zijn virtuele items en worden niet terugbetaald.</string>
+    <string name="pp_pay_tip7">7. Om de veiligheid van je digitale bezittingen te waarborgen, raden we aan om munten aan te schaffen via een externe account: FB of Google-account.</string>
+    <string name="thank_you">Dank je wel!</string>
+    <string name="pp_read_pay_tip">Steun de auteur bij het maken van meer en betere verhalen</string>
+    <string name="read_pay_tip1">Volgend hoofdstuk automatisch ontgrendelen</string>
+    <string name="more_top_up_amounts">Meer opwaardeerbedragen</string>
+    <string name="get_free_coins">Gratis Munten Ontvangen</string>
+    <string name="purchase_now">Nu Aankopen</string>
+    <string name="unlock_chapter">Ontgrendel dit hoofdstuk voor %s Munten</string>
+    <string name="purchase_successful">Aankoop geslaagd</string>
+    <string name="purchase_failed">Aankoop mislukt</string>
+    <string name="coins">Munten</string>
+    <string name="top_up">OPWAARDEREN</string>
+    <string name="about">Over</string>
+    <string name="top_up_record">Opwaardeergeschiedenis</string>
+    <string name="bonus_record">Bonusgeschiedenis</string>
+    <string name="consumption_record">Verbruiksgeschiedenis</string>
+    <string name="books_on_auto_purchase">Boeken met Automatisch Ontgrendelen</string>
+    <string name="pp_viewed">Bekeken</string>
+    <string name="pp_rating">Beoordeling</string>
+    <string name="pp_settings">Instellingen</string>
+    <string name="pp_wallet">Portemonnee</string>
+    <string name="google_play_not_available">Google Play-service is niet beschikbaar</string>
+    <string name="pp_turn_off">Uitschakelen?</string>
+    <string name="pp_turn_off_content">Het uitschakelen kan je leeservaring beïnvloeden. Weet je zeker dat je dit wilt uitschakelen?</string>
+    <string name="pp_no_purchase">Geen hoofdstukken meer beschikbaar om aan te kopen</string>
+    <string name="purchase_more_coins">Meer Munten Aankopen</string>
+    <string name="top_up_and_purchase">Opwaarderen en dit hoofdstuk ontgrendelen</string>
+    <string name="feedback">Feedback</string>
+    <string name="genres">Genres</string>
+    <string name="font_merriweather">Merriweather</string>
+    <string name="no_longer_remind_upgrade">Niet meer vragen om update</string>
+    <string name="pp_version">Versie</string>
+    <string name="terms_service">Servicevoorwaarden</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="chapters">%d Hoofdstukken</string>
+    <string name="chapters_count">Hoofdstukken (%d)</string>
+    <string name="last_read_chapter">Laatst gelezen: Hoofdstuk %d</string>
+    <string name="last_read_chapter2">Laatst gelezen: %s</string>
+    <string name="balance_bonus">Saldo: %d Munten + %d Bonus</string>
+    <string name="insufficient_balance">Onvoldoende saldo, koop meer munten</string>
+    <string name="price_coin">%d Munten</string>
+    <string name="common_warning">Waarschuwing</string>
+    <string name="total_coins_bonus">Totaal: %d Munten + %d Bonus</string>
+    <string name="total_coins">Totaal: %d Munten</string>
+    <string name="send_feedback">Feedback Verzenden</string>
+    <string name="pp_expiring_soon">%d verloopt binnenkort</string>
+    <string name="cancel">Annuleren</string>
+    <string name="ok">Bevestigen</string>
+    <string name="common_no_data">Nog geen gegevens</string>
+    <string name="common_no_more">Niet meer</string>
+    <string name="common_loadmore">Veeg omhoog om meer te laden</string>
+    <string name="common_loading">laden…</string>
+    <string name="pp_visitor">Bezoeker</string>
+    <string name="pp_user_name">Gebruikersnaam</string>
+    <string name="click_to_login">Klik om in te loggen voor meer services</string>
+    <string name="language_setting">Taalinstelling</string>
+    <string name="switch_language_hint">Weet u zeker dat u de taal wilt wijzigen naar %s?</string>
+    <string name="pp_language">Taal</string>
+    <string name="remaining_chapters">Alle resterende hoofdstukken</string>
+    <string name="coins_all_chapters">%s munten in rekening gebracht voor alle hoofdstukken</string>
+    <string name="next_num_chapters">Volgende %s hoofdstukken</string>
+    <string name="coins_for_num_chapters">%d munten in rekening gebracht voor %d hoofdstukken</string>
+    <string name="pp_off">UIT</string>
+    <string name="pp_off_value">%d%% KORTING</string>
+    <string name="pp_email_phone_hint">E-mail / Telefoonnummer</string>
+    <string name="pp_email_null_hint">E-mail / Telefoonnummer mag niet leeg zijn</string>
+    <string name="pp_contacts">Contacten</string>
+    <string name="leave_feedback_hint">Beschrijf het probleem dat u ondervindt of laat uw feedback achter.</string>
+    <string name="pp_problem_description">Probleembeschrijving</string>
+    <string name="pp_problem_type">Probleemtype (verplicht)</string>
+    <string name="pp_about_book">Over dit boek</string>
+    <string name="pp_report">Rapporteren</string>
+    <string name="sign_in_facebook">Aanmelden met Facebook</string>
+    <string name="sign_in_google">Aanmelden met Google</string>
+    <string name="sign_in_email">Aanmelden met E-mail</string>
+    <string name="pp_first">Eerste</string>
+    <string name="writer_benefits">Voordelen voor schrijvers</string>
+    <string name="writer_central">Schrijverscentrum</string>
+    <string name="copy_address_tip">Tips: Klik om het adres te kopiëren en bezoek het met uw computerbrowser.</string>
+    <string name="pp_all">Alles</string>
+    <string name="pp_rankings">Ranglijsten</string>
+    <string name="pp_flip">Omslaan</string>
+    <string name="pp_swipe">Vegen</string>
+    <string name="pp_scroll">Scrollen</string>
+    <string name="pp_system_font">Systeemlettertype</string>
+    <string name="pp_contents">Inhoud</string>
+    <string name="about_app">Over %s</string>
+    <string name="pp_overview">Overzicht</string>
+    <string name="pp_swipe_up_read">Veeg omhoog om te lezen</string>
+    <string name="pp_swipe_left_read">Veeg naar links om te lezen</string>
+    <string name="book_detail_words">Woorden</string>
+    <string name="most_popular">Meest populair</string>
+    <string name="read_now">Nu lezen</string>
+    <string name="updated">BIJGEWERKT</string>
+    <string name="pp_pay_restore">Herstellen</string>
+    <string name="pp_restore_success">Herstel succesvol</string>
+    <string name="pp_continue">Doorgaan</string>
+    <string name="rewards">Beloningen</string>
+    <string name="pp_daily_check">Dagelijkse check-in</string>
+    <string name="pp_novice_tasks">Beginnersopdrachten</string>
+    <string name="pp_daily_tasks">Dagelijkse taken</string>
+    <string name="pp_congratulations">Gefeliciteerd</string>
+    <string name="pp_go">Ga</string>
+    <string name="pp_claim">Claimen</string>
+    <string name="pp_rewards">Beloningen</string>
+    <string name="pp_expired">verlopen</string>
+    <string name="pp_done">Gedaan</string>
+    <string name="pp_claim_failed">Claim mislukt</string>
+    <string name="pp_recommend">AANBEVELEN</string>
+    <string name="pp_free">GRATIS</string>
+    <string name="pp_exclusive">EXCLUSIEF</string>
+    <string name="pp_exit_read_recommend_hint">De volgende inhoud is interessanter!</string>
+    <string name="pp_renew">Vernieuwen</string>
+    <string name="pp_tell_found">Vertel ons wat u heeft gevonden</string>
+    <string name="feedback_details">Feedbackdetails</string>
+    <string name="pp_copyright_notice">Auteursrechten</string>
+    <string name="pp_copyright_notice_hint_line1">Als u denkt dat de inhoud inbreuk maakt op uw auteursrechten, meld het dan aan ons.</string>
+    <string name="pp_copyright_notice_hint_line2">Gepubliceerd door %s met toestemming van %s.</string>
+    <string name="pp_copyright_notice_hint_line3">© Alle rechten voorbehouden.</string>
+    <string name="pp_new">Nieuw</string>
+    <string name="pp_team">Team</string>
+    <string name="pp_connect_googleplay_fail">Er is een fout opgetreden in Google Play-services. Wis de cache van Google Play of log opnieuw in op uw Google-account en probeer het opnieuw!</string>
+    <string name="pp_close">Sluiten</string>
+    <string name="start_reading">Begin met lezen</string>
+    <string name="pp_skip">Overslaan %d</string>
+    <string name="georgia">Georgia</string>
+    <string name="search_books">Boeken zoeken</string>
+    <string-array name="day_arr">
+        <item>ZON</item>
+        <item>MAA</item>
+        <item>DIN</item>
+        <item>WOE</item>
+        <item>DON</item>
+        <item>VRIJ</item>
+        <item>ZAT</item>
+    </string-array>
+    <string name="app_wallet">Portemonnee</string>
+    <string name="pp_pending_retry_tip">Als het na een tijdje nog steeds niet in uw account verschijnt of als u problemen ondervindt, neem dan contact op met onze klantenservice voor hulp.</string>
+    <string name="pp_reward_feedback_hint">Als u problemen heeft, laat dan uw feedback achter in het Helpcentrum.</string>
+    <string name="pp_retry">Opnieuw proberen</string>
+    <string name="error_request_tip">Het verzoek is mislukt, probeer het later opnieuw.</string>
+    <string name="book_load_error">Fout bij het laden van het boek, probeer een ander boek.</string>
+    <string name="daily_check_disable_tip">Kom morgen terug om in te checken en uw bonus te claimen.</string>
+    <string name="pp_notice">Kennisgeving</string>
+    <string name="del_account_note">Deze actie kan niet ongedaan worden gemaakt. Bevestig de volgende informatie voordat u het account verwijdert</string>
+    <string name="del_account_title1">1. U zult uw account niet kunnen reactiveren</string>
+
+    <string name="del_account_note1">Zodra het verwijderd is, kunt u niet meer inloggen of deze account opnieuw gebruiken. Het is onmogelijk om boeken, informatie of bezittingen die aan de verwijderde account zijn gekoppeld te herstellen of te verwijderen. Zelfs als u zich opnieuw registreert, wordt er alleen een volledig nieuwe account aangemaakt.</string>
+    <string name="del_account_title2">2. Eigendommen en informatie worden gewist</string>
+    <string name="del_account_note2">De verwijdering van de account wordt gezien als het afstand doen van de rechten en bezittingen van de account. Inclusief persoonlijke informatie, munten, bonussen, coupons, opwaardeerkaarten en andere virtuele bezittingen. Behandel uw boeken, informatie en bezittingen daarom zorgvuldig.</string>
+    <string name="del_account_title3">3. Geschillenregeling</string>
+    <string name="del_account_note3">U kunt uw account niet succesvol verwijderen als er onopgeloste geschillen zijn, inclusief maar niet beperkt tot klachten, rapportages, enz.</string>
+    <string name="del_account_title4">4. Tijdstip van verwijdering</string>
+    <string name="del_account_note4">De aanvraag tot verwijdering wordt automatisch beoordeeld en goedgekeurd om 24:00 uur op de 30e dag. Maar u kunt via een account van derden inloggen om het proces vóór de definitieve verwijdering te annuleren.</string>
+    <string name="read_del_account_notice_note">Ik heb bovenstaande informatie gelezen en begrijp dat deze actie niet ongedaan kan worden gemaakt.</string>
+    <string name="pp_del_account">Account verwijderen</string>
+    <string name="pp_cancel_del_account">Accountverwijdering annuleren</string>
+    <string name="pp_cancel_del_account2">Accountverwijdering annuleren</string>
+    <string name="pp_cancel_del_account_hint">De account is in behandeling voor verwijdering. Weet u zeker dat u de verwijdering wilt annuleren?</string>
+    <string name="del_account_submitted">Het verzoek tot accountverwijdering is ingediend.</string>
+    <string name="del_account_confirm_time">Dit verzoek wordt automatisch beoordeeld en goedgekeurd op %s.</string>
+    <string name="del_account_terms_read_hint">Bevestig alstublieft of u akkoord gaat met de overeenkomst voor accountverwijdering.</string>
+    <string name="account_in_normal_state_hint">De account is in normale staat.</string>
+    <string name="account_deleted_hint">De account is verwijderd.</string>
+    <string name="account_deleting_hint">De accountverwijdering wordt verwerkt, probeer het niet opnieuw.</string>
+    <string name="account_delete_action_confirm">Accountverwijdering is succesvol ingediend.</string>
+    <string name="pp_attention">Let op</string>
+    <string name="pp_account_deleted_hint">Uw account is als verwijderd geregistreerd. Er is een nieuwe account voor u aangemaakt en de applicatie wordt automatisch opnieuw gestart zodat u deze kunt gebruiken.</string>
+    <string name="pp_think_again">Denk nog eens na</string>
+
+    <string name="pp_confirm">Bevestigen</string>
+    <string name="del_account_cancel_success_hint">U heeft de accountverwijdering succesvol geannuleerd.</string>
+    <string name="chapter_not_exist">Hoofdstuk bestaat niet.</string>
+    <string name="recharge_pedding_hint">U heeft %d onafgewerkte opwaarderingen.</string>
+    <string name="pp_friendly_reminder">Vriendelijke herinnering</string>
+    <string name="pp_restore_reminder_content">Na het klikken op de knop \'Herstellen\', heeft u even geduld nodig. Als de opwaardering na enige tijd nog steeds niet in uw account verschijnt of als u problemen ondervindt, neem dan gerust contact op met onze klantenservice. We helpen u graag!</string>
+    <string name="pp_report_immediately">Direct rapporteren</string>
+    <string name="pp_payment_error">Betalingsfout</string>
+    <string name="pp_payment_error_hint">Google Pay ondersteunt momenteel uw aankoop niet. Probeer een alternatieve betaalmethode.</string>
+    <string name="pp_switch_payment">Kies een andere methode</string>
+    <string name="pp_operate_frequent_tip">De actie is te vaak uitgevoerd, probeer het later opnieuw.</string>
+    <string name="pp_valid">Geldig</string>
+    <string name="pp_invalid">Ongeldig</string>
+    <string name="pp_received_time">Ontvangsttijd:</string>
+    <string name="pp_expired_date">Vervaldatum:</string>
+    <string name="pp_chapter">Hoofdstuk</string>
+    <string name="pp_rules">Regels</string>
+    <string name="pp_rules_check_in_title">1. Incheckregels</string>
+    <string name="pp_rules_check_in_content">U kunt bonussen verdienen door elke dag in te checken. Extra beloningen worden toegekend op de 3e en 7e opeenvolgende incheckdag. Onderbroken inchecken betekent verlies van de beloning voor die dag.</string>
+    <string name="pp_rules_novice_title">2. Beginnersopdrachten</string>
+    <string name="pp_rules_novice_content">Voltooi de beginnende taken om de bijbehorende bonus te ontvangen.</string>
+    <string name="pp_rules_daily_title">3. Dagelijkse taken</string>
+    <string name="pp_rules_daily_content">Wanneer u een dagelijkse taak voltooit, klik op de knop "Claim" om de bonus te ontvangen. Deze taak wordt regelmatig bijgewerkt. Als er problemen zijn met het uitdelen van bonussen door updates, laat dan uw feedback achter op mijn pagina.</string>
+    <string name="pp_rules_reward_rule_title">4. Beloningsregels</string>
+    <string name="pp_rules_reward_rule_content">De bonus is 7 dagen geldig. 1 Bonus = 1 Munt. Bonussen worden eerst afgetrokken bij het ontgrendelen van hoofdstukken.</string>
+    <string name="pp_day">Dag</string>
+    <string name="net_connect_tip">Netwerkfout, probeer het later opnieuw.</string>
+    <string name="pp_merge_assets_hint">De bezittingen in uw <Data><![CDATA[ <b>%s</b> ]]> </Data> applicatie worden normaal gebruikt in de <Data><![CDATA[ <b>%s</b> ]]> </Data> applicatie. Let op veranderingen in uw bezittingen.</string>
+    <string name="pp_merge_assets_hint_coin">De bezittingen in <Data><![CDATA[ <b>%s</b> ]]> </Data> omvatten boeken in de boekenplank, %s munten en %s bonussen.</string>
+    <string name="pp_merge_assets_hint_account">De account die overeenkomt met de bezitsfusie staat onder de %s account in de <Data><![CDATA[ <b>%s</b> ]]> </Data> applicatie.</string>
+    <string name="pp_merge_account_success">Account succesvol samengevoegd!</string>
+    <string name="pp_merge_account_fail">Account samenvoeging mislukt!</string>
+    <string name="pp_reward_signin_hint">Meld u aan en geniet van meer gratis voordelen</string>
+    <string name="pp_sign_in">Aanmelden</string>
+    <string name="pp_pay_sign_hint">Log in op uw account voor maximale veiligheid van uw account en gegevens; als u dit niet doet, loopt u het risico op verlies!</string>
+    <string name="pp_pay_sign_cancel">Negeer &amp; Doorgaan</string>
+    <string name="pp_library_login_hint">Meld u nu aan en geniet van exclusieve gratis voordelen voor nieuwkomers</string>
+    <string name="pp_login_unlock_benefit">Ontgrendel meer functies en voordelen</string>
+    <string name="pp_login_earn_bonus">verdien bonus</string>
+    <string name="pp_sign_in_continue">Log in om door te gaan</string>
+    <string name="pp_reader_sign_warning">Uw account is risico gelopen. Log snel in voor de veiligheid van account en gegevens.</string>
+    <string name="pp_verify_email">E-mail verifiëren</string>
+    <string name="pp_link_email_hint">Koppel uw e-mail om een gratis bonus te krijgen</string>
+    <string name="pp_email_address">E-mailadres</string>
+    <string name="pp_verification_code">Verificatiecode</string>
+    <string name="pp_code_send_hint">Verificatiecode is verzonden</string>
+    <string name="pp_resend_code">(%d) Opnieuw verzenden</string>
+    <string name="pp_verification_code_send_successful">Verificatiecode is verzonden, controleer uw e-mail.</string>
+    <string name="pp_already_bind_hint">De account van deze applicatie is gekoppeld aan andere accounts op het #%s# platform.</string>
+    <string name="pp_more_login_methods">Meer aanmeldmethoden</string>
+    <string name="pp_switch_account">Wissel account</string>
+    <string name="pp_switch_account_hint">Deze aanmeldmethode is gekoppeld aan een andere account, wilt u wisselen van account en uw bezittingen samenvoegen?</string>
+    <string name="pp_reminder">Herinnering</string>
+    <string name="pp_email_code_expire">Verificatiecode ongeldig!</string>
+    <string name="pp_email_code_error">Verificatiecode fout!</string>
+    <string name="pp_preference_setting">Voorkeursinstellingen</string>
+    <string name="pp_select_tag_hint">Selecteer tags om boeken nauwkeuriger aan u aan te bevelen</string>
+    <string name="pp_skip2">Overslaan</string>
+    <string name="pp_reading_preference">Leesvoorkeuren</string>
+    <string-array name="ranking_left_tab">
+        <item>Beste</item>
+        <item>Populair</item>
+        <item>Veelbelovend</item>
+        <item>Nieuw</item>
+        <item>Voltooid</item>
+    </string-array>
+    <string name="app_hot">Populair</string>
+    <string name="app_new">Nieuw</string>
+    <string name="app_read_guide_gesture_hint">Veeg dit gebied omhoog en omlaag om pagina\'s om te slaan</string>
+    <string name="unlock_now">Nu ontgrendelen</string>
+    <string name="unlock_successful">Ontgrendeling geslaagd</string>
+    <string name="unlock_fail">Ontgrendeling mislukt</string>
+    <string name="top_up_failed">Opwaarderen mislukt</string>
+    <string name="top_up_cancel">Opwaarderen geannuleerd</string>
+
+    <string name="payment_recharge_error">Er was een probleem met uw betaling. Om dit snel op te lossen:\n\n1. Open Google Play.\n2. Ga naar Betalingen &amp; Abonnementen.\n3. Selecteer Budget &amp; Geschiedenis.\n4. Annuleer de bestelling, wijzig het betaalbedrag of kies een andere betaalmethode.</string>
+    <string name="payment_recharge_error_other">Er was een probleem met uw betaling. Om dit snel op te lossen:\n1. Open %s.\n2. Annuleer de bestelling.\n3. Wijzig het betaalbedrag of gebruik een andere betaalmethode.</string>
+
+    <string name="payment_window_bottom_tip">Als u problemen ondervindt, neem dan contact op met onze #klantenservice# voor hulp.</string>
+    <string name="payment_bottom_ignore">Negeer</string>
+    <string name="payment_pending_title">Opladen bezig</string>
+    <string name="payment_pending_content">Uw oplading wordt verwerkt en kan 5–10 minuten vertraging hebben.</string>
+    <string name="payment_pending_button">Versnellen</string>
+    <string name="payment_pending_accelerating">Bezig met versnellen…</string>
+    <string name="payment_pending_keep">Blijf wachten</string>
+    <string name="payment_pending_shoose_other">Uw bestelling wordt nog verwerkt. Het duurt langer dan normaal. Heeft nog even geduld. Als de betaling niet snel doorgaat, kunt u een andere methode proberen.</string>
+    <string name="top_up_successful">Opladen geslaagd</string>
+    <string name="have_incomplete_payment">U heeft een onvoltooide betaalopdracht. Probeer een ander bedrag of kies een andere betaalmethode.</string>
+
+    <string name="pending_clicking_frequently">Te veel pogingen, probeer het later opnieuw</string>
+    <string name="order_processing">Bestelling wordt verwerkt</string>
+    <string name="proceed_cancel_order_hint">Annuleren zal onvoltooide betalingen onderbreken.</string>
+    <string name="cancel_order_feedback_title">Annuleren? Laat ons weten waarom</string>
+    <string name="cancel_order_feedback_subtitle">Uw feedback helpt ons te verbeteren.</string>
+    <string name="payment_not_working">Betaalmethode werkt niet</string>
+    <string name="price_too_high">Prijs is te hoog</string>
+    <string name="pick_wrong_product">Verkeerd product gekozen</string>
+    <string name="payment_page_slow">Betaalpagina is te traag</string>
+    <string name="change_mind">Van gedachten veranderd/Overig</string>
+    <string name="other_reason_share">(Optioneel) Andere redenen? Deel ze alsjeblieft.</string>
+
+    <string name="load_failed">Laden mislukt, tik om opnieuw te proberen</string>
+    <string name="load_end">Geen verdere items ~</string>
+
+    <string name="other_payment_methods">Andere betaalmethoden</string>
+    <string name="select_payment_method">Selecteer betaalmethode</string>
+    <string name="payment_unavailable_attention">De betaalmethode is niet beschikbaar. Probeer een alternatieve betaalmethode.</string>
+
+    <string name="login_welcome">Welkom bij %s</string>
+    <string name="login_other_methods">Andere inlogmethoden</string>
+
+    <string name="help_feedback">Hulp &amp; Feedback</string>
+    <string name="faq">FAQ</string>
+    <string name="recharge_not_receive_q">Wat moet ik doen als de oplading succesvol is, maar ik geen munten heb ontvangen?</string>
+    <string name="recharge_not_receive_a">
+        Bevestig of de banktransactie succesvol was en of de betaling is afgeschreven. Als de betaling succesvol is afgeschreven, open dan de app opnieuw om te controleren of de portemonnee en transacties zijn bijgewerkt.
+        \n\n
+        Belangrijke opmerkingen:
+        \n\n
+        · Zorg ervoor dat u bent ingelogd met hetzelfde account als waarmee u hebt opgeladen. Soms vergeten gebruikers hun inloggegevens en laden ze op als gast.
+        \n\n
+        · Volgens het transactieproces kan het enige tijd duren voordat de munten worden bijgeschreven na een succesvolle betaling. De verwerkingstijd kan variëren afhankelijk van de betaalmethode. Wij raden aan 10 minuten te wachten na een succesvolle betaling voordat u controleert of de portemonnee en transacties zijn bijgewerkt.
+        \n\n
+        Als bovenstaande methoden niet werken, neem dan contact met ons op via "Feedback" zodat wij uw probleem snel kunnen oplossen.
+    </string>
+    <string name="cannot_complete_payment_q">Ik kan mijn betaling niet afronden?</string>
+    <string name="cannot_complete_payment_a">
+        · Als er een foutmelding verschijnt in de winkel, controleer dan of uw netwerk normaal werkt. U kunt proberen van netwerk te wisselen, bijvoorbeeld een ander WiFi-netwerk gebruiken.
+        \n\n
+        · Daarnaast kan dit probleem optreden als u niet succesvol bent ingelogd bij Google en Apple accounts op uw apparaat.
+        \n\n
+        · Als geen van bovenstaande methoden uw probleem oplost, geef ons dan feedback over het probleem dat u bent tegengekomen.
+    </string>
+    <string name="refund_payment_q">Kan ik een terugbetaling aanvragen na betaling?</string>
+    <string name="refund_payment_a">
+        Terugbetalingen worden momenteel niet ondersteund. Munten en bonussen kunnen worden gebruikt om hoofdstukken te ontgrendelen.
+    </string>
+    <string name="disable_automatic_purchase_q">Hoe schakel ik de automatische aankoopfunctie uit?</string>
+    <string name="disable_automatic_purchase_a">U kunt deze uitschakelen via "Mijn"/"Portemonnee"/"Boeken automatisch ontgrendelen".</string>
+    <string name="view_unlock_chapter_history_q">Hoe kan ik mijn geschiedenis van ontgrendelde hoofdstukken bekijken?</string>
+    <string name="view_unlock_chapter_history_a">U kunt dit controleren via "Mijn"/"Portemonnee"/"Verbruikgeschiedenis".</string>
+    <string name="get_coins_bonus_q">Hoe krijg ik mijn munten en bonussen?</string>
+    <string name="get_coins_bonus_a">U kunt munten en bonussen verkrijgen via oplaadevenementen en door deel te nemen aan taken in het welvaartscentrum om bonussen te verdienen. Munten kunnen alleen worden verkregen door op te laden.</string>
+    <string name="difference_coins_bonus_q">Wat is het verschil tussen munten en bonussen?</string>
+    <string name="difference_coins_bonus_a">
+        · Beide kunnen worden gebruikt om hoofdstukken te ontgrendelen.
+        \n\n
+        · Bonussen hebben een geldigheidsperiode. U kunt de geldigheidsperiode van de bonus controleren in de "Bonusgeschiedenis" van de "Portemonnee".
+    </string>
+    <string name="check_user_id_q">Hoe kan ik mijn gebruikers-ID controleren?</string>
+    <string name="check_user_id_a">
+        Gastaccount
+        \n
+        1. Klik op "Mijn pagina".
+        \n
+        2. Een reeks cijfers aan de rechterkant van de avatar.
+        \n\n\n
+        Reeds gebonden account
+        \n
+        1. Klik op "Mijn pagina".
+        \n
+        2. Klik op de avatar bovenaan om een nieuwe pagina te openen.
+        \n
+        3. Een reeks cijfers onder de avatar.
+    </string>
+    <string name="assets_synchronize_q">Worden activa gesynchroniseerd bij inloggen op verschillende apparaten?</string>
+    <string name="assets_synchronize_a">
+        U kunt uw activa snel synchroniseren door in te loggen met hetzelfde account. Zo doet u dat:
+        \n\n
+        · Zoek uw vorige apparaat en log in met een derde partij-account (zoals Google of Facebook).
+        \n\n
+        · Onthoud uw gebruikers-ID en wachtwoord.
+        \n\n
+        · Log in met hetzelfde account op uw nieuwe apparaat.
+        \n\n
+        · Zorg ervoor dat het gebruikers-ID-nummer overeenkomt met dat wat u heeft genoteerd.
+        \n\n
+        Om uw voortgang te behouden, raden we aan uw leesvoortgang op het oude apparaat te voltooien voordat u overschakelt naar het nieuwe.
+    </string>
+    <string name="categories">Categorieën</string>
+    <string name="recharge_issues">Oplaadproblemen</string>
+    <string name="coin_bonus_issues">Munten- en bonusproblemen</string>
+    <string name="chapter_unlock_issues">Hoofdstuk ontgrendelproblemen</string>
+    <string name="book_issues">Boekproblemen</string>
+    <string name="account_issues">Accountproblemen</string>
+    <string name="other">Overig</string>
+
+    <string name="error_code3_a">Bij dergelijke foutcodes raden we aan Google Play-diensten bij te werken of een alternatieve betaalmethode te gebruiken.</string>
+    <string name="coins_bonus_reduce_a">
+    · Mogelijk bent u ingelogd met een ander account. Controleer uw bonusontvangstgeschiedenis om te zien of deze een doorlopende registratie heeft.
+    \n\n
+    · Er zijn verschillende inlogmethoden, zoals Facebook, Google en e-mailadres. Als u niet bent ingelogd met een van de genoemde accounts, heeft uw apparaat een gastaccount. U kunt uw account bekijken op de pagina "Mijn".
+    \n\n
+    · Als uw bonus is verminderd, kunt u eerst uw bonusrecords controleren; het is mogelijk dat een deel van de bonus is verlopen.
+    \n\n
+    · Mogelijk heeft u automatische ontgrendeling ingesteld. Controleer uw hoofdstuk ontgrendelgeschiedenis om te zien of u al munten of bonussen heeft gebruikt.
+    \n\n
+    · Als bovenstaande methoden uw probleem niet oplossen, stuur het probleem dan naar ons via "Feedback".
+</string>
+
+    <string name="check_bonus_usage_history">U kunt de verbruikgeschiedenis van bonussen of munten bekijken in "Mijn"/"Portemonnee"/"Verbruikgeschiedenis".</string>
+
+    <string name="unlock_chapter_a">We ondersteunen zowel het individueel ontgrendelen van hoofdstukken als het in bulk ontgrendelen. U kunt kiezen op basis van uw behoeften. Ontgrendelen vereist het gebruik van munten of bonussen. Als uw munt- of bonusbalans onvoldoende is, moet u opladen.</string>
+
+    <string name="unable_next_chapter_a">
+    · Zorg ervoor dat uw netwerkverbinding goed is. Het wordt aanbevolen van netwerk te wisselen en het opnieuw te proberen.
+    \n\n
+    · Zorg ervoor dat uw munten of bonussen voldoende zijn.
+</string>
+
+    <string name="grammar_spell_error_a">Neem contact met ons op via "Feedback" en geef de titel van het boek en de hoofdstuktitels door zodat wij het probleem snel kunnen oplossen.</string>
+    <string name="violent_insult_content_a">Neem contact met ons op via "Feedback" en geef de titel van het boek en de hoofdstuktitels door. Wij zullen het aanpakken.</string>
+    <string name="paid_book_pay_again_a">De boeken die u koopt blijven altijd uw eigendom. Als u aangekochte boeken verwijdert, kunt u deze terughalen via "Mijn"/"Bekeken".</string>
+    <string name="bookshelf_coin_assets_disappeared_a">Deze situatie ontstaat meestal wanneer u inlogt met verschillende accounts of apparaten. Zorg ervoor dat u inlogt met uw reguliere account. Als het probleem aanhoudt, neem dan contact met ons op via "Feedback" voor hulp.</string>
+    <string name="login_del_account_a">
+    Inloggen:
+    \n
+    1. Klik op "Mijn pagina"
+    \n
+    2. Klik op de "avatar"
+    \n
+    3. Kies uw voorkeurs "inlogmethode"
+    \n\n\n
+    Account verwijderen:
+    \n
+    1. Klik op "Mijn pagina"
+    \n
+    2. Klik op "Instellingen"
+    \n
+    3. Klik op "Account verwijderen"
+</string>
+
+    <string-array name="issues_category_item">
+        <item>Oplaadproblemen</item>
+        <item>Munten- en bonusproblemen</item>
+        <item>Hoofdstuk ontgrendelproblemen</item>
+        <item>Boekproblemen</item>
+        <item>Accountproblemen</item>
+        <item>Overige</item>
+    </string-array>
+
+    <string-array name="recharge_issues_item">
+        <item>Wat moet ik doen als de oplading succesvol is, maar ik geen munten heb ontvangen?</item>
+        <item>Ik kan mijn betaling niet afronden?</item>
+        <item>Foutcode 3</item>
+        <item>Kan ik een terugbetaling aanvragen na betaling?</item>
+    </string-array>
+    <string-array name="recharge_issues_item_a">
+        <item>@string/recharge_not_receive_a</item>
+        <item>@string/cannot_complete_payment_a</item>
+        <item>@string/error_code3_a</item>
+        <item>@string/refund_payment_a</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item">
+        <item>Hoe krijg ik mijn munten en bonussen?</item>
+        <item>Mijn munten of bonus zijn verdwenen of verminderd</item>
+        <item>Wat is het verschil tussen munten en bonussen?</item>
+        <item>Hoe controleer ik de gebruiksgeschiedenis van mijn bonussen?</item>
+    </string-array>
+
+    <string-array name="coins_bonus_issues_item_a">
+        <item>@string/get_coins_bonus_a</item>
+        <item>@string/coins_bonus_reduce_a</item>
+        <item>@string/difference_coins_bonus_a</item>
+        <item>@string/check_bonus_usage_history</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item">
+        <item>Hoe ontgrendel ik hoofdstukken?</item>
+        <item>Hoe kan ik mijn geschiedenis van ontgrendelde hoofdstukken bekijken?</item>
+        <item>Hoe schakel ik de automatische aankoopfunctie uit?</item>
+        <item>Kan ik het volgende hoofdstuk niet lezen?</item>
+    </string-array>
+
+    <string-array name="chapter_unlock_issues_item_a">
+        <item>@string/unlock_chapter_a</item>
+        <item>@string/view_unlock_chapter_history_a</item>
+        <item>@string/disable_automatic_purchase_a</item>
+        <item>@string/unable_next_chapter_a</item>
+    </string-array>
+
+    <string-array name="book_issues_item">
+        <item>Veel inhoud is herhalend, met grammatica- of spelfouten.</item>
+        <item>Bevat gewelddadige, beledigende en ongepaste inhoud.</item>
+        <item>Als ik een betaald boek uit mijn boekenplank verwijder, moet ik dan opnieuw betalen?</item>
+    </string-array>
+
+    <string-array name="book_issues_item_a">
+        <item>@string/grammar_spell_error_a</item>
+        <item>@string/violent_insult_content_a</item>
+        <item>@string/paid_book_pay_again_a</item>
+    </string-array>
+
+    <string-array name="account_issues_item">
+        <item>Hoe kan ik mijn gebruikers-ID controleren?</item>
+        <item>Hoe kan ik inloggen/verwijderen?</item>
+        <item>Worden de bezittingen gesynchroniseerd wanneer ik op verschillende apparaten inlog?</item>
+        <item>Mijn boekenplankgegevens en gouden munten zijn verdwenen?</item>
+    </string-array>
+
+    <string-array name="account_issues_item_a">
+        <item>@string/check_user_id_a</item>
+        <item>@string/login_del_account_a</item>
+        <item>@string/assets_synchronize_a</item>
+        <item>@string/bookshelf_coin_assets_disappeared_a</item>
+    </string-array>
+
+    <string-array name="other_issues_item">
+        <item>Neem contact met ons op via "Feedback" om het probleem snel op te lossen.</item>
+    </string-array>
+
+    <string name="resole_issue_feedback">Probleem nog niet opgelost? Klik op #Feedback#</string>
+
+    <string-array name="subscribe_tips">
+        <item>Hoe krijg ik mijn munten en bonussen?</item>
+        <item>Mijn munten of bonussen zijn verdwenen of verminderd.</item>
+        <item>Wat is het verschil tussen munten en bonussen?</item>
+        <item>Hoe kan ik de gebruiksgeschiedenis van mijn bonussen bekijken?</item>
+    </string-array>
+
+    <string name="total">Totaal: %d</string>
+    <string name="subscription_get_coins_bonus">Ontvang %d munten en %d bonus</string>
+    <string name="subscription_login_bonus">Log in voor %d dagen om %d bonussen te krijgen</string>
+    <string name="per_week">/week</string>
+    <string name="details">Details</string>
+    <string name="subscription_in_effect">Van kracht</string>
+    <string name="subscription_date">Vervaldatum: %s</string>
+    <string name="subscription_get_coins">Ontvang %d munten</string>
+
+    <string name="subscription_bonus">+%d bonus</string>
+    <string name="subscription">Mijn abonnement</string>
+    <string name="subscription_rewards">abonnement beloningen</string>
+    <string name="subscription_claim_title">Claim abonnement beloningen</string>
+    <string name="claim_success">Claim geslaagd</string>
+    <string name="claim_fail">Claim mislukt</string>
+    <string name="days">Dag%d</string>
+
+    <string name="subscription_success">Abonnement geslaagd</string>
+    <string name="subscribe_success_tip">Je hebt %d munten en %d bonussen gekregen. Je kunt %d bonussen dagelijks claimen.</string>
+
+    <string name="subscribe_tips1">1. De aankoopkosten worden afgeschreven van je betalingsaccount.</string>
+    <string name="subscribe_tips2">2. Je abonnement wordt automatisch vernieuwd. Abonnementen worden automatisch in rekening gebracht bij elk factureringsperiode, of maandelijks of een andere periode. Je kunt binnen 24 uur voor het begin van elke factureringsperiode in rekening worden gebracht totdat je je abonnement annuleert.</string>
+    <string name="subscribe_tips3">3. Je kunt je abonnement op elk moment meer dan 24 uur voor je verlengingsdatum annuleren.</string>
+    <string name="subscribe_tips4">4. De geldigheidsduur van de bonus bij het opwaarderen is %d dagen.</string>
+    <string name="subscribe_tips5">5. De bonus wordt gedurende zeven dagen verdeeld, en eventuele niet opgehaalde bonussen na de vervaldatum kunnen niet worden hersteld.</string>
+    <string name="subscribe_tips6">6. Munten en bonussen hebben dezelfde waarde, niet verlopen bonussen zijn virtuele items en we bieden geen terugbetalingen.</string>
+    <string name="subscribe_tips7">7. Heb je hulp nodig? Kijk dan naar onze #FAQ#.</string>
+
+    <string name="subscribe_rules">1. Je ontvangt %s Munten en %s Bonussen onmiddellijk na het abonnement.\n2. Log in voor %s opeenvolgende dagen om %s bonussen te ontvangen, d.w.z. %s Bonus per dag.\n3. Je kunt de extra beloningen bekijken in je portemonnee na het abonnement.</string>
+
+    <string name="subscribe_pay_title">Abonnementscontract</string>
+    <string name="subscribe_pay_tip1_title">1. Betaling:</string>
+    <string name="subscribe_pay_tip1_content">De aankoopkosten worden afgeschreven van je betalingsaccount.</string>
+    <string name="subscribe_pay_tip2_title">2. Verlenging:</string>
+    <string name="subscribe_pay_tip2_content">Je abonnement wordt automatisch verlengd. Abonnementen worden automatisch gefactureerd per factureringsperiode, of maandelijks of een andere periode. Je kunt binnen 24 uur voor het begin van elke factureringsperiode in rekening worden gebracht totdat je je abonnement annuleert.</string>
+    <string name="subscribe_pay_tip3_title">3. Annulering:</string>
+    <string name="subscribe_pay_tip3_content">Je kunt je abonnement op elk moment meer dan 24 uur voor je verlengingsdatum annuleren. Om het abonnement te annuleren, ga je naar het betalingsplatform.</string>
+    <string name="subscribe_pay_tip4_title">4. Beheer je abonnementen:</string>
+    <string name="subscribe_pay_tip4_content">Je kunt je abonnementen bekijken, wijzigen of annuleren.</string>
+
+    <string name="subscribe_out_of_date">Abonnement verlopen!</string>
+
+    <string name="pp_got_it">Begrepen</string>
+    <string name="got_it">Begrepen</string>
+    <string name="pp_get">Begrepen</string>
+
+    <string name="pp_submit">Indienen</string>
+    <string name="pp_submitted">Ingediend</string>
+    <string name="pp_submit_fail">Indiening mislukt</string>
+
+    <string name="admob_watch_ad_add_tip">Bekijk advertenties +%s bonus</string>
+    <string name="admob_loading_tip">Advertentie wordt geladen, probeer het later opnieuw</string>
+    <string name="admob_waiting_count_down">Blijf de advertentie bekijken na de aftelling</string>
+
+    <string name="bonus_value">%d Bonus</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus_ad_claimed">geclaimd %d bonussen</string>
+
+    <string name="admob_watch_tip">Bekijk advertenties om bonussen te verdienen</string>
+    <string name="admob_earn_bonus_tip">Verdien %d bonussen voor elke bekeken advertentie</string>
+    <string name="admob_watch_count_tip">Bekijk advertentie %d/%d</string>
+    <string name="admob_count_down_tip">Bekijk de advertentie later om %s</string>
+    <string name="admob_daily_desc">%d bonus per video-advertentie bekeken, voltooid %d/%d</string>
+
+    <string name="usa_ad_privacy">Advertentievoorkeuren</string>
+
+    <string name="member_benefits">Voordelen voor Premium-leden</string>
+    <string name="unlimit_premium_books">Onbeperkt gratis lezen van meer dan 10.000 premiumboeken</string>
+    <string name="weekly_access_books">Wekelijkse toegang tot 200+ exclusieve topboeken</string>
+    <string name="enjoy_add_free_experience">Geniet van een advertentievrije ervaring</string>
+    <string name="premium_member_identity">Premium lidmaatschap</string>
+    <string name="subscribe">Abonneren</string>
+    <string name="unlimit_reading">Onbeperkt lezen!</string>
+    <string name="only_1499_price">Vanaf $14,99</string>
+    <string name="premium">Premium</string>
+    <string name="premium_first_week_discount">%s voor de eerste week, daarna %s/week</string>
+    <string name="premium_expire_date">Vervaldatum: %s</string>
+    <string name="discover_vip_price">Vanaf $14,99</string>
+    <string name="premium_daily_active_text">Je dagelijkse lidmaatschap is actief</string>
+    <string name="premium_week_active_text">Je wekelijkse lidmaatschap is actief.</string>
+    <string name="premium_month_active_text">Je maandelijkse lidmaatschap is actief.</string>
+    <string name="premium_year_active_text">Je jaarlijkse lidmaatschap is nu actief.</string>
+    <string name="premium_expire_time">Verloopt op %s</string>
+    <string name="vip_rules">
+        1. Gebruikers met een Premium-abonnement kunnen gratis toegang krijgen tot alle exclusieve premiumboeken.\n2. Betaling: Het aankoopbedrag wordt in rekening gebracht op je betaalrekening.\n3. Verlengen: Je abonnement wordt automatisch verlengd. Er wordt automatisch kosten in rekening gebracht binnen 24 uur voor de start van elke abonnementsperiode totdat je opzegt.\n4. Annuleren: Je kunt je abonnement op elk moment annuleren, meer dan 24 uur vóór de verlengingsdatum. Ga naar het betalingsplatform om het abonnement op te zeggen.
+    </string>
+
+    <string name="unlock_watch_count">Bekijk advertentie om te ontgrendelen (%d/%d)</string>
+    <string name="unlock_watch_title">Bekijk advertentie om te ontgrendelen</string>
+    <string name="unlock_watch_desc">Je kunt dit hoofdstuk ontgrendelen door een advertentie te bekijken</string>
+    <string name="unlock_watch_now">Nu bekijken</string>
+    <string name="unlock_watch_chapter_count">Je kunt vandaag %d hoofdstukken gratis ontgrendelen (%d/%d) </string>
+
+    <string name="email_login_top">Voer het e-mailadres in dat je voor je account hebt gebruikt</string>
+    <string name="email_address_enter_tip">voer je e-mailadres in</string>
+    <string name="email_code_enter_tip">voer verificatiecode in</string>
+    <string name="email_send_code">Code verzenden</string>
+
+    <string name="facebook_link_title">Facebook-account koppelen</string>
+    <string name="facebook_link_content">Koppel je Facebook-account om meer munten te krijgen. Maak je geen zorgen, je behoudt al je huidige voortgang en gegevens die aan dit account zijn gekoppeld</string>
+
+    <string name="limit_time_title">Aanbieding voor beperkte tijd</string>
+    <string name="limit_time_content">Grijp nu je kans — laagste prijs ooit, alleen voor beperkte tijd!</string>
+    <string name="limit_time_premium">premium sectie lezen</string>
+
+    <string name="subscribe_now">Nu abonneren</string>
+    <string name="transaction_ompleted">Transactie voltooid</string>
+    <string name="transaction_content">Aankoop van munten geslaagd. De bonus is 7 dagen geldig.</string>
+
+    <string name="send_again">Opnieuw verzenden</string>
+    <string name="ad_unlock">Advertentie ontgrendelen</string>
+
+    <string name="top_up_history">Opwaardeergeschiedenis</string>
+    <string name="not_activated">Niet geactiveerd</string>
+    <string name="vip_feedback_rule">
+        6. Als u hulp nodig heeft of vragen heeft, laat het ons weten via onze #Feedback#.
+    </string>
+
+    <string name="unlock_adv_used">Advertentie-ontgrendeling opgebruikt. Probeer het morgen opnieuw</string>
+    <string name="expiration_date">Vervaldatum:</string>
+    <string name="select_gender">Selecteer je geslacht</string>
+    <string name="enter_nickname">Voer je bijnaam in…</string>
+    <string name="enter_email">Voer hier je e-mailadres in…</string>
+    <string name="select_birthday">Selecteer je geboortedatum</string>
+
+    <string name="pay_premium_weekly_membership">Wekelijks lidmaatschap</string>
+    <string name="pay_premium_monthly_membership">Maandelijks lidmaatschap</string>
+    <string name="pay_save_value">Bespaar %s%%</string>
+    <string name="pay_unlock_chapter_count">%s hoofdstukken ontgrendelen</string>
+    <string name="pay_coins">%s munten</string>
+    <string name="pay_unlock_in_bulk">In bulk ontgrendelen</string>
+    <string name="top_up_now">Nu opwaarderen</string>
+    <string name="dont_waste_time">Verspil geen tijd</string>
+    <string name="subscribe_unlock_tip">Abonneer om direct te ontgrendelen</string>
+    <string name="auto_renew_cancel_tip">Automatische verlenging · Altijd opzegbaar</string>
+    <string name="week">week</string>
+    <string name="month">maand</string>
+    <string name="books_free_cycle">Alle boeken 1 %s gratis</string>
+    <string name="unlock_all_story">Alle verhalen ontgrendelen</string>
+    <string name="premium_benefits">Premium-lidmaatschapvoordelen</string>
+    <string name="read_free">Gratis lezen</string>
+    <string name="no_ads">Geen advertenties</string>
+    <string name="early_access">Vroege toegang</string>
+    <string name="pay_premium_yearly_membership">Jaarlidmaatschap</string>
+    <string name="year">jaar</string>
+    <string name="per_month">/maand</string>
+    <string name="per_year">/jaar</string>
+    <string name="pay_premium_daily_membership">Dagelijks lidmaatschap</string>
+    <string name="day">dag</string>
+    <string name="per_day">/dag</string>
+    <string name="pay_premium_free_for">Alle boeken zijn %s gratis</string>
+    <string name="top_up_more">Laad meer op, bespaar meer</string>
+    <string name="premium_books_free">Alle boeken gratis lezen</string>
+    <string name="join_premium">Lid worden</string>
+
+    <string name="subscription_now">Nu abonneren</string>
+    <string name="get_special_offer">Krijg een speciale aanbieding!</string>
+    <string name="sevel_month">/%d maand</string>
+
+    <string name="subscription_agreement">Abonnementsovereenkomst</string>
+    <string name="subscription_agreement_tips1">1. Gebruikers die zich abonneren op Premium kunnen gratis toegang krijgen tot alle boeken.</string>
+    <string name="subscription_agreement_tips2">2. Betaling: De aanschafkosten worden afgeschreven van uw betaalrekening.</string>
+    <string name="subscription_agreement_tips3">3. Verlenging: Uw abonnement wordt automatisch verlengd. Abonnementen worden automatisch in rekening gebracht elke factureringsperiode, of dit nu maandelijks of een andere periode is. Er kunnen kosten in rekening worden gebracht tot maximaal 24 uur vóór het begin van elke factureringsperiode totdat u uw abonnement opzegt.</string>
+    <string name="subscription_agreement_tips4">4. Opzegging: U kunt een abonnement op elk moment opzeggen, meer dan 24 uur vóór uw verlengingsdatum. Ga naar het betaalplatform om het abonnement op te zeggen.</string>
+    <string name="enjoy_app_so_for">Bevalt de app?</string>
+    <string name="thank_for_support">Bedankt voor je steun!\nEen snelle beoordeling helpt ons enorm.</string>
+    <string name="five_star">5 sterren</string>
+    <string name="maybe_later">Later</string>
+    <string name="thank_help_improve">Bedankt voor je hulp!</string>
+    <string name="continue_bring_more_emotional">Dankzij jou blijven we inspirerende verhalen brengen.</string>
+    <string name="continue_reading">Verder lezen</string>
+    <string name="read_more">Meer lezen, meer besparen</string>
+    <string name="this_chapter">Dit hoofdstuk</string>
+    <string name="my_wallet">Mijn Portemonnee</string>
+
+    <string name="featured_collection">Aanbevolen Collectie</string>
+    <string name="book_catalog">Boekencatalogus</string>
+    <string name="fold_up">Inklappen</string>
+    <string name="choose_your_plan">Kies je abonnement</string>
+    <string name="select_payment_method_2">Betalingsmethode selecteren</string>
+    <string name="personalized_tip">Gepersonaliseerde aanbevelingen op basis van voorkeuren</string>
+    <string name="money_back_tip">Geld-terug-garantie</string>
+    <string name="what_you_get">Wat je krijgt</string>
+    <string name="premium_center_recharge_tip">Door verder te gaan, ga je akkoord dat je abonnement automatisch wordt verlengd. Abonnementen worden elke factureringsperiode automatisch in rekening gebracht, of dit nu maandelijks of een andere cyclus is. Er kunnen kosten tot 24 uur vóór het begin van elke factureringsperiode in rekening worden gebracht totdat je je abonnement opzegt. Meer informatie over ons opzeg- en terugbetalingsbeleid vind je in de #Abonnementsvoorwaarden#.</string>
+    <string name="premium_pay_safe">Veilig &amp; beschermd betalen</string>
+    <string name="premium_access">Premium-toegang</string>
+    <string name="unlock_unlimited_books">Onbeperkt boeken ontgrendelen</string>
+    <string name="limit_title_premium">Alle boeken gratis lezen</string>
+    <string name="secure_payment">Veilige betaling</string>
+    <string name="easy_cancellation">Eenvoudig opzeggen</string>
+    <string name="money_back_guarantee">Geld-terug-garantie</string>
+    <string name="subscription_renews_tip">Na de introductieperiode wordt je abonnement automatisch verlengd tegen de prijs van het geselecteerde abonnement. Je kunt op elk moment opzeggen.</string>
+    <string name="first_days">Eerste %d dagen</string>
+    <string name="then_price">Daarna $%.2f</string>
+    <string name="only_price">Slechts US$%.2f/dag</string>
+    <string name="full_story">Het volledige verhaal wacht op je</string>
+    <string name="continue_read_unlock">Blijf lezen en ontgrendel het einde waar je op wachtte.</string>
+    <string name="trust_readers">Vertrouwd door 10M+ lezers</string>
+    <string name="keep_reading">Blijf lezen</string>
+    <string name="no_Interruptions">Geen onderbrekingen</string>
+    <string name="stories_num">10.000+ verhalen</string>
+    <string name="read_full_story">Lees het volledige verhaal</string>
+    <string name="without_limit">Zonder limieten</string>
+    <string name="unlock_romance">Ontgrendel onbeperkte romance-, fantasy- en weerwolfverhalen met het lezeraanbod van vandaag.</string>
+    <string name="save_percent">BESPAAR %d%%</string>
+    <string name="daily">dagelijks</string>
+    <string name="weekly">wekelijks</string>
+    <string name="monthly">maandelijks</string>
+    <string name="yearly">jaarlijks</string>
+    <string name="cancel_anytime">Op elk moment opzeggen</string>
+    <string name="continue_story">Ga door met mijn verhaal</string>
+    <string name="next_chapter_waiting">Je volgende hoofdstuk wacht</string>
+    <string name="continue_read_long">Ga nu door met het verhaal en ontgrendel duizenden meer zoals dit.</string>
+    <string name="read_full_stories">Volledige verhalen lezen</string>
+    <string name="start_short_reading">Onbeperkt lezen starten</string>
+
+</resources>
+<!--
+    荷兰语
+!-->

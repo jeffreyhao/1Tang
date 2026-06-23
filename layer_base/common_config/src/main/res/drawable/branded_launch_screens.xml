@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+            android:opacity="opaque">
+
+    <!--背景颜色-->
+    <item android:drawable="@drawable/branded_shape_background"/>
+
+    <!-- 产品logo-->
+    <item android:bottom="0dp" android:gravity="center">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/app_splash"
+            android:tileMode="disabled" />
+    </item>
+
+    <item android:bottom="21dp">
+        <bitmap
+            android:gravity="center|bottom"
+            android:src="@drawable/app_splash_bottom"
+            android:tileMode="disabled" />
+    </item>
+
+<!--    <item >-->
+<!--        <bitmap-->
+<!--            android:gravity="bottom"-->
+<!--            android:tileMode="disabled"-->
+<!--            android:src="@drawable/launcher_startup_logo" />-->
+<!--    </item>-->
+</layer-list>

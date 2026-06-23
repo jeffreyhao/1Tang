@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="toolbar_layout_id" />
+    <item type="id" name="id_header_title"  />
+    <item type="id" name="tag_last_click_cpu_time"  />
+
+    <item type="id" name="progress">@android:id/progress</item>
+    <item type="id" name="background">@android:id/background</item>
+
+
+</resources>

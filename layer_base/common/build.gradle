@@ -1,0 +1,23 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.fold.common"
+}
+
+dependencies {
+    implementation project(path: ':layer_base:base_res')
+    implementation project(path: ':layer_base:base_api')
+    implementation project(path: ':layer_base:base_util')
+    implementation project(path: ':layer_base:base_net')
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    compileOnly Dep.appcompat
+    compileOnly Dep.recyclerview
+    compileOnly Dep.legacy
+    compileOnly Dep.palette
+
+
+}

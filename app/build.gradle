@@ -1,0 +1,247 @@
+import build.src.DefaultConfig
+import build.src.Dep
+import com.build.src.Main
+
+apply plugin: 'com.android.application'
+apply plugin: Main
+
+
+android {
+    compileSdk DefaultConfig.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion 26    // Android 8.0
+        targetSdkVersion DefaultConfig.targetSdkVersion
+
+        multiDexEnabled = true
+
+        ndk {
+            abiFilters "armeabi-v7a", "x86", 'arm64-v8a', 'x86_64'
+        }
+
+        // Http Request Config
+        buildConfigField "String", "BOOK_STORE_PAGE",       "\"" + "" + "\""
+        buildConfigField "String", "ENDPOINT",              "\"" + "" + "\""
+        buildConfigField "String", "ENDPOINT_API",          "\"" + "" + "\""
+        buildConfigField "String", "WEB_ENDPOINT_PREFIX",   "\"" + "" + "\""
+        buildConfigField "String", "WEB_ENDPOINT",          "\"" + "" + "\""
+        buildConfigField "String", "AWS_ACCESS_KEY",        "\"" + "" + "\""
+        buildConfigField "String", "AWS_SECRET_KEY",        "\"" + "" + "\""
+
+        buildConfigField "String", "BASE_LANDING",      "\"" + "" + "\""
+        buildConfigField "String", "BACKUP_HOST",       "\"" + "" + "\""
+        buildConfigField "String", "BACKUP_HOST_IP",    "\"" + "" + "\""
+        buildConfigField "String", "DIRECT_HOST_IP",    "\"" + "" + "\""
+
+        buildConfigField "String", "CHANNEL",           "\"" + "" + "\""
+        buildConfigField "String", "PRODUCT_ID",        "\"" + "" + "\""
+        buildConfigField "String", "GROUP_ID",          "\"" + "" + "\""
+        buildConfigField "String", "DEBUG_URL",         "\"" + "" + "\""
+        buildConfigField "String", "SEARCH_URL",        "\"" + "" + "\""
+        buildConfigField "String", "UPLOAD_TIME_URL",   "\"" + "" + "\""
+        buildConfigField "String", "BACKUP_HOST",       "\"" + "" + "\""
+        buildConfigField "String", "BACKUP_HOST_IP",    "\"" + "" + "\""
+        buildConfigField "String", "DIRECT_HOST_IP",    "\"" + "" + "\""
+        buildConfigField "boolean", "CRASH_DEFEND",     "false"
+        buildConfigField "boolean", "SENSORS_LOG",      "false"
+        buildConfigField "int",     "EXIT_LIMIT",           "1"
+    }
+
+    signingConfigs {
+        novelclub {
+            keyPassword 'QG#18DD%ZN4@A&VL'
+            storeFile file('app_sign_key')
+            storePassword 'QG#18DD%ZN4@A&VL'
+            keyAlias 'key0'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+
+    buildTypes {
+
+        /**
+         * 正式包
+         */
+        publish {
+            debuggable true
+            minifyEnabled false      // 打开混淆
+            shrinkResources false    // 移除无用的resource文件
+
+            buildConfigField "boolean", "LOG_DEBUG",    "false"
+            buildConfigField "String",  "BASE_URL",     "\"" + "https://launch.novelsbd.com/" + "\""
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            matchingFallbacks = ['debug', 'release']
+        }
+
+
+        /**
+         * 开发使用
+         */
+        debug {
+            debuggable true
+            minifyEnabled false      // 打开混淆
+            shrinkResources false    // 移除无用的resource文件
+
+            buildConfigField "boolean", "LOG_DEBUG",    "true"
+            buildConfigField "String",  "BASE_URL",     "\"" + "https://launch.novelsbd.com/" + "\""
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            matchingFallbacks = ['debug', 'release']
+        }
+    }
+
+    flavorDimensions "channel"
+    productFlavors {
+        cheatsheet {
+            dimension "channel"
+            applicationId "com.cheat.sheet"
+            versionName rootProject.ext.cheatsheet.versionName
+            versionCode rootProject.ext.cheatsheet.versionCode
+            signingConfig signingConfigs.novelclub
+            manifestPlaceholders = [
+                    router      :   "router",
+                    appName     :   "@string/app_name",
+                    icon        :   "@mipmap/icon_launcher",
+                    roundIcon   :   "@mipmap/icon_launcher",
+                    routerHost  :   "apps1.cheatsheet.com"
+            ]
+        }
+    }
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+}
+
+dependencies {
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation project(':layer_base:base_res')
+    implementation project(':layer_base:base_api')
+    implementation project(':layer_base:base_util')
+    implementation project(':layer_base:base_net')
+
+    implementation project(':layer_base:common')
+    implementation project(':layer_base:common_bean')
+    implementation project(':layer_base:common_config')
+    implementation project(':layer_base:commonlibrary')
+    implementation project(':layer_base:dialog')
+    implementation project(':layer_base:jsbridge')
+    implementation project(':layer_base:RecyclerViewHelper')
+    implementation project(':layer_base:tablayout')
+    implementation project(":layer_base:empty_sensors")
+    implementation project(":layer_base:photoview")
+
+
+    // support lib
+    implementation Dep.appcompat
+    implementation Dep.material
+    implementation Dep.recyclerview
+    implementation Dep.lifecycle_runtime
+    implementation Dep.lifecycle_ext
+    implementation Dep.lifecycle_vm_ktx
+    implementation Dep.constraintlayout
+    implementation Dep.cardview
+    implementation Dep.palette
+    implementation Dep.palette_ktx
+    implementation Dep.multidex
+    implementation Dep.work_runtime
+    implementation Dep.work_runtime_ktx
+    implementation Dep.swiperefreshlayout
+    implementation Dep.asynclayoutinflater
+
+    // glide
+    implementation Dep.glide
+    annotationProcessor Dep.glide_compiler
+
+    // network
+    implementation Dep.retrofit
+    implementation Dep.retrofit2_conv_gson
+    implementation Dep.retrofit2_adapter_kt
+
+    // Json 数据解析
+    implementation Dep.gson
+
+    // DBFlow 数据库
+    implementation Dep.dbflow
+    implementation Dep.dbflow_core
+    implementation Dep.dbflow_ext_kt
+
+    // permissions 权限声明
+    implementation Dep.easypermissions
+
+    // EventBus 事件分发
+    implementation Dep.eventbus
+
+    // ImmersionBar APP沉浸式
+    implementation Dep.immersionbar
+
+    // ViewPage指示器 Tab切换
+    implementation Dep.magicIndicator
+
+    // lottie airbnb animation
+    implementation Dep.lottie
+
+    // 工具库
+    implementation Dep.utilcodex
+    implementation Dep.oaid_cn
+    implementation Dep.flexbox
+
+
+    implementation Dep.retrofit2_adapter_rx
+    implementation Dep.retrofit2_adapter_3rd
+    implementation Dep.rxandroid
+    implementation Dep.rxjava
+    implementation Dep.rxjava2_android
+    implementation Dep.okhttp3
+    implementation Dep.refresh_layout
+    implementation Dep.refresh_header
+    implementation Dep.legacy
+    implementation Dep.banner
+    implementation Dep.count_down
+
+
+//    annotationProcessor Dep.dbflow_processor
+
+}
+
+
+
+/**
+ * 解决依赖包版本冲突
+ */
+configurations.all {
+    resolutionStrategy.force Dep.annotaton
+
+}
+
+tasks.whenTaskAdded(new Action<Task>() {
+    @Override
+    void execute(Task task) {
+        if(task.name.contains("lint")
+                || task.name.contains("mockableAndroidJar")
+                || task.name.contains("UnitTest")
+                || task.name.contains("AndroidTest")
+                || task.name.contains("uploadCrashlyticsMappingFile")
+        ) {
+            task.enabled = false
+        }
+    }
+})
+

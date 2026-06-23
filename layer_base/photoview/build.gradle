@@ -1,0 +1,15 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.base.photoview"
+}
+
+
+dependencies {
+
+    compileOnly Dep.appcompat
+    compileOnly Dep.recyclerview
+}
+

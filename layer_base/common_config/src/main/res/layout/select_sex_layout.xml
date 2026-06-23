@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/radius_white_8dp"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp">
+
+    <FrameLayout
+        android:id="@+id/tv_man"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tv_man_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColorHighlight="@color/pp_color_333333"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/pp_sex_boy_brief"/>
+
+        <ImageView
+            android:id="@+id/tv_man_img"
+            android:background="@drawable/icon_sex_selected"
+            android:layout_gravity="center_vertical|end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/tv_woman"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tv_woman_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColorHighlight="@color/pp_color_333333"
+            android:textSize="16sp"
+            android:text="@string/pp_sex_girl_brief"/>
+
+        <ImageView
+            android:id="@+id/tv_woman_img"
+            android:background="@drawable/icon_sex_unselected"
+            android:layout_gravity="center_vertical|end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/tv_no_sex"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tv_no_sex_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColorHighlight="@color/pp_color_333333"
+            android:textSize="16sp"
+            android:text="@string/pp_rather_not_say"/>
+
+        <ImageView
+            android:id="@+id/tv_no_sex_img"
+            android:background="@drawable/icon_sex_unselected"
+            android:layout_gravity="center_vertical|end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+</LinearLayout>

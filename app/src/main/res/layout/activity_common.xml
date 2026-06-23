@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white"
+            app:titleTextColor="@color/textColorPrimary"
+            app:subtitleTextColor="@color/textColorPrimary">
+        </androidx.appcompat.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/common_top_group"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="56dp" >
+            <ImageView
+                android:id="@+id/common_top_back"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_back"
+                android:padding="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/common_top_name"
+                android:text=""
+                android:textColor="@color/pp_color_333333"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <FrameLayout
+                android:background="@color/pp_color_0d000000"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="0.67dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/web_content"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="16dp"
+            android:layout_below="@id/toolbar" />
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar" />
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,12 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.fold.tablayout"
+}
+
+dependencies {
+    compileOnly Dep.legacy
+    compileOnly Dep.appcompat
+}

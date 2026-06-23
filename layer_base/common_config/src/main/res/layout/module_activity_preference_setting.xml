@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="@drawable/white_top_radius10_corner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:text="@string/pp_skip2"
+        android:visibility="gone"
+        android:layout_gravity="end"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="12dp"
+        android:textSize="14sp"
+        android:textColor="@color/pp_color_999999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/preference_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:text="@string/pp_preference_setting"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textColor="@color/pp_color_333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/pp_select_tag_hint"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp"
+            android:textColor="@color/pp_color_999999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_tag"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:listitem="@layout/item_preference_tag"
+            tools:itemCount="2"/>
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:text="@string/pp_confirm"
+            android:gravity="center"
+            android:layout_marginTop="38dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="15sp"
+            android:textColor="@color/color_selector_preference_button"
+            android:background="@drawable/bg_preference_button"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

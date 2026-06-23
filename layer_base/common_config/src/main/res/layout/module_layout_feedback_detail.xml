@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include
+        android:id="@+id/rl_feedback"
+        layout="@layout/item_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_answer"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:background="@drawable/radius_white_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_feedback"
+        tools:itemCount="2"
+        />
+</LinearLayout>
+

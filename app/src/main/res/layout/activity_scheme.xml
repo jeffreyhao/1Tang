@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="20dp"
+            android:paddingBottom="300dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="scheme"
+                />
+            <Button
+                android:id="@+id/scheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="alphafiction://com.jgmw.alphafiction/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lycanfiction://com.lycan.fiction/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="romanfic://com.bjz.romanfic/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="novelnook://com.star.saganovel/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="novelpal://com.xcyh.novelpal/read/1U30220"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/scheme6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="novelworm://com.mcpd.novelist/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="novelhome://com.hhmc.novelhome/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="wolffiction://com.yhxc.wolffiction/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="peaknovel://com.mount.peaknovel/read/1U30220"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/scheme10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="novelplant://com.mcdz.novelplant/read/1U30220"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/scheme11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lycannovel://com.lycan.novel/read/1U30220"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/scheme12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="novelclub://com.xcyh.novelclub/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="novelverse://com.benefit.novelverse/read/1U30220"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/scheme14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="noveldaily://com.yhxc.storynest/read/1U30220"
+                android:textAllCaps="false"
+                />
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginVertical="20dp">
+               <EditText
+                   android:id="@+id/edit_text"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:hint="自定义scheme"
+                   android:text="alphafiction://com.jgmw.alphafiction/read/6383800"
+                   />
+               <Button
+                   android:id="@+id/edit_button"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="跳转"
+                   />
+           </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</layout>

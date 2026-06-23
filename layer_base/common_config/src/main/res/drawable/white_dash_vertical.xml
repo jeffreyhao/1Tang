@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="-27dp"
+        android:right="-27dp">
+        <rotate android:drawable="@drawable/dash_line_white"
+            android:visible="true"
+            android:fromDegrees="90" />
+    </item>
+</layer-list>

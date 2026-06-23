@@ -1,0 +1,16 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.base.api"
+}
+
+dependencies {
+    compileOnly Dep.appcompat
+    compileOnly Dep.material
+
+    compileOnly Dep.rxjava2_android
+    compileOnly Dep.retrofit
+
+}

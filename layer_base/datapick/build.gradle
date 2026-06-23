@@ -1,0 +1,12 @@
+import build.src.Dep
+
+apply from:"../base.gradle"
+
+android {
+    namespace "com.wdullaer.materialdatetimepicker"
+}
+
+dependencies {
+    compileOnly Dep.appcompat
+    compileOnly Dep.recyclerview
+}
